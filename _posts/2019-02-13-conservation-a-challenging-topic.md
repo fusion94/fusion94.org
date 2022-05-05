@@ -5,7 +5,7 @@ date: 2019-02-13 20:18:38
 comments: true
 published: true
 tags: [conservation]
-featured_image: /img/featured/montana-1.webp
+image: /images/montana-1.webp
 ---
 
 > "We need all citizens to care, we need all citizens to believe, we need all citizens to engage, and we need to again make it understood that to be concerned about conservation is an act of citizenship."

@@ -5,7 +5,7 @@ date: 2019-02-11 08:51:28
 comments: true
 published: true
 tags: [blogging]
-featured_image: /img/featured/blogging.webp
+image: /images/blogging.webp
 ---
 
 So I've been an on/off again blogger since 1999. Mostly on from 2003-2008 then
