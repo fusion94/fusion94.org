@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Site Revamp"
+title: Site Revamp
 date: 2019-02-15 16:28:17
 comments: true
 published: true
-tags: blogging, youtube, jekyll
+tags: [blogging, jekyll]
 image: "/images/jekyll_pages.jpeg"
 ---
 

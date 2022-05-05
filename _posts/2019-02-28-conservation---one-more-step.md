@@ -4,7 +4,7 @@ title: "Conservation - One more Step"
 date: 2019-02-28 06:40:09
 comments: true
 image: "/images/06.jpg"
-tags: conservation
+tags: [conservation]
 ---
 
 > We abuse land because we regard it as a commodity belonging to us. When we see

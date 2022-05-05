@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "RMEF Membership Giveaway"
+description: This too shall pass...
 date: 2019-03-25 19:51:58
 comments: true
 image: "/images/605.jpg"
@@ -30,9 +31,11 @@ other wildlife, their habitat and our hunting heritage.
 In support of their mission, the RMEF is committed to:
 
 - conserving, restoring and enhancing natural habitats
-- promoting the sound management of wild elk, which may be hunted or otherwise enjoyed
+- promoting the sound management of wild elk, which may be hunted or otherwise
+  enjoyed
 - restoring elk to their native ranges
-- educating members and the public about habitat conservation and our hunting heritage.
+- educating members and the public about habitat conservation and our hunting
+  heritage.
 
 ### RMEF History
 

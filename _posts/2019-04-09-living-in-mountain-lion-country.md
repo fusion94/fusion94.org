@@ -71,15 +71,31 @@ strategy in the event of an encounter is guaranteed to be successful in every
 situation, these tips will help keep you safe in lion country.
 
 - Do not hike, bike, or jog alone. Stay alert on trails.
-- Avoid hiking or jogging when mountain lions are most active – dawn, dusk, and at night.
+- Avoid hiking or jogging when mountain lions are most active – dawn, dusk, and
+  at night.
 - Keep a close watch on small children.
-- Off leash dogs on trails are at increased risk of becoming prey for a mountain lion.
+- Off leash dogs on trails are at increased risk of becoming prey for a
+  mountain lion.
 - Never approach a mountain lion. Give them an escape route.
-- DO NOT RUN. Stay calm. Running may trigger chase, catch and kill response. Do not turn your back. Face the animal, make noise and try to look bigger by waving your arms, or opening your jacket if wearing one; throw rocks or other objects. Pick up small children.
-- Do not crouch down or bend over. Squatting puts you in a vulnerable position of appearing much like a 4-legged prey animal.
-- Be vocal; however, speak calmly and do not use high pitched tones or high pitch screams.
-- Teach others how to behave during an encounter. Anyone who runs may initiate an attack.
-- Carry and know how to use bear spray to deter a mountain lion. Bear spray has been shown to be successful in emergency situations with mountain lions. Have the spray readily accessible. Carry in a holster belt or attach to a mountain bike. Talk to the folks at your local outdoor store. Make sure you know how to properly use bear spray. People have been known to spray their own faces when attempting to use it.
-- If a lion attacks, fight back. Research on mountain lion attacks suggests that many potential victims have fought back successfully with rocks, sticks, garden tools, even an ink pen or bare hands. Try to stay on your feet. If knocked down, try to protect head and neck.
+- DO NOT RUN. Stay calm. Running may trigger chase, catch and kill response. Do
+  not turn your back. Face the animal, make noise and try to look bigger by
+  waving your arms, or opening your jacket if wearing one; throw rocks or other
+  objects. Pick up small children.
+- Do not crouch down or bend over. Squatting puts you in a vulnerable position
+  of appearing much like a 4-legged prey animal.
+- Be vocal; however, speak calmly and do not use high pitched tones or high
+  pitch screams.
+- Teach others how to behave during an encounter. Anyone who runs may initiate
+  an attack.
+- Carry and know how to use bear spray to deter a mountain lion. Bear spray has
+  been shown to be successful in emergency situations with mountain lions. Have
+  the spray readily accessible. Carry in a holster belt or attach to a mountain
+  bike. Talk to the folks at your local outdoor store. Make sure you know how to
+  properly use bear spray. People have been known to spray their own faces when
+  attempting to use it.
+- If a lion attacks, fight back. Research on mountain lion attacks suggests that
+  many potential victims have fought back successfully with rocks, sticks,
+  garden tools, even an ink pen or bare hands. Try to stay on your feet. If
+  knocked down, try to protect head and neck.
 - If a mountain lion attacks a person, immediately call 911.
 - Report unusual mountain lion behavior to your local CDFW regional office.

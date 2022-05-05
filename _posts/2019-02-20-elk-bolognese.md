@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Elk Bolognese"
+title: Elk Bolognese
 date: 2019-02-20 08:28:13
 comments: true
 published: true
-tags:
+tags: [elk, bolognese, cooking]
 image: "/images/elk-bolognese.jpeg"
 ---
 

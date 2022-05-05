@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Conservation and Hunting"
+title: Conservation and Hunting
 date: 2019-02-17 08:37:26
 comments: true
 published: true
-tags: conservation, hunting
+tags: [conservation, hunting]
 image: "/images/45.jpg"
 ---
 

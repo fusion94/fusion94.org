@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Home Automation with home-assistant"
+title: Home Automation with home-assistant
 date: 2019-02-02 08:35:11
 comments: true
 published: true

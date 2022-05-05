@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "Conservation - A Challenging Topic"
+title: Conservation - A Challenging Topic
 date: 2019-02-13 20:18:38
 comments: true
 published: true
-tags: conservation
+tags: [conservation]
 featured_image: /img/featured/montana-1.webp
-series: "Intro to Conservation"
 ---
 
 > "We need all citizens to care, we need all citizens to believe, we need all citizens to engage, and we need to again make it understood that to be concerned about conservation is an act of citizenship."
@@ -20,7 +19,7 @@ Let's start by defining Conservation at it's very base level:
 > info ""
 > Conservation may refer to the preservation or efficient use of resources (in an efficient or ethical manner), or the conservation of various quantities under physical laws.
 
-To be clear, the terms *conservation* and *preservation* are frequently thought of as one and the same. This is not necessarily the case.  The [US National Park Service](https://www.nps.gov/) offers the following explanation of the important ways in which these two terms represent very different conceptions of environmental protection ethics:
+To be clear, the terms _conservation_ and _preservation_ are frequently thought of as one and the same. This is not necessarily the case. The [US National Park Service](https://www.nps.gov/) offers the following explanation of the important ways in which these two terms represent very different conceptions of environmental protection ethics:
 
 > info ""
 > Conservation and preservation are closely linked and may indeed seem to mean the same thing. Both terms involve a degree of protection, but how that protection is carried out is the key difference. Conservation is generally associated with the protection of natural resources, while preservation is associated with the protection of buildings, objects, and landscapes. Put simply, **conservation** seeks the proper use of nature, while **preservation** seeks protection of nature from use.
@@ -29,19 +28,19 @@ In laymans terms, Conservationists sought to regulate human use while preservati
 
 [^1]: [National Park Service: Conservation versus preservation](http://www.nps.gov/klgo/learn/education/classrooms/conservation-vs-preservation.htm)
 
-There are many subtopics of Conservation and there are many sub-subtopics as well. 
+There are many subtopics of Conservation and there are many sub-subtopics as well.
 
 ### Conservation of biodiversity, environment, and natural resources
 
-* [Conservation biology](https://en.wikipedia.org/wiki/Conservation_biology), the science of protection and management of biodiversity
-* [Conservation (ethic)](https://en.wikipedia.org/wiki/Conservation_(ethic)), an ethic of use, protection, and management of the environment and natural resources
-* [Conservation organization](https://en.wikipedia.org/wiki/Conservation_organization) an organization dedicated to protection and management of the environment or natural resources
-* Conservationist ([Conservation movement](https://en.wikipedia.org/wiki/Conservation_movement)), a person who advocates for conservation of the environment and natural resources
-* Conservation of Natural Resources:
-  * [Habitat conservation](https://en.wikipedia.org/wiki/Habitat_conservation), land management practices to protect, manage, and restore habitat
-  * [Wetland conservation](https://en.wikipedia.org/wiki/Wetland_conservation), management to protect and restore wetlands
-  * [Wildlife conservation](https://en.wikipedia.org/wiki/Wildlife_conservation), protection of endangered species and their habitat
-    * [Wildlife management](https://en.wikipedia.org/wiki/Wildlife_management), management to conserve wild species and their habitats
+- [Conservation biology](https://en.wikipedia.org/wiki/Conservation_biology), the science of protection and management of biodiversity
+- [Conservation (ethic)](<https://en.wikipedia.org/wiki/Conservation_(ethic)>), an ethic of use, protection, and management of the environment and natural resources
+- [Conservation organization](https://en.wikipedia.org/wiki/Conservation_organization) an organization dedicated to protection and management of the environment or natural resources
+- Conservationist ([Conservation movement](https://en.wikipedia.org/wiki/Conservation_movement)), a person who advocates for conservation of the environment and natural resources
+- Conservation of Natural Resources:
+  - [Habitat conservation](https://en.wikipedia.org/wiki/Habitat_conservation), land management practices to protect, manage, and restore habitat
+  - [Wetland conservation](https://en.wikipedia.org/wiki/Wetland_conservation), management to protect and restore wetlands
+  - [Wildlife conservation](https://en.wikipedia.org/wiki/Wildlife_conservation), protection of endangered species and their habitat
+    - [Wildlife management](https://en.wikipedia.org/wiki/Wildlife_management), management to conserve wild species and their habitats
 
 In this series I'll be primarily covering the subtopic of **Conservation of Natural Resources** and what that entails.
 
@@ -99,9 +98,9 @@ Species that possess an elevated risk of extinction are given the highest priori
 
 Wetland conservation is aimed at protecting and preserving areas where water exists at or near the Earth's surface, such as swamps, marshes and bogs. Wetlands cover at least six per cent of the Earth and have become a focal issue for conservation due to the ecosystem services they provide. More than three billion people, around half the world’s population, obtain their basic water needs from inland freshwater wetlands.
 
- The Convention on Wetlands of International Importance, also known as the [Ramsar Convention](https://en.wikipedia.org/wiki/Ramsar_Convention), defines wetlands as including: lakes and rivers, swamps and marshes, wet grasslands and peatlands, oases, estuaries, deltas and tidal flats, near-shore marine areas, mangroves and coral reefs, and human-made sites such as fish ponds, rice paddies, reservoirs, and salt pans.
+The Convention on Wetlands of International Importance, also known as the [Ramsar Convention](https://en.wikipedia.org/wiki/Ramsar_Convention), defines wetlands as including: lakes and rivers, swamps and marshes, wet grasslands and peatlands, oases, estuaries, deltas and tidal flats, near-shore marine areas, mangroves and coral reefs, and human-made sites such as fish ponds, rice paddies, reservoirs, and salt pans.
 
- Wetlands vary widely in their salinity levels, climatic zones, supported flora, surrounding geography, whether they are coastal or inland and so on.
+Wetlands vary widely in their salinity levels, climatic zones, supported flora, surrounding geography, whether they are coastal or inland and so on.
 
 The main functions performed by wetlands are: water filtration, water storage, biological productivity, and provide habitat for wildlife.
 
@@ -115,19 +114,19 @@ Fewer natural wildlife habitat areas remain each year. Moreover, the habitat tha
 
 Here's a list of various other factors impacting this issue:
 
-* Climate Change
-* Unregulated Hunting and Poaching
-* Pollution
-* Overexploitation
-* Deforestation
-* Population
-* Culling
+- Climate Change
+- Unregulated Hunting and Poaching
+- Pollution
+- Overexploitation
+- Deforestation
+- Population
+- Culling
 
-According to the National Wildlife Federation, wildlife conservation in the United States gets a majority of its funding through appropriations from the federal budget, annual federal and state grants, and financial efforts from programs such as the Conservation Reserve Program, Wetlands Reserve Program and Wildlife Habitat Incentives Program[^5]. 
+According to the National Wildlife Federation, wildlife conservation in the United States gets a majority of its funding through appropriations from the federal budget, annual federal and state grants, and financial efforts from programs such as the Conservation Reserve Program, Wetlands Reserve Program and Wildlife Habitat Incentives Program[^5].
 
 Furthermore, a substantial amount of funding comes from the state through the sale of hunting/fishing licenses, game tags, stamps, and excise taxes from the purchase of hunting equipment and ammunition.
 
-[^5]:[Securing Funds for Conservation. National Wildlife Federation](https://www.nwf.org/Our-Work/Wildlife-Conservation/Policy/Funding)
+[^5]: [Securing Funds for Conservation. National Wildlife Federation](https://www.nwf.org/Our-Work/Wildlife-Conservation/Policy/Funding)
 
 ### Concluding Thoughts
 
@@ -140,19 +139,19 @@ In conclusion I hope that you better understand the difference between Conservat
 
 If you're interested in learning more about Conservation I do recommend the following books:
 
-* [Natural Acts: A Sidelong View of Science and Nature](https://www.amazon.com/gp/product/B0028OMVE4/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0028OMVE4&linkCode=as2&tag=fusion94-20&linkId=13b0631b0c2a70840c0d3f7f298d7b1d)
-* [Artic Dreams](https://www.amazon.com/gp/product/B00D668HB4/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00D668HB4&linkCode=as2&tag=fusion94-20&linkId=8619f2a5a624a0e54d04edf1b5a5f73e)
-* [Encounters with the Archdruid: Narratives About a Conservationist and Three of His Natural Enemies](https://www.amazon.com/gp/product/B005LVP9KO/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B005LVP9KO&linkCode=as2&tag=fusion94-20&linkId=ddf899dbb822274342a4ea3f30836ea9)
-* [All The Wild That Remains: Edward Abbey, Wallace Stegner, and the American West](https://www.amazon.com/gp/product/B00L3KQ1KO/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00L3KQ1KO&linkCode=as2&tag=fusion94-20&linkId=225be9ea53eea9bf94ad35e6f58f627b)
+- [Natural Acts: A Sidelong View of Science and Nature](https://www.amazon.com/gp/product/B0028OMVE4/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0028OMVE4&linkCode=as2&tag=fusion94-20&linkId=13b0631b0c2a70840c0d3f7f298d7b1d)
+- [Artic Dreams](https://www.amazon.com/gp/product/B00D668HB4/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00D668HB4&linkCode=as2&tag=fusion94-20&linkId=8619f2a5a624a0e54d04edf1b5a5f73e)
+- [Encounters with the Archdruid: Narratives About a Conservationist and Three of His Natural Enemies](https://www.amazon.com/gp/product/B005LVP9KO/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B005LVP9KO&linkCode=as2&tag=fusion94-20&linkId=ddf899dbb822274342a4ea3f30836ea9)
+- [All The Wild That Remains: Edward Abbey, Wallace Stegner, and the American West](https://www.amazon.com/gp/product/B00L3KQ1KO/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00L3KQ1KO&linkCode=as2&tag=fusion94-20&linkId=225be9ea53eea9bf94ad35e6f58f627b)
 
 Additionally you might find the Conversation Matters Podcast very interesting.
 
 > info ""
-> Shane Mahoney, a Newfoundland Native is the President and CEO of Conservation Visions Inc. He has earned an advance degree in Zoology and has over 30 years of experience working as a scientist, wildlife manager, advisor and policy maker as well as a filmmaker, writer, narrator, lecturer and  tv and radio personality, all within the scope of conservation.
+> Shane Mahoney, a Newfoundland Native is the President and CEO of Conservation Visions Inc. He has earned an advance degree in Zoology and has over 30 years of experience working as a scientist, wildlife manager, advisor and policy maker as well as a filmmaker, writer, narrator, lecturer and tv and radio personality, all within the scope of conservation.
 >
 > A recognized expert of the North American Model of wildlife conservation, Mahoney is a vocal proponent of sustainable use and communicating conservation to the general public while promoting hunting as a important tool in the preservation of species on the landscape.
 >
->Shane has recently launched his very own podcast entitled "Conservation Matters with Shane Mahoney". The podcast topics are driven by Shane's previous speaking engagements throughout the world regarding the challenges to conservation and the environment in an ever changing world.
+> Shane has recently launched his very own podcast entitled "Conservation Matters with Shane Mahoney". The podcast topics are driven by Shane's previous speaking engagements throughout the world regarding the challenges to conservation and the environment in an ever changing world.
 
 [![alt text](/img/podcasts/apple.png "Conservation Matters Podcast")](https://itunes.apple.com/us/podcast/conservation-matters-podcast/id1103982317?mt=2)
 

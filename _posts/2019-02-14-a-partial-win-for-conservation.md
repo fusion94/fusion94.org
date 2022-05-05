@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "A Partial Win for Conservation"
+title: A Partial Win for Conservation
 date: 2019-02-14 10:36:24
 comments: true
 published: true
-tags: conservation
+tags: [conservation]
 image: "/images/607.jpg"
 ---
 
