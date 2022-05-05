@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Living in Mountain Lion Country
-description: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies...
+description: Or how to not get eaten...
 date: 2019-04-09 18:25:53
 image: "/images/ml_01.jpeg"
 tags: [cougars, puma, lions, california]
