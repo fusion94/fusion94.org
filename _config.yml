@@ -2,7 +2,7 @@
 # General Site Settings
 title: fusion94.org
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Norlin – A Beautiful Dark Blog Theme for Jekyll.
+description: Totally Random Musings from the Edge
 baseurl: "" # The subpath of your site, e.g. /blog
 url: "" # The base hostname & protocol for your site, e.g. http://example.com
 
@@ -50,7 +50,7 @@ disqus-identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+google-analytics: UA-83223-8 # Add your identifier. For example UA-99631805-1.
 
 
 #-------------------------------
