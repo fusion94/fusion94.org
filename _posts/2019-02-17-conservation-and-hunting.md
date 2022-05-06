@@ -8,22 +8,44 @@ tags: [conservation, hunting]
 image: "/images/45.jpg"
 ---
 
-> "I recognize the right and duty of this generation to develop and use the natural resources of our land; but I do not recognize the right to waste them, or to rob, by wasteful use, the generations that come after us."
+> I recognize the right and duty of this generation to develop and use the
+> natural resources of our land; but I do not recognize the right to waste them,
+> or to rob, by wasteful use, the generations that come after us.
 >
-> -- Theodore Roosevelt - President of the United States (#26)
+> <cite>Theodore Roosevelt President of the United States (#26)</cite>
 
 ### Hunting and Conservation
 
-> warning ""
-> My views on Conservation have been formed by actively hunting, fishing, and spending time in the outdoors for close to 45 years now.
+> My views on Conservation have been formed by actively hunting, fishing, and
+> spending time in the outdoors for close to 45 years now.
+>
+> <cite>me</cite>
 
-In our nation's early years, there were few laws protecting fish and wildlife and our wildlife resources took a heavy toll. Market hunters took fish and wildlife **at will** while habitat disappeared under plow and roads, resulting in devastating reductions in wildlife populations. Some species, like the passenger pigeon, were taken to the point of no return; others such as bison, white-tailed deer and wild turkeys, were pushed to the edge extinction.
+In our nation's early years, there were few laws protecting fish and wildlife
+and our wildlife resources took a heavy toll. Market hunters took fish and
+wildlife **at will** while habitat disappeared under plow and roads, resulting
+in devastating reductions in wildlife populations. Some species, like the
+passenger pigeon, were taken to the point of no return; others such as bison,
+white-tailed deer and wild turkeys, were pushed to the edge extinction.
 
-As the tides turned for conservation, important laws were passed, including the [Migratory Bird Treaty Act of 1918](https://en.wikipedia.org/wiki/Migratory_Bird_Treaty_Act_of_1918), the [Migratory Bird Hunting and Conservation Stamp Act of 1934](https://en.wikipedia.org/wiki/Federal_Duck_Stamp), and the [Federal Aid in Sport Fish Restoration Act of 1950](https://en.wikipedia.org/wiki/Dingell%E2%80%93Johnson_Act). Collectively, these acts laid the foundation for what inspired the North American Model of Wildlife Conservation.
+As the tides turned for conservation, important laws were passed, including the
+[Migratory Bird Treaty Act of
+1918](https://en.wikipedia.org/wiki/Migratory_Bird_Treaty_Act_of_1918), the
+[Migratory Bird Hunting and Conservation Stamp Act of
+1934](https://en.wikipedia.org/wiki/Federal_Duck_Stamp), and the [Federal Aid in
+Sport Fish Restoration Act of
+1950](https://en.wikipedia.org/wiki/Dingell%E2%80%93Johnson_Act). Collectively,
+these acts laid the foundation for what inspired the North American Model of
+Wildlife Conservation.
 
 ### North American Model of Wildlife Conservation
 
-Across North America, hunting was a largely unregulated activity for individuals and commercial entities until the 1800's, when citizens began to ask whether wildlife populations could continue at healthy levels without checks on hunting. The legal framework that has since developed grew out of a set of principles now known as the **North American Model of Wildlife Conservation**. Seven features make the North American model distinct.
+Across North America, hunting was a largely unregulated activity for individuals
+and commercial entities until the 1800's, when citizens began to ask whether
+wildlife populations could continue at healthy levels without checks on hunting.
+The legal framework that has since developed grew out of a set of principles now
+known as the **North American Model of Wildlife Conservation**. Seven features
+make the North American model distinct.
 
 1. **Wildlife is a public resource**. In the Unites States, wildlife is considered a public resource, independent of the land or water where wildlife may live. Government at various levels have a role in managing that resource on behalf of all citizens and to ensure the long-term sustainability of wildlife populations.<br><br>
 2. **Markets for game are eliminated**. Before wildlife protection laws were enacted, commercial operations decimated populations of many species. Making it illegal to buy and sell meat and parts of game and nongame species removed a huge threat to the survival of those species. A market in furbearers continues as a highly regulated activity, often to manage invasive wildlife.<br><br>
@@ -33,7 +55,8 @@ Across North America, hunting was a largely unregulated activity for individuals
 6. **Science is the proper tool for discharge of wildlife policy**. In order to manage wildlife as a shared resource fairly, objectively, and knowledgeably, decisions must be based on sound science such as annual waterfowl population surveys and the work of professional wildlife biologists.<br><br>
 7. **The democracy of hunting**. In keeping with democratic principles, government allocates access to wildlife without regard for wealth, prestige, or land ownership.
 
-Carrying on the theme above here are 5 fairly concrete examples of how hunting/sportsmen work(s) in conjunction with Conservation.
+Carrying on the theme above here are 5 fairly concrete examples of how
+hunting/sportsmen work(s) in conjunction with Conservation.
 
 - In 1907, only 41,000 elk remained in North America. Thanks to the money and hard work invested by hunters to restore and conserve habitat, today there are more than 1 million.
 - In 1900, only 500,000 whitetails remained. Thanks to conservation work spearheaded by hunters, today there are more than 32 million.
@@ -41,15 +64,32 @@ Carrying on the theme above here are 5 fairly concrete examples of how hunting/s
 - In 1901, few ducks remained. Thanks to hunters’ efforts to restore and conserve wetlands, today there are more than 44 million.
 - In 1950, only 12,000 pronghorn remained. Thanks to hunters, today there are more than 1.1 million.
 
-The 5 species listed above were almost completely wiped out to to market hunting and really only came back due to the [Federal Aid in Wildlife Restoration Act of 1937](https://en.wikipedia.org/wiki/Pittman%E2%80%93Robertson_Federal_Aid_in_Wildlife_Restoration_Act). This law, commonly referred to the Pittman-Robertson Act created an excise tax that provides funds to each state to manage such animals and their habitats.
+The 5 species listed above were almost completely wiped out to to market hunting
+and really only came back due to the [Federal Aid in Wildlife Restoration Act of
+1937](https://en.wikipedia.org/wiki/Pittman%E2%80%93Robertson_Federal_Aid_in_Wildlife_Restoration_Act).
+This law, commonly referred to the Pittman-Robertson Act created an excise tax
+that provides funds to each state to manage such animals and their habitats.
 
-The Pittman-Robertson Act (P-R) increased an existing 10-percent gun-and-bullet tax by one percent and dedicated the proceeds to the USFWS to apportion to states during a time when Congress was slashing taxes. It has generated more than $11 billion for conservation since 1939.
+The Pittman-Robertson Act (P-R) increased an existing 10-percent gun-and-bullet
+tax by one percent and dedicated the proceeds to the USFWS to apportion to
+states during a time when Congress was slashing taxes. It has generated more
+than $11 billion for conservation since 1939.
 
-One of the P-R’s greatest strengths is its $3-to-$1 federal-state match, which requires states to pony up $1 for every three federal grant dollars. This practice discourages state legislators from sweeping revenues generated by licenses and fees—which are state wildlife agencies’ primary source of funding—into the general fund.
+One of the P-R’s greatest strengths is its $3-to-$1 federal-state match, which
+requires states to pony up $1 for every three federal grant dollars. This
+practice discourages state legislators from sweeping revenues generated by
+licenses and fees—which are state wildlife agencies’ primary source of
+funding—into the general fund.
 
-Instead of going into the U.S. Treasury as it had done in the past, the money is kept separate and is given to the Secretary of the Interior to distribute to the States. The Secretary determines how much to give to each state based on a formula that takes into account both the area of the state and its number of licensed hunters.
+Instead of going into the U.S. Treasury as it had done in the past, the money is
+kept separate and is given to the Secretary of the Interior to distribute to the
+States. The Secretary determines how much to give to each state based on a
+formula that takes into account both the area of the state and its number of
+licensed hunters.
 
-So how much money does this actually mean? Well here are the breakdowns for 2018 when you combine the Federal Aid in Wildlife Restoration Act of 1937 with the Federal Aid in Sport Fish Restoration Act of 1950 [^1].
+So how much money does this actually mean? Well here are the breakdowns for 2018
+when you combine the Federal Aid in Wildlife Restoration Act of 1937 with the
+Federal Aid in Sport Fish Restoration Act of 1950 [^1].
 
 [^1]: [Secretary Zinke Announces More Than $1.1 Billion for Sportsmen & Conservation](https://www.doi.gov/pressreleases/secretary-zinke-announces-more-that-11-billion-sportsmen-conservation)
 
@@ -117,11 +157,19 @@ So how much money does this actually mean? Well here are the breakdowns for 2018
 
 And here's that data represented visually:
 
-So in total, that's $1.15 billion dollars going directly back into conservation efforts from sportsmen in 2018. Which comes to approximately $10 billion in spending by sportmen.
+So in total, that's $1.15 billion dollars going directly back into conservation
+efforts from sportsmen in 2018. Which comes to approximately $10 billion in
+spending by sportsmen.
 
-In comparison, in 2017 the Sierra Club received $68 million dollars in total contributions and spent $63 million dollars on program services. Essentially sportsmen from Michigan and North Carolina **combined** contributed the same amount as the Sierra Club in total. I’m not trying to paint the Sierra Club as a bad organization at all. They simply just can’t do enough.
+In comparison, in 2017 the Sierra Club received $68 million dollars in total
+contributions and spent $63 million dollars on program services. Essentially
+sportsmen from Michigan and North Carolina **combined** contributed the same
+amount as the Sierra Club in total. I’m not trying to paint the Sierra Club as a
+bad organization at all. They simply just can’t do enough.
 
-Since the first annual apportionment of $890,000 in 1939 by the U.S. Fish and Wildlife Service (USFWS), the agency has distributed more than $21 billion from the two federal excise taxes for state conservation and recreation projects.
+Since the first annual apportionment of $890,000 in 1939 by the U.S. Fish and
+Wildlife Service (USFWS), the agency has distributed more than $21 billion from
+the two federal excise taxes for state conservation and recreation projects.
 
 <center>
 <iframe width="881.5888697855398" height="503" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQdMnUYWKzIKdOgPCl70vuGQU9t5wlg_MCEgqcLJk9C6YpvD2hPZV-TQ0xKw2ZnKHG3wM-4KXxTd4Z/pubchart?oid=207623445&amp;format=image"></iframe>
@@ -132,39 +180,68 @@ This chart shows the trend of total P-R apportionment per fiscal year, from 2009
 (Data via <a href="https://wsfrprograms.fws.gov/Subpages/GrantPrograms/WR/WR_Funding.htm">USFWS</a>)
 </div>
 
-Buying licenses, stamps and tags to legally hunt or fish in America is an essential and necessary means to supporting wildlife conservation. As a matter of record the recipient state wildlife agencies have matched these funds with approximately $6.7 billion throughout the years, primarily through those hunting and fishing license revenues.
+Buying licenses, stamps and tags to legally hunt or fish in America is an
+essential and necessary means to supporting wildlife conservation. As a matter
+of record the recipient state wildlife agencies have matched these funds with
+approximately $6.7 billion throughout the years, primarily through those hunting
+and fishing license revenues.
 
 ### Next Steps
 
 #### Expanding the Excise Tax
 
-So how can we as sportsmen increase that number? Well, for one, if the excise tax provided by the Pittman-Robertson act was increased to 15% then that would raise the total amount to $1.5 billion annually. Seems pretty straight forward.
+So how can we as sportsmen increase that number? Well, for one, if the excise
+tax provided by the Pittman-Robertson act was increased to 15% then that would
+raise the total amount to $1.5 billion annually. Seems pretty straight forward.
 
-Some experts think it’s time to expand P-R taxes to more hunting and shooting-related products.
+Some experts think it’s time to expand P-R taxes to more hunting and
+shooting-related products.
 
-Whit Fosburgh, president and CEO of the [Teddy Roosevelt Conservation Partnership](http://www.trcp.org/), thinks hunters should lobby to get items such as treestands, reloading equipment, powder, and primers included in P-R to increase the revenues that give them leverage in influencing conservation policy.
+Whit Fosburgh, president and CEO of the [Teddy Roosevelt Conservation
+Partnership](http://www.trcp.org/), thinks hunters should lobby to get items
+such as treestands, reloading equipment, powder, and primers included in P-R to
+increase the revenues that give them leverage in influencing conservation
+policy.
 
-Whitney Tilt a consultant on natural resource conservation wrote a post [^2] over on [PERC — the Property and Environment Research Center](https://www.perc.org) asking whether or not should mountain bikers, kayakers, and other recreationalists pay an excise tax to help fund outdoor recreation?
+Whitney Tilt a consultant on natural resource conservation wrote a post [^2]
+over on [PERC — the Property and Environment Research
+Center](https://www.perc.org) asking whether or not should mountain bikers,
+kayakers, and other recreationalists pay an excise tax to help fund outdoor
+recreation?
 
 [^2]: [Paying to Play in the Great Outdoors](https://www.perc.org/2015/01/20/paying-to-play-in-the-great-outdoors/)
 
-This in essence would extend the P-R tax to “outdoor products you can buy at REI — bicycles, camping gear, tents and following that P-R model” would benefit everyone, especially wildlife.
+This in essence would extend the P-R tax to “outdoor products you can buy at REI
+— bicycles, camping gear, tents and following that P-R model” would benefit
+everyone, especially wildlife.
 
 #### Passing New Legislation
 
-Currently, there are three bills currently making their way through the legislative branch that would dedicate more money both directly, and indirectly, to hunting and shooting sports.
+Currently, there are three bills currently making their way through the
+legislative branch that would dedicate more money both directly, and indirectly,
+to hunting and shooting sports.
 
 They are:
 
 [HR 788](https://www.congress.gov/bill/115th-congress/house-bill/788) - **_The Target Practice and Marksmanship Training Support Act_**
 
-Sponsored by Rep. Duncan Hunter, R-California, this would allow P-R funds to pay up to 90 percent, rather than the current 75 percent, of costs in acquiring land for expanding, or constructing, public shooting ranges. It would also lower the P-R match to 10 percent.
+Sponsored by Rep. Duncan Hunter, R-California, this would allow P-R funds to pay
+up to 90 percent, rather than the current 75 percent, of costs in acquiring land
+for expanding, or constructing, public shooting ranges. It would also lower the
+P-R match to 10 percent.
 
-By lowering the P-R match to 10 percent, it also gives states more ability to award grants for shooting ranges and hunter education programs.
+By lowering the P-R match to 10 percent, it also gives states more ability to
+award grants for shooting ranges and hunter education programs.
 
-Idaho Fish and Game Director Virgil Moore, who is also the president of the Association of Fish & Wildlife Agencies states that this will allow State agencies to form public-private ventures to enhance public access, so a privately-owned shooting range could qualify for a grant if its proposal met certain public-access criteria.
+Idaho Fish and Game Director Virgil Moore, who is also the president of the
+Association of Fish & Wildlife Agencies states that this will allow State
+agencies to form public-private ventures to enhance public access, so a
+privately-owned shooting range could qualify for a grant if its proposal met
+certain public-access criteria.
 
-_“As I review budget requests, I’m looking for bang for my buck,” Moore said, noting grant applications are more likely to receive IDFG approval if they involve coalitions offering multiple benefits._
+_“As I review budget requests, I’m looking for bang for my buck,” Moore said,
+noting grant applications are more likely to receive IDFG approval if they
+involve coalitions offering multiple benefits._
 
 ##### Status
 
@@ -173,13 +250,26 @@ _“As I review budget requests, I’m looking for bang for my buck,” Moore sa
 
 [HR 2591](https://www.congress.gov/bill/115th-congress/house-bill/2591) - **_The Modernizing The Pittman-Robertson Fund For Tomorrow’s Needs Act of 2017_**
 
-Sponsored by Rep. Austin Scott, R-Georgia, this legislation would authorize P-R funds to recruit, retain, and reactivate hunters and recreational shooters.
+Sponsored by Rep. Austin Scott, R-Georgia, this legislation would authorize P-R
+funds to recruit, retain, and reactivate hunters and recreational shooters.
 
-Jeff Crane, [President of the Congressional Sportsmen's Caucus](http://congressionalsportsmen.org/about/staff/jeff-crane) said P-R funds would complement marketing campaigns by the [National Rifle Association (NRA)](https://home.nra.org/) and the [National Shooting Sports Foundation (NSSF)](https://www.nssf.org/). “They have good programs and want to capitalize on this,” he said.
+Jeff Crane, [President of the Congressional Sportsmen's
+Caucus](http://congressionalsportsmen.org/about/staff/jeff-crane) said P-R funds
+would complement marketing campaigns by the [National Rifle Association
+(NRA)](https://home.nra.org/) and the [National Shooting Sports Foundation
+(NSSF)](https://www.nssf.org/). “They have good programs and want to capitalize
+on this,” he said.
 
-Allocating P-R funds for marketing is fine if money for wildlife restoration remains intact, said Mike Leahy, senior manager of public lands conservation and sportsmen policy at the [National Wildlife Federation](https://www.nwf.org/About-Us/Our-Experts).
+Allocating P-R funds for marketing is fine if money for wildlife restoration
+remains intact, said Mike Leahy, senior manager of public lands conservation and
+sportsmen policy at the [National Wildlife
+Federation](https://www.nwf.org/About-Us/Our-Experts).
 
-_“We think those ought to start small, by redirecting some money from hunter education to marketing, until we know more about how effective these ideas are, how much they cost, and how great the need is. Let’s see what the return on investment is before we start pulling money from wildlife biologists and habitat managers." Leahy said._
+_“We think those ought to start small, by redirecting some money from hunter
+education to marketing, until we know more about how effective these ideas are,
+how much they cost, and how great the need is. Let’s see what the return on
+investment is before we start pulling money from wildlife biologists and habitat
+managers." Leahy said._
 
 ##### Status
 
@@ -188,15 +278,28 @@ _“We think those ought to start small, by redirecting some money from hunter e
 
 [HR 4647](https://www.congress.gov/bill/115th-congress/house-bill/4647) - **_The Recovering America's Wildlife Act_**
 
-Sponsored by Rep. Jeff Fortenberry, R-Nebraska, this would redirect $1.3 billion in existing royalties and fees annually from drilling and mining on federal lands and waters to conserve **“the full array of fish and wildlife.”** It’s also been in the House Natural Resources Committee since February.
+Sponsored by Rep. Jeff Fortenberry, R-Nebraska, this would redirect $1.3 billion
+in existing royalties and fees annually from drilling and mining on federal
+lands and waters to conserve **“the full array of fish and wildlife.”** It’s
+also been in the House Natural Resources Committee since February.
 
-The bill would “intermingle” P-R funds with, potentially, $1.3 billion earmarked to “provide more money for species that don’t have stable funding,” Idaho's Fish and Game Director Virgil Moore said.
+The bill would “intermingle” P-R funds with, potentially, $1.3 billion earmarked
+to “provide more money for species that don’t have stable funding,” Idaho's Fish
+and Game Director Virgil Moore said.
 
-_This will indirectly benefit hunters who ideally want P-R allocations dedicated to game animals, Mike Leahy said, because habitat is habitat. HR 4647 “would give states the money they need for wildlife” using little P-R money, he said._
+_This will indirectly benefit hunters who ideally want P-R allocations dedicated
+to game animals, Mike Leahy said, because habitat is habitat. HR 4647 “would
+give states the money they need for wildlife” using little P-R money, he said._
 
-This potentially will impact hunters because a non-game animal can still be designated endangered — such as the timber rattler in New York’s Hudson Highlands — thereby imposing restrictions on hunting lands.
+This potentially will impact hunters because a non-game animal can still be
+designated endangered — such as the timber rattler in New York’s Hudson
+Highlands — thereby imposing restrictions on hunting lands.
 
-HR 4647’s goal is to “keep species from becoming endangered” and avoid access restrictions, Nick Wiley, chief conservation officer for [Ducks Unlimited](https://www.ducks.org), and former executive director of the Florida Fish and Wildlife Conservation Commission said. “Restricting access is rarely a good thing. It’s all about the habitat.”
+HR 4647’s goal is to “keep species from becoming endangered” and avoid access
+restrictions, Nick Wiley, chief conservation officer for [Ducks
+Unlimited](https://www.ducks.org), and former executive director of the Florida
+Fish and Wildlife Conservation Commission said. “Restricting access is rarely a
+good thing. It’s all about the habitat.”
 
 ##### Status
 
@@ -205,18 +308,37 @@ HR 4647’s goal is to “keep species from becoming endangered” and avoid acc
 
 ### Concluding Thoughts
 
-Conservation can often be challenging as there will never be enough funding to cover all the needs. Yet, we can (and must) do more to conserve fish, wildlife and their habitat to ensure the future of hunting, fishing, and outdoor recreational activities for subsequent generations.
+Conservation can often be challenging as there will never be enough funding to
+cover all the needs. Yet, we can (and must) do more to conserve fish, wildlife
+and their habitat to ensure the future of hunting, fishing, and outdoor
+recreational activities for subsequent generations.
 
 ### Additional Information
 
 > note ""
 > fusion94.org is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.
 
-I began this article with a quote from Theodore Roosevelt Jr. TR was an American statesman, **conservationist and writer** who served as the 26th president of the United States from 1901 to 1909. He previously served as the 25th vice president of the United States from March to September 1901 and as the 33rd governor of New York from 1899 to 1900. As a leader of the Republican Party during this time, he became a driving force for the Progressive Era in the United States in the early 20th century. His face is depicted on Mount Rushmore, alongside those of George Washington, Thomas Jefferson, and Abraham Lincoln. In polls of historians and political scientists, Roosevelt is generally ranked as one of the **five best presidents**.
+I began this article with a quote from Theodore Roosevelt Jr. TR was an American
+statesman, **conservationist and writer** who served as the 26th president of
+the United States from 1901 to 1909. He previously served as the 25th vice
+president of the United States from March to September 1901 and as the 33rd
+governor of New York from 1899 to 1900. As a leader of the Republican Party
+during this time, he became a driving force for the Progressive Era in the
+United States in the early 20th century. His face is depicted on Mount Rushmore,
+alongside those of George Washington, Thomas Jefferson, and Abraham Lincoln. In
+polls of historians and political scientists, Roosevelt is generally ranked as
+one of the **five best presidents**.
 
-Roosevelt brought his desire to address the common interests of citizens to the West. He successfully led efforts to organize ranchers to address problems of overgrazing and other shared concerns; his work resulted in the formation of the Little Missouri Stockmen's Association. He felt compelled to promote conservation and was able to form the [Boone and Crockett Club](https://www.boone-crockett.org/), whose primary goal was the conservation of large game animals and their habitats.
+Roosevelt brought his desire to address the common interests of citizens to the
+West. He successfully led efforts to organize ranchers to address problems of
+overgrazing and other shared concerns; his work resulted in the formation of the
+Little Missouri Stockmen's Association. He felt compelled to promote
+conservation and was able to form the [Boone and Crockett
+Club](https://www.boone-crockett.org/), whose primary goal was the conservation
+of large game animals and their habitats.
 
-If you're interested in learning more about Teddy Roosevelt and his views on Conservation and Hunting I would recommend the following books:
+If you're interested in learning more about Teddy Roosevelt and his views on
+Conservation and Hunting I would recommend the following books:
 
 - [Hunting Trips of a Ranchman](https://www.amazon.com/gp/product/B01IBOSK1W/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01IBOSK1W&linkCode=as2&tag=fusion94-20&linkId=f613762e50970e93efb1589bee6acdd1)
 - [Ranch Life and the Hunting-Trail](https://www.amazon.com/gp/product/B00NHZK0KA/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00NHZK0KA&linkCode=as2&tag=fusion94-20&linkId=9b0a0a0370d7139467d426ac34750ba2)
