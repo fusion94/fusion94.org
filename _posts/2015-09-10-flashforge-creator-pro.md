@@ -14,7 +14,7 @@ FlashForge and Wanhao) and the various models based off the RepRap Prusa, I
 finally settled on the FlashForge Creator Pro Dual Extrusion 3D Printer (FFCP).
 
 Some of the reasons I chose the FFCP is because it's totally enclosed. This
-should allow for more efficient and higher quality BS prints. It has a
+should allow for more efficient and higher quality ABS prints. It has a
 three-point platform leveling system which is pretty intuitive. It has a heat
 resistant build platform support made of highly-durable metal. And has a
 thicker Z-axis rod which provides for steadier and precise movement.
