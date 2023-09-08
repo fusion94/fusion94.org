@@ -60,9 +60,17 @@ to some of these reviews I bit the bullet and pulled the trigger on one.
 
 ## Enter Bambu
 
-Purchased on 7/17/2023
+I purchased a [Bambu X1-Carbon Combo](https://store.bambulab.com/products/x1-carbon-combo) on 7/17/2023 and it arrived via UPS on 7/20/2023. It sat in it's box for a few days until I could find time for the assembly. 
 
-### Key features and improvements:
+The printer is shipped in a pretty large cardboard box, with foam protection on the sides. The printer is packed well so I didn't expect any kind of damage during shipping. It can be easily taken out from the package by simply pulling from the sides of the plastic bag (But do take care here as plastic bags have a tendency to rip and tear).
+
+While the printer comes pre-assembled (mostly); before you can start printing you will need to remove a few screws that hold some parts in place during shipping. If you purchased the AMS unit you will also need to remove it from the printer's enclosure via a few additional screws.
+
+You will also need to attach the touchscreen to the printer via a supplied ribbon cable. 
+
+Overall the assembly process took longer than the Creality Ender 3 S1 Pro but will still under an hour and signficantly easier that other printers that I've owned in the past.
+
+### Some of the Key features and improvements:
 
 - Large 256mm x 256mm x 256mm Build Volume
 - Compatible Printing Materials Up to 300°C
@@ -75,6 +83,11 @@ Purchased on 7/17/2023
 - Dual Auto Bed Leveling
 - AI inspected first layer
 - Spaghetti failure detection
+
+
+https://forum.allaboutcircuits.com/threads/getting-to-know-the-bambu-lab-x1-carbon.193631/
+
+
 
 ## Final Thoughts
 
@@ -94,7 +107,7 @@ And now for some gratuitous photos of that Cupcake CNC
       <img src="/images/posts/3d-printing/cupcake-2.jpeg">
       <img src="/images/posts/3d-printing/cupcake-3.jpeg">
       <img src="/images/posts/3d-printing/cupcake-4.jpeg">
-      <img src="/images/posts/3d-printing/cupcake-5.jpeg">     
+      <img src="/images/posts/3d-printing/cupcake-5.jpeg">
     </div>
     <em>Gallery / Makerbot Cupcake CNC</em>
   </div>

@@ -1,0 +1,13 @@
+{
+    "editor.rulers": [
+        {
+          "column": 80,
+          "color": "#FF0000"
+        }
+    ],
+    "editor.fontSize": 12,
+    "editor.fontWeight": "normal",
+    "editor.fontFamily": "MesloLGS NF,'Courier New', monospace",
+    "editor.lineNumbers": "on",
+    "editor.renderWhitespace": "trailing",
+}

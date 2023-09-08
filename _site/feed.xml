@@ -3,11 +3,139 @@
   <channel>
     <title>fusion94.org</title>
     <description>Totally Random Musings from the Edge</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Sep 2023 17:48:07 -0700</pubDate>
-    <lastBuildDate>Thu, 07 Sep 2023 17:48:07 -0700</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 08 Sep 2023 12:19:05 -0700</pubDate>
+    <lastBuildDate>Fri, 08 Sep 2023 12:19:05 -0700</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Return to 3d Printing</title>
+        <description>&lt;h4 id=&quot;introduction&quot;&gt;Introduction&lt;/h4&gt;
+
+&lt;p&gt;I’ve been thinking about picking up some new 3d printers for awhile now as my
+&lt;a href=&quot;http://fusion94.org/2015/09/10/flashforge-creator-pro/&quot;&gt;FlashForge Creator
+Pros&lt;/a&gt; are starting to
+show their age and one just doesn’t print at all anymore.&lt;/p&gt;
+
+&lt;p&gt;Getting new printers (other than having a up-to-date platform) serves a few
+purposes for me.&lt;/p&gt;
+
+&lt;p&gt;For one, Patrick is getting to the age (10) where he’s spending a lot of time on
+his smartphone and in games. I hope to use 3d Printing to teach him new skills,
+empower his creativity, make family memories, and teach him a world of science
+and design.&lt;/p&gt;
+
+&lt;p&gt;So I did a little bit of research and decided to go with a &lt;a href=&quot;https://www.creality.com/products/creality-ender-3-s1-pro-fdm-3d-printer&quot;&gt;Creality Ender 3 S1
+Pro&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;enter-creality&quot;&gt;Enter Creality&lt;/h4&gt;
+
+&lt;p&gt;Overall, it’s been a great printer with regards to ease of unboxing/installation
+as well as the overall quality of the prints w/o any tuning whatsoever. It was
+truly the easiest printer I’ve ever assembled. IIRC it was literally 11 bolts.
+Dead Simple.&lt;/p&gt;
+
+&lt;h5 id=&quot;some-of-the-key-features-are&quot;&gt;Some of the key features are:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Print size: 220 x 220 x 270 mm&lt;/li&gt;
+  &lt;li&gt;Up to 300°C high-temp printing&lt;/li&gt;
+  &lt;li&gt;Full-metal dual-gear direct extruder&lt;/li&gt;
+  &lt;li&gt;CR-touch automatic leveling&lt;/li&gt;
+  &lt;li&gt;4.3″ display&lt;/li&gt;
+  &lt;li&gt;Easy to assemble&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With regards to setup and tuning? Straight out of the box it’s an amazing
+printer. Here are a couple of shots of it as well as some of the initial prints:&lt;/p&gt;
+
+&lt;div class=&quot;gallery-box&quot;&gt;
+    &lt;div class=&quot;gallery&quot;&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/creality-ender-3.jpg&quot; /&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/ce3-print-1.jpg&quot; /&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/ce3-print-2.jpg&quot; /&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/ce3-print-3.jpg&quot; /&gt;
+    &lt;/div&gt;
+    &lt;em&gt;Gallery / Creality&lt;/em&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;Having said that, after doing some additional research I ended up reading a ton
+of reviews and watching many, many YouTube videos about the Bambu X1-Carbon. Due
+to some of these reviews I bit the bullet and pulled the trigger on one.&lt;/p&gt;
+
+&lt;h4 id=&quot;enter-bambu&quot;&gt;Enter Bambu&lt;/h4&gt;
+
+&lt;p&gt;I purchased a &lt;a href=&quot;https://store.bambulab.com/products/x1-carbon-combo&quot;&gt;Bambu X1-Carbon Combo&lt;/a&gt; on 7/17/2023 and it arrived via UPS on 7/20/2023. It sat in it’s box for a few days until I could find time for the assembly.&lt;/p&gt;
+
+&lt;p&gt;The printer is shipped in a pretty large cardboard box, with foam protection on the sides. The printer is packed well so I didn’t expect any kind of damage during shipping. It can be easily taken out from the package by simply pulling from the sides of the plastic bag (But do take care here as plastic bags have a tendency to rip and tear).&lt;/p&gt;
+
+&lt;p&gt;While the printer comes pre-assembled (mostly); before you can start printing you will need to remove a few screws that hold some parts in place during shipping. If you purchased the AMS unit you will also need to remove it from the printer’s enclosure via a few additional screws.&lt;/p&gt;
+
+&lt;p&gt;You will also need to attach the touchscreen to the printer via a supplied ribbon cable.&lt;/p&gt;
+
+&lt;p&gt;Overall the assembly process took longer than the Creality Ender 3 S1 Pro but will still under an hour and signficantly easier that other printers that I’ve owned in the past.&lt;/p&gt;
+
+&lt;h5 id=&quot;some-of-the-key-features-and-improvements&quot;&gt;Some of the Key features and improvements:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Large 256mm x 256mm x 256mm Build Volume&lt;/li&gt;
+  &lt;li&gt;Compatible Printing Materials Up to 300°C&lt;/li&gt;
+  &lt;li&gt;Built-In Camera Monitoring&lt;/li&gt;
+  &lt;li&gt;Compatible with Abrasive Filaments (NylonX, NylonG, etc.)&lt;/li&gt;
+  &lt;li&gt;Capable of Multi-Color and Multi-Material 3D Printing
+    &lt;ul&gt;
+      &lt;li&gt;Up to 16 colors printing&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;High quality printing with 7 μm Lidar Resolution&lt;/li&gt;
+  &lt;li&gt;High speed CoreXY with 20000 mm/s² Acceleration&lt;/li&gt;
+  &lt;li&gt;Dual Auto Bed Leveling&lt;/li&gt;
+  &lt;li&gt;AI inspected first layer&lt;/li&gt;
+  &lt;li&gt;Spaghetti failure detection&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;https://forum.allaboutcircuits.com/threads/getting-to-know-the-bambu-lab-x1-carbon.193631/&lt;/p&gt;
+
+&lt;h4 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h4&gt;
+
+&lt;p&gt;I can certainly state the experience now days is significantly better than when
+I put my first 3D Printer together, a Prusa Mendel that is show below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/3d-printing/prusa-mendel.png&quot; alt=&quot;Prusa Mendel&quot; title=&quot;Prusa Mendel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For reference that mendel was put together in 2011 and the printable parts were
+printed using a Makerbot Cupcake CNC from 2009.&lt;/p&gt;
+
+&lt;p&gt;And now for some gratuitous photos of that Cupcake CNC&lt;/p&gt;
+
+&lt;div class=&quot;gallery-box&quot;&gt;
+    &lt;div class=&quot;gallery&quot;&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/cupcake-1.jpeg&quot; /&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/cupcake-2.jpeg&quot; /&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/cupcake-3.jpeg&quot; /&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/cupcake-4.jpeg&quot; /&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/cupcake-5.jpeg&quot; /&gt;
+    &lt;/div&gt;
+    &lt;em&gt;Gallery / Makerbot Cupcake CNC&lt;/em&gt;
+  &lt;/div&gt;
+</description>
+        <pubDate>Sun, 03 Sep 2023 01:20:53 -0700</pubDate>
+        <link>http://localhost:4000/2023/09/03/return-3d-printing/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/09/03/return-3d-printing/</guid>
+        
+        <category>3d printing</category>
+        
+        <category>bambu</category>
+        
+        <category>makers</category>
+        
+        <category>3d-Printing</category>
+        
+        <category>printables</category>
+        
+        
+      </item>
     
       <item>
         <title>Dual Universe Release</title>
@@ -121,8 +249,8 @@ influx of cash and new players to ensure we can continue to develop DU”&lt;/st
 &lt;p&gt;Instead we get typical NQ marketing bullshit.&lt;/p&gt;
 </description>
         <pubDate>Sun, 28 Aug 2022 06:20:53 -0700</pubDate>
-        <link>/2022/08/28/dual-universe/</link>
-        <guid isPermaLink="true">/2022/08/28/dual-universe/</guid>
+        <link>http://localhost:4000/2022/08/28/dual-universe/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/08/28/dual-universe/</guid>
         
         <category>gaming</category>
         
@@ -350,8 +478,8 @@ about 5 years ago.&lt;/p&gt;
 &lt;iframe src=&quot;https://www.youtube.com/embed/nE2ScEx9K6U&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Sat, 07 May 2022 00:20:53 -0700</pubDate>
-        <link>/2022/05/07/droning/</link>
-        <guid isPermaLink="true">/2022/05/07/droning/</guid>
+        <link>http://localhost:4000/2022/05/07/droning/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/05/07/droning/</guid>
         
         <category>drones</category>
         
@@ -377,8 +505,8 @@ about 5 years ago.&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 05 May 2022 14:20:53 -0700</pubDate>
-        <link>/2022/05/05/welcome-the-hell-back/</link>
-        <guid isPermaLink="true">/2022/05/05/welcome-the-hell-back/</guid>
+        <link>http://localhost:4000/2022/05/05/welcome-the-hell-back/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/05/05/welcome-the-hell-back/</guid>
         
         <category>blogging</category>
         
@@ -488,8 +616,8 @@ knocked down, try to protect head and neck.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 09 Apr 2019 11:25:53 -0700</pubDate>
-        <link>/2019/04/09/living-in-mountain-lion-country/</link>
-        <guid isPermaLink="true">/2019/04/09/living-in-mountain-lion-country/</guid>
+        <link>http://localhost:4000/2019/04/09/living-in-mountain-lion-country/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/09/living-in-mountain-lion-country/</guid>
         
         <category>cougars</category>
         
@@ -891,8 +1019,8 @@ data collected on all users will be deleted.&lt;/p&gt;
 It’s as simple as that.&lt;/p&gt;
 </description>
         <pubDate>Mon, 25 Mar 2019 12:51:58 -0700</pubDate>
-        <link>/2019/03/25/rmef-membership-giveaway/</link>
-        <guid isPermaLink="true">/2019/03/25/rmef-membership-giveaway/</guid>
+        <link>http://localhost:4000/2019/03/25/rmef-membership-giveaway/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/25/rmef-membership-giveaway/</guid>
         
         <category>conservation</category>
         
@@ -1016,8 +1144,8 @@ Americans.”&lt;/p&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 13 Mar 2019 00:33:44 -0700</pubDate>
-        <link>/2019/03/13/s.47-has-been-signed/</link>
-        <guid isPermaLink="true">/2019/03/13/s.47-has-been-signed/</guid>
+        <link>http://localhost:4000/2019/03/13/s.47-has-been-signed/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/13/s.47-has-been-signed/</guid>
         
         <category>conservation</category>
         
@@ -1117,8 +1245,8 @@ floor.&lt;/p&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 27 Feb 2019 22:40:09 -0800</pubDate>
-        <link>/2019/02/27/conservation-one-more-step/</link>
-        <guid isPermaLink="true">/2019/02/27/conservation-one-more-step/</guid>
+        <link>http://localhost:4000/2019/02/27/conservation-one-more-step/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/02/27/conservation-one-more-step/</guid>
         
         <category>conservation</category>
         
@@ -1232,8 +1360,8 @@ The Final Product.&lt;br /&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 20 Feb 2019 00:28:13 -0800</pubDate>
-        <link>/2019/02/20/elk-bolognese/</link>
-        <guid isPermaLink="true">/2019/02/20/elk-bolognese/</guid>
+        <link>http://localhost:4000/2019/02/20/elk-bolognese/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/02/20/elk-bolognese/</guid>
         
         <category>elk</category>
         
@@ -2002,56 +2130,12 @@ This chart shows the trend of total P-R apportionment per fiscal year, from 1999
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 17 Feb 2019 00:37:26 -0800</pubDate>
-        <link>/2019/02/17/conservation-and-hunting/</link>
-        <guid isPermaLink="true">/2019/02/17/conservation-and-hunting/</guid>
+        <link>http://localhost:4000/2019/02/17/conservation-and-hunting/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/02/17/conservation-and-hunting/</guid>
         
         <category>conservation</category>
         
         <category>hunting</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Site Revamp</title>
-        <description>&lt;p&gt;Technology is like fashion, trends will come and go. You might be wondering, how
-do I know whether it is time to revamp my website? The answer can differ, but
-it’s essential for your website to be as up-to-date and functional as possible.&lt;/p&gt;
-
-&lt;p&gt;Here’s 9 indicators that point to a revamp:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Nonresponsive Site or Mobile-Unfriendly&lt;/li&gt;
-  &lt;li&gt;Slow Load Time&lt;/li&gt;
-  &lt;li&gt;Crowded Pages&lt;/li&gt;
-  &lt;li&gt;The Absence of a Content Management System (CMS)&lt;/li&gt;
-  &lt;li&gt;High Bounce Rate&lt;/li&gt;
-  &lt;li&gt;Low Conversion Rate&lt;/li&gt;
-  &lt;li&gt;Your Site Uses Flash&lt;/li&gt;
-  &lt;li&gt;Outdated Content and Images&lt;/li&gt;
-  &lt;li&gt;Low Search Rankings&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;So the last real revamp/refresh of my site was on Jul 21, 2017. Now that doesn’t
-seem like a long time ago but it was. If I use the indicators listed above as a
-guide I was hitting 4/9 indicators. That seems to me like an effort worth
-undertaking.&lt;/p&gt;
-
-&lt;p&gt;So I started reworking the site a week or so ago and here we are today. With the
-old site looking pretty dated and wanting to take advantage of some new jekyll
-plugins I have a new site launched. I really do prefer this look and feel over
-the old site.&lt;/p&gt;
-
-&lt;p&gt;Some of the features of the old site have not yet been transferred over so
-please bear with me. If you notice something horribly broken please let me know.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 15 Feb 2019 08:28:17 -0800</pubDate>
-        <link>/2019/02/15/site-revamp/</link>
-        <guid isPermaLink="true">/2019/02/15/site-revamp/</guid>
-        
-        <category>blogging</category>
-        
-        <category>jekyll</category>
         
         
       </item>
