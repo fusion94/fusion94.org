@@ -7,7 +7,8 @@ image: "/images/texas.jpg"
 
 # Background
 
-My name is Tony Guntharp and I'm a fucking Texan. That's right I'm from the best place on planet earth, the great state of Texas.
+My name is Tony Guntharp and I'm a fucking Texan. That's right I'm from the best
+place on planet earth, the great state of Texas.
 
 I also make things. Software or Hardware, it doesn’t
 matter. I’m OCD, a Geek, a Homebrewer. Fan of Open Source, Linux, OSX and
@@ -24,8 +25,9 @@ I was one of the Co-Founders of [SourceForge.net](http://sf.net).
 I've been at [Apple](https://apple.com) since early 2020. I spent a year working
 on making [Siri](http://apple.com/siri) more reliable but have since moved over
 to [iCloud](http://apple.com/icloud) where I manage the SRE Team for
-[Cloudkit](https://developer.apple.com/icloud/cloudkit/). I also manage the remnants of the 
-PIE-Solr team as well as the US Development teams for Pcl and i4c.
+[Cloudkit](https://developer.apple.com/icloud/cloudkit/). I also manage the remnants of the
+PIE-Solr team as well as the Content SRE and WorkFlows SRE teams. All of the
+teams are part of the iCloud Platform Organization inside of Apple.
 
 Prior to that I was at [Google](https://about.google/) for close to 6 years
 where I worked as the [Site Reliability
@@ -46,6 +48,7 @@ Projects:
 I’m an advisor/investor to the following projects:
 
 - [Appgyver](https://www.appgyver.com/) Makers of Prototyper and Steroids
+  (Acquired by SAP)
 - [Flutter Wireless](http://flutterwireless.com/)
 
 ### Philosophy
@@ -54,3 +57,6 @@ I’m a big believer in [Open
 Source](https://en.wikipedia.org/wiki/Rich_Communication_Services). As such
 you’ll find quite a bit of of my work released under a variety of Open Source
 licenses over at [GitHub](http://github.com).
+
+With regards to my 3D Models you can find them over on
+[Printables](https://www.printables.com/@TonyGuntharp).
