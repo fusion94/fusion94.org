@@ -9,7 +9,7 @@
   <title>Return to 3d Printing</title>
   <meta name='description' content='Upgrades'>
 
-  <link rel="canonical" href="http://localhost:4000/2023/09/03/return-3d-printing/">
+  <link rel="canonical" href="http://localhost:4000/2023/09/13/return-3d-printing/">
   <link rel="alternate" type="application/rss+xml" title="fusion94.org" href="/feed.xml">
 
   <!-- Fonts -->
@@ -589,10 +589,10 @@
             <span class="post__minutes">
               
               
-                3 min read
+                7 min read
               
               <time class="post__date"
-                datetime="2023-09-03T01:20:53-07:00">Sep 3, 2023</time>
+                datetime="2023-09-13T11:20:53-07:00">Sep 13, 2023</time>
             </span>
           </div>
         
@@ -692,15 +692,28 @@ to some of these reviews I bit the bullet and pulled the trigger on one.</p>
 
 <h4 id="enter-bambu">Enter Bambu</h4>
 
-<p>I purchased a <a href="https://store.bambulab.com/products/x1-carbon-combo">Bambu X1-Carbon Combo</a> on 7/17/2023 and it arrived via UPS on 7/20/2023. It sat in it’s box for a few days until I could find time for the assembly.</p>
+<p>I purchased a <a href="https://store.bambulab.com/products/x1-carbon-combo">Bambu X1-Carbon
+Combo</a> on 7/17/2023 and it
+arrived via UPS on 7/20/2023. It sat in it’s box for a few days until I could
+find time for the assembly.</p>
 
-<p>The printer is shipped in a pretty large cardboard box, with foam protection on the sides. The printer is packed well so I didn’t expect any kind of damage during shipping. It can be easily taken out from the package by simply pulling from the sides of the plastic bag (But do take care here as plastic bags have a tendency to rip and tear).</p>
+<p>The printer is shipped in a pretty large cardboard box, with foam protection on
+the sides. The printer is packed well so I didn’t expect any kind of damage
+during shipping. It can be easily taken out from the package by simply pulling
+from the sides of the plastic bag (But do take care here as plastic bags have a
+tendency to rip and tear).</p>
 
-<p>While the printer comes pre-assembled (mostly); before you can start printing you will need to remove a few screws that hold some parts in place during shipping. If you purchased the AMS unit you will also need to remove it from the printer’s enclosure via a few additional screws.</p>
+<p>While the printer comes pre-assembled (mostly); before you can start printing
+you will need to remove a few screws that hold some parts in place during
+shipping. If you purchased the AMS unit you will also need to remove it from the
+printer’s enclosure via a few additional screws.</p>
 
-<p>You will also need to attach the touchscreen to the printer via a supplied ribbon cable.</p>
+<p>You will also need to attach the touchscreen to the printer via a supplied
+ribbon cable.</p>
 
-<p>Overall the assembly process took longer than the Creality Ender 3 S1 Pro but will still under an hour and signficantly easier that other printers that I’ve owned in the past.</p>
+<p>Overall the assembly process took longer than the Creality Ender 3 S1 Pro but
+will still under an hour and signficantly easier that other printers that I’ve
+owned in the past.</p>
 
 <h5 id="some-of-the-key-features-and-improvements">Some of the Key features and improvements:</h5>
 
@@ -721,9 +734,138 @@ to some of these reviews I bit the bullet and pulled the trigger on one.</p>
   <li>Spaghetti failure detection</li>
 </ul>
 
-<p>https://forum.allaboutcircuits.com/threads/getting-to-know-the-bambu-lab-x1-carbon.193631/</p>
+<p>Here is some feedback and a few thoughts after owning the Bambu for a few
+months.</p>
+
+<h6 id="1-its-very-fast">1) It’s very fast.</h6>
+
+<p>Very very fast. I did a large sample print as a reference
+<a href="https://www.printables.com/model/152592-honeycomb-storage-wall/files#preview:file-QLLx0">wall-honeycomb-part.stl</a>
+and the Bambu was approximately 240.63% faster than the Creality Ender 3 S1
+Pro.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Printer</th>
+      <th style="text-align: center">Total Time</th>
+      <th style="text-align: right">Time in Minutes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bambu</td>
+      <td style="text-align: center">1h 36m</td>
+      <td style="text-align: right">96</td>
+    </tr>
+    <tr>
+      <td>Creality</td>
+      <td style="text-align: center">5h 27m</td>
+      <td style="text-align: right">327</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="2-its-slow">2) It’s slow.</h6>
+
+<p>By this I mean it’s not slow at printing it’s slow at getting ready to print. On
+average about 7.3% of the total print time is in setup or prep. i.e. homing the
+bed and leveling, checking resonance, calibrating input shaping and pressure
+advance for extrusion. This also doesn’t account for bed and nozzle heating.</p>
+
+<h6 id="3-extruderhot-end-swap">3) Extruder/Hot End swap</h6>
+
+<p>Changing the hotend/extruder on the Creality is as simple as grabbing a wrench,
+untightening the exiting nozzle and tightening the new nozzle. As Bambu uses a
+completely integrated hotend/extruder it’s slightly more complicated. Here’s how
+that works:</p>
+
+<h6 id="removal">Removal</h6>
+
+<ol>
+  <li>Go to the Temperature/Axis settings and make sure your hotend temperature is
+at 30c or below, then turn the power OFF</li>
+  <li>Open the magnetic cover and move it aside</li>
+  <li>Gently remove the bigger 2-pin plug of the ceramic heater, the 4-pin plug of
+the cooling fan and the very small 2-pin plug of the thermistor</li>
+  <li>Use the H2 Allen key to unscrew the 2 screws that are near the top of the
+nozzles’ heatsink</li>
+  <li>Carefully and gently move the wires out of the plastic wire clip and remove
+the complete hotend assembly</li>
+</ol>
+
+<h6 id="installation">Installation</h6>
+
+<ol>
+  <li>Position the complete hotend assembly so that the 2 screw holes will be
+behind the bracket</li>
+  <li>Gently push the 2 screws in and then tighten them equally (but careful not to
+overtighten)</li>
+  <li>Plug in the bigger 2-pin ceramic heater plug, the 4-pin cooling fan plug, and
+the very small 2-pin thermistor plug</li>
+  <li>Route all the loose cables through the plastic wire clip</li>
+  <li>Replace the magnetic cover… and you are done!!!</li>
+</ol>
+
+<p>As I said, slightly more complicated but not completely horrible.</p>
+
+<h6 id="4-build-plates">4) Build Plates</h6>
+
+<p>By default the Bambu X1-C comes with both the Bambu Cool Plate and a Bambu
+Engineering Plate which is going to require the use of a glue stick or painter’s
+tape to ensure great adhesion. The Creality Ender 3 S1 Pro by default came with
+a spring steel textured PEI plate which is far superior. If you chose to pick up
+a Bambu X1-C then you should (at the time of purchase) add on a <a href="https://us.store.bambulab.com/products/bambu-textured-pei-plate">Bambu Textured
+PEI Plate</a> as
+well. Trust me it’s worth the $37.99 USD.</p>
+
+<h6 id="5-filaments">5) Filaments</h6>
+
+<p>The Bambu X1-C comes with some starter filament. One of the things I love about
+the AMS unit is the ability to read and register filament via RFID.
+Unfortunately this is only available through the use of Bambu Filaments.</p>
+
+<p>Initially the price of Bambu filaments versus say Polymaker there appears to be
+a $3 to $4 difference per kg. While this might be a problem for some I’ve not
+found it to be a showstopper due to the aforementioned RFID tagging for
+filament.</p>
+
+<p>A few other things to note is that once you have a few empty spools or order the
+empty spools from Bambu for the most part you should be ordered filament via the
+refill option which brings the prices inline with Polymaker. The process of
+refilling a spool takes 3-4 minutes and requires no tools or winders.</p>
+
+<p>Filament orders can only happen through the Bambu Store, there is no Amazon
+option (booooooo) and shipping options (via FedEx) can take up to 10 days so
+plan accordingly. I think my second filament order was in the neighborhood of
+30kgs and somewhere around $750 USD but I didn’t have to order filament for a
+few more months.</p>
 
 <h4 id="final-thoughts">Final Thoughts</h4>
+
+<p>I liked my original Bambu X1-C so much that I ending up purchasing a second unit
+as well.</p>
+
+<p>I earnestly believe that the Bambu X1-C printer delivers commercial quality at a
+consumer price point and it’s well worth the cost.</p>
+
+<p>Here is a photo gallery of some of the prints from the Bambu X1-C:</p>
+
+<div class="gallery-box">
+    <div class="gallery">
+      <img src="/images/posts/3d-printing/bambu-1.JPG" />
+      <img src="/images/posts/3d-printing/bambu-2.JPG" />
+      <img src="/images/posts/3d-printing/bambu-3.JPG" />
+      <img src="/images/posts/3d-printing/bambu-4.JPG" />
+      <img src="/images/posts/3d-printing/bambu-5.JPG" />
+      <img src="/images/posts/3d-printing/bambu-6.JPG" />
+      <img src="/images/posts/3d-printing/bambu-7.JPG" />
+      <img src="/images/posts/3d-printing/bambu-8.JPG" />
+      <img src="/images/posts/3d-printing/bambu-9.JPG" />
+      <img src="/images/posts/3d-printing/bambu-10.JPG" />    
+    </div>
+    <em>Gallery / Bambu X1-C Prints</em>
+  </div>
 
 <p>I can certainly state the experience now days is significantly better than when
 I put my first 3D Printer together, a Prusa Mendel that is show below.</p>
@@ -750,9 +892,9 @@ printed using a Makerbot Cupcake CNC from 2009.</p>
 
     <div class="post__share">
       <div class="share__list">
-        <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2023/09/03/return-3d-printing/" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
+        <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2023/09/13/return-3d-printing/" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
 
-        <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=Return%20to%203d%20Printing&url=http://localhost:4000/2023/09/03/return-3d-printing/" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
+        <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=Return%20to%203d%20Printing&url=http://localhost:4000/2023/09/13/return-3d-printing/" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
       </div>
     </div>
 
@@ -1039,20 +1181,20 @@ printed using a Makerbot Cupcake CNC from 2009.</p>
     
     <div class="recent-posts">
       
-      <a class="recent-posts__image" href="/2023/09/03/return-3d-printing/"><img class="lazy" data-src="/images/posts/3d-printing/x1-cc-best_1800x1800.png" alt="Return to 3d Printing"></a>
+      <a class="recent-posts__image" href="/2023/09/13/return-3d-printing/"><img class="lazy" data-src="/images/posts/3d-printing/x1-cc-best_1800x1800.png" alt="Return to 3d Printing"></a>
       
       <div class="recent-posts__content">
         <div class="article__meta">
           <span class="article__minutes">
             
             
-              3 min read
+              7 min read
             
           </span>
           <time class="article__date"
-            datetime="2023-09-03T01:20:53-07:00">Sep 3, 2023</time>
+            datetime="2023-09-13T11:20:53-07:00">Sep 13, 2023</time>
         </div>
-        <h4 class="recent-posts__title"><a href="/2023/09/03/return-3d-printing/">Return to 3d Printing</a></h4>
+        <h4 class="recent-posts__title"><a href="/2023/09/13/return-3d-printing/">Return to 3d Printing</a></h4>
         <div class="article__bottom">
           <div class="article__author">
             <a href="/about/" aria-label="Tony Guntharp"><img class="article__author-image lazy" data-src="/images/guntharp.jpg" alt="Tony Guntharp's Picture"></a>

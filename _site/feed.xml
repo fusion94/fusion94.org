@@ -5,8 +5,8 @@
     <description>Totally Random Musings from the Edge</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Sep 2023 12:19:05 -0700</pubDate>
-    <lastBuildDate>Fri, 08 Sep 2023 12:19:05 -0700</lastBuildDate>
+    <pubDate>Wed, 13 Sep 2023 19:17:28 -0700</pubDate>
+    <lastBuildDate>Wed, 13 Sep 2023 19:17:28 -0700</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -66,15 +66,28 @@ to some of these reviews I bit the bullet and pulled the trigger on one.&lt;/p&g
 
 &lt;h4 id=&quot;enter-bambu&quot;&gt;Enter Bambu&lt;/h4&gt;
 
-&lt;p&gt;I purchased a &lt;a href=&quot;https://store.bambulab.com/products/x1-carbon-combo&quot;&gt;Bambu X1-Carbon Combo&lt;/a&gt; on 7/17/2023 and it arrived via UPS on 7/20/2023. It sat in it’s box for a few days until I could find time for the assembly.&lt;/p&gt;
+&lt;p&gt;I purchased a &lt;a href=&quot;https://store.bambulab.com/products/x1-carbon-combo&quot;&gt;Bambu X1-Carbon
+Combo&lt;/a&gt; on 7/17/2023 and it
+arrived via UPS on 7/20/2023. It sat in it’s box for a few days until I could
+find time for the assembly.&lt;/p&gt;
 
-&lt;p&gt;The printer is shipped in a pretty large cardboard box, with foam protection on the sides. The printer is packed well so I didn’t expect any kind of damage during shipping. It can be easily taken out from the package by simply pulling from the sides of the plastic bag (But do take care here as plastic bags have a tendency to rip and tear).&lt;/p&gt;
+&lt;p&gt;The printer is shipped in a pretty large cardboard box, with foam protection on
+the sides. The printer is packed well so I didn’t expect any kind of damage
+during shipping. It can be easily taken out from the package by simply pulling
+from the sides of the plastic bag (But do take care here as plastic bags have a
+tendency to rip and tear).&lt;/p&gt;
 
-&lt;p&gt;While the printer comes pre-assembled (mostly); before you can start printing you will need to remove a few screws that hold some parts in place during shipping. If you purchased the AMS unit you will also need to remove it from the printer’s enclosure via a few additional screws.&lt;/p&gt;
+&lt;p&gt;While the printer comes pre-assembled (mostly); before you can start printing
+you will need to remove a few screws that hold some parts in place during
+shipping. If you purchased the AMS unit you will also need to remove it from the
+printer’s enclosure via a few additional screws.&lt;/p&gt;
 
-&lt;p&gt;You will also need to attach the touchscreen to the printer via a supplied ribbon cable.&lt;/p&gt;
+&lt;p&gt;You will also need to attach the touchscreen to the printer via a supplied
+ribbon cable.&lt;/p&gt;
 
-&lt;p&gt;Overall the assembly process took longer than the Creality Ender 3 S1 Pro but will still under an hour and signficantly easier that other printers that I’ve owned in the past.&lt;/p&gt;
+&lt;p&gt;Overall the assembly process took longer than the Creality Ender 3 S1 Pro but
+will still under an hour and signficantly easier that other printers that I’ve
+owned in the past.&lt;/p&gt;
 
 &lt;h5 id=&quot;some-of-the-key-features-and-improvements&quot;&gt;Some of the Key features and improvements:&lt;/h5&gt;
 
@@ -95,9 +108,138 @@ to some of these reviews I bit the bullet and pulled the trigger on one.&lt;/p&g
   &lt;li&gt;Spaghetti failure detection&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;https://forum.allaboutcircuits.com/threads/getting-to-know-the-bambu-lab-x1-carbon.193631/&lt;/p&gt;
+&lt;p&gt;Here is some feedback and a few thoughts after owning the Bambu for a few
+months.&lt;/p&gt;
+
+&lt;h6 id=&quot;1-its-very-fast&quot;&gt;1) It’s very fast.&lt;/h6&gt;
+
+&lt;p&gt;Very very fast. I did a large sample print as a reference
+&lt;a href=&quot;https://www.printables.com/model/152592-honeycomb-storage-wall/files#preview:file-QLLx0&quot;&gt;wall-honeycomb-part.stl&lt;/a&gt;
+and the Bambu was approximately 240.63% faster than the Creality Ender 3 S1
+Pro.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Printer&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Total Time&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Time in Minutes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bambu&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1h 36m&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;96&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Creality&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5h 27m&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;327&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h6 id=&quot;2-its-slow&quot;&gt;2) It’s slow.&lt;/h6&gt;
+
+&lt;p&gt;By this I mean it’s not slow at printing it’s slow at getting ready to print. On
+average about 7.3% of the total print time is in setup or prep. i.e. homing the
+bed and leveling, checking resonance, calibrating input shaping and pressure
+advance for extrusion. This also doesn’t account for bed and nozzle heating.&lt;/p&gt;
+
+&lt;h6 id=&quot;3-extruderhot-end-swap&quot;&gt;3) Extruder/Hot End swap&lt;/h6&gt;
+
+&lt;p&gt;Changing the hotend/extruder on the Creality is as simple as grabbing a wrench,
+untightening the exiting nozzle and tightening the new nozzle. As Bambu uses a
+completely integrated hotend/extruder it’s slightly more complicated. Here’s how
+that works:&lt;/p&gt;
+
+&lt;h6 id=&quot;removal&quot;&gt;Removal&lt;/h6&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go to the Temperature/Axis settings and make sure your hotend temperature is
+at 30c or below, then turn the power OFF&lt;/li&gt;
+  &lt;li&gt;Open the magnetic cover and move it aside&lt;/li&gt;
+  &lt;li&gt;Gently remove the bigger 2-pin plug of the ceramic heater, the 4-pin plug of
+the cooling fan and the very small 2-pin plug of the thermistor&lt;/li&gt;
+  &lt;li&gt;Use the H2 Allen key to unscrew the 2 screws that are near the top of the
+nozzles’ heatsink&lt;/li&gt;
+  &lt;li&gt;Carefully and gently move the wires out of the plastic wire clip and remove
+the complete hotend assembly&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h6 id=&quot;installation&quot;&gt;Installation&lt;/h6&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Position the complete hotend assembly so that the 2 screw holes will be
+behind the bracket&lt;/li&gt;
+  &lt;li&gt;Gently push the 2 screws in and then tighten them equally (but careful not to
+overtighten)&lt;/li&gt;
+  &lt;li&gt;Plug in the bigger 2-pin ceramic heater plug, the 4-pin cooling fan plug, and
+the very small 2-pin thermistor plug&lt;/li&gt;
+  &lt;li&gt;Route all the loose cables through the plastic wire clip&lt;/li&gt;
+  &lt;li&gt;Replace the magnetic cover… and you are done!!!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As I said, slightly more complicated but not completely horrible.&lt;/p&gt;
+
+&lt;h6 id=&quot;4-build-plates&quot;&gt;4) Build Plates&lt;/h6&gt;
+
+&lt;p&gt;By default the Bambu X1-C comes with both the Bambu Cool Plate and a Bambu
+Engineering Plate which is going to require the use of a glue stick or painter’s
+tape to ensure great adhesion. The Creality Ender 3 S1 Pro by default came with
+a spring steel textured PEI plate which is far superior. If you chose to pick up
+a Bambu X1-C then you should (at the time of purchase) add on a &lt;a href=&quot;https://us.store.bambulab.com/products/bambu-textured-pei-plate&quot;&gt;Bambu Textured
+PEI Plate&lt;/a&gt; as
+well. Trust me it’s worth the $37.99 USD.&lt;/p&gt;
+
+&lt;h6 id=&quot;5-filaments&quot;&gt;5) Filaments&lt;/h6&gt;
+
+&lt;p&gt;The Bambu X1-C comes with some starter filament. One of the things I love about
+the AMS unit is the ability to read and register filament via RFID.
+Unfortunately this is only available through the use of Bambu Filaments.&lt;/p&gt;
+
+&lt;p&gt;Initially the price of Bambu filaments versus say Polymaker there appears to be
+a $3 to $4 difference per kg. While this might be a problem for some I’ve not
+found it to be a showstopper due to the aforementioned RFID tagging for
+filament.&lt;/p&gt;
+
+&lt;p&gt;A few other things to note is that once you have a few empty spools or order the
+empty spools from Bambu for the most part you should be ordered filament via the
+refill option which brings the prices inline with Polymaker. The process of
+refilling a spool takes 3-4 minutes and requires no tools or winders.&lt;/p&gt;
+
+&lt;p&gt;Filament orders can only happen through the Bambu Store, there is no Amazon
+option (booooooo) and shipping options (via FedEx) can take up to 10 days so
+plan accordingly. I think my second filament order was in the neighborhood of
+30kgs and somewhere around $750 USD but I didn’t have to order filament for a
+few more months.&lt;/p&gt;
 
 &lt;h4 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h4&gt;
+
+&lt;p&gt;I liked my original Bambu X1-C so much that I ending up purchasing a second unit
+as well.&lt;/p&gt;
+
+&lt;p&gt;I earnestly believe that the Bambu X1-C printer delivers commercial quality at a
+consumer price point and it’s well worth the cost.&lt;/p&gt;
+
+&lt;p&gt;Here is a photo gallery of some of the prints from the Bambu X1-C:&lt;/p&gt;
+
+&lt;div class=&quot;gallery-box&quot;&gt;
+    &lt;div class=&quot;gallery&quot;&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/bambu-1.JPG&quot; /&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/bambu-2.JPG&quot; /&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/bambu-3.JPG&quot; /&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/bambu-4.JPG&quot; /&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/bambu-5.JPG&quot; /&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/bambu-6.JPG&quot; /&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/bambu-7.JPG&quot; /&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/bambu-8.JPG&quot; /&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/bambu-9.JPG&quot; /&gt;
+      &lt;img src=&quot;/images/posts/3d-printing/bambu-10.JPG&quot; /&gt;    
+    &lt;/div&gt;
+    &lt;em&gt;Gallery / Bambu X1-C Prints&lt;/em&gt;
+  &lt;/div&gt;
 
 &lt;p&gt;I can certainly state the experience now days is significantly better than when
 I put my first 3D Printer together, a Prusa Mendel that is show below.&lt;/p&gt;
@@ -120,9 +262,9 @@ printed using a Makerbot Cupcake CNC from 2009.&lt;/p&gt;
     &lt;em&gt;Gallery / Makerbot Cupcake CNC&lt;/em&gt;
   &lt;/div&gt;
 </description>
-        <pubDate>Sun, 03 Sep 2023 01:20:53 -0700</pubDate>
-        <link>http://localhost:4000/2023/09/03/return-3d-printing/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/09/03/return-3d-printing/</guid>
+        <pubDate>Wed, 13 Sep 2023 11:20:53 -0700</pubDate>
+        <link>http://localhost:4000/2023/09/13/return-3d-printing/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/09/13/return-3d-printing/</guid>
         
         <category>3d printing</category>
         
