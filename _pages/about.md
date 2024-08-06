@@ -10,6 +10,10 @@ image: "/images/texas.jpg"
 My name is Tony Guntharp and I'm a fucking Texan. That's right I'm from the best
 place on planet earth, the great state of Texas.
 
+My family and I still maintain a residence in Half Moon Bay CA but we're
+spending the majority of our time in Bandera TX where we bought a second home
+late last year.
+
 I also make things. Software or Hardware, it doesn’t
 matter. I’m OCD, a Geek, a Homebrewer. Fan of Open Source, Linux, OSX and
 Mobile. Purveyor of Craft Beer and Single Malt Scotches. <del>Avid Motorcyclist
@@ -22,12 +26,18 @@ I'm also a conservationist and a hunter.
 
 I was one of the Co-Founders of [SourceForge.net](http://sf.net).
 
-I've been at [Apple](https://apple.com) since early 2020. I spent a year working
-on making [Siri](http://apple.com/siri) more reliable but have since moved over
-to [iCloud](http://apple.com/icloud) where I manage the SRE Team for
-[Cloudkit](https://developer.apple.com/icloud/cloudkit/). I also manage the remnants of the
-PIE-Solr team as well as the Content SRE and WorkFlows SRE teams. All of the
-teams are part of the iCloud Platform Organization inside of Apple.
+I've been at [GEICO](http://geico.com) now for a little less than a year helping
+to reimagine their technical organization by helping move it from a IT focused
+organization to an engineering focused organization.
+
+
+I was at [Apple](https://apple.com) since early 2020 to end of 2023. I spent a
+year working on making [Siri](http://apple.com/siri) more reliable but have
+since moved over to [iCloud](http://apple.com/icloud) where I manage the SRE
+Team for [Cloudkit](https://developer.apple.com/icloud/cloudkit/). I also manage
+the remnants of the PIE-Solr team as well as the Content SRE and WorkFlows SRE
+teams. All of the teams are part of the iCloud Platform Organization inside of
+Apple.
 
 Prior to that I was at [Google](https://about.google/) for close to 6 years
 where I worked as the [Site Reliability

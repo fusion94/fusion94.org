@@ -3,10 +3,10 @@
   <channel>
     <title>fusion94.org</title>
     <description>Totally Random Musings from the Edge</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Sep 2023 12:01:01 -0700</pubDate>
-    <lastBuildDate>Thu, 14 Sep 2023 12:01:01 -0700</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 06 Aug 2024 14:51:38 -0500</pubDate>
+    <lastBuildDate>Tue, 06 Aug 2024 14:51:38 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -262,9 +262,9 @@ printed using a Makerbot Cupcake CNC from 2009.&lt;/p&gt;
     &lt;em&gt;Gallery / Makerbot Cupcake CNC&lt;/em&gt;
   &lt;/div&gt;
 </description>
-        <pubDate>Wed, 13 Sep 2023 11:20:53 -0700</pubDate>
-        <link>/2023/09/13/return-3d-printing/</link>
-        <guid isPermaLink="true">/2023/09/13/return-3d-printing/</guid>
+        <pubDate>Wed, 13 Sep 2023 13:20:53 -0500</pubDate>
+        <link>http://localhost:4000/2023/09/13/return-3d-printing/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/09/13/return-3d-printing/</guid>
         
         <category>3d printing</category>
         
@@ -390,9 +390,9 @@ influx of cash and new players to ensure we can continue to develop DU”&lt;/st
 
 &lt;p&gt;Instead we get typical NQ marketing bullshit.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 28 Aug 2022 06:20:53 -0700</pubDate>
-        <link>/2022/08/28/dual-universe/</link>
-        <guid isPermaLink="true">/2022/08/28/dual-universe/</guid>
+        <pubDate>Sun, 28 Aug 2022 08:20:53 -0500</pubDate>
+        <link>http://localhost:4000/2022/08/28/dual-universe/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/08/28/dual-universe/</guid>
         
         <category>gaming</category>
         
@@ -619,9 +619,9 @@ about 5 years ago.&lt;/p&gt;
 
 &lt;iframe src=&quot;https://www.youtube.com/embed/nE2ScEx9K6U&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Sat, 07 May 2022 00:20:53 -0700</pubDate>
-        <link>/2022/05/07/droning/</link>
-        <guid isPermaLink="true">/2022/05/07/droning/</guid>
+        <pubDate>Sat, 07 May 2022 02:20:53 -0500</pubDate>
+        <link>http://localhost:4000/2022/05/07/droning/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/05/07/droning/</guid>
         
         <category>drones</category>
         
@@ -633,7 +633,7 @@ about 5 years ago.&lt;/p&gt;
       </item>
     
       <item>
-        <title>I'm Back....</title>
+        <title>I&apos;m Back....</title>
         <description>&lt;p&gt;I’m back….I promise to update more often than every 2 years.&lt;/p&gt;
 
 &lt;p&gt;Built with:&lt;/p&gt;
@@ -646,9 +646,9 @@ about 5 years ago.&lt;/p&gt;
   &lt;li&gt;Yeah, it’s overkill. ¯(ツ)/¯&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Thu, 05 May 2022 14:20:53 -0700</pubDate>
-        <link>/2022/05/05/welcome-the-hell-back/</link>
-        <guid isPermaLink="true">/2022/05/05/welcome-the-hell-back/</guid>
+        <pubDate>Thu, 05 May 2022 16:20:53 -0500</pubDate>
+        <link>http://localhost:4000/2022/05/05/welcome-the-hell-back/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/05/05/welcome-the-hell-back/</guid>
         
         <category>blogging</category>
         
@@ -757,9 +757,9 @@ knocked down, try to protect head and neck.&lt;/li&gt;
   &lt;li&gt;Report unusual mountain lion behavior to your local CDFW regional office.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 09 Apr 2019 11:25:53 -0700</pubDate>
-        <link>/2019/04/09/living-in-mountain-lion-country/</link>
-        <guid isPermaLink="true">/2019/04/09/living-in-mountain-lion-country/</guid>
+        <pubDate>Tue, 09 Apr 2019 13:25:53 -0500</pubDate>
+        <link>http://localhost:4000/2019/04/09/living-in-mountain-lion-country/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/09/living-in-mountain-lion-country/</guid>
         
         <category>cougars</category>
         
@@ -1160,9 +1160,9 @@ data collected on all users will be deleted.&lt;/p&gt;
 &lt;p&gt;Just fill out the form located &lt;a href=&quot;https://goo.gl/forms/nJQ7dsMyP7zEWuOD3&quot;&gt;here&lt;/a&gt;.
 It’s as simple as that.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 25 Mar 2019 12:51:58 -0700</pubDate>
-        <link>/2019/03/25/rmef-membership-giveaway/</link>
-        <guid isPermaLink="true">/2019/03/25/rmef-membership-giveaway/</guid>
+        <pubDate>Mon, 25 Mar 2019 14:51:58 -0500</pubDate>
+        <link>http://localhost:4000/2019/03/25/rmef-membership-giveaway/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/25/rmef-membership-giveaway/</guid>
         
         <category>conservation</category>
         
@@ -1285,9 +1285,9 @@ Americans.”&lt;/p&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Wed, 13 Mar 2019 00:33:44 -0700</pubDate>
-        <link>/2019/03/13/s.47-has-been-signed/</link>
-        <guid isPermaLink="true">/2019/03/13/s.47-has-been-signed/</guid>
+        <pubDate>Wed, 13 Mar 2019 02:33:44 -0500</pubDate>
+        <link>http://localhost:4000/2019/03/13/s.47-has-been-signed/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/13/s.47-has-been-signed/</guid>
         
         <category>conservation</category>
         
@@ -1386,9 +1386,9 @@ floor.&lt;/p&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Wed, 27 Feb 2019 22:40:09 -0800</pubDate>
-        <link>/2019/02/27/conservation-one-more-step/</link>
-        <guid isPermaLink="true">/2019/02/27/conservation-one-more-step/</guid>
+        <pubDate>Thu, 28 Feb 2019 00:40:09 -0600</pubDate>
+        <link>http://localhost:4000/2019/02/28/conservation-one-more-step/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/02/28/conservation-one-more-step/</guid>
         
         <category>conservation</category>
         
@@ -1501,9 +1501,9 @@ pasta is al dente. Top with the bolognese sauce and cheese just before serving.&
 The Final Product.&lt;br /&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Wed, 20 Feb 2019 00:28:13 -0800</pubDate>
-        <link>/2019/02/20/elk-bolognese/</link>
-        <guid isPermaLink="true">/2019/02/20/elk-bolognese/</guid>
+        <pubDate>Wed, 20 Feb 2019 02:28:13 -0600</pubDate>
+        <link>http://localhost:4000/2019/02/20/elk-bolognese/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/02/20/elk-bolognese/</guid>
         
         <category>elk</category>
         
@@ -2271,9 +2271,9 @@ This chart shows the trend of total P-R apportionment per fiscal year, from 1999
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Sun, 17 Feb 2019 00:37:26 -0800</pubDate>
-        <link>/2019/02/17/conservation-and-hunting/</link>
-        <guid isPermaLink="true">/2019/02/17/conservation-and-hunting/</guid>
+        <pubDate>Sun, 17 Feb 2019 02:37:26 -0600</pubDate>
+        <link>http://localhost:4000/2019/02/17/conservation-and-hunting/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/02/17/conservation-and-hunting/</guid>
         
         <category>conservation</category>
         
