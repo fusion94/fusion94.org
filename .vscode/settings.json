@@ -1,13 +1,16 @@
 {
-    "editor.rulers": [
-        {
-          "column": 80,
-          "color": "#FF0000"
-        }
-    ],
-    "editor.fontSize": 12,
-    "editor.fontWeight": "normal",
-    "editor.fontFamily": "MesloLGS NF,'Courier New', monospace",
-    "editor.lineNumbers": "on",
-    "editor.renderWhitespace": "trailing",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "wordWrapColumn",
+  "rewrap.autoWrap.enabled": true,
+  "rewrap.wrappingColumn": 80,
+  "git.confirmSync": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "editor.fontFamily": "MesloLGS NF, JetBrains Mono",
+  "terminal.integrated.fontFamily": "MesloLGS NF, JetBrains Mono, monospace",
+  "terminal.integrated.enableImages": true,
+  "terminal.integrated.fontSize": 13,
+  "markdownlint.run": "onSave",
+  "explorer.confirmDelete": false,
+  "github.experimental.multipleAccounts": true,
+  "settingsSync.ignoredSettings": [],
 }
