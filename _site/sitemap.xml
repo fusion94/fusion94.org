@@ -109,6 +109,10 @@
 <lastmod>2024-08-23T07:20:53-05:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2024/08/23/new-job-new-location/</loc>
+<lastmod>2024-08-23T16:37:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -251,6 +255,12 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag/apple/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/new-job/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/new-house/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/page/2/</loc>
