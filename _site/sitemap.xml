@@ -105,6 +105,10 @@
 <lastmod>2023-09-13T13:20:53-05:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2024/08/23/im-back/</loc>
+<lastmod>2024-08-23T07:20:53-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -241,6 +245,12 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag/printables/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/blogging/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/apple/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/page/2/</loc>
