@@ -8,3 +8,4 @@ gem "kramdown-parser-gfm"
 gem "rouge"
 gem "kramdown-syntax-coderay"
 gem "webrick", "~> 1.7"
+gem 'jekyll-compose'
