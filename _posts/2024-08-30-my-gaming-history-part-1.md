@@ -105,7 +105,7 @@ The list of MMO's that I started playing in order are:
 - World of Worldcraft (released on November 23, 2004)
 
 I was working in Silicon Valley for a few years, and at this point, I had
-ounded the Open Source web site [SourceForge](http://sf.net) and then got laid
+co-founded the Open Source web site [SourceForge](http://sf.net) and then got laid
 off from VA Software. At the time I got laid off I received a really good
 package and was spending a lot of my time mostly playing Asheron's Call and
 Anarchy Online.
