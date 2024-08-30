@@ -1,8 +1,8 @@
 ---
 layout: post
-title: My Gaming History
+title: My Gaming History - Part 1
 description:
-date: 2024-09-24 13:20:53
+date: 2024-08-30 05:20:53
 image: "/images/posts/gaming/vidya.jpg"
 tags: [gaming, games, pc, console]
 ---
@@ -120,7 +120,10 @@ Located in San Francisco, California, Damage Studios is developing
 Rekonstruction as a persistent online title where a futuristic Earth must be
 rebuilt following a devastating asteroid collision.
 
-OCT 9, 2002 - https://www.wired.com/2002/10/slashdot-star-leaves-the-fold/
-https://www.newscientist.com/article/dn3665-million-user-online-game-previewed/
+### To be continued
 
-this is a test
+Well that's the end of Part -1. I will be continuing the story about Damage
+Studios and Rekonstruction in a future post (Part 2) and then conclude my gaming
+journey.
+
+thanks for reading.
