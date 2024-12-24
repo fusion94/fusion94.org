@@ -28,8 +28,9 @@ I was one of the Co-Founders of [SourceForge.net](http://sf.net).
 
 I've been at [GEICO](http://geico.com) now for a little less than a year helping
 to reimagine their technical organization by helping move it from a IT focused
-organization to an engineering focused organization.
-
+organization to an engineering focused organization. I lead the Hybrid Cloud SRE
+Team as a Senior Director with a focus on supporting our Infrastucture as a
+Service (IaaS) and Platform as a Service (PaaS) partner organizations.
 
 I was at [Apple](https://apple.com) since early 2020 to end of 2023. I spent a
 year working on making [Siri](http://apple.com/siri) more reliable but have
