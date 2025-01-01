@@ -3,11 +3,89 @@
   <channel>
     <title>fusion94.org</title>
     <description>Totally Random Musings from the Edge</description>
-    <link>http://0.0.0.0:4000/</link>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Aug 2024 12:53:03 +0000</pubDate>
-    <lastBuildDate>Fri, 30 Aug 2024 12:53:03 +0000</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 01 Jan 2025 10:05:23 -0600</pubDate>
+    <lastBuildDate>Wed, 01 Jan 2025 10:05:23 -0600</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Reading Goals</title>
+        <description>&lt;h4 id=&quot;surpassing-goals-and-setting-new-horizons-my-reading-journey-from-2024-to-2025&quot;&gt;Surpassing Goals and Setting New Horizons: My Reading Journey from 2024 to 2025&lt;/h4&gt;
+
+&lt;p&gt;As we welcome the new year, it’s a perfect time to reflect on our
+accomplishments and set new targets. In 2024, I set a modest goal for myself to
+read 16 books. Reading has always been a way for me to unwind and learn, but
+last year, it became more than just a hobby—it became a journey of discovery and
+achievement. To my own surprise, I didn’t just meet my goal; I soared past it,
+finishing 23 books and covering a whopping 8,037 pages!&lt;/p&gt;
+
+&lt;p&gt;This experience was illuminating in several ways. Not only did it reaffirm my
+love for reading, but it also pushed me to explore genres and authors I might
+not have considered before. The books ranged from technical tomes that enhanced
+my professional skills to imaginative works of fiction that transported me to
+different worlds. Each page turned added a new layer to my understanding and
+appreciation of the written word, making the year both enriching and
+intellectually satisfying.&lt;/p&gt;
+
+&lt;p&gt;Inspired by last year’s success, I’ve decided to ambitiously set my 2025 reading
+goal at 30 books. This new target is not just about quantity, but also about
+continuing to diversify the types of books I engage with. I plan to delve deeper
+into non-fiction, exploring topics in history and science, while still enjoying
+the fictional realms of fantasy and mystery that I love so much.&lt;/p&gt;
+
+&lt;p&gt;Reaching this goal will undoubtedly require discipline and dedication,
+especially with a busy schedule. However, the joy and knowledge gained from each
+book make every minute spent reading worthwhile. I’m excited about the
+challenges and discoveries that lie ahead in my 2025 reading adventure.&lt;/p&gt;
+
+&lt;p&gt;For those looking to embark on their own reading journey, or anyone seeking to
+surpass their previous achievements, let’s remind ourselves that goals are not
+just endpoints but stepping stones to greater achievements. Here’s to a year
+filled with wonderful reads and inspiring stories!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Jan 2025 08:56:00 -0600</pubDate>
+        <link>http://localhost:4000/2025/01/01/reading-goals/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/01/01/reading-goals/</guid>
+        
+        <category>2025 Goals</category>
+        
+        <category>2024 Review</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Wishful Thinking</title>
+        <description>&lt;h4 id=&quot;wishful-thinking&quot;&gt;Wishful Thinking&lt;/h4&gt;
+
+&lt;p&gt;Wishful thinking is the act of believing or hoping for something to be true,
+often without regard to logic, evidence, or practicality. It involves imagining
+a desired outcome, even if it’s unrealistic or unlikely, because it aligns with
+personal desires or fantasies. This type of thinking can lead people to make
+decisions based on what they want to happen rather than what is actually
+probable or reasonable.&lt;/p&gt;
+
+&lt;p&gt;For example, someone might hope for a promotion at work despite a lack of
+qualifications, just because they want it to happen. Or someone might ignore
+signs of an unhealthy relationship, believing it will improve on its own because
+they deeply wish it will. While wishful thinking can offer comfort, it can also
+lead to disappointment if it disconnects from reality.&lt;/p&gt;
+
+&lt;p&gt;Or as my grandfather used to say&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Wish in one hand, shit in the other, see which one fills up first.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 24 Dec 2024 09:37:00 -0600</pubDate>
+        <link>http://localhost:4000/2024/12/24/wishful-thinking/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/12/24/wishful-thinking/</guid>
+        
+        <category>philosophy</category>
+        
+        
+      </item>
     
       <item>
         <title>My Gaming History - Part 1</title>
@@ -117,7 +195,7 @@ there are games that differ.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;I was working in Silicon Valley for a few years, and at this point, I had
-ounded the Open Source web site &lt;a href=&quot;http://sf.net&quot;&gt;SourceForge&lt;/a&gt; and then got laid
+co-founded the Open Source web site &lt;a href=&quot;http://sf.net&quot;&gt;SourceForge&lt;/a&gt; and then got laid
 off from VA Software. At the time I got laid off I received a really good
 package and was spending a lot of my time mostly playing Asheron’s Call and
 Anarchy Online.&lt;/p&gt;
@@ -140,9 +218,9 @@ journey.&lt;/p&gt;
 
 &lt;p&gt;thanks for reading.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 30 Aug 2024 05:20:53 +0000</pubDate>
-        <link>http://0.0.0.0:4000/2024/08/30/my-gaming-history-part-1/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2024/08/30/my-gaming-history-part-1/</guid>
+        <pubDate>Fri, 30 Aug 2024 00:20:53 -0500</pubDate>
+        <link>http://localhost:4000/2024/08/30/my-gaming-history-part-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/08/30/my-gaming-history-part-1/</guid>
         
         <category>gaming</category>
         
@@ -250,9 +328,9 @@ Nicole and Patrick in CA).&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://photos.app.goo.gl/fg9o4nVQQsK5Tk6d9&quot;&gt;Bandera House Photos&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 23 Aug 2024 21:37:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/2024/08/23/new-job-new-location/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2024/08/23/new-job-new-location/</guid>
+        <pubDate>Fri, 23 Aug 2024 16:37:00 -0500</pubDate>
+        <link>http://localhost:4000/2024/08/23/new-job-new-location/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/08/23/new-job-new-location/</guid>
         
         <category>New Job</category>
         
@@ -296,9 +374,9 @@ next and where that’s happening.&lt;/p&gt;
 
 &lt;p&gt;Cheers!&lt;/p&gt;
 </description>
-        <pubDate>Fri, 23 Aug 2024 12:20:53 +0000</pubDate>
-        <link>http://0.0.0.0:4000/2024/08/23/im-back/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2024/08/23/im-back/</guid>
+        <pubDate>Fri, 23 Aug 2024 07:20:53 -0500</pubDate>
+        <link>http://localhost:4000/2024/08/23/im-back/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/08/23/im-back/</guid>
         
         <category>Blogging</category>
         
@@ -560,9 +638,9 @@ printed using a Makerbot Cupcake CNC from 2009.&lt;/p&gt;
     &lt;em&gt;Gallery / Makerbot Cupcake CNC&lt;/em&gt;
   &lt;/div&gt;
 </description>
-        <pubDate>Wed, 13 Sep 2023 18:20:53 +0000</pubDate>
-        <link>http://0.0.0.0:4000/2023/09/13/return-3d-printing/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/09/13/return-3d-printing/</guid>
+        <pubDate>Wed, 13 Sep 2023 13:20:53 -0500</pubDate>
+        <link>http://localhost:4000/2023/09/13/return-3d-printing/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/09/13/return-3d-printing/</guid>
         
         <category>3d printing</category>
         
@@ -688,9 +766,9 @@ influx of cash and new players to ensure we can continue to develop DU”&lt;/st
 
 &lt;p&gt;Instead we get typical NQ marketing bullshit.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 28 Aug 2022 13:20:53 +0000</pubDate>
-        <link>http://0.0.0.0:4000/2022/08/28/dual-universe/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/08/28/dual-universe/</guid>
+        <pubDate>Sun, 28 Aug 2022 08:20:53 -0500</pubDate>
+        <link>http://localhost:4000/2022/08/28/dual-universe/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/08/28/dual-universe/</guid>
         
         <category>gaming</category>
         
@@ -917,9 +995,9 @@ about 5 years ago.&lt;/p&gt;
 
 &lt;iframe src=&quot;https://www.youtube.com/embed/nE2ScEx9K6U&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Sat, 07 May 2022 07:20:53 +0000</pubDate>
-        <link>http://0.0.0.0:4000/2022/05/07/droning/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/05/07/droning/</guid>
+        <pubDate>Sat, 07 May 2022 02:20:53 -0500</pubDate>
+        <link>http://localhost:4000/2022/05/07/droning/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/05/07/droning/</guid>
         
         <category>drones</category>
         
@@ -944,9 +1022,9 @@ about 5 years ago.&lt;/p&gt;
   &lt;li&gt;Yeah, it’s overkill. ¯(ツ)/¯&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Thu, 05 May 2022 21:20:53 +0000</pubDate>
-        <link>http://0.0.0.0:4000/2022/05/05/welcome-the-hell-back/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/05/05/welcome-the-hell-back/</guid>
+        <pubDate>Thu, 05 May 2022 16:20:53 -0500</pubDate>
+        <link>http://localhost:4000/2022/05/05/welcome-the-hell-back/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/05/05/welcome-the-hell-back/</guid>
         
         <category>blogging</category>
         
@@ -1055,9 +1133,9 @@ knocked down, try to protect head and neck.&lt;/li&gt;
   &lt;li&gt;Report unusual mountain lion behavior to your local CDFW regional office.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 09 Apr 2019 18:25:53 +0000</pubDate>
-        <link>http://0.0.0.0:4000/2019/04/09/living-in-mountain-lion-country/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2019/04/09/living-in-mountain-lion-country/</guid>
+        <pubDate>Tue, 09 Apr 2019 13:25:53 -0500</pubDate>
+        <link>http://localhost:4000/2019/04/09/living-in-mountain-lion-country/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/09/living-in-mountain-lion-country/</guid>
         
         <category>cougars</category>
         
@@ -1066,528 +1144,6 @@ knocked down, try to protect head and neck.&lt;/li&gt;
         <category>lions</category>
         
         <category>california</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>RMEF Membership Giveaway</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;In a civilized and cultivated country wild animals only continue to exist at
-all when preserved by sportsmen. the excellent people who protest against all
-hunting, and consider sportsmen as enemies of wild life, are ignorant of the
-fact that in reality the genuine sportsman is by all odds the most important
-factor in keeping the larger and more valuable wild creatures from total
-extermination.&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;Theodore Roosevelt President of the United States (#26)&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In this I promise to never spam you or sell your email address. The only reason
-the address is collected is to notify you of winning. Once the contest is over
-the data collected on all users will be deleted.latest blog post regarding
-conservation I’d like to talk to you about the &lt;a href=&quot;http://www.rmef.org&quot;&gt;Rocky Mountain Elk
-Foundation&lt;/a&gt;, their history, what they do and how they do
-it.&lt;/p&gt;
-
-&lt;p&gt;The mission of the Rocky Mountain Elk Foundation is to ensure the future of elk
-other wildlife, their habitat and our hunting heritage.&lt;/p&gt;
-
-&lt;p&gt;In support of their mission, the RMEF is committed to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;conserving, restoring and enhancing natural habitats&lt;/li&gt;
-  &lt;li&gt;promoting the sound management of wild elk, which may be hunted or otherwise
-enjoyed&lt;/li&gt;
-  &lt;li&gt;restoring elk to their native ranges&lt;/li&gt;
-  &lt;li&gt;educating members and the public about habitat conservation and our hunting
-heritage.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;rmef-history&quot;&gt;RMEF History&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/rmef-founders.jpg&quot; alt=&quot;alt text&quot; title=&quot;RMEF Founders&quot; /&gt;&lt;/p&gt;
-
-&lt;center&gt;
-&lt;div class=&quot;captions&quot;&gt;
-Rocky Mountain Elk Foundation founders, left to right: Bob Munson, Dan Bull, Bill Munson and Charlie Decker
-&lt;/div&gt;
-&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;In 1984, four hunters from Northwest Montana recognized a handful of
-organizations doing great work for species like ducks, turkeys and upland birds.
-They also recognized there was no group dedicated to North America’s grandest
-big game animal, elk. In May of that year, they pooled their time, talent and
-resources and created the Rocky Mountain Elk Foundation, an organization
-dedicated to elk, elk hunting and the habitat they need to thrive.&lt;/p&gt;
-
-&lt;h6 id=&quot;hard-work-pays-off&quot;&gt;Hard Work Pays Off&lt;/h6&gt;
-
-&lt;p&gt;They set up shop in the back room of a trailer house in Troy, the four; a
-pastor,a realtor, a logger and a drive-in owner, created an organization that
-would directly benefit elk and other wildlife by putting money to work on the
-ground. The team drained their bank accounts and borrowed funds to mail out
-43,000 brochures soliciting members, promising a subscription to a magazine
-about elk and elk hunting, as well as an annual international convention.&lt;/p&gt;
-
-&lt;p&gt;They received a dismal 233 responses. But they believed they’d made a commitment
-to these people. So they borrowed additional funds and printed 32,000 copies of
-the premier issue of Bugle magazine, which they mailed out and time, hard work
-and patience, but by the end of 1984, membership had grown to almost 2,500.&lt;/p&gt;
-
-&lt;h6 id=&quot;the-first-of-many-successes-to-come&quot;&gt;The First of Many Successes to Come&lt;/h6&gt;
-
-&lt;p&gt;In April 1985, the Rocky Mountain Elk Foundation held their first convention in
-Spokane, Washington. They also funded their first habitat project that year, a
-grant to help fund a prescribed burn in a place fittingly named Elk Creek on the
-Kootenai National Forest near Libby, Montana. In 1988, they facilitated their
-first land acquisition, the 16,440-acre Robb Creek property in Montana, and
-received their first ringing endorsement from the corporate community. At their
-annual convention that year, Ray Goff, former RMEF board member and Vice
-President of Anheuser-Busch, announced a $500,000 gift from the company. That
-gift helped kick off their incredible growth and conservation achievements.&lt;/p&gt;
-
-&lt;h6 id=&quot;bursting-at-the-seams&quot;&gt;Bursting at the Seams&lt;/h6&gt;
-
-&lt;p&gt;By 1988, the RMEF staff had grown to 12, and their offices were spread across a
-vacant dentist’s office, a mini mall and an abandoned grocery store. They now
-had 32,000 members, 2,000 passionate volunteers and 70 chapters, and they had
-protected and enhanced more than 110,000 acres of elk country. Bursting at the
-seams, it was time to say goodbye to the RMEF’s birthplace and move to Missoula,
-Montana.&lt;/p&gt;
-
-&lt;h6 id=&quot;a-shining-star&quot;&gt;A Shining Star&lt;/h6&gt;
-
-&lt;p&gt;Since then, they’ve grown to more than 227,000 members whose support has
-protected and enhanced more than 7.3 million acres of North American wildlife
-habitat. Hundreds of thousands of these acres were completely off-limits to the
-public. They are now open for all to hunt, fish and otherwise enjoy. They employ
-more than 120 people and boast more than 11,000 volunteers working through more
-than 500 chapters across the United States.&lt;/p&gt;
-
-&lt;p&gt;From the most humble beginnings in 1984, the RMEF has risen to become one of the
-most effective and efficient conservation organizations in the United States.
-Today, working together with members, volunteers, and partners as Team Elk, the
-RMEF is striving to conserve the next million acres of elk country, and to be a
-strong voice for hunters, access, and wildlife management and conservation
-issues.&lt;/p&gt;
-
-&lt;h5 id=&quot;how-they-conserve&quot;&gt;How They Conserve&lt;/h5&gt;
-
-&lt;h6 id=&quot;land-protection&quot;&gt;&lt;a href=&quot;#land-protection-programs&quot;&gt;Land Protection&lt;/a&gt;&lt;/h6&gt;
-
-&lt;p&gt;The RMEF permanently protects crucial elk winter and summer ranges, migration
-corridors, calving grounds and other vital areas, while focusing on securing and
-improving hunter access throughout elk country. Their land conservation tools
-include: acquisitions, access agreements and easements, conservation easements,
-land and real estate donations, land exchanges and associated acres.&lt;/p&gt;
-
-&lt;h6 id=&quot;habitat-stewardship&quot;&gt;&lt;a href=&quot;#habitat-stewardship-programs&quot;&gt;Habitat Stewardship&lt;/a&gt;&lt;/h6&gt;
-
-&lt;p&gt;Healthy habitat is essential for healthy elk and other wildlife. The RMEF helps
-fund and conduct a variety of projects to improve essential forage, water, cover
-and space components of wildlife habitat, and supports research and management
-efforts to help maintain productive elk herds and habitat.&lt;/p&gt;
-
-&lt;h6 id=&quot;elk-restoration&quot;&gt;&lt;a href=&quot;#elk-restoration-programs&quot;&gt;Elk Restoration&lt;/a&gt;&lt;/h6&gt;
-
-&lt;p&gt;The RMEF works to reestablish elk herds in historic ranges where the habitat and
-human cultural tolerance create a high potential for self-sustaining herds.&lt;/p&gt;
-
-&lt;h5 id=&quot;land-protection-programs&quot;&gt;Land Protection Programs&lt;/h5&gt;
-
-&lt;p&gt;Since 1984, the Rocky Mountain Elk Foundation has permanently protected more
-than 1,700 square miles of prime habitat for elk and other wildlife across the
-country.&lt;/p&gt;
-
-&lt;p&gt;The RMEF uses advanced habitat mapping technology (GIS) to identify and
-prioritize the most crucial elk winter and summer ranges, migration corridors
-and calving areas. They then work with their partners, including willing
-landowners, government agencies, corporations, foundations and other
-conservation groups to permanently protect the most critical habitat and target
-areas for public access. Their land conservation tools include: &lt;strong&gt;land
-acquisitions, conservation easements, access agreements and easements, land and
-real estate donations, contributions, land exchanges and associated acres.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Their goals are to permanently protect the most critical elk habitat and to
-increase public access opportunities.&lt;/p&gt;
-
-&lt;h6 id=&quot;land-acquisitions&quot;&gt;Land Acquisitions&lt;/h6&gt;
-
-&lt;p&gt;The RMEF purchases key elk habitat to protect wildlife values. In most cases,
-they do not retain ownership. Most often, they convey it to a federal or state
-management agency (state wildlife department, U.S. Forest Service, Bureau of
-Land Management, etc.). The agency then acts as a steward of the land,
-protecting and enhancing wildlife habitat, while providing the public increased
-recreational opportunities, including hunting and fishing.&lt;/p&gt;
-
-&lt;h6 id=&quot;conservation-easements&quot;&gt;Conservation Easements&lt;/h6&gt;
-
-&lt;p&gt;A conservation easement protects wildlife habitat on private property. It is a
-voluntary legal agreement with a landowner to protect their land in perpetuity
-from development and other uses that could diminish its wildlife habitat values
-but still allows for many traditional uses of the land. The land remains in
-private ownership and in many instances the landowner may qualify for tax
-benefits. Although it is not required, the RMEF encourages landowners to allow
-public access.&lt;/p&gt;
-
-&lt;h6 id=&quot;land-and-real-estate-donations&quot;&gt;Land and Real Estate Donations&lt;/h6&gt;
-
-&lt;p&gt;Donating land for conservation purposes is one of the finest legacies a person
-can leave to future generations. The RMEF may accept donations of land or real
-estate from private individuals or corporations. Depending on the type of real
-estate, they may retain ownership, convey the property to a private citizen
-(after protecting it with a conservation easement), state, or federal agency,
-or, if the property lacks significant habitat values, sell the donated property
-and use the proceeds to protect land with important wildlife values.&lt;/p&gt;
-
-&lt;h6 id=&quot;contributions&quot;&gt;Contributions&lt;/h6&gt;
-
-&lt;p&gt;The RMEF may provide funding to state or federal agencies or another nonprofit
-organization to assist them with their wildlife habitat protection or public
-access efforts. Their contributions often generate additional habitat dollars
-from matching grant programs.&lt;/p&gt;
-
-&lt;h6 id=&quot;land-exchanges&quot;&gt;Land Exchanges&lt;/h6&gt;
-
-&lt;p&gt;The RMEF may assist a government agency or a private landowner in exchanging
-lands. These exchanges typically take place when an agency has wildlife habitat
-lands it wants to acquire. Many exchanges will result in an increase of lands
-that are open for the public to enjoy.&lt;/p&gt;
-
-&lt;h6 id=&quot;associated-acres&quot;&gt;Associated Acres&lt;/h6&gt;
-
-&lt;p&gt;When the RMEF protects land, those benefits often extend to associated, leased
-grazing lands connected to the acquisition. This often results in additional
-benefits to wildlife through improved grazing systems and livestock
-redistribution.&lt;/p&gt;
-
-&lt;h5 id=&quot;habitat-stewardship-programs&quot;&gt;Habitat Stewardship Programs&lt;/h5&gt;
-
-&lt;p&gt;Providing high quality habitat (food, water, cover and space) is key to ensuring
-the future of elk and other wildlife. Research and management projects help
-manage elk in ways that guarantee productive herds and provide hunter
-opportunity.&lt;/p&gt;
-
-&lt;h6 id=&quot;habitat-stewardship-program-elements&quot;&gt;Habitat Stewardship Program Elements&lt;/h6&gt;
-
-&lt;p&gt;The RMEF’s Habitat Stewardship Program is comprised of three elements: &lt;strong&gt;habitat
-enhancement, wildlife management and research.&lt;/strong&gt; Financial support for the
-program comes from RMEF volunteers who raise funds through local chapter events
-for project grants. The RMEF then works with biologists and land managers to
-fund projects that will provide wildlife the best bang for the buck.&lt;/p&gt;
-
-&lt;h6 id=&quot;ensuring-a-future-for-elk&quot;&gt;Ensuring a Future for Elk&lt;/h6&gt;
-
-&lt;p&gt;The RMEF helps ensure that North America’s elk will remain abundant and healthy&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;by working with federal, state, provincial and tribal land managers as well as
-private landowners to restore healthy habitat on public and private lands&lt;/li&gt;
-  &lt;li&gt;by supporting management and research efforts by state and provincial
-agencies, universities and private organizations&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;habitat-enhancement&quot;&gt;Habitat Enhancement&lt;/h6&gt;
-
-&lt;p&gt;Fire suppression, invasive weeds, conifer encroachment and drought all degrade
-elk habitat. Some, like drought, are just nature’s way. Others, like fire
-suppression and weeds, are a direct result of human actions. Using tools such as
-&lt;strong&gt;prescribed burning, thinning, fertilization, seeding, water developments,
-noxious weed treatments and fencing&lt;/strong&gt;, they are reversing the effects of these
-impacts on elk country. Many of their projects enhance habitat on public and
-private lands where elk already exist; some are designed to encourage elk to
-move onto public lands and away from ranchers’ crops and haystacks.&lt;/p&gt;
-
-&lt;h6 id=&quot;wildlife-management&quot;&gt;Wildlife Management&lt;/h6&gt;
-
-&lt;p&gt;Providing grants for studies and tools such as new elk census techniques, and
-telemetry studies to determine habitat use and migration routes, are other ways
-that the RMEF helps wildlife managers enhance and maintain wild, free-ranging
-elk populations.&lt;/p&gt;
-
-&lt;h6 id=&quot;research&quot;&gt;Research&lt;/h6&gt;
-
-&lt;p&gt;The RMEF understands that the future of our wild elk herds depends on good
-science. Funding projects that research critical factors such as nutritional
-needs of elk, predation and disease provides biologists with sound, scientific
-data for effective wildlife and habitat management.&lt;/p&gt;
-
-&lt;h5 id=&quot;elk-restoration-programs&quot;&gt;Elk Restoration Programs&lt;/h5&gt;
-
-&lt;p&gt;There is perhaps no higher calling for a conservation organization than to
-restore extirpated wildlife species back to their historic ranges.&lt;/p&gt;
-
-&lt;h6 id=&quot;feasibility-studies&quot;&gt;Feasibility Studies&lt;/h6&gt;
-
-&lt;p&gt;With that in mind, in 1990 the Rocky Mountain Elk Foundation began funding
-feasibility studies to determine if wild, free-ranging elk still had a place in
-some of their former eastern habitats. Partnering with state wildlife agencies
-and universities, they asked three important questions:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Can the habitat support elk?&lt;/li&gt;
-  &lt;li&gt;How will restoring elk affect the local economy and hunting?&lt;/li&gt;
-  &lt;li&gt;And finally, will local citizens accept a restored elk herd?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;repopulating-historic-range&quot;&gt;Repopulating Historic Range&lt;/h6&gt;
-
-&lt;p&gt;Once a feasibility study is completed and a restoration project is approved by
-the state wildlife agency and affected landowners, the RMEF and its volunteers
-help trap and transfer wild elk from a source herd to their ancestral grounds.
-All elk trapped are tested for seven diseases, including brucellosis and
-bluetongue, before leaving the trap site. Healthy source herds have been used in
-Arizona, Kansas, New Mexico, North Dakota, Oregon, Utah and Alberta’s Elk Island
-National Park.&lt;/p&gt;
-
-&lt;h6 id=&quot;monitoring-ensures-success&quot;&gt;Monitoring Ensures Success&lt;/h6&gt;
-
-&lt;p&gt;Once elk reach their new destination, it’s up to the participating wildlife
-agency to decide whether they are held in acclimation pens for a few months or
-released directly into the wild. Regardless, after they hit the ground the elk
-are monitored for three to five years to study such things as movement patterns
-and calf survival to ensure proper management of the herd and their habitat.&lt;/p&gt;
-
-&lt;h6 id=&quot;restoration-efforts-so-far&quot;&gt;Restoration Efforts So Far&lt;/h6&gt;
-
-&lt;p&gt;RMEF helped launch successful elk restorations in Wisconsin in 1995, Kentucky in
-1997, Tennessee in 2000, Ontario in 1998, the Great Smoky Mountains National
-Park in 2001, Missouri in 2011, Virginia in 2012 and West Virginia in 2016. In
-addition, RMEF has funded completed feasibility studies in Illinois, Maryland,
-New York and West Virginia. The state agencies use the study data to determine
-whether or not to restore elk to their respective state.&lt;/p&gt;
-
-&lt;h6 id=&quot;a-benefit-to-people-and-economies&quot;&gt;A Benefit to People and Economies&lt;/h6&gt;
-
-&lt;p&gt;Today, wild, free-ranging elk are making tracks in places where they haven’t for
-more than a century. Local economies benefit from visitors who travel from all
-over to catch a glimpse of the wily wapiti. In 2001, Kentucky held its first elk
-hunt in 150 years, and Pennsylvania its first hunt in more than 70 years. In
-2009, Tennessee also held its first elk hunt in 150 years. As Eastern elk herds
-continue to prosper, the RMEF, its volunteers and partners will be there to
-welcome calves born beneath the hardwoods, and hear bulls’ bugles echoing across
-mountains and through hollows.&lt;/p&gt;
-
-&lt;p&gt;To Learn More about the Successful Elk Restorations please visit:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://dnr.wi.gov/topic/wildlifehabitat/elk.html&quot;&gt;Wisconsin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.northernontario.org/StuffOfLife/ElkRestoration/1_ElkRestoration.htm&quot;&gt;Ontario&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://fw.ky.gov/Hunt/Documents/KAwinter07elkhistory.pdf&quot;&gt;Kentucky&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.tn.gov/twra/article/elk&quot;&gt;Tennessee&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.nps.gov/grsm/naturescience/elk.htm&quot;&gt;Great Smoky Mountains National Park&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://nature.mdc.mo.gov/discover-nature/field-guide/north-american-elk-wapiti&quot;&gt;Missouri&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.dgif.virginia.gov/wildlife/elk/management-plan/&quot;&gt;Virginia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.wvdnr.gov/Publications/Draft_Elk_Plan.pdf&quot;&gt;West Virginia&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;additional-stats&quot;&gt;Additional Stats&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Acres Protected and Enhanced
-    &lt;ul&gt;
-      &lt;li&gt;More than 7.4 million acres&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Number of Acres Opened and/or Secured for Public Access for Hunting and Other
-Outdoor Recreation
-    &lt;ul&gt;
-      &lt;li&gt;More than 1.2 million acres opened and/or secured&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Number of Permanent Land Protection, Habitat Stewardship, Elk Restoration,
-Conservation Education and Hunting Heritage Projects
-    &lt;ul&gt;
-      &lt;li&gt;More than 11,818 projects&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Number of Members
-    &lt;ul&gt;
-      &lt;li&gt;More than 234,000&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Number of Chapters
-    &lt;ul&gt;
-      &lt;li&gt;More than 500 in the United States&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Number of Volunteers
-    &lt;ul&gt;
-      &lt;li&gt;More than 12,000&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;giveaway-details&quot;&gt;Giveaway Details&lt;/h5&gt;
-
-&lt;p&gt;I’m giving away 3 annual supporting membership to the Rocky Mountain Elk
-Foundation. This is for one year and you will have to renew if you chose to do
-so.&lt;/p&gt;
-
-&lt;p&gt;Membership includes the following benefits:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1 Year subscription to Bugle (six issues)&lt;/li&gt;
-  &lt;li&gt;Decal and personalized membership card&lt;/li&gt;
-  &lt;li&gt;Invitations to local events&lt;/li&gt;
-  &lt;li&gt;Discounted products and services&lt;/li&gt;
-  &lt;li&gt;Exclusive content in the members-only section of www.rmef.org&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To enter all you need to do is enter your email address.&lt;/p&gt;
-
-&lt;h6 id=&quot;dates-running&quot;&gt;Dates Running&lt;/h6&gt;
-
-&lt;p&gt;This giveaway will run from Monday March 25th, 2019 and expires on Monday April
-8th, 2019.&lt;/p&gt;
-
-&lt;p&gt;Nine (9) winners will be selected at random on Tuesday April 9th, 2019 and a
-followup blog post in regards to the winners will go live no later than
-Wednesday April 10th, 2019.&lt;/p&gt;
-
-&lt;h6 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h6&gt;
-
-&lt;p&gt;I promise to never spam you or sell your email address. The only reason the
-address is collected is to notify you of winning. Once the contest is over the
-data collected on all users will be deleted.&lt;/p&gt;
-
-&lt;h6 id=&quot;how-to-enter&quot;&gt;How to Enter&lt;/h6&gt;
-
-&lt;p&gt;Just fill out the form located &lt;a href=&quot;https://goo.gl/forms/nJQ7dsMyP7zEWuOD3&quot;&gt;here&lt;/a&gt;.
-It’s as simple as that.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 25 Mar 2019 19:51:58 +0000</pubDate>
-        <link>http://0.0.0.0:4000/2019/03/25/rmef-membership-giveaway/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2019/03/25/rmef-membership-giveaway/</guid>
-        
-        <category>conservation</category>
-        
-        <category>hunting</category>
-        
-        <category>RMEF</category>
-        
-        <category>elk</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>S.47 has been Signed</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;All ethics so far evolved rest upon a single premise: that the individual is
-a member of a community of interdependent parts. The land ethic simply
-enlarges the boundaries of the community to include soils, waters, plants and
-animals, or collectively the land.&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;Aldo Leopold&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;President Donald Trump on Tuesday signed a massive package of public lands
-legislation made up of more than 100 individual bills that were introduced by 50
-senators and several U.S. House members.&lt;/p&gt;
-
-&lt;p&gt;Those include measures to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Permanently reauthorize the Land and Water Conservation Fund, with key reforms
-to strengthen its state-side program;&lt;/li&gt;
-  &lt;li&gt;Increase access and opportunities for hunting, fishing, and other outdoor
-recreational activities on federal lands;&lt;/li&gt;
-  &lt;li&gt;Provide for economic development in dozens of communities through land
-exchanges and conveyances;&lt;/li&gt;
-  &lt;li&gt;Improve western water management by increasing local control, promoting
-investment, and facilitating the recovery of endangered species; and&lt;/li&gt;
-  &lt;li&gt;Conserve treasured landscapes in communities, where such designations are
-locally supported.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Formerly known as the &lt;em&gt;Natural Resources Management Act&lt;/em&gt;, the bipartisan bill,
-S. 47, was renamed the &lt;strong&gt;John D. Dingell Jr. Conservation, Management and
-Recreation Act&lt;/strong&gt; in honor of
-&lt;a href=&quot;https://en.wikipedia.org/wiki/John_Dingell&quot;&gt;Dingell&lt;/a&gt;, a long-serving member of
-Congress who died last month at the age of 92.&lt;/p&gt;
-
-&lt;p&gt;President Trump knows that federal lands are meant to provide both peace and
-prosperity for the American people, and signing this bill allows us to continue
-managing public lands in a balanced way,” David Bernhardt, acting Department of
-Interior secretary, said in a statement &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. “This bill is extremely beneficial
-to the American people, and I look forward to working with Congress and local
-communities to implement the many local conservation wins within the bill.”&lt;/p&gt;
-
-&lt;p&gt;Highlights of the bill include permanent reauthorization of the Land and Water
-Conservation Fund, expanded hunting and fishing opportunities on dozens of
-national wildlife refuges and thousands more acres of other public lands, and a
-provision allowing archery hunters to carry unarmed bows across National Park
-Service land.&lt;/p&gt;
-
-&lt;p&gt;In a news release &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, U.S. Sen. John Hoeven, R-N.D., said the bill also
-“advances important North Dakota priorities.” Among those priorities, the bill
-streamlines the process for transferring titles from the Bureau of Reclamation
-to local authorities, said Hoeven, a member of the Senate Energy and Natural
-Resources Committee. That aligns with legislation Hoeven introduced to transfer
-the title for the Oakes Test Area to the Dickey-Sargent Irrigation District in
-the southeast part of the state.&lt;/p&gt;
-
-&lt;p&gt;The bill also includes legislation Hoeven and Sen. Amy Klobuchar, D-Minn.,
-introduced to improve and expand the North Country Scenic Trail, which runs from
-New York to North Dakota.&lt;/p&gt;
-
-&lt;p&gt;The grassroots group Backcountry Hunters and Anglers called Tuesday’s signing of
-the bill a “significant victory for public lands sportsmen and women.”&lt;/p&gt;
-
-&lt;p&gt;“Together, the public lands grassroots nation rose up to ensure the passage of
-this historic bill,” Land Tawney, BHA president and CEO, said in a statement
-&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. “We wrote letters, we made phone calls, we met with our elected officials
-and we traveled from across the country to Washington, D.C., and together we
-made our voices heard. Today, we can celebrate a victory that has been years in
-the making.”&lt;/p&gt;
-
-&lt;p&gt;Sen. Lisa Murkowski, R-Alaska, chairman of the Senate Energy and Natural
-Resources Committee, said the president’s effort to achieve U.S. energy
-dominance while working with Congress to create a conservation legacy “exceeds
-the accomplishments of his recent predecessors” with the signing of the lands
-package.&lt;/p&gt;
-
-&lt;p&gt;“This law will benefit every state and clear the deck of issues that we’ve been
-working to resolve for years,” Murkowski said in a statement &lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;. “From
-providing access for sportsmen to creating new economic opportunities for local
-communities, this is a good, balanced measure. We built it through a team effort
-that drew strong support from both parties in both chambers. Today is a triumph
-for good process and good policy, and this bill is a win for Alaskans and all
-Americans.”&lt;/p&gt;
-
-&lt;h5 id=&quot;additional-reading&quot;&gt;Additional Reading&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.govtrack.us/congress/bills/116/s47&quot;&gt;“S. 47 — 116th Congress: John D. Dingell, Jr. Conservation, Management, and Recreation Act.” www.GovTrack.us. 2019. March 13, 2019&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.whitehouse.gov/briefings-statements/statement-by-the-president-29/&quot;&gt;Statement by the President&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h6&gt;
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.doi.gov/pressreleases/bernhardt-applauds-signing-bipartisan-public-lands-bill&quot;&gt;Statement from Department of Interior Secretary&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.hoeven.senate.gov/news/news-releases/hoeven-president-signs-bipartisan-lands-package-into-law2019&quot;&gt;Statement from U.S. Sen. John Hoeven, R-N.D.&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.backcountryhunters.org/bha_celebrates_public_lands_bill_s_passage_into_law&quot;&gt;Statement from Backcountry Hunters and Anglers&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.murkowski.senate.gov/press/release/president-trump-signs-sweeping-lands-package-into-law-&quot;&gt;Statement from U.S. Sen. Lisa Murkowski, R-AK&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Wed, 13 Mar 2019 07:33:44 +0000</pubDate>
-        <link>http://0.0.0.0:4000/2019/03/13/s.47-has-been-signed/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2019/03/13/s.47-has-been-signed/</guid>
-        
-        <category>conservation</category>
         
         
       </item>
