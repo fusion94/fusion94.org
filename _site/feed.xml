@@ -5,9 +5,162 @@
     <description>Totally Random Musings from the Edge</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Jan 2025 11:08:51 -0600</pubDate>
-    <lastBuildDate>Thu, 02 Jan 2025 11:08:51 -0600</lastBuildDate>
+    <pubDate>Fri, 24 Jan 2025 06:37:00 -0600</pubDate>
+    <lastBuildDate>Fri, 24 Jan 2025 06:37:00 -0600</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>AMS Humidity Control</title>
+        <description>&lt;h4 id=&quot;bambu-labs-automatic-material-system-and-the-importance-of-humidity-control&quot;&gt;Bambu Lab’s Automatic Material System and the Importance of Humidity Control&lt;/h4&gt;
+
+&lt;p&gt;The Bambu Lab Automatic Material System (AMS) revolutionizes 3D printing by
+streamlining filament management for multi-material and multi-color projects.
+Designed to work seamlessly with Bambu Lab’s advanced 3D printers, the AMS
+automates filament swapping and ensures precise material handling, eliminating
+manual intervention during complex prints. With its smart storage and
+compatibility with various filament types, it enhances productivity and reduces
+the risk of errors, making it an essential tool for professionals and hobbyists
+alike.&lt;/p&gt;
+
+&lt;p&gt;A feature of the AMS is its focus on humidity control, a critical factor in
+maintaining filament quality. It does this by utilizing an air-tight seal and
+with the help of dessicant material, it absorbs moisture to keep the moisture
+away from filament.&lt;/p&gt;
+
+&lt;p&gt;A Humidity Sensor also detects the humidity inside the AMS and provides
+information to the user when the humidity is higher or the dessicant may need to
+be replaced.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/3d-printing/ams-inside.png&quot; alt=&quot;AMS Insides&quot; title=&quot;AMS Insides&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;why-minimize-humidity&quot;&gt;Why Minimize Humidity?&lt;/h4&gt;
+
+&lt;p&gt;Humidity can wreak havoc on filament properties. When filaments absorb moisture,
+several issues can arise during printing. Moisture-laden filaments can lead to
+poor adhesion between layers, causing warping or misshaping of the final print.
+Additionally, when moisture in the filament is heated during the printing
+process, it turns into steam, creating tiny bubbles or voids in the extruded
+material, which severely affects the strength and aesthetics of the print.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-science-behind-humidity-impact&quot;&gt;The Science Behind Humidity Impact&lt;/h4&gt;
+
+&lt;p&gt;At a microscopic level, moisture impacts the filament’s viscosity during the
+melting process. This alteration can lead to inconsistent extrusion rates, which
+are critical for precision in 3D printing. Filaments like PLA, PETG, and especially
+hygroscopic materials like Nylon or TPU can absorb moisture from the air,
+leading to compromised prints, such as stringing, bubbling, or weak layer
+adhesion.&lt;/p&gt;
+
+&lt;h4 id=&quot;improvements&quot;&gt;Improvements&lt;/h4&gt;
+
+&lt;p&gt;Although the AMS system performs well in maintaining a consistent and steady
+humidity level, there is still room for improvement to optimize its performance.
+While it effectively handles standard conditions, certain scenarios or
+environmental factors may expose limitations in its ability to maintain ideal
+humidity levels.&lt;/p&gt;
+
+&lt;p&gt;One of the most significant issues I’ve noticed is that the desiccant used (and
+sold by Bambu) isn’t rechargeable. To be frank, it’s not particularly effective
+either. Each AMS unit relies on two desiccant packs, which, in my experience,
+only last about a month—even in a relatively dry environment. And did I mention
+they’re not rechargeable? This is because the desiccant is made from calcium
+chloride (&lt;strong&gt;CaCl&lt;sub&gt;2&lt;/sub&gt;&lt;/strong&gt;), which inherently lacks the ability to be
+regenerated for repeated use.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Calcium chloride is an inorganic compound – a salt with the chemical formula
+CaCl&lt;sub&gt;2&lt;/sub&gt;. It is white flakes or pellets at room temperature, and is highly
+soluble in water.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Enter &lt;a href=&quot;https://makerworld.com/en/models/158496#profileId-173988&quot;&gt;AMS DryPods&lt;/a&gt;
+designed by &lt;a href=&quot;https://makerworld.com/en/@mcmaven&quot;&gt;mcmaven&lt;/a&gt;. With over 28k
+downloads it’s one of the best solutions out there.&lt;/p&gt;
+
+&lt;p&gt;What are DryPods you might be asking? DryPods are compact desiccant packs
+designed to absorb moisture and reduce humidity in enclosed spaces. DryPods
+typically contain a hygroscopic material, such as silica gel or calcium
+chloride, which attracts and traps moisture from the air. Depending on their
+design, some DryPods are reusable and can be recharged by heating to expel
+absorbed moisture, while others are single-use and need replacement after
+becoming saturated.&lt;/p&gt;
+
+&lt;p&gt;These DryPods are 3d printable and contain printable desiccant trays as well as
+desiccant containers that slide inbetween the first stage feeder motors. The
+containers come in several variations to include Wide DryPod options that can
+hold hygrometers.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For Bambu or compatible Round Hygrometer with vertical or 30 degree tabs,
+with a hole all the way through it, which should generate more accurate
+measurements. A 42mm diameter x 14mm deep body and a 46mm diameter bezel is
+supported. (Default on Plate 1.)&lt;/li&gt;
+  &lt;li&gt;For Bambu or compatible Round Hygrometer with a shallow hole for the
+hygrometer, which allows the DryPod hold more desiccant, but may be less
+accurate in measuring the overall humidity level of the AMS. A 42mm diameter x
+14mm deep body and a 46mm diameter bezel is supported. (Floating).&lt;/li&gt;
+  &lt;li&gt;For the Bambu Rectangular Hygrometer.  A 45x26x15mm body and a 48x29mm bezel
+is supported. (Floating).&lt;/li&gt;
+  &lt;li&gt;For the Xiaomi Bluetooth Thermometer Hygrometer. A 43x43x12.5 mm body is
+supported.(Floating).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The integration of a hygrometer in the AMS DryPods setup allows for real-time
+monitoring of the humidity levels. This precision ensures that the environment
+within the DryPod remains at an ideal humidity level, often recommended to be
+below 15% for most materials.&lt;/p&gt;
+
+&lt;p&gt;There are also smaller containers (narrower) that can be slotted on the outside
+of the feeder motors.&lt;/p&gt;
+
+&lt;p&gt;With fresh desiccant, the humidity dropped to 10% (Level 1) within a few hours
+and remained as low as 20% (Level 2) even after six months.&lt;/p&gt;
+
+&lt;p&gt;Stefan from CNC Kitchen has created an excellent and detailed video exploring
+the different types of desiccants, their pros and cons, and various methods for
+drying them. While he focuses heavily on filament bags, the drying techniques he
+explains are equally applicable to loose desiccant. It’s an insightful resource
+for anyone looking to optimize moisture control.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6tHInlFfMcM?si=GHvj8z9lFUF0ORSI&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;The integration of systems like the Bambu Lab AMS with advanced humidity
+controls such as DryPods using rechargeable desiccant highlights the growing
+sophistication of 3D printing technology. By tackling the critical issue of
+humidity’s impact on filaments, Bambu Lab is setting a new standard for
+reliability and efficiency in 3D printing. These innovations empower both
+enthusiasts and professionals to achieve higher-quality results with greater
+consistency. As the industry continues to evolve, systems like these are likely
+to become essential tools in the world of additive manufacturing.&lt;/p&gt;
+
+&lt;h5 id=&quot;stuff-i-use&quot;&gt;Stuff I use&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/gp/product/B07GR67G1M/?th=1&quot;&gt;Hygrometer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/gp/product/B013L31PQ0/?th=1&quot;&gt;Dry &amp;amp; Dry Silica Beads&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 24 Jan 2025 03:56:00 -0600</pubDate>
+        <link>http://localhost:4000/2025/01/24/AMS-dry-pods/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/01/24/AMS-dry-pods/</guid>
+        
+        <category>3d printing</category>
+        
+        <category>bambu</category>
+        
+        <category>makers</category>
+        
+        <category>3d-Printing</category>
+        
+        <category>ams</category>
+        
+        
+      </item>
     
       <item>
         <title>Fitness Goals</title>
@@ -1050,31 +1203,6 @@ about 5 years ago.&lt;/p&gt;
         <category>dji</category>
         
         <category>Texas</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>I&apos;m Back....</title>
-        <description>&lt;p&gt;I’m back….I promise to update more often than every 2 years.&lt;/p&gt;
-
-&lt;p&gt;Built with:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Visual Studio Code&lt;/li&gt;
-  &lt;li&gt;Norlin&lt;/li&gt;
-  &lt;li&gt;Jekyll&lt;/li&gt;
-  &lt;li&gt;Firebase&lt;/li&gt;
-  &lt;li&gt;Yeah, it’s overkill. ¯(ツ)/¯&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 05 May 2022 16:20:53 -0500</pubDate>
-        <link>http://localhost:4000/2022/05/05/welcome-the-hell-back/</link>
-        <guid isPermaLink="true">http://localhost:4000/2022/05/05/welcome-the-hell-back/</guid>
-        
-        <category>blogging</category>
-        
-        <category>website</category>
         
         
       </item>
