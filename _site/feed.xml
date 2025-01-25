@@ -5,9 +5,100 @@
     <description>Totally Random Musings from the Edge</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Jan 2025 06:37:00 -0600</pubDate>
-    <lastBuildDate>Fri, 24 Jan 2025 06:37:00 -0600</lastBuildDate>
+    <pubDate>Sat, 25 Jan 2025 05:40:28 -0600</pubDate>
+    <lastBuildDate>Sat, 25 Jan 2025 05:40:28 -0600</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Benchy&apos;s Gone Wild</title>
+        <description>&lt;h4 id=&quot;3dbenchy-remix-takedowns-stir-controversy-on-printables&quot;&gt;3DBenchy Remix Takedowns Stir Controversy on Printables&lt;/h4&gt;
+
+&lt;p&gt;Remixes of the iconic 3DBenchy model are being removed from
+&lt;a href=&quot;https://printables.com&quot;&gt;Printables&lt;/a&gt;, a 3D printing file-sharing platform
+operated by &lt;a href=&quot;https://www.prusa3d.com/&quot;&gt;Prusa Research&lt;/a&gt;. This enforcement
+highlights longstanding but previously unenforced licensing restrictions tied to
+the design.&lt;/p&gt;
+
+&lt;p&gt;The 3DBenchy, a popular benchmarking model for FDM 3D printers, has been
+licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by-nd/4.0/&quot;&gt;Creative Commons BY-ND
+4.0&lt;/a&gt; since its release in 2015.
+This license prohibits redistribution of derivative works. However, Creative
+Tools, the model’s creator, had not enforced these restrictions, allowing
+remixed versions to circulate freely.&lt;/p&gt;
+
+&lt;p&gt;Concerns arose recently when Reddit user u/mkrjoe shared a Printables customer
+support message stating all derivative Benchy models would be removed. The user
+reported their remix, titled “My Benchy Glitched Out,” was deleted, sparking
+widespread community backlash. Many makers expressed frustration in online
+forums, criticizing the crackdown on reimagined versions of the beloved design.&lt;/p&gt;
+
+&lt;p&gt;The situation follows Creative Tools’ acquisition by NTI Group in March 2024.
+This Denmark-based digital solutions provider now holds intellectual property
+rights to 3DBenchy, fueling speculation that NTI initiated the takedowns.&lt;/p&gt;
+
+&lt;p&gt;However, NTI’s Chief Marketing Officer, Henriette Tamasauskas, denied this,
+telling 3D Printing Industry that NTI “has not taken any action to enforce the
+3DBenchy license or remove derivatives.” Prusa Research CMO Rudolf Krčmář
+confirmed that Printables had acted in response to a “third-party report” but
+clarified that NTI was not the source of the complaint.&lt;/p&gt;
+
+&lt;p&gt;Krčmář explained that Printables’ actions aligned with its policy of adhering to
+licensing terms. “Standard procedure” required the removal of remixed Benchy
+files due to the non-derivative clause of the BY-ND 4.0 license. He added that
+discussions with NTI are ongoing, with both parties exploring options to address
+the community’s concerns.&lt;/p&gt;
+
+&lt;p&gt;“NTI has expressed support for keeping remixes of the Benchy model available,”
+Krčmář shared, suggesting that an amendment to the license could enable remixing
+in the future. Tamasauskas emphasized NTI’s lack of intent to monetize 3DBenchy
+and pledged to review potential solutions.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, Daniel Norée, 3DBenchy’s lead designer, bid farewell to Creative
+Tools in a reflective &lt;a href=&quot;https://www.linkedin.com/feed/update/urn:li:activity:7282680313879683072/&quot;&gt;LinkedIn post&lt;/a&gt; following the company’s merger with NTI.
+Describing Creative Tools as a once “great company,” Norée lamented its
+dissolution and expressed gratitude for its role in the 3D printing community.&lt;/p&gt;
+
+&lt;h4 id=&quot;intellectual-property-in-the-maker-space&quot;&gt;Intellectual Property in the Maker Space&lt;/h4&gt;
+
+&lt;p&gt;The 3DBenchy controversy underscores broader tensions between intellectual
+property laws and the open-source ethos central to the maker community. While
+Creative Commons licensing has facilitated the sharing of 3D-printable designs,
+restrictive terms like the BY-ND 4.0 license challenge the free remix culture
+embraced by many hobbyists.&lt;/p&gt;
+
+&lt;p&gt;Dr. Adrian Bowyer, founder of the RepRap project and a pioneer of open-source 3D
+printing, has dismissed intellectual property protections as “nonsense upon
+stilts.” Conversely, Michael Weinberg, a board member of the Open Source
+Hardware Association (OSHWA), has praised Creative Commons licenses for enabling
+a proliferation of publicly available 3D models.&lt;/p&gt;
+
+&lt;p&gt;Despite these benefits, licensing disputes in 3D printing are not new. In 2019,
+Lego issued takedown notices targeting 3D-printed replicas of its products,
+including fan art and scaled-up versions of iconic designs. Similarly, Honda
+enforced intellectual property claims against Prusa Research in 2022, leading to
+the removal of Honda-related files from Printables.&lt;/p&gt;
+
+&lt;p&gt;As the maker community grapples with the complexities of intellectual property,
+the ongoing discussions between NTI and Prusa Research may offer a precedent for
+balancing creativity, collaboration, and legal compliance in the future of 3D
+printing.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 Jan 2025 04:32:00 -0600</pubDate>
+        <link>http://localhost:4000/2025/01/25/benchys/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/01/25/benchys/</guid>
+        
+        <category>3d printing</category>
+        
+        <category>prusa</category>
+        
+        <category>makers</category>
+        
+        <category>3d-Printing</category>
+        
+        <category>printables</category>
+        
+        
+      </item>
     
       <item>
         <title>AMS Humidity Control</title>
@@ -972,237 +1063,6 @@ influx of cash and new players to ensure we can continue to develop DU”&lt;/st
         <category>gaming</category>
         
         <category>du</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Droning in Texas</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;Federal law requires all recreational flyers to pass an aeronautical knowledge
-and safety test. The FAA developed The Recreational UAS Safety Test (TRUST)
-to meet this requirement.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;overview&quot;&gt;Overview&lt;/h4&gt;
-
-&lt;p&gt;I’ve been working at a friends working ranch just outside of &lt;a href=&quot;https://en.wikipedia.org/wiki/Kerrville,_Texas&quot;&gt;Kerrville
-Texas&lt;/a&gt; since February under what
-&lt;a href=&quot;http://www.apple.com&quot;&gt;Apple&lt;/a&gt; calls a Temporary Remote Working Arrangement.&lt;/p&gt;
-
-&lt;p&gt;Several years ago I reached out to my buddy &lt;a href=&quot;https://www.youtube.com/channel/UCDJTTSDMIOMVrxNfssXcMrQ&quot;&gt;Michael
-Rollins&lt;/a&gt; with regards
-to drones as the ranch owner wanted to purchase one to perform random tasks on
-the property.&lt;/p&gt;
-
-&lt;p&gt;I met Michael way back in 2004-2005 or so playing &lt;a href=&quot;https://worldofwarcraft.com/&quot;&gt;World of
-Warcraft&lt;/a&gt;. Over the years we’ve become pretty good
-friends and one of his many hobbies has been flying and building drones.&lt;/p&gt;
-
-&lt;p&gt;Based on Michael’s recommendation a &lt;a href=&quot;https://www.dji.com/phantom-4-pro-v2?site=brandsite&amp;amp;from=eol_phantom-4-pro&quot;&gt;DJI Phanton
-4&lt;/a&gt;
-was purchased.&lt;/p&gt;
-
-&lt;h4 id=&quot;drone-tasks&quot;&gt;Drone Tasks&lt;/h4&gt;
-
-&lt;p&gt;Some of the tasks that can be performed are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;surveying pastures&lt;/li&gt;
-  &lt;li&gt;surveying fences&lt;/li&gt;
-  &lt;li&gt;wildlife surveys&lt;/li&gt;
-  &lt;li&gt;roof inspections&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In pasture surveying, aerial technology lets ranchers easily map plant height,
-plant health, monitor weather damage as well as irrigation across their
-properties, so that they can take immediate action when issues arise. This will
-generally require additional 3rd party sensors and software.&lt;/p&gt;
-
-&lt;p&gt;Fencing is an area of ranching that frequently requires a lot of attention and
-upkeep. Previous to drone technology, workers would survey the perimeter of the
-ranch to ensure the fence was still intact. A broken fence causes issues like
-allowing animals to escape, providing easy access inside to hunters, or mixing
-livestock with neighbors. By using software features like Live Map, ranchers can
-pinpoint the affected areas before physically arriving with their tools. Not
-only does this cut down on time, but it’s also a more reliable method than
-out-of-date or cloudy satellite imagery.&lt;/p&gt;
-
-&lt;p&gt;Utilizing a drone for wildlife surveys is more accurate and consistent compared
-to alternatives like manned aviation or physically walking the property. One can
-fly lower than manned aviation to get higher quality images and be more
-transparent than a team physically walking around the property.&lt;/p&gt;
-
-&lt;h4 id=&quot;drone-training-and-use&quot;&gt;Drone Training and Use&lt;/h4&gt;
-
-&lt;p&gt;As a recreational drone pilot you need to understand some basic rules and get
-certified by taking &lt;a href=&quot;https://www.faa.gov/uas/recreational_fliers/knowledge_test_updates/&quot;&gt;The Recreational UAS
-Safety Test
-(TRUST)&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;TRUST stands for The Recreational UAS Safety Test. It provides education and
-testing for recreational drone flyers on important safety and regulatory
-information. If you fly your drone recreationally under the Exception for
-Recreational Flyers, you must pass the test before you fly. Federal law requires
-all recreational flyers to pass an aeronautical knowledge and safety test. The
-FAA developed The Recreational UAS Safety Test to meet this requirement.&lt;/p&gt;
-
-&lt;p&gt;TRUST is free, can be taken online through a variety of FAA-approved test
-administrators, and typically takes 30 minutes or less to complete. After you
-pass the test, you will receive a completion certificate. &lt;strong&gt;Be sure to keep this
-certificate with you when you fly your drone, either in paper or electronic
-format.&lt;/strong&gt; Test administrators will not keep a record of your completion
-certificate, therefore if you lose your certificate, you need re-take the TRUST.&lt;/p&gt;
-
-&lt;p&gt;The below organizations have all been approved by the FAA to administer the
-TRUST as of April 2022:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://trust.modelaircraft.org/&quot;&gt;Academy of Model Aeronautics (AMA)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.scouting.org/the-recreational-uas-safety-test/&quot;&gt;Boy Scouts of America&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cvtc.edu/academics/certificates/aviation/faa-approved-ta-trust&quot;&gt;Chippewa Valley Technical College&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://trust.turbine.us.com/&quot;&gt;Community College of Allegheny County – West Hills Center&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://my.crossflightskysolutions.com/faa-trust/&quot;&gt;CrossFlight Sky Solutions&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://dronelaunchacademy.com/trust/&quot;&gt;Drone Launch Academy LLC&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://dronetrust.com/faa-trust/&quot;&gt;Drone Trust&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://faatrust.thedroneu.com/&quot;&gt;Drone U&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://erau.edu/gaetz-aerospace-institute/faa-trust&quot;&gt;Embry-Riddle Aeronautical University (ERAU)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://aaollc.com/recreational-uas-safety-course/&quot;&gt;HSU Educational Foundation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.lakeareatech.edu/connections/corporate-education/the-recreational-uas-safety-test-trust/&quot;&gt;Lake Area Technical College&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://newcollegeinstitute.org/trust/&quot;&gt;New College Institute (NCI)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://trust.pilotinstitute.com/&quot;&gt;Pilot Institute&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://proctorio.com/faa/trust&quot;&gt;Proctorio Incorporated&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.tacavpro.com/trust-certification/&quot;&gt;Tactical Aviation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://uavcoach.com/faa-recreational-drone-training/&quot;&gt;UAV Coach&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.uagc.edu/partnerships/corporate/faa-trust&quot;&gt;University of Arizona Global Campus&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.volatusaerospace.com/training/faa-trust-test-administrator/&quot;&gt;Volatus Aerospace Corp&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;basic-rules&quot;&gt;Basic Rules&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;you must fly your drone within visual line of sight&lt;/li&gt;
-  &lt;li&gt;stay below 400ft altitude&lt;/li&gt;
-  &lt;li&gt;stay at least 5 miles away from an airport that might have a Part 107 requirement&lt;/li&gt;
-  &lt;li&gt;flight operations during daylight hours only.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There are also a few additional rules:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;All drones must be registered, except those that weigh 0.55 pounds or less
-(less than 250 grams) and are flown exclusively under the Exception for
-Recreational Flyers.&lt;/li&gt;
-  &lt;li&gt;Drones registered under part 107 may be flown for recreational purposes as
-well as under part 107.&lt;/li&gt;
-  &lt;li&gt;Drones registered under the Exception for Recreational Flyers cannot be flown
-for Part 107 operations.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Because the DJI Phantom 4 weighs 1380 grams I needed to register the drone with
-the FAA.&lt;/p&gt;
-
-&lt;h5 id=&quot;how-to-register&quot;&gt;How to Register&lt;/h5&gt;
-
-&lt;h6 id=&quot;information-needed-to-register&quot;&gt;Information Needed to Register&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Physical address and mailing address (if different from physical address)&lt;/li&gt;
-  &lt;li&gt;Email address&lt;/li&gt;
-  &lt;li&gt;Phone number&lt;/li&gt;
-  &lt;li&gt;Make and model of your drone&lt;/li&gt;
-  &lt;li&gt;Specific Remote ID serial number provided by the manufacturer (if applicable)&lt;/li&gt;
-  &lt;li&gt;Credit or debit card&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;registration-fees&quot;&gt;Registration Fees&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Part 107 registration costs $5 per drone and is valid for three (3) years.&lt;/li&gt;
-  &lt;li&gt;The Exception for Recreational Flyers registration costs $5 and is valid for
-three (3) years.&lt;/li&gt;
-  &lt;li&gt;Once registered, drone registration cannot be transferred between types (part
-107 or the Exception for Recreational Flyers).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;registration-requirements&quot;&gt;Registration Requirements&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;13 years of age or older (if the owner is less than 13 years of age, a person
-13 years of age or older must register the drone)&lt;/li&gt;
-  &lt;li&gt;A U.S. citizen or legal permanent resident.&lt;/li&gt;
-  &lt;li&gt;For foreign operators, FAA will consider the certificate issued to be a
-recognition of ownership rather than a certificate of U.S. aircraft
-registration.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;after-you-register&quot;&gt;After you Register&lt;/h6&gt;
-
-&lt;p&gt;Once you register your drone, you will receive an FAA registration certificate.
-&lt;strong&gt;You must have your registration certificate (either a paper copy or digital
-copy) in your possession when you fly. If another individual operates your
-drone, they must have your drone registration certificate (either a paper or
-digital copy) in their possession.&lt;/strong&gt; Federal law requires drone operators who
-are required to register, to show their certificate of registration to any
-Federal, State, or local law enforcement officer if asked.&lt;/p&gt;
-
-&lt;p&gt;Failure to register a drone that requires registration may result in regulatory
-and criminal penalties. The FAA may assess civil penalties up to $27,500.
-Criminal penalties include fines of up to $250,000 and/or imprisonment for up to
-three (3) years.&lt;/p&gt;
-
-&lt;p&gt;The FAA requires that you mark all drones with your registration number before
-you fly them. Here is how to label your drone:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Must be maintained in a condition that is legible.&lt;/li&gt;
-  &lt;li&gt;Must be affixed to the small unmanned aircraft by any means necessary to
-ensure that it will remain affixed for the duration of each operation.&lt;/li&gt;
-  &lt;li&gt;Must be legibly displayed on an external surface of the small unmanned
-aircraft.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;
-
-&lt;p&gt;In conclusion the steps you need to take to safely operate your drone and remain
-within legal compliance isn’t all that hard to do.&lt;/p&gt;
-
-&lt;h4 id=&quot;random-photos&quot;&gt;Random Photos&lt;/h4&gt;
-
-&lt;p&gt;Here are a few shots that I was able to get on my first few flights.&lt;/p&gt;
-
-&lt;div class=&quot;gallery-box&quot;&gt;
-    &lt;div class=&quot;gallery&quot;&gt;
-      &lt;img src=&quot;/images/posts/droning-texas/125.PNG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/droning-texas/162.PNG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/droning-texas/234.PNG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/droning-texas/280.PNG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/droning-texas/406.PNG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/droning-texas/433.PNG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/droning-texas/436.PNG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/droning-texas/783.PNG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/droning-texas/881.PNG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/droning-texas/6187530.jpg&quot; /&gt;
-      &lt;img src=&quot;/images/posts/droning-texas/8288145.jpg&quot; /&gt;
-      &lt;img src=&quot;/images/posts/droning-texas/8648682.jpg&quot; /&gt;
-    &lt;/div&gt;
-    &lt;em&gt;Gallery / Droning&lt;/em&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;And here’s a video that Michael shot around my house and the in the HMB area
-about 5 years ago.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://www.youtube.com/embed/nE2ScEx9K6U&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Sat, 07 May 2022 02:20:53 -0500</pubDate>
-        <link>http://localhost:4000/2022/05/07/droning/</link>
-        <guid isPermaLink="true">http://localhost:4000/2022/05/07/droning/</guid>
-        
-        <category>drones</category>
-        
-        <category>dji</category>
-        
-        <category>Texas</category>
         
         
       </item>
