@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AMS Humidity Control
-description: Maintaining Humidity in your AMS
+description: Controlling Humidity in your AMS
 image: "/images/posts/3d-printing/ams.png"
 tags: [3d printing, bambu, makers, 3d-Printing, ams]
 date: 2025-01-24 04:56 -0500
