@@ -9,3 +9,7 @@ gem "rouge"
 gem "kramdown-syntax-coderay"
 gem "webrick", "~> 1.7"
 gem 'jekyll-compose'
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
+gem 'logger'
