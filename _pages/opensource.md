@@ -2,7 +2,7 @@
 layout: page
 title: Open Source
 permalink: /opensource/
-image: "/images/code-background.jpg"
+image: "/images/tech-refresh.jpg"
 ---
 
 # Open Source Projects
