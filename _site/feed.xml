@@ -3,10 +3,10 @@
   <channel>
     <title>fusion94.org</title>
     <description>Totally Random Musings from the Edge</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 16 Jul 2025 15:48:30 -0500</pubDate>
-    <lastBuildDate>Wed, 16 Jul 2025 15:48:30 -0500</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 16 Jul 2025 17:19:10 -0500</pubDate>
+    <lastBuildDate>Wed, 16 Jul 2025 17:19:10 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -322,8 +322,8 @@ Who&apos;s On Point: [Name + contact]
 &lt;p&gt;&lt;em&gt;What systems have you built for remote engineering leadership? What’s worked and what hasn’t? Share your toolkit in the comments—we’re all learning together.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Jul 2025 05:00:00 -0500</pubDate>
-        <link>/2025/07/16/remote-managers-toolkit-distributed-sre-teams/</link>
-        <guid isPermaLink="true">/2025/07/16/remote-managers-toolkit-distributed-sre-teams/</guid>
+        <link>http://localhost:4000/2025/07/16/remote-managers-toolkit-distributed-sre-teams/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/07/16/remote-managers-toolkit-distributed-sre-teams/</guid>
         
         <category>remote-work</category>
         
@@ -452,8 +452,8 @@ Who&apos;s On Point: [Name + contact]
 &lt;p&gt;&lt;em&gt;What’s your experience with remote engineering leadership? Have you made a similar transition? I’d love to hear your thoughts in the comments below.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 08 Jul 2025 05:00:00 -0500</pubDate>
-        <link>/2025/07/08/from-apple-park-to-remote-ranch/</link>
-        <guid isPermaLink="true">/2025/07/08/from-apple-park-to-remote-ranch/</guid>
+        <link>http://localhost:4000/2025/07/08/from-apple-park-to-remote-ranch/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/07/08/from-apple-park-to-remote-ranch/</guid>
         
         <category>apple</category>
         
@@ -545,8 +545,8 @@ balancing creativity, collaboration, and legal compliance in the future of 3D
 printing.&lt;/p&gt;
 </description>
         <pubDate>Sat, 25 Jan 2025 04:32:00 -0600</pubDate>
-        <link>/2025/01/25/benchys/</link>
-        <guid isPermaLink="true">/2025/01/25/benchys/</guid>
+        <link>http://localhost:4000/2025/01/25/benchys/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/01/25/benchys/</guid>
         
         <category>3d printing</category>
         
@@ -698,8 +698,8 @@ to become essential tools in the world of additive manufacturing.&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 24 Jan 2025 03:56:00 -0600</pubDate>
-        <link>/2025/01/24/AMS-dry-pods/</link>
-        <guid isPermaLink="true">/2025/01/24/AMS-dry-pods/</guid>
+        <link>http://localhost:4000/2025/01/24/AMS-dry-pods/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/01/24/AMS-dry-pods/</guid>
         
         <category>3d printing</category>
         
@@ -750,8 +750,8 @@ sharing my experiences, the challenges I face, and the milestones I reach.
 Here’s to a healthier, stronger 2025!&lt;/p&gt;
 </description>
         <pubDate>Thu, 02 Jan 2025 10:10:00 -0600</pubDate>
-        <link>/2025/01/02/fitness-goals/</link>
-        <guid isPermaLink="true">/2025/01/02/fitness-goals/</guid>
+        <link>http://localhost:4000/2025/01/02/fitness-goals/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/01/02/fitness-goals/</guid>
         
         <category>2025 Goals</category>
         
@@ -796,8 +796,8 @@ just endpoints but stepping stones to greater achievements. Here’s to a year
 filled with wonderful reads and inspiring stories!&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jan 2025 08:56:00 -0600</pubDate>
-        <link>/2025/01/01/reading-goals/</link>
-        <guid isPermaLink="true">/2025/01/01/reading-goals/</guid>
+        <link>http://localhost:4000/2025/01/01/reading-goals/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/01/01/reading-goals/</guid>
         
         <category>2025 Goals</category>
         
@@ -830,8 +830,8 @@ lead to disappointment if it disconnects from reality.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 24 Dec 2024 09:37:00 -0600</pubDate>
-        <link>/2024/12/24/wishful-thinking/</link>
-        <guid isPermaLink="true">/2024/12/24/wishful-thinking/</guid>
+        <link>http://localhost:4000/2024/12/24/wishful-thinking/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/12/24/wishful-thinking/</guid>
         
         <category>philosophy</category>
         
@@ -970,8 +970,8 @@ journey.&lt;/p&gt;
 &lt;p&gt;thanks for reading.&lt;/p&gt;
 </description>
         <pubDate>Fri, 30 Aug 2024 00:20:53 -0500</pubDate>
-        <link>/2024/08/30/my-gaming-history-part-1/</link>
-        <guid isPermaLink="true">/2024/08/30/my-gaming-history-part-1/</guid>
+        <link>http://localhost:4000/2024/08/30/my-gaming-history-part-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/08/30/my-gaming-history-part-1/</guid>
         
         <category>gaming</category>
         
@@ -1080,8 +1080,8 @@ Nicole and Patrick in CA).&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://photos.app.goo.gl/fg9o4nVQQsK5Tk6d9&quot;&gt;Bandera House Photos&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Aug 2024 16:37:00 -0500</pubDate>
-        <link>/2024/08/23/new-job-new-location/</link>
-        <guid isPermaLink="true">/2024/08/23/new-job-new-location/</guid>
+        <link>http://localhost:4000/2024/08/23/new-job-new-location/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/08/23/new-job-new-location/</guid>
         
         <category>New Job</category>
         
@@ -1126,8 +1126,8 @@ next and where that’s happening.&lt;/p&gt;
 &lt;p&gt;Cheers!&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Aug 2024 07:20:53 -0500</pubDate>
-        <link>/2024/08/23/im-back/</link>
-        <guid isPermaLink="true">/2024/08/23/im-back/</guid>
+        <link>http://localhost:4000/2024/08/23/im-back/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/08/23/im-back/</guid>
         
         <category>Blogging</category>
         
