@@ -2,10 +2,38 @@
   Syntax Highlighting
 */
 
-.highlight {
+// Inline code styling
+code {
+  padding: 2px 6px;
+  font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+  font-size: 0.9em;
+  color: $white;
+  background-color: rgba($blue-dark, 0.8);
+  border-radius: 3px;
+}
+
+// Code blocks - support both Rouge (.highlight) and CodeRay
+.highlight,
+.highlighter-coderay {
   border-radius: 4px;
   color: $white;
   background: $blue-dark;
+  
+  // Ensure pre elements inside code blocks have proper styling
+  pre {
+    background: transparent;
+    color: inherit;
+    margin: 0;
+  }
+  
+  // CodeRay specific wrapper
+  .CodeRay {
+    background: transparent;
+    
+    .code {
+      background: transparent;
+    }
+  }
 
   .highlighter-rouge & {
     background: #eef;
