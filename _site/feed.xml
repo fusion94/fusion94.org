@@ -5,9 +5,342 @@
     <description>Totally Random Musings from the Edge</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 09 Jul 2025 17:54:28 -0500</pubDate>
-    <lastBuildDate>Wed, 09 Jul 2025 17:54:28 -0500</lastBuildDate>
+    <pubDate>Wed, 16 Jul 2025 14:54:31 -0500</pubDate>
+    <lastBuildDate>Wed, 16 Jul 2025 14:54:31 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>The Remote Manager&apos;s Toolkit: Systems I Built for Leading Distributed SRE Teams</title>
+        <description>&lt;p&gt;Leading distributed SRE teams isn’t just about having the right video conferencing software. After a year of managing 40+ engineers across multiple time zones from my home office in Bandera, Texas, I’ve built a comprehensive toolkit of systems that make remote leadership not just possible, but powerful. Here’s the practical playbook I wish I’d had when I started.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-foundation-async-first-communication-architecture&quot;&gt;The Foundation: Async-First Communication Architecture&lt;/h4&gt;
+
+&lt;p&gt;The biggest mistake I see remote managers make is trying to recreate office dynamics online. Instead, I built an async-first communication system with clear escalation paths.&lt;/p&gt;
+
+&lt;h5 id=&quot;the-communication-pyramid&quot;&gt;The Communication Pyramid&lt;/h5&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;🚨 Emergency (PagerDuty/Phone): Production down, security incidents
+📱 Urgent (Slack DM): Needs response within 2-4 hours
+💬 Normal (Team Slack): 24-hour response expected
+📧 FYI (Email/Docs): No response needed
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Implementation tip&lt;/strong&gt;: We use Slack workflows to automatically categorize messages. Team members prefix messages with [URGENT], [FYI], or [DECISION-NEEDED] to set clear expectations.&lt;/p&gt;
+
+&lt;h4 id=&quot;system-1-the-digital-office-hours-framework&quot;&gt;System 1: The Digital Office Hours Framework&lt;/h4&gt;
+
+&lt;p&gt;At Apple, informal conversations happened naturally. Remotely, I had to engineer them.&lt;/p&gt;
+
+&lt;h5 id=&quot;what-it-looks-like&quot;&gt;What It Looks Like:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Monday Morning Coffee&lt;/strong&gt;: 30-min optional video call, no agenda&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Wednesday Workshop&lt;/strong&gt;: 1-hour deep dive on a technical topic&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Friday Wins&lt;/strong&gt;: 15-min team celebration of the week’s accomplishments&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Always-On Room&lt;/strong&gt;: A Zoom room that’s always open for drop-ins&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;the-results&quot;&gt;The Results:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;73% reduction in “quick question” DMs&lt;/li&gt;
+  &lt;li&gt;45% increase in cross-team collaboration&lt;/li&gt;
+  &lt;li&gt;Engineers report feeling more connected despite being distributed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;system-2-the-visibility-dashboard&quot;&gt;System 2: The Visibility Dashboard&lt;/h4&gt;
+
+&lt;p&gt;When you can’t see your team, you need systems that create visibility without surveillance.&lt;/p&gt;
+
+&lt;h5 id=&quot;our-stack&quot;&gt;Our Stack:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Datadog&lt;/strong&gt;: Real-time system health and SLO tracking&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Linear&lt;/strong&gt;: Engineering project tracking with public roadmaps&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Confluence&lt;/strong&gt;: Async status updates and documentation&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Custom Slack Bot&lt;/strong&gt;: Daily automated team check-ins&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;the-daily-standup-bot&quot;&gt;The Daily Standup Bot:&lt;/h5&gt;
+
+&lt;div class=&quot;language-python highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#777&quot;&gt;# Posts at 9 AM in each team member&apos;s local timezone&lt;/span&gt;
+questions = [
+    &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;What did you accomplish yesterday?&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;,
+    &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;What are you working on today?&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;,
+    &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;Any blockers?&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;,
+    &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;How are you feeling? (🟢🟡🔴)&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;
+]
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The emoji check-in has been surprisingly effective for catching early signs of burnout.&lt;/p&gt;
+
+&lt;h4 id=&quot;system-3-the-decision-making-framework&quot;&gt;System 3: The Decision-Making Framework&lt;/h4&gt;
+
+&lt;p&gt;Remote teams can get stuck in endless Slack threads. I implemented RAPID decision-making with a twist:&lt;/p&gt;
+
+&lt;h5 id=&quot;the-process&quot;&gt;The Process:&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Proposal&lt;/strong&gt; posted in dedicated Slack channel with:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Problem statement&lt;/li&gt;
+      &lt;li&gt;Proposed solution&lt;/li&gt;
+      &lt;li&gt;RAPID roles assigned&lt;/li&gt;
+      &lt;li&gt;Decision deadline&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Discussion&lt;/strong&gt; happens async in threads&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Decision&lt;/strong&gt; recorded in our decision log with:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;What we decided&lt;/li&gt;
+      &lt;li&gt;Why we decided it&lt;/li&gt;
+      &lt;li&gt;Who was involved&lt;/li&gt;
+      &lt;li&gt;When we’ll revisit&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&quot;template-example&quot;&gt;Template Example:&lt;/h5&gt;
+
+&lt;div class=&quot;language-markdown highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;## Decision: Migration to Kubernetes
+
+**Recommend**: Platform Team
+**Approve**: Engineering Director
+**Perform**: SRE Team
+**Input**: Security, Network Teams
+**Decide**: VP of Engineering
+**Deadline**: Friday, 5 PM CT
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;system-4-the-performance-management-system&quot;&gt;System 4: The Performance Management System&lt;/h4&gt;
+
+&lt;p&gt;Traditional performance management assumes you can observe people working. My system focuses on outcomes and growth.&lt;/p&gt;
+
+&lt;h5 id=&quot;quarterly-components&quot;&gt;Quarterly Components:&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Self-Assessment&lt;/strong&gt; (What went well/poorly/learned)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Peer Feedback&lt;/strong&gt; (360-degree via Culture Amp)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Metrics Review&lt;/strong&gt; (Deployment frequency, MTTR, SLO achievement)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Growth Planning&lt;/strong&gt; (Skills matrix + learning goals)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&quot;the-11-framework&quot;&gt;The 1:1 Framework:&lt;/h5&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;Week 1: Career development focus
+Week 2: Project/tactical focus
+Week 3: Skip-level with my manager
+Week 4: Team dynamics and culture
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;system-5-the-knowledge-management-system&quot;&gt;System 5: The Knowledge Management System&lt;/h4&gt;
+
+&lt;p&gt;Documentation is the lifeblood of distributed teams. We treat it like code.&lt;/p&gt;
+
+&lt;h5 id=&quot;our-approach&quot;&gt;Our Approach:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Docs as Code&lt;/strong&gt;: All documentation in Git with PR reviews&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Templates for Everything&lt;/strong&gt;: Runbooks, postmortems, project specs&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Video Library&lt;/strong&gt;: Record important meetings and decisions&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Search-First Design&lt;/strong&gt;: Everything tagged and indexed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;the-runbook-standard&quot;&gt;The Runbook Standard:&lt;/h5&gt;
+
+&lt;div class=&quot;language-yaml highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#606&quot;&gt;title&lt;/span&gt;: &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#D20&quot;&gt;Service Name Runbook&lt;/span&gt;&lt;/span&gt;
+&lt;span style=&quot;color:#606&quot;&gt;owners&lt;/span&gt;: &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#D20&quot;&gt;[team-name]&lt;/span&gt;&lt;/span&gt;
+&lt;span style=&quot;color:#606&quot;&gt;last-reviewed&lt;/span&gt;: &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#D20&quot;&gt;2025-07-15&lt;/span&gt;&lt;/span&gt;
+&lt;span style=&quot;color:#606&quot;&gt;slo&lt;/span&gt;: &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#D20&quot;&gt;99.9%&lt;/span&gt;&lt;/span&gt;
+&lt;span style=&quot;color:#606&quot;&gt;sections&lt;/span&gt;:
+  - &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#D20&quot;&gt;architecture&lt;/span&gt;&lt;/span&gt;
+  - &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#D20&quot;&gt;common-issues&lt;/span&gt;&lt;/span&gt;
+  - &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#D20&quot;&gt;escalation&lt;/span&gt;&lt;/span&gt;
+  - &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#D20&quot;&gt;monitoring-links&lt;/span&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;system-6-the-culture-building-toolkit&quot;&gt;System 6: The Culture Building Toolkit&lt;/h4&gt;
+
+&lt;p&gt;Culture doesn’t happen by accident in remote teams. It needs systems.&lt;/p&gt;
+
+&lt;h5 id=&quot;what-works&quot;&gt;What Works:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Virtual Coffee Roulette&lt;/strong&gt;: Bot randomly pairs people for 15-min chats&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Show and Tell Fridays&lt;/strong&gt;: Engineers demo personal projects&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Remote Team Retreats&lt;/strong&gt;: Quarterly in-person gatherings&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Slack Celebrations&lt;/strong&gt;: #kudos channel with monthly recognition&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;what-doesnt&quot;&gt;What Doesn’t:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mandatory virtual happy hours&lt;/li&gt;
+  &lt;li&gt;Zoom backgrounds as “team building”&lt;/li&gt;
+  &lt;li&gt;Trust falls over video calls (yes, someone suggested this)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;system-7-the-incident-management-evolution&quot;&gt;System 7: The Incident Management Evolution&lt;/h4&gt;
+
+&lt;p&gt;Remote incident management requires different muscle memory than huddling in a war room.&lt;/p&gt;
+
+&lt;h5 id=&quot;our-setup&quot;&gt;Our Setup:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Dedicated Incident Slack Channels&lt;/strong&gt;: Auto-created by PagerDuty&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Video Bridge&lt;/strong&gt;: Always use video during incidents&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Clear Roles&lt;/strong&gt;: IC, Scribe, Comms, Tech Lead&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Follow-the-Sun&lt;/strong&gt;: Handoffs across time zones with detailed context&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;the-handoff-template&quot;&gt;The Handoff Template:&lt;/h5&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;Current State: [System status]
+What We Know: [Root cause hypothesis]
+What We&apos;ve Tried: [Actions taken]
+Next Steps: [Planned actions]
+Who&apos;s On Point: [Name + contact]
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;system-8-the-onboarding-machine&quot;&gt;System 8: The Onboarding Machine&lt;/h4&gt;
+
+&lt;p&gt;New team members can’t learn by osmosis. They need structure.&lt;/p&gt;
+
+&lt;h5 id=&quot;week-1-4-checklist&quot;&gt;Week 1-4 Checklist:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Week 1&lt;/strong&gt;: Tech stack setup + architecture overview&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Week 2&lt;/strong&gt;: Shadow on-call + first PR&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Week 3&lt;/strong&gt;: Own first small project&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Week 4&lt;/strong&gt;: Present learnings to team&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;the-buddy-system&quot;&gt;The Buddy System:&lt;/h5&gt;
+
+&lt;p&gt;Each new hire gets:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Onboarding buddy (peer)&lt;/li&gt;
+  &lt;li&gt;Technical mentor (senior engineer)&lt;/li&gt;
+  &lt;li&gt;Culture guide (team lead)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;tools-that-actually-matter&quot;&gt;Tools That Actually Matter&lt;/h4&gt;
+
+&lt;p&gt;After testing dozens of tools, here’s what stuck:&lt;/p&gt;
+
+&lt;h5 id=&quot;essential&quot;&gt;Essential:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Slack&lt;/strong&gt;: Async communication hub&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Zoom&lt;/strong&gt;: Video calls with good recording&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Miro&lt;/strong&gt;: Virtual whiteboarding that actually works&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Calendly&lt;/strong&gt;: Solving the timezone puzzle&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Loom&lt;/strong&gt;: Quick video explanations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;nice-to-have&quot;&gt;Nice to Have:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Donut&lt;/strong&gt;: Automated coffee chat pairings&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Clockwise&lt;/strong&gt;: Calendar optimization&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Otter.ai&lt;/strong&gt;: Meeting transcriptions&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gathered&lt;/strong&gt;: Virtual office space&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;metrics-that-matter&quot;&gt;Metrics That Matter&lt;/h4&gt;
+
+&lt;p&gt;How do you know if your remote systems are working?&lt;/p&gt;
+
+&lt;h5 id=&quot;what-i-track&quot;&gt;What I Track:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Response Time&lt;/strong&gt;: How quickly do people get unblocked?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Meeting Health&lt;/strong&gt;: % of meetings with clear outcomes&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Documentation Coverage&lt;/strong&gt;: % of systems with current runbooks&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Team NPS&lt;/strong&gt;: Monthly pulse surveys&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Delivery Velocity&lt;/strong&gt;: Features shipped per sprint&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;red-flags&quot;&gt;Red Flags:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Increasing after-hours Slack messages&lt;/li&gt;
+  &lt;li&gt;Declining participation in optional meetings&lt;/li&gt;
+  &lt;li&gt;Growing backlog of decisions&lt;/li&gt;
+  &lt;li&gt;Reduced cross-team collaboration&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-mindset-shifts&quot;&gt;The Mindset Shifts&lt;/h4&gt;
+
+&lt;p&gt;The tools are just the beginning. Leading remote teams requires fundamental mindset shifts:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;From Presence to Output&lt;/strong&gt;: Judge performance by results, not hours online&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;From Sync to Async&lt;/strong&gt;: Default to async unless real-time is essential&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;From Control to Trust&lt;/strong&gt;: Give autonomy and expect accountability&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;From Implicit to Explicit&lt;/strong&gt;: Document everything, assume nothing&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;lessons-from-the-ranch&quot;&gt;Lessons from the Ranch&lt;/h4&gt;
+
+&lt;p&gt;Working from rural Texas has taught me that constraints breed creativity. Limited internet bandwidth forced us to optimize our tools. The 2-hour time difference from the West Coast made us better at async communication. Even the occasional tractor driving by during calls reminds everyone that great engineering can happen anywhere.&lt;/p&gt;
+
+&lt;h4 id=&quot;whats-next&quot;&gt;What’s Next&lt;/h4&gt;
+
+&lt;p&gt;Remote work isn’t a temporary solution—it’s the future of engineering teams. The systems I’ve built aren’t perfect, but they’ve transformed a traditionally on-site organization into a high-performing distributed engineering culture.&lt;/p&gt;
+
+&lt;p&gt;The key is to be intentional. Every process, every tool, every meeting needs to justify its existence in a remote context. If it doesn’t make distributed teams more effective, it doesn’t belong in your toolkit.&lt;/p&gt;
+
+&lt;p&gt;As I continue to refine these systems from my home office, watching the Texas sun set over the hills, I’m reminded that the best engineering happens when we remove barriers, not when we add them. Geography is just another barrier we’ve learned to overcome.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;What systems have you built for remote engineering leadership? What’s worked and what hasn’t? Share your toolkit in the comments—we’re all learning together.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Jul 2025 05:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2025/07/16/remote-managers-toolkit-distributed-sre-teams/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/07/16/remote-managers-toolkit-distributed-sre-teams/</guid>
+        
+        <category>remote-work</category>
+        
+        <category>sre</category>
+        
+        <category>leadership</category>
+        
+        <category>engineering</category>
+        
+        <category>management</category>
+        
+        <category>tools</category>
+        
+        <category>geico</category>
+        
+        
+      </item>
     
       <item>
         <title>From Apple Park to Remote Ranch: Lessons in Engineering Leadership Transformation</title>
@@ -25,7 +358,7 @@
 
 &lt;p&gt;The first few weeks were jarring. No more walking to someone’s desk for a quick chat. No more reading body language in a room full of engineers. Instead, I had Slack messages, Zoom calls, and the occasional “Can you hear me?” interrupting critical discussions.&lt;/p&gt;
 
-&lt;p&gt;But here’s what I discovered: the constraints of remote work can actually accelerate cultural transformation.&lt;/p&gt;
+&lt;p&gt;But here’s what I discovered: the constraints of remote work can actually2 accelerate cultural transformation.&lt;/p&gt;
 
 &lt;h4 id=&quot;building-trust-at-distance&quot;&gt;Building Trust at Distance&lt;/h4&gt;
 
@@ -799,276 +1132,6 @@ next and where that’s happening.&lt;/p&gt;
         <category>Blogging</category>
         
         <category>Apple</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Return to 3d Printing</title>
-        <description>&lt;h4 id=&quot;introduction&quot;&gt;Introduction&lt;/h4&gt;
-
-&lt;p&gt;I’ve been thinking about picking up some new 3d printers for awhile now as my
-&lt;a href=&quot;http://fusion94.org/2015/09/10/flashforge-creator-pro/&quot;&gt;FlashForge Creator
-Pros&lt;/a&gt; are starting to
-show their age and one just doesn’t print at all anymore.&lt;/p&gt;
-
-&lt;p&gt;Getting new printers (other than having a up-to-date platform) serves a few
-purposes for me.&lt;/p&gt;
-
-&lt;p&gt;For one, Patrick is getting to the age (10) where he’s spending a lot of time on
-his smartphone and in games. I hope to use 3d Printing to teach him new skills,
-empower his creativity, make family memories, and teach him a world of science
-and design.&lt;/p&gt;
-
-&lt;p&gt;So I did a little bit of research and decided to go with a &lt;a href=&quot;https://www.creality.com/products/creality-ender-3-s1-pro-fdm-3d-printer&quot;&gt;Creality Ender 3 S1
-Pro&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;enter-creality&quot;&gt;Enter Creality&lt;/h4&gt;
-
-&lt;p&gt;Overall, it’s been a great printer with regards to ease of unboxing/installation
-as well as the overall quality of the prints w/o any tuning whatsoever. It was
-truly the easiest printer I’ve ever assembled. IIRC it was literally 11 bolts.
-Dead Simple.&lt;/p&gt;
-
-&lt;h5 id=&quot;some-of-the-key-features-are&quot;&gt;Some of the key features are:&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Print size: 220 x 220 x 270 mm&lt;/li&gt;
-  &lt;li&gt;Up to 300°C high-temp printing&lt;/li&gt;
-  &lt;li&gt;Full-metal dual-gear direct extruder&lt;/li&gt;
-  &lt;li&gt;CR-touch automatic leveling&lt;/li&gt;
-  &lt;li&gt;4.3″ display&lt;/li&gt;
-  &lt;li&gt;Easy to assemble&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;With regards to setup and tuning? Straight out of the box it’s an amazing
-printer. Here are a couple of shots of it as well as some of the initial prints:&lt;/p&gt;
-
-&lt;div class=&quot;gallery-box&quot;&gt;
-    &lt;div class=&quot;gallery&quot;&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/creality-ender-3.jpg&quot; /&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/ce3-print-1.jpg&quot; /&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/ce3-print-2.jpg&quot; /&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/ce3-print-3.jpg&quot; /&gt;
-    &lt;/div&gt;
-    &lt;em&gt;Gallery / Creality&lt;/em&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;Having said that, after doing some additional research I ended up reading a ton
-of reviews and watching many, many YouTube videos about the Bambu X1-Carbon. Due
-to some of these reviews I bit the bullet and pulled the trigger on one.&lt;/p&gt;
-
-&lt;h4 id=&quot;enter-bambu&quot;&gt;Enter Bambu&lt;/h4&gt;
-
-&lt;p&gt;I purchased a &lt;a href=&quot;https://store.bambulab.com/products/x1-carbon-combo&quot;&gt;Bambu X1-Carbon
-Combo&lt;/a&gt; on 7/17/2023 and it
-arrived via UPS on 7/20/2023. It sat in it’s box for a few days until I could
-find time for the assembly.&lt;/p&gt;
-
-&lt;p&gt;The printer is shipped in a pretty large cardboard box, with foam protection on
-the sides. The printer is packed well so I didn’t expect any kind of damage
-during shipping. It can be easily taken out from the package by simply pulling
-from the sides of the plastic bag (But do take care here as plastic bags have a
-tendency to rip and tear).&lt;/p&gt;
-
-&lt;p&gt;While the printer comes pre-assembled (mostly); before you can start printing
-you will need to remove a few screws that hold some parts in place during
-shipping. If you purchased the AMS unit you will also need to remove it from the
-printer’s enclosure via a few additional screws.&lt;/p&gt;
-
-&lt;p&gt;You will also need to attach the touchscreen to the printer via a supplied
-ribbon cable.&lt;/p&gt;
-
-&lt;p&gt;Overall the assembly process took longer than the Creality Ender 3 S1 Pro but
-will still under an hour and signficantly easier that other printers that I’ve
-owned in the past.&lt;/p&gt;
-
-&lt;h5 id=&quot;some-of-the-key-features-and-improvements&quot;&gt;Some of the Key features and improvements:&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Large 256mm x 256mm x 256mm Build Volume&lt;/li&gt;
-  &lt;li&gt;Compatible Printing Materials Up to 300°C&lt;/li&gt;
-  &lt;li&gt;Built-In Camera Monitoring&lt;/li&gt;
-  &lt;li&gt;Compatible with Abrasive Filaments (NylonX, NylonG, etc.)&lt;/li&gt;
-  &lt;li&gt;Capable of Multi-Color and Multi-Material 3D Printing
-    &lt;ul&gt;
-      &lt;li&gt;Up to 16 colors printing&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;High quality printing with 7 μm Lidar Resolution&lt;/li&gt;
-  &lt;li&gt;High speed CoreXY with 20000 mm/s² Acceleration&lt;/li&gt;
-  &lt;li&gt;Dual Auto Bed Leveling&lt;/li&gt;
-  &lt;li&gt;AI inspected first layer&lt;/li&gt;
-  &lt;li&gt;Spaghetti failure detection&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here is some feedback and a few thoughts after owning the Bambu for a few
-months.&lt;/p&gt;
-
-&lt;h6 id=&quot;1-its-very-fast&quot;&gt;1) It’s very fast.&lt;/h6&gt;
-
-&lt;p&gt;Very very fast. I did a large sample print as a reference
-&lt;a href=&quot;https://www.printables.com/model/152592-honeycomb-storage-wall/files#preview:file-QLLx0&quot;&gt;wall-honeycomb-part.stl&lt;/a&gt;
-and the Bambu was approximately 240.63% faster than the Creality Ender 3 S1
-Pro.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Printer&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Total Time&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Time in Minutes&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Bambu&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1h 36m&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;96&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Creality&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5h 27m&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;327&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h6 id=&quot;2-its-slow&quot;&gt;2) It’s slow.&lt;/h6&gt;
-
-&lt;p&gt;By this I mean it’s not slow at printing it’s slow at getting ready to print. On
-average about 7.3% of the total print time is in setup or prep. i.e. homing the
-bed and leveling, checking resonance, calibrating input shaping and pressure
-advance for extrusion. This also doesn’t account for bed and nozzle heating.&lt;/p&gt;
-
-&lt;h6 id=&quot;3-extruderhot-end-swap&quot;&gt;3) Extruder/Hot End swap&lt;/h6&gt;
-
-&lt;p&gt;Changing the hotend/extruder on the Creality is as simple as grabbing a wrench,
-untightening the exiting nozzle and tightening the new nozzle. As Bambu uses a
-completely integrated hotend/extruder it’s slightly more complicated. Here’s how
-that works:&lt;/p&gt;
-
-&lt;h6 id=&quot;removal&quot;&gt;Removal&lt;/h6&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Go to the Temperature/Axis settings and make sure your hotend temperature is
-at 30c or below, then turn the power OFF&lt;/li&gt;
-  &lt;li&gt;Open the magnetic cover and move it aside&lt;/li&gt;
-  &lt;li&gt;Gently remove the bigger 2-pin plug of the ceramic heater, the 4-pin plug of
-the cooling fan and the very small 2-pin plug of the thermistor&lt;/li&gt;
-  &lt;li&gt;Use the H2 Allen key to unscrew the 2 screws that are near the top of the
-nozzles’ heatsink&lt;/li&gt;
-  &lt;li&gt;Carefully and gently move the wires out of the plastic wire clip and remove
-the complete hotend assembly&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h6 id=&quot;installation&quot;&gt;Installation&lt;/h6&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Position the complete hotend assembly so that the 2 screw holes will be
-behind the bracket&lt;/li&gt;
-  &lt;li&gt;Gently push the 2 screws in and then tighten them equally (but careful not to
-overtighten)&lt;/li&gt;
-  &lt;li&gt;Plug in the bigger 2-pin ceramic heater plug, the 4-pin cooling fan plug, and
-the very small 2-pin thermistor plug&lt;/li&gt;
-  &lt;li&gt;Route all the loose cables through the plastic wire clip&lt;/li&gt;
-  &lt;li&gt;Replace the magnetic cover… and you are done!!!&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;As I said, slightly more complicated but not completely horrible.&lt;/p&gt;
-
-&lt;h6 id=&quot;4-build-plates&quot;&gt;4) Build Plates&lt;/h6&gt;
-
-&lt;p&gt;By default the Bambu X1-C comes with both the Bambu Cool Plate and a Bambu
-Engineering Plate which is going to require the use of a glue stick or painter’s
-tape to ensure great adhesion. The Creality Ender 3 S1 Pro by default came with
-a spring steel textured PEI plate which is far superior. If you chose to pick up
-a Bambu X1-C then you should (at the time of purchase) add on a &lt;a href=&quot;https://us.store.bambulab.com/products/bambu-textured-pei-plate&quot;&gt;Bambu Textured
-PEI Plate&lt;/a&gt; as
-well. Trust me it’s worth the $37.99 USD.&lt;/p&gt;
-
-&lt;h6 id=&quot;5-filaments&quot;&gt;5) Filaments&lt;/h6&gt;
-
-&lt;p&gt;The Bambu X1-C comes with some starter filament. One of the things I love about
-the AMS unit is the ability to read and register filament via RFID.
-Unfortunately this is only available through the use of Bambu Filaments.&lt;/p&gt;
-
-&lt;p&gt;Initially the price of Bambu filaments versus say Polymaker there appears to be
-a $3 to $4 difference per kg. While this might be a problem for some I’ve not
-found it to be a showstopper due to the aforementioned RFID tagging for
-filament.&lt;/p&gt;
-
-&lt;p&gt;A few other things to note is that once you have a few empty spools or order the
-empty spools from Bambu for the most part you should be ordered filament via the
-refill option which brings the prices inline with Polymaker. The process of
-refilling a spool takes 3-4 minutes and requires no tools or winders.&lt;/p&gt;
-
-&lt;p&gt;Filament orders can only happen through the Bambu Store, there is no Amazon
-option (booooooo) and shipping options (via FedEx) can take up to 10 days so
-plan accordingly. I think my second filament order was in the neighborhood of
-30kgs and somewhere around $750 USD but I didn’t have to order filament for a
-few more months.&lt;/p&gt;
-
-&lt;h4 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h4&gt;
-
-&lt;p&gt;I liked my original Bambu X1-C so much that I ending up purchasing a second unit
-as well.&lt;/p&gt;
-
-&lt;p&gt;I earnestly believe that the Bambu X1-C printer delivers commercial quality at a
-consumer price point and it’s well worth the cost.&lt;/p&gt;
-
-&lt;p&gt;Here is a photo gallery of some of the prints from the Bambu X1-C:&lt;/p&gt;
-
-&lt;div class=&quot;gallery-box&quot;&gt;
-    &lt;div class=&quot;gallery&quot;&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/bambu-1.JPG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/bambu-2.JPG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/bambu-3.JPG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/bambu-4.JPG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/bambu-5.JPG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/bambu-6.JPG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/bambu-7.JPG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/bambu-8.JPG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/bambu-9.JPG&quot; /&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/bambu-10.JPG&quot; /&gt;    
-    &lt;/div&gt;
-    &lt;em&gt;Gallery / Bambu X1-C Prints&lt;/em&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;I can certainly state the experience now days is significantly better than when
-I put my first 3D Printer together, a Prusa Mendel that is show below.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/3d-printing/prusa-mendel.png&quot; alt=&quot;Prusa Mendel&quot; title=&quot;Prusa Mendel&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For reference that mendel was put together in 2011 and the printable parts were
-printed using a Makerbot Cupcake CNC from 2009.&lt;/p&gt;
-
-&lt;p&gt;And now for some gratuitous photos of that Cupcake CNC&lt;/p&gt;
-
-&lt;div class=&quot;gallery-box&quot;&gt;
-    &lt;div class=&quot;gallery&quot;&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/cupcake-1.jpeg&quot; /&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/cupcake-2.jpeg&quot; /&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/cupcake-3.jpeg&quot; /&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/cupcake-4.jpeg&quot; /&gt;
-      &lt;img src=&quot;/images/posts/3d-printing/cupcake-5.jpeg&quot; /&gt;
-    &lt;/div&gt;
-    &lt;em&gt;Gallery / Makerbot Cupcake CNC&lt;/em&gt;
-  &lt;/div&gt;
-</description>
-        <pubDate>Wed, 13 Sep 2023 13:20:53 -0500</pubDate>
-        <link>http://localhost:4000/2023/09/13/return-3d-printing/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/09/13/return-3d-printing/</guid>
-        
-        <category>3d printing</category>
-        
-        <category>bambu</category>
-        
-        <category>makers</category>
-        
-        <category>3d-Printing</category>
-        
-        <category>printables</category>
         
         
       </item>

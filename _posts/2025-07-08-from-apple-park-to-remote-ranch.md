@@ -22,7 +22,7 @@ When I joined GEICO in late 2023, I found myself in a completely different world
 
 The first few weeks were jarring. No more walking to someone's desk for a quick chat. No more reading body language in a room full of engineers. Instead, I had Slack messages, Zoom calls, and the occasional "Can you hear me?" interrupting critical discussions.
 
-But here's what I discovered: the constraints of remote work can actually accelerate cultural transformation.
+But here's what I discovered: the constraints of remote work can actually2 accelerate cultural transformation.
 
 ## Building Trust at Distance
 
