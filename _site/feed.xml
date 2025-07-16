@@ -3,69 +3,11 @@
   <channel>
     <title>fusion94.org</title>
     <description>Totally Random Musings from the Edge</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 16 Jul 2025 15:07:32 -0500</pubDate>
-    <lastBuildDate>Wed, 16 Jul 2025 15:07:32 -0500</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 16 Jul 2025 15:48:30 -0500</pubDate>
+    <lastBuildDate>Wed, 16 Jul 2025 15:48:30 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
-    
-      <item>
-        <title>Test Code Styling</title>
-        <description>&lt;p&gt;This is a test post to verify code styling works correctly.&lt;/p&gt;
-
-&lt;h4 id=&quot;inline-code&quot;&gt;Inline Code&lt;/h4&gt;
-
-&lt;p&gt;Here’s some inline code: &lt;code&gt;const greeting = &quot;Hello, World!&quot;&lt;/code&gt; and another example &lt;code&gt;git commit -m &quot;Fix styling&quot;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;code-blocks&quot;&gt;Code Blocks&lt;/h4&gt;
-
-&lt;p&gt;Here’s a bash code block:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;# Install dependencies
-npm install
-
-# Run the development server
-npm run dev
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;And here’s a JavaScript code block:&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;function&lt;/span&gt; &lt;span style=&quot;color:#06B;font-weight:bold&quot;&gt;calculateSum&lt;/span&gt;(a, b) {
-  &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;return&lt;/span&gt; a + b;
-}
-
-const result = calculateSum(&lt;span style=&quot;color:#00D&quot;&gt;5&lt;/span&gt;, &lt;span style=&quot;color:#00D&quot;&gt;10&lt;/span&gt;);
-console.log(&lt;span style=&quot;color:#F00;background-color:#FAA&quot;&gt;`&lt;/span&gt;The sum is: &lt;span style=&quot;color:#369;font-weight:bold&quot;&gt;$&lt;/span&gt;{result}&lt;span style=&quot;color:#F00;background-color:#FAA&quot;&gt;`&lt;/span&gt;);
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;And a Python example:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
-  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;def&lt;/span&gt; &lt;span style=&quot;color:#06B;font-weight:bold&quot;&gt;greet&lt;/span&gt;(name):
-    &lt;span style=&quot;color:#D42&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span&gt;Return a greeting message.&lt;/span&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;
-    &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;return&lt;/span&gt; f&lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;Hello, {name}!&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;
-
-&lt;span style=&quot;color:#777&quot;&gt;# Usage&lt;/span&gt;
-message = greet(&lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;World&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;)
-print(message)
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Wed, 16 Jul 2025 05:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2025/07/16/test-code-styling/</link>
-        <guid isPermaLink="true">http://localhost:4000/2025/07/16/test-code-styling/</guid>
-        
-        <category>test</category>
-        
-        
-      </item>
     
       <item>
         <title>The Remote Manager&apos;s Toolkit: Systems I Built for Leading Distributed SRE Teams</title>
@@ -380,8 +322,8 @@ Who&apos;s On Point: [Name + contact]
 &lt;p&gt;&lt;em&gt;What systems have you built for remote engineering leadership? What’s worked and what hasn’t? Share your toolkit in the comments—we’re all learning together.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Jul 2025 05:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2025/07/16/remote-managers-toolkit-distributed-sre-teams/</link>
-        <guid isPermaLink="true">http://localhost:4000/2025/07/16/remote-managers-toolkit-distributed-sre-teams/</guid>
+        <link>/2025/07/16/remote-managers-toolkit-distributed-sre-teams/</link>
+        <guid isPermaLink="true">/2025/07/16/remote-managers-toolkit-distributed-sre-teams/</guid>
         
         <category>remote-work</category>
         
@@ -510,8 +452,8 @@ Who&apos;s On Point: [Name + contact]
 &lt;p&gt;&lt;em&gt;What’s your experience with remote engineering leadership? Have you made a similar transition? I’d love to hear your thoughts in the comments below.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 08 Jul 2025 05:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2025/07/08/from-apple-park-to-remote-ranch/</link>
-        <guid isPermaLink="true">http://localhost:4000/2025/07/08/from-apple-park-to-remote-ranch/</guid>
+        <link>/2025/07/08/from-apple-park-to-remote-ranch/</link>
+        <guid isPermaLink="true">/2025/07/08/from-apple-park-to-remote-ranch/</guid>
         
         <category>apple</category>
         
@@ -603,8 +545,8 @@ balancing creativity, collaboration, and legal compliance in the future of 3D
 printing.&lt;/p&gt;
 </description>
         <pubDate>Sat, 25 Jan 2025 04:32:00 -0600</pubDate>
-        <link>http://localhost:4000/2025/01/25/benchys/</link>
-        <guid isPermaLink="true">http://localhost:4000/2025/01/25/benchys/</guid>
+        <link>/2025/01/25/benchys/</link>
+        <guid isPermaLink="true">/2025/01/25/benchys/</guid>
         
         <category>3d printing</category>
         
@@ -756,8 +698,8 @@ to become essential tools in the world of additive manufacturing.&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 24 Jan 2025 03:56:00 -0600</pubDate>
-        <link>http://localhost:4000/2025/01/24/AMS-dry-pods/</link>
-        <guid isPermaLink="true">http://localhost:4000/2025/01/24/AMS-dry-pods/</guid>
+        <link>/2025/01/24/AMS-dry-pods/</link>
+        <guid isPermaLink="true">/2025/01/24/AMS-dry-pods/</guid>
         
         <category>3d printing</category>
         
@@ -808,8 +750,8 @@ sharing my experiences, the challenges I face, and the milestones I reach.
 Here’s to a healthier, stronger 2025!&lt;/p&gt;
 </description>
         <pubDate>Thu, 02 Jan 2025 10:10:00 -0600</pubDate>
-        <link>http://localhost:4000/2025/01/02/fitness-goals/</link>
-        <guid isPermaLink="true">http://localhost:4000/2025/01/02/fitness-goals/</guid>
+        <link>/2025/01/02/fitness-goals/</link>
+        <guid isPermaLink="true">/2025/01/02/fitness-goals/</guid>
         
         <category>2025 Goals</category>
         
@@ -854,8 +796,8 @@ just endpoints but stepping stones to greater achievements. Here’s to a year
 filled with wonderful reads and inspiring stories!&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jan 2025 08:56:00 -0600</pubDate>
-        <link>http://localhost:4000/2025/01/01/reading-goals/</link>
-        <guid isPermaLink="true">http://localhost:4000/2025/01/01/reading-goals/</guid>
+        <link>/2025/01/01/reading-goals/</link>
+        <guid isPermaLink="true">/2025/01/01/reading-goals/</guid>
         
         <category>2025 Goals</category>
         
@@ -888,8 +830,8 @@ lead to disappointment if it disconnects from reality.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 24 Dec 2024 09:37:00 -0600</pubDate>
-        <link>http://localhost:4000/2024/12/24/wishful-thinking/</link>
-        <guid isPermaLink="true">http://localhost:4000/2024/12/24/wishful-thinking/</guid>
+        <link>/2024/12/24/wishful-thinking/</link>
+        <guid isPermaLink="true">/2024/12/24/wishful-thinking/</guid>
         
         <category>philosophy</category>
         
@@ -1028,8 +970,8 @@ journey.&lt;/p&gt;
 &lt;p&gt;thanks for reading.&lt;/p&gt;
 </description>
         <pubDate>Fri, 30 Aug 2024 00:20:53 -0500</pubDate>
-        <link>http://localhost:4000/2024/08/30/my-gaming-history-part-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/2024/08/30/my-gaming-history-part-1/</guid>
+        <link>/2024/08/30/my-gaming-history-part-1/</link>
+        <guid isPermaLink="true">/2024/08/30/my-gaming-history-part-1/</guid>
         
         <category>gaming</category>
         
@@ -1138,12 +1080,58 @@ Nicole and Patrick in CA).&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://photos.app.goo.gl/fg9o4nVQQsK5Tk6d9&quot;&gt;Bandera House Photos&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Aug 2024 16:37:00 -0500</pubDate>
-        <link>http://localhost:4000/2024/08/23/new-job-new-location/</link>
-        <guid isPermaLink="true">http://localhost:4000/2024/08/23/new-job-new-location/</guid>
+        <link>/2024/08/23/new-job-new-location/</link>
+        <guid isPermaLink="true">/2024/08/23/new-job-new-location/</guid>
         
         <category>New Job</category>
         
         <category>New House</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>I&apos;m back</title>
+        <description>&lt;p&gt;Returning to the world of blogging after nearly four years at Apple feels like
+rediscovering an old friend. The time away has been transformative, filled with
+incredible experiences, challenges, and growth. But as fulfilling as my work at
+Apple was, it came with certain limitations—most notably, the company’s strict
+policies regarding personal expression online. Blogging, a platform I once
+freely embraced to share thoughts, ideas, and experiences, had to take a
+backseat due to these draconian rules.&lt;/p&gt;
+
+&lt;p&gt;Apple’s approach to employee communication is well-known for its rigor. The
+company prioritizes confidentiality and control over its narrative, which means
+that employees are often restricted from sharing their work or opinions
+publicly. For someone who thrives on writing and sharing insights, this was a
+tough adjustment. The rules are there for good reasons, protecting innovation
+and maintaining a unified message, but they also stifle personal expression,
+making it nearly impossible to keep up a blog without crossing lines.&lt;/p&gt;
+
+&lt;p&gt;Now, as I step away from that chapter, I find myself eager to reconnect with the
+blogging community. The hiatus has given me new perspectives and a deeper
+understanding of technology, innovation, and the complexities of working within
+such a tightly controlled environment. I’m excited to bring these insights into
+my writing, blending my experiences at Apple with a renewed commitment to open
+and honest dialogue.&lt;/p&gt;
+
+&lt;p&gt;Blogging again feels like a breath of fresh air—a chance to engage with ideas
+and conversations that were put on hold. I look forward to sharing more in the
+coming weeks and months, exploring new topics, and reconnecting with readers
+who, like me, value the freedom to express themselves openly.&lt;/p&gt;
+
+&lt;p&gt;Anyways, more posts coming in the next few weeks talking about what I’m doing
+next and where that’s happening.&lt;/p&gt;
+
+&lt;p&gt;Cheers!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Aug 2024 07:20:53 -0500</pubDate>
+        <link>/2024/08/23/im-back/</link>
+        <guid isPermaLink="true">/2024/08/23/im-back/</guid>
+        
+        <category>Blogging</category>
+        
+        <category>Apple</category>
         
         
       </item>
