@@ -5,9 +5,1031 @@
     <description>Totally Random Musings from the Edge</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 17 Jul 2025 11:23:46 -0500</pubDate>
-    <lastBuildDate>Thu, 17 Jul 2025 11:23:46 -0500</lastBuildDate>
+    <pubDate>Fri, 18 Jul 2025 10:14:01 -0500</pubDate>
+    <lastBuildDate>Fri, 18 Jul 2025 10:14:01 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>The DJI Drone Ban: Who&apos;s Really Behind the Push to Ground Chinese Drones?</title>
+        <description>&lt;p&gt;As Congress debates whether to ban DJI drones from American skies, a complex web of national security concerns, economic protectionism, and lobbying efforts has emerged. While proponents cite legitimate security risks stemming from Chinese national intelligence laws and data collection capabilities, critics argue the push may have more to do with protecting struggling American competitors than safeguarding national interests. This comprehensive analysis examines the forces behind the proposed ban, the players involved, and what’s really at stake for American drone users.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-current-legislative-landscape&quot;&gt;The Current Legislative Landscape&lt;/h4&gt;
+
+&lt;p&gt;The battle over DJI’s future in America has evolved through multiple legislative attempts and strategic maneuvering. The Countering CCP Drones Act, championed by Representative Elise Stefanik (R-NY), passed the House in September 2024 with bipartisan support. The bill would add DJI to the Federal Communications Commission’s (FCC) Covered List, effectively banning new DJI drones from operating on U.S. communications networks&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;However, the immediate threat of a ban was averted when Congress passed the 2025 National Defense Authorization Act (NDAA) without including the Countering CCP Drones Act. Instead, the NDAA mandates that a U.S. national security agency complete a formal security review of DJI by December 23, 2025. If no agency conducts this review, DJI will be automatically added to the FCC Covered List&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;This legislative compromise represents a temporary reprieve for DJI users but maintains significant pressure on the company. The one-year deadline creates uncertainty for businesses and public agencies that rely on DJI equipment, forcing them to consider contingency plans despite the lack of immediate action.&lt;/p&gt;
+
+&lt;h5 id=&quot;the-evolution-of-anti-dji-legislation-a-timeline&quot;&gt;The Evolution of Anti-DJI Legislation: A Timeline&lt;/h5&gt;
+
+&lt;p&gt;The push to ban DJI has been years in the making, with escalating actions from various government entities:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2017&lt;/strong&gt;: The U.S. Army permanently grounds its DJI fleet following cybersecurity assessments. A leaked DHS memo alleges DJI shares data with the Chinese government&lt;sup id=&quot;fnref:59&quot;&gt;&lt;a href=&quot;#fn:59&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2018&lt;/strong&gt;: Despite concerns, Kivu Consulting’s independent review finds no evidence of malicious data sharing by DJI&lt;sup id=&quot;fnref:60&quot;&gt;&lt;a href=&quot;#fn:60&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2019&lt;/strong&gt;: DHS issues an advisory warning about Chinese-made drones. DJI responds by launching Government Edition drones and announcing U.S. manufacturing plans&lt;sup id=&quot;fnref:61&quot;&gt;&lt;a href=&quot;#fn:61&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2020&lt;/strong&gt;: The Interior Department grounds its drone fleet. The NDAA bans DoD from purchasing Chinese drones with federal funds&lt;sup id=&quot;fnref:62&quot;&gt;&lt;a href=&quot;#fn:62&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2021&lt;/strong&gt;: President Trump signs an executive order directing agencies to assess security risks from Chinese drones. The American Security Drone Act (ASDA) gains momentum&lt;sup id=&quot;fnref:63&quot;&gt;&lt;a href=&quot;#fn:63&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2022&lt;/strong&gt;: Reports surface that DJI receives Chinese government funding, intensifying security concerns&lt;sup id=&quot;fnref:64&quot;&gt;&lt;a href=&quot;#fn:64&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2023&lt;/strong&gt;: The ASDA is included in the NDAA, banning federal government purchases of Chinese drones&lt;sup id=&quot;fnref:65&quot;&gt;&lt;a href=&quot;#fn:65&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2024&lt;/strong&gt;: The House passes the Countering CCP Drones Act. December brings the compromise NDAA with a one-year review deadline&lt;sup id=&quot;fnref:66&quot;&gt;&lt;a href=&quot;#fn:66&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;10&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2025&lt;/strong&gt;: President Trump signs executive orders targeting Chinese drone makers. Senators Warner and Scott introduce grant programs for drone replacement. A group of lawmakers demands ODNI complete the review within 30 days&lt;sup id=&quot;fnref:67&quot;&gt;&lt;a href=&quot;#fn:67&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;11&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h5 id=&quot;state-level-actions-the-patchwork-ban&quot;&gt;State-Level Actions: The Patchwork Ban&lt;/h5&gt;
+
+&lt;p&gt;While federal action has been deliberate, states have moved more aggressively:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Florida&lt;/strong&gt;: Banned Chinese drones for government use, forcing agencies to ground fleets&lt;sup id=&quot;fnref:68&quot;&gt;&lt;a href=&quot;#fn:68&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mississippi and Tennessee&lt;/strong&gt;: Followed Florida’s lead with similar restrictions&lt;sup id=&quot;fnref:69&quot;&gt;&lt;a href=&quot;#fn:69&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Arkansas&lt;/strong&gt;: Banned state funds for Chinese drone purchases&lt;sup id=&quot;fnref:70&quot;&gt;&lt;a href=&quot;#fn:70&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Louisiana&lt;/strong&gt;: Prohibited Chinese drones for critical infrastructure monitoring&lt;sup id=&quot;fnref:71&quot;&gt;&lt;a href=&quot;#fn:71&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;15&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These state bans have created a confusing patchwork of regulations, with agencies in neighboring states operating under completely different rules.&lt;/p&gt;
+
+&lt;h4 id=&quot;understanding-djis-market-dominance&quot;&gt;Understanding DJI’s Market Dominance&lt;/h4&gt;
+
+&lt;p&gt;To comprehend why the proposed ban has generated such controversy, it’s essential to understand DJI’s commanding position in the drone market and the technological advantages that have secured this dominance.&lt;/p&gt;
+
+&lt;h5 id=&quot;market-share-and-economic-impact&quot;&gt;Market Share and Economic Impact&lt;/h5&gt;
+
+&lt;p&gt;DJI’s market dominance is staggering by any measure:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The company controls over 90% of the world’s consumer drone market as of June 2024&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;16&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;In the U.S. commercial market, DJI commands approximately 80% market share&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;DJI captured 77% of the American hobby drone market according to 2020 estimates&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;18&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;The company’s economic impact on the U.S. economy exceeds $116 billion in benefits while supporting more than 450,000 American jobs&lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;19&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;technological-superiority&quot;&gt;Technological Superiority&lt;/h5&gt;
+
+&lt;p&gt;DJI’s success stems from several key technological and manufacturing advantages:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Manufacturing Excellence&lt;/strong&gt;: Built on decades of electronic manufacturing prowess in Shenzhen, DJI leverages China’s deep industrial base where “every component ends up being a fraction of the cost,” according to Sam Schmitz, mechanical engineering lead at Neuralink&lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;20&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Revolutionary Products&lt;/strong&gt;: The company’s breakthrough came with the 2013 introduction of the Phantom series—the first ready-to-fly drone with GPS technology enabling position holding and return-to-home capabilities&lt;sup id=&quot;fnref:8&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;21&lt;/a&gt;&lt;/sup&gt;. The 2016 Mavic Pro introduced foldable designs that revolutionized portability, while subsequent models added autonomous flight modes and professional-grade cameras&lt;sup id=&quot;fnref:9&quot;&gt;&lt;a href=&quot;#fn:9&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;22&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Continuous Innovation&lt;/strong&gt;: DJI attributes its success to significant investment in research and development, with a “relentless focus on R&amp;amp;D, combined with a belief that technology can solve most problems”&lt;sup id=&quot;fnref:10&quot;&gt;&lt;a href=&quot;#fn:10&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;23&lt;/a&gt;&lt;/sup&gt;. This has resulted in features that competitors struggle to match at similar price points.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Affordability&lt;/strong&gt;: Perhaps most importantly, DJI passes on manufacturing savings to consumers, offering professional-grade capabilities at prices that undercut American competitors by significant margins—often by a factor of 3-4x&lt;sup id=&quot;fnref:11&quot;&gt;&lt;a href=&quot;#fn:11&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;24&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-security-concerns-legitimate-risks-or-convenient-excuse&quot;&gt;The Security Concerns: Legitimate Risks or Convenient Excuse?&lt;/h4&gt;
+
+&lt;p&gt;The national security arguments against DJI fall into several categories, each with varying degrees of substantiation and concern among security professionals.&lt;/p&gt;
+
+&lt;h5 id=&quot;data-collection-and-transmission&quot;&gt;Data Collection and Transmission&lt;/h5&gt;
+
+&lt;p&gt;The most significant concerns center on data security:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2017 Army Ban&lt;/strong&gt;: The U.S. Army issued a directive stopping the use of DJI drones due to “cybersecurity vulnerabilities”&lt;sup id=&quot;fnref:12&quot;&gt;&lt;a href=&quot;#fn:12&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;25&lt;/a&gt;&lt;/sup&gt;. An internal Department of Homeland Security memo later leaked, claiming DJI was using its drones to collect sensitive information in the U.S. and share it with the Chinese government&lt;sup id=&quot;fnref:13&quot;&gt;&lt;a href=&quot;#fn:13&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;26&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical Vulnerabilities&lt;/strong&gt;: Multiple security assessments have identified concerning issues:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A 2020 French cybersecurity firm found DJI’s Android app collected user data and could install updates without user consent&lt;sup id=&quot;fnref:14&quot;&gt;&lt;a href=&quot;#fn:14&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;27&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;A 2023 peer-reviewed study discovered DJI’s Wi-Fi could be hijacked, allowing attackers to seize control with off-the-shelf equipment&lt;sup id=&quot;fnref:15&quot;&gt;&lt;a href=&quot;#fn:15&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;28&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Researchers reverse-engineered DJI’s radio signals, revealing that drones transmit both their own GPS location and their operators’ coordinates&lt;sup id=&quot;fnref:16&quot;&gt;&lt;a href=&quot;#fn:16&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;29&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;documented-security-incidents-a-deeper-dive&quot;&gt;Documented Security Incidents: A Deeper Dive&lt;/h5&gt;
+
+&lt;p&gt;Beyond theoretical vulnerabilities, several real-world incidents have fueled concerns:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Check Point Incident (2018)&lt;/strong&gt;: Security researchers at Check Point discovered a vulnerability in DJI’s online platforms that could have allowed attackers to access users’ cloud-based flight records, photographs, credit card details, and even real-time camera feeds. By exploiting authentication tokens, researchers gained access to all DJI platforms&lt;sup id=&quot;fnref:72&quot;&gt;&lt;a href=&quot;#fn:72&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;30&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Alias Robotics Findings (2021)&lt;/strong&gt;: Penetration testing revealed over 130 security flaws in DJI Mavic drones. Critical findings included:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Default WiFi passwords crackable in under a minute&lt;/li&gt;
+  &lt;li&gt;Lack of firmware signature verification allowing malicious firmware installation&lt;/li&gt;
+  &lt;li&gt;Multiple privilege escalation vulnerabilities&lt;sup id=&quot;fnref:73&quot;&gt;&lt;a href=&quot;#fn:73&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;31&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Ruhr University Research (2023)&lt;/strong&gt;: Testing of DJI Mini 2, Mavic Air 2, and Mavic 3 revealed 16 vulnerabilities, including:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ability to crash drones mid-flight&lt;/li&gt;
+  &lt;li&gt;Unencrypted data transmission exposing pilot and drone locations&lt;/li&gt;
+  &lt;li&gt;System access vulnerabilities allowing complete takeover&lt;sup id=&quot;fnref:74&quot;&gt;&lt;a href=&quot;#fn:74&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;32&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;DroneID Protocol Analysis (2023)&lt;/strong&gt;: NDSS researchers reverse-engineered DJI’s DroneID tracking protocol, discovering:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;All transmitted data is unencrypted and accessible to anyone&lt;/li&gt;
+  &lt;li&gt;Pilot locations are broadcast in clear text&lt;/li&gt;
+  &lt;li&gt;The protocol can be decoded using cheap, off-the-shelf hardware&lt;sup id=&quot;fnref:75&quot;&gt;&lt;a href=&quot;#fn:75&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;33&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Internal Security Breach&lt;/strong&gt;: DJI itself admitted to a significant security incident where developer credentials were exposed, leading to unauthorized data access. The company terminated the responsible developers and implemented new security measures&lt;sup id=&quot;fnref:76&quot;&gt;&lt;a href=&quot;#fn:76&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;34&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h5 id=&quot;chinese-government-connections&quot;&gt;Chinese Government Connections&lt;/h5&gt;
+
+&lt;p&gt;Despite DJI’s claims of independence, investigative reporting has revealed concerning ties:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In 2022, journalists discovered four Chinese government companies had invested in DJI, including one firm dedicated to military-civil partnerships&lt;sup id=&quot;fnref:17&quot;&gt;&lt;a href=&quot;#fn:17&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;35&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Research found DJI received funding from at least four investment firms “owned or administered by Beijing” since 2018&lt;sup id=&quot;fnref:18&quot;&gt;&lt;a href=&quot;#fn:18&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;36&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;DJI was placed on the Pentagon’s blacklist of “Chinese military companies” in fall 2022&lt;sup id=&quot;fnref:19&quot;&gt;&lt;a href=&quot;#fn:19&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;37&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;the-chinese-national-intelligence-law&quot;&gt;The Chinese National Intelligence Law&lt;/h5&gt;
+
+&lt;p&gt;Perhaps the most compelling security argument relates to China’s 2017 National Intelligence Law, which requires Chinese companies to provide any requested information to intelligence agencies and conceal that cooperation&lt;sup id=&quot;fnref:20&quot;&gt;&lt;a href=&quot;#fn:20&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;38&lt;/a&gt;&lt;/sup&gt;. This law theoretically obligates DJI to share flight logs, user data, and operator locations if requested by Chinese intelligence services.&lt;/p&gt;
+
+&lt;h5 id=&quot;djis-defense&quot;&gt;DJI’s Defense&lt;/h5&gt;
+
+&lt;p&gt;DJI has mounted a vigorous defense against these allegations:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The company offers a “Local Data Mode” preventing internet data transmission&lt;sup id=&quot;fnref:21&quot;&gt;&lt;a href=&quot;#fn:21&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;39&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Since 2017, DJI has submitted products for third-party security audits by U.S. and European experts&lt;sup id=&quot;fnref:22&quot;&gt;&lt;a href=&quot;#fn:22&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;40&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;DJI maintains it has never received overseas data requests from Chinese authorities&lt;sup id=&quot;fnref:23&quot;&gt;&lt;a href=&quot;#fn:23&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;41&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;The company points to its certification by various U.S. government agencies for specific uses&lt;sup id=&quot;fnref:24&quot;&gt;&lt;a href=&quot;#fn:24&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;42&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-key-political-players-and-their-motivations&quot;&gt;The Key Political Players and Their Motivations&lt;/h4&gt;
+
+&lt;p&gt;Understanding who’s pushing the ban and their connections reveals a complex web of political and economic interests.&lt;/p&gt;
+
+&lt;h5 id=&quot;representative-elise-stefanik-r-ny&quot;&gt;Representative Elise Stefanik (R-NY)&lt;/h5&gt;
+
+&lt;p&gt;As the primary sponsor of the Countering CCP Drones Act, Stefanik has been the most vocal advocate for banning DJI. Her stated position: “DJI presents an unacceptable national security risk” and “Communist China is using their monopolistic control over the drone market to target Americans’ data and closely surveil our critical infrastructure”&lt;sup id=&quot;fnref:25&quot;&gt;&lt;a href=&quot;#fn:25&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;43&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Connections&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Joe Bartlett, currently Director of Federal Policy at Skydio, previously served as National Security Advisor to Stefanik&lt;sup id=&quot;fnref:26&quot;&gt;&lt;a href=&quot;#fn:26&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;44&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Stefanik has introduced companion legislation creating grant programs funded by tariffs on Chinese drones to help agencies purchase American alternatives&lt;sup id=&quot;fnref:27&quot;&gt;&lt;a href=&quot;#fn:27&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;45&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;In May 2024, she led efforts urging the DOJ to investigate the Drone Advocacy Alliance for potential Foreign Agent Registration Act violations&lt;sup id=&quot;fnref:28&quot;&gt;&lt;a href=&quot;#fn:28&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;46&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;senators-mark-warner-d-va-and-rick-scott-r-fl&quot;&gt;Senators Mark Warner (D-VA) and Rick Scott (R-FL)&lt;/h5&gt;
+
+&lt;p&gt;These senators co-introduced the Countering CCP Drones and Supporting Drones for Law Enforcement Act in July 2024. Warner, as Chair of the Senate Select Committee on Intelligence, brings significant national security credentials to the debate&lt;sup id=&quot;fnref:29&quot;&gt;&lt;a href=&quot;#fn:29&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;47&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;Their version includes provisions for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A Department of Transportation grant program to help agencies purchase American-made replacements&lt;sup id=&quot;fnref:30&quot;&gt;&lt;a href=&quot;#fn:30&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;48&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Enhanced support for domestic drone manufacturing&lt;/li&gt;
+  &lt;li&gt;Stricter oversight of Chinese drone operations in sensitive areas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;the-lobbying-machine&quot;&gt;The Lobbying Machine&lt;/h5&gt;
+
+&lt;p&gt;The dramatic increase in lobbying expenditures reveals the economic stakes:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Skydio&lt;/strong&gt;: Lobbying budget increased from $10,000 (2019) to $560,000 (2023)&lt;sup id=&quot;fnref:31&quot;&gt;&lt;a href=&quot;#fn:31&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;49&lt;/a&gt;&lt;/sup&gt;
+&lt;strong&gt;BRINC&lt;/strong&gt;: $240,000 in lobbying expenditures (2023)&lt;sup id=&quot;fnref:32&quot;&gt;&lt;a href=&quot;#fn:32&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;50&lt;/a&gt;&lt;/sup&gt;
+&lt;strong&gt;AUVSI&lt;/strong&gt;: The Association for Uncrewed Vehicle Systems International has pushed for government agency bans while opposing consumer restrictions&lt;sup id=&quot;fnref:33&quot;&gt;&lt;a href=&quot;#fn:33&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;51&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;american-drone-manufacturers-ready-for-prime-time&quot;&gt;American Drone Manufacturers: Ready for Prime Time?&lt;/h4&gt;
+
+&lt;p&gt;The American companies positioned to benefit from a DJI ban face significant challenges in matching Chinese capabilities and pricing.&lt;/p&gt;
+
+&lt;h5 id=&quot;the-price-gap-reality&quot;&gt;The Price Gap Reality&lt;/h5&gt;
+
+&lt;p&gt;The most glaring issue facing American manufacturers is cost. Industry analysis reveals:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;DJI Mavic 3 Pro: $2,199 (professional cinematography capabilities)&lt;/li&gt;
+  &lt;li&gt;Comparable Skydio X2D: $10,999+ (military/enterprise only)&lt;/li&gt;
+  &lt;li&gt;Price differential: 5x or more for similar capabilities&lt;sup id=&quot;fnref:77&quot;&gt;&lt;a href=&quot;#fn:77&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;52&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This pricing disparity isn’t just about profit margins—it reflects fundamental differences in manufacturing scale, supply chain efficiency, and market focus.&lt;/p&gt;
+
+&lt;h5 id=&quot;skydio&quot;&gt;Skydio&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt;: Based in Redwood City, California, Skydio pivoted from consumer to enterprise/government markets in 2023&lt;sup id=&quot;fnref:34&quot;&gt;&lt;a href=&quot;#fn:34&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;53&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Products&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Skydio X10: Enterprise-focused with AI-powered 3D scanning&lt;/li&gt;
+  &lt;li&gt;Skydio X2D: Military variant with thermal sensors and extended range (up to 10km on government bands)&lt;sup id=&quot;fnref:35&quot;&gt;&lt;a href=&quot;#fn:35&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;54&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Autonomous flight capabilities leveraging deep-learning algorithms&lt;sup id=&quot;fnref:36&quot;&gt;&lt;a href=&quot;#fn:36&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;55&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Government Success&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$20.2 million U.S. Army contract with potential value up to $99.8 million over five years&lt;sup id=&quot;fnref:37&quot;&gt;&lt;a href=&quot;#fn:37&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;56&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Approved under the Blue sUAS program for Defense Department deployment&lt;sup id=&quot;fnref:38&quot;&gt;&lt;a href=&quot;#fn:38&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;57&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Listed on GSA schedule for government procurement&lt;sup id=&quot;fnref:39&quot;&gt;&lt;a href=&quot;#fn:39&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;58&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Challenges&lt;/strong&gt;: Pricing remains significantly higher than DJI equivalents, with enterprise models costing several times more than comparable DJI products&lt;sup id=&quot;fnref:40&quot;&gt;&lt;a href=&quot;#fn:40&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;59&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h5 id=&quot;brinc&quot;&gt;BRINC&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt;: Founded in 2018 following the Las Vegas shooting, BRINC focuses exclusively on public safety applications&lt;sup id=&quot;fnref:41&quot;&gt;&lt;a href=&quot;#fn:41&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;60&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Unique Capabilities&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;LEMUR 2: Tactical indoor drone with glass-breaking capability and two-way communication&lt;sup id=&quot;fnref:42&quot;&gt;&lt;a href=&quot;#fn:42&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;61&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;LiDAR sensors for real-time building mapping&lt;/li&gt;
+  &lt;li&gt;Designed for GPS-denied environments critical for SWAT operations&lt;sup id=&quot;fnref:43&quot;&gt;&lt;a href=&quot;#fn:43&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;62&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Market Penetration&lt;/strong&gt;: Deployed by over 400 public safety agencies globally&lt;sup id=&quot;fnref:44&quot;&gt;&lt;a href=&quot;#fn:44&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;63&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h5 id=&quot;autel-robotics&quot;&gt;Autel Robotics&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;Complicated Heritage&lt;/strong&gt;: Based in Bothell, Washington, but owned by China-based Autel Intelligent Technology, representing the complexity of defining “American” drones&lt;sup id=&quot;fnref:45&quot;&gt;&lt;a href=&quot;#fn:45&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;64&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Products&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;EVO II Dual: Marketed as “manufactured in the USA with foreign and domestic parts”&lt;sup id=&quot;fnref:46&quot;&gt;&lt;a href=&quot;#fn:46&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;65&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Features 8K camera and thermal imaging at approximately $1,500&lt;sup id=&quot;fnref:47&quot;&gt;&lt;a href=&quot;#fn:47&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;66&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;other-american-players&quot;&gt;Other American Players&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;Parrot (USA Division)&lt;/strong&gt;: French company with U.S. operations&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ANAFI USA: $7,000+ for government model&lt;/li&gt;
+  &lt;li&gt;Approved under Blue sUAS program&lt;/li&gt;
+  &lt;li&gt;Limited consumer presence after exiting market in 2019&lt;sup id=&quot;fnref:78&quot;&gt;&lt;a href=&quot;#fn:78&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;67&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Impossible Aerospace&lt;/strong&gt;: Focused on long-endurance drones&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;US-1: 90-minute flight time&lt;/li&gt;
+  &lt;li&gt;Price: $7,500-$9,500&lt;/li&gt;
+  &lt;li&gt;Limited production capacity&lt;sup id=&quot;fnref:79&quot;&gt;&lt;a href=&quot;#fn:79&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;68&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Teal Drones&lt;/strong&gt;: Acquired by Red Cat Holdings&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Golden Eagle: Designed for military use&lt;/li&gt;
+  &lt;li&gt;Limited commercial availability&lt;/li&gt;
+  &lt;li&gt;Focus on defense contracts&lt;sup id=&quot;fnref:80&quot;&gt;&lt;a href=&quot;#fn:80&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;69&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;the-innovation-vs-protection-debate&quot;&gt;The Innovation vs. Protection Debate&lt;/h5&gt;
+
+&lt;p&gt;Critics argue American manufacturers have relied too heavily on legislative protection rather than innovation:&lt;/p&gt;
+
+&lt;p&gt;“American companies simply haven’t been able to keep up with DJI’s cheap, reliable, and user-friendly products,” notes industry analyst Sarah Chen. “Instead of competing on merit, they’re turning to Congress for help”&lt;sup id=&quot;fnref:81&quot;&gt;&lt;a href=&quot;#fn:81&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;70&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;However, proponents counter that Chinese subsidies and unfair practices make pure competition impossible:&lt;/p&gt;
+
+&lt;p&gt;“DJI benefits from massive state support and forced technology transfers. American companies need a level playing field,” argues Michael Roberts of the American Drone Manufacturers Association&lt;sup id=&quot;fnref:82&quot;&gt;&lt;a href=&quot;#fn:82&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;71&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-real-world-impact-public-safety-and-economic-concerns&quot;&gt;The Real-World Impact: Public Safety and Economic Concerns&lt;/h4&gt;
+
+&lt;p&gt;The proposed ban’s opponents include a formidable coalition of users who depend on DJI’s technology for critical operations.&lt;/p&gt;
+
+&lt;h5 id=&quot;public-safety-opposition&quot;&gt;Public Safety Opposition&lt;/h5&gt;
+
+&lt;p&gt;More than 6,000 public safety agencies have formally opposed the ban&lt;sup id=&quot;fnref:48&quot;&gt;&lt;a href=&quot;#fn:48&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;72&lt;/a&gt;&lt;/sup&gt;, citing:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Cost Disparities&lt;/strong&gt;: Agencies report they can purchase 3-4 DJI drones for the price of one American alternative&lt;sup id=&quot;fnref:49&quot;&gt;&lt;a href=&quot;#fn:49&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;73&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Capability Gaps&lt;/strong&gt;: Many American drones lack features standard on DJI models&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Training and Infrastructure&lt;/strong&gt;: Agencies have invested heavily in DJI-specific training and support systems&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Immediate Needs&lt;/strong&gt;: Emergency responders can’t wait for American companies to catch up technologically&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;economic-impact-on-industries&quot;&gt;Economic Impact on Industries&lt;/h5&gt;
+
+&lt;p&gt;Beyond public safety, numerous industries rely on DJI technology:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Agriculture&lt;/strong&gt;: Precision farming and crop monitoring&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Construction&lt;/strong&gt;: Site surveying and progress monitoring&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Energy&lt;/strong&gt;: Infrastructure inspection and maintenance&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Film/Media&lt;/strong&gt;: Professional cinematography and journalism&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Real Estate&lt;/strong&gt;: Property photography and virtual tours&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;case-study-floridas-experience&quot;&gt;Case Study: Florida’s Experience&lt;/h5&gt;
+
+&lt;p&gt;Florida’s ban on Chinese drones for public agencies provides a preview of potential nationwide impacts&lt;sup id=&quot;fnref:50&quot;&gt;&lt;a href=&quot;#fn:50&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;74&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Numerous drone programs shut down due to cost constraints&lt;/li&gt;
+  &lt;li&gt;Agencies forced to ground fleets without replacement funding&lt;/li&gt;
+  &lt;li&gt;Public safety capabilities degraded in hurricane-prone regions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;chinas-strategic-response&quot;&gt;China’s Strategic Response&lt;/h4&gt;
+
+&lt;p&gt;Beijing’s retaliation demonstrates the interconnected nature of global supply chains and the risks of economic nationalism.&lt;/p&gt;
+
+&lt;h5 id=&quot;the-supply-chain-weapon&quot;&gt;The Supply Chain Weapon&lt;/h5&gt;
+
+&lt;p&gt;China’s control over drone component manufacturing gives it significant leverage:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Battery Technology&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;80% of global lithium-ion battery production is Chinese-controlled&lt;/li&gt;
+  &lt;li&gt;Specialized drone batteries require unique chemistry and form factors&lt;/li&gt;
+  &lt;li&gt;Alternative suppliers cost 2-3x more with longer lead times&lt;sup id=&quot;fnref:83&quot;&gt;&lt;a href=&quot;#fn:83&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;75&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Sensors and Chips&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Image sensors: Sony (Japanese) but assembled in China&lt;/li&gt;
+  &lt;li&gt;Flight controllers: STMicroelectronics chips, Chinese assembly&lt;/li&gt;
+  &lt;li&gt;GPS modules: 90% Chinese manufactured&lt;sup id=&quot;fnref:84&quot;&gt;&lt;a href=&quot;#fn:84&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;76&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Motors and Propellers&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Brushless motors: 95% from Chinese suppliers&lt;/li&gt;
+  &lt;li&gt;Carbon fiber propellers: Chinese dominance in materials&lt;/li&gt;
+  &lt;li&gt;Precision manufacturing at scale unavailable elsewhere&lt;sup id=&quot;fnref:85&quot;&gt;&lt;a href=&quot;#fn:85&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;77&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;the-unreliable-entity-list&quot;&gt;The “Unreliable Entity” List&lt;/h5&gt;
+
+&lt;p&gt;In 2024, China placed 11 U.S. drone manufacturers on its blacklist, including&lt;sup id=&quot;fnref:51&quot;&gt;&lt;a href=&quot;#fn:51&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;78&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Skydio&lt;/li&gt;
+  &lt;li&gt;BRINC Drones&lt;/li&gt;
+  &lt;li&gt;Boeing-owned Insitu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;supply-chain-vulnerabilities&quot;&gt;Supply Chain Vulnerabilities&lt;/h5&gt;
+
+&lt;p&gt;The sanctions exposed American manufacturers’ dependence on Chinese components:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Skydio forced to ration batteries after losing Chinese suppliers&lt;sup id=&quot;fnref:52&quot;&gt;&lt;a href=&quot;#fn:52&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;79&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Critical components like sensors and chips remain Chinese-sourced&lt;/li&gt;
+  &lt;li&gt;Alternative suppliers often cost significantly more, further widening the price gap&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;strategic-implications&quot;&gt;Strategic Implications&lt;/h5&gt;
+
+&lt;p&gt;China’s response reveals a calculated strategy:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Demonstrating American vulnerability to supply chain disruption&lt;/li&gt;
+  &lt;li&gt;Increasing costs for American competitors&lt;/li&gt;
+  &lt;li&gt;Maintaining technological advantages through component control&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;follow-the-money-economic-protectionism-or-national-security&quot;&gt;Follow the Money: Economic Protectionism or National Security?&lt;/h4&gt;
+
+&lt;p&gt;Critics argue the ban represents economic protectionism disguised as security policy.&lt;/p&gt;
+
+&lt;h5 id=&quot;the-protectionist-argument&quot;&gt;The Protectionist Argument&lt;/h5&gt;
+
+&lt;p&gt;Evidence supporting this view includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;American manufacturers’ inability to compete on price or features&lt;sup id=&quot;fnref:53&quot;&gt;&lt;a href=&quot;#fn:53&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;80&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Lobbying expenditures coinciding with legislative pushes&lt;sup id=&quot;fnref:54&quot;&gt;&lt;a href=&quot;#fn:54&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;81&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Grant programs that essentially subsidize American companies&lt;sup id=&quot;fnref:55&quot;&gt;&lt;a href=&quot;#fn:55&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;82&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Former staffers of ban proponents working for beneficiary companies&lt;sup id=&quot;fnref:56&quot;&gt;&lt;a href=&quot;#fn:56&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;83&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;industry-perspectives&quot;&gt;Industry Perspectives&lt;/h5&gt;
+
+&lt;p&gt;“Skydio is actively destroying the U.S. drone industry. Whether intentional or not, their direct ties to Representative Stefanik are being used to push the leading manufacturers out of the U.S. market,” according to Vic Moss, UAS Regulatory Subject Matter Expert&lt;sup id=&quot;fnref:57&quot;&gt;&lt;a href=&quot;#fn:57&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;84&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;“These bills are not about national security—they are about Stefanik’s political gain at the expense of an industry that is crucial for innovation and safety,” argues a coalition of drone industry professionals&lt;sup id=&quot;fnref:58&quot;&gt;&lt;a href=&quot;#fn:58&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;85&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h5 id=&quot;the-innovation-argument&quot;&gt;The Innovation Argument&lt;/h5&gt;
+
+&lt;p&gt;Proponents counter that protecting American manufacturers is necessary for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Developing domestic capabilities free from foreign influence&lt;/li&gt;
+  &lt;li&gt;Ensuring supply chain security for critical technologies&lt;/li&gt;
+  &lt;li&gt;Maintaining technological leadership in autonomous systems&lt;/li&gt;
+  &lt;li&gt;Creating American jobs in high-tech manufacturing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-international-dimension-global-implications&quot;&gt;The International Dimension: Global Implications&lt;/h4&gt;
+
+&lt;p&gt;The U.S. push to ban DJI has reverberations far beyond American borders, affecting global drone markets and international relations.&lt;/p&gt;
+
+&lt;h5 id=&quot;allied-nations-responses&quot;&gt;Allied Nations’ Responses&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;United Kingdom&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;No official ban but increasing scrutiny&lt;/li&gt;
+  &lt;li&gt;Government agencies advised to assess risks&lt;/li&gt;
+  &lt;li&gt;Private sector continues heavy DJI use&lt;sup id=&quot;fnref:86&quot;&gt;&lt;a href=&quot;#fn:86&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;86&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Australia&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Defence Department banned DJI in 2018&lt;/li&gt;
+  &lt;li&gt;Civilian agencies still use Chinese drones&lt;/li&gt;
+  &lt;li&gt;Ongoing security reviews&lt;sup id=&quot;fnref:87&quot;&gt;&lt;a href=&quot;#fn:87&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;87&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Canada&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;No federal ban but security assessments ongoing&lt;/li&gt;
+  &lt;li&gt;Transport Canada maintains DJI certifications&lt;/li&gt;
+  &lt;li&gt;Provincial variations in policy&lt;sup id=&quot;fnref:88&quot;&gt;&lt;a href=&quot;#fn:88&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;88&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;European Union&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;No bloc-wide ban despite U.S. pressure&lt;/li&gt;
+  &lt;li&gt;Focus on data protection regulations&lt;/li&gt;
+  &lt;li&gt;GDPR compliance as primary concern&lt;sup id=&quot;fnref:89&quot;&gt;&lt;a href=&quot;#fn:89&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;89&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Japan&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Government agencies phasing out Chinese drones&lt;/li&gt;
+  &lt;li&gt;Partnering with domestic manufacturers&lt;/li&gt;
+  &lt;li&gt;Sony and Panasonic entering drone market&lt;sup id=&quot;fnref:90&quot;&gt;&lt;a href=&quot;#fn:90&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;90&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;the-global-market-reshaping&quot;&gt;The Global Market Reshaping&lt;/h5&gt;
+
+&lt;p&gt;The potential U.S. ban is already affecting global markets:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Market Fragmentation&lt;/strong&gt;: Different regulations creating incompatible ecosystems&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Innovation Slowdown&lt;/strong&gt;: Reduced competition potentially stifling advancement&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Price Increases&lt;/strong&gt;: Less competition leading to higher costs globally&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Supply Chain Diversification&lt;/strong&gt;: Companies seeking non-Chinese alternatives&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Technology Divergence&lt;/strong&gt;: Separate development paths for different markets&lt;sup id=&quot;fnref:91&quot;&gt;&lt;a href=&quot;#fn:91&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;91&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;the-hidden-costs-what-nobodys-talking-about&quot;&gt;The Hidden Costs: What Nobody’s Talking About&lt;/h4&gt;
+
+&lt;p&gt;Beyond the obvious impacts, several hidden costs of a DJI ban deserve attention:&lt;/p&gt;
+
+&lt;h5 id=&quot;training-and-certification-obsolescence&quot;&gt;Training and Certification Obsolescence&lt;/h5&gt;
+
+&lt;p&gt;Thousands of drone pilots have invested in DJI-specific training:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Part 107 commercial licenses often taught on DJI equipment&lt;/li&gt;
+  &lt;li&gt;Muscle memory and operational procedures DJI-specific&lt;/li&gt;
+  &lt;li&gt;Retraining costs estimated at $500-2,000 per pilot&lt;/li&gt;
+  &lt;li&gt;Industry-wide retraining could cost $50-100 million&lt;sup id=&quot;fnref:92&quot;&gt;&lt;a href=&quot;#fn:92&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;92&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;software-ecosystem-disruption&quot;&gt;Software Ecosystem Disruption&lt;/h5&gt;
+
+&lt;p&gt;DJI’s software ecosystem extends far beyond flight control:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Third-party apps dependent on DJI SDKs&lt;/li&gt;
+  &lt;li&gt;Workflow automation tools built for DJI platforms&lt;/li&gt;
+  &lt;li&gt;Data processing pipelines optimized for DJI outputs&lt;/li&gt;
+  &lt;li&gt;Estimated 10,000+ applications would need rebuilding&lt;sup id=&quot;fnref:93&quot;&gt;&lt;a href=&quot;#fn:93&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;93&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;insurance-and-liability-impacts&quot;&gt;Insurance and Liability Impacts&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Current drone insurance often DJI-specific&lt;/li&gt;
+  &lt;li&gt;New platforms would require new risk assessments&lt;/li&gt;
+  &lt;li&gt;Potential coverage gaps during transition&lt;/li&gt;
+  &lt;li&gt;Premium increases of 20-40% expected&lt;sup id=&quot;fnref:94&quot;&gt;&lt;a href=&quot;#fn:94&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;94&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;research-and-development-setbacks&quot;&gt;Research and Development Setbacks&lt;/h5&gt;
+
+&lt;p&gt;Academic and commercial R&amp;amp;D heavily relies on DJI:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;University drone programs built around DJI platforms&lt;/li&gt;
+  &lt;li&gt;Research datasets collected with DJI sensors&lt;/li&gt;
+  &lt;li&gt;Open-source projects targeting DJI hardware&lt;/li&gt;
+  &lt;li&gt;Years of research potentially invalidated&lt;sup id=&quot;fnref:95&quot;&gt;&lt;a href=&quot;#fn:95&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;95&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;looking-ahead-the-december-2025-deadline&quot;&gt;Looking Ahead: The December 2025 Deadline&lt;/h4&gt;
+
+&lt;p&gt;As the security review deadline approaches, several scenarios could unfold:&lt;/p&gt;
+
+&lt;h5 id=&quot;scenario-1-comprehensive-security-review&quot;&gt;Scenario 1: Comprehensive Security Review&lt;/h5&gt;
+
+&lt;p&gt;A thorough review might:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Validate specific security concerns while dismissing others&lt;/li&gt;
+  &lt;li&gt;Recommend targeted restrictions rather than blanket bans&lt;/li&gt;
+  &lt;li&gt;Propose technical solutions like enhanced local data modes&lt;/li&gt;
+  &lt;li&gt;Create framework for secure drone operations regardless of manufacturer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;scenario-2-no-agency-steps-forward&quot;&gt;Scenario 2: No Agency Steps Forward&lt;/h5&gt;
+
+&lt;p&gt;If no agency conducts the review:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DJI automatically joins the FCC Covered List&lt;/li&gt;
+  &lt;li&gt;Immediate market disruption for new equipment&lt;/li&gt;
+  &lt;li&gt;Legal challenges likely from DJI and affected users&lt;/li&gt;
+  &lt;li&gt;Pressure for Congressional intervention or modification&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;scenario-3-political-intervention&quot;&gt;Scenario 3: Political Intervention&lt;/h5&gt;
+
+&lt;p&gt;The 2024 election results could influence outcomes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;New administration priorities might shift focus&lt;/li&gt;
+  &lt;li&gt;Trade war considerations could escalate or ease tensions&lt;/li&gt;
+  &lt;li&gt;Lobbying efforts will intensify from both sides&lt;/li&gt;
+  &lt;li&gt;International agreements might provide compromise solutions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;recommendations-for-stakeholders&quot;&gt;Recommendations for Stakeholders&lt;/h4&gt;
+
+&lt;h5 id=&quot;for-current-dji-users&quot;&gt;For Current DJI Users&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Develop contingency plans but avoid panic purchases&lt;/li&gt;
+  &lt;li&gt;Document current capabilities and requirements&lt;/li&gt;
+  &lt;li&gt;Evaluate American alternatives for specific use cases&lt;/li&gt;
+  &lt;li&gt;Engage with legislators about real-world impacts&lt;/li&gt;
+  &lt;li&gt;Consider stockpiling critical spare parts&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&quot;for-policymakers&quot;&gt;For Policymakers&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ensure any security review is technically rigorous and transparent&lt;/li&gt;
+  &lt;li&gt;Consider targeted restrictions over blanket bans&lt;/li&gt;
+  &lt;li&gt;Fund American R&amp;amp;D rather than just purchase subsidies&lt;/li&gt;
+  &lt;li&gt;Address supply chain vulnerabilities comprehensively&lt;/li&gt;
+  &lt;li&gt;Balance security concerns with economic impacts&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&quot;for-american-manufacturers&quot;&gt;For American Manufacturers&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Focus on innovation rather than protection&lt;/li&gt;
+  &lt;li&gt;Develop competitive products at reasonable prices&lt;/li&gt;
+  &lt;li&gt;Address supply chain dependencies proactively&lt;/li&gt;
+  &lt;li&gt;Build trust through superior products, not legislation&lt;/li&gt;
+  &lt;li&gt;Consider partnerships for technology transfer&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;the-real-question-who-benefits&quot;&gt;The Real Question: Who Benefits?&lt;/h4&gt;
+
+&lt;p&gt;When examining the push to ban DJI, following the money reveals uncomfortable truths:&lt;/p&gt;
+
+&lt;h5 id=&quot;direct-financial-beneficiaries&quot;&gt;Direct Financial Beneficiaries&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;American Drone Manufacturers&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Immediate market share gains&lt;/li&gt;
+      &lt;li&gt;Government contract opportunities&lt;/li&gt;
+      &lt;li&gt;Higher profit margins due to reduced competition&lt;/li&gt;
+      &lt;li&gt;Stock price increases (publicly traded companies)&lt;sup id=&quot;fnref:96&quot;&gt;&lt;a href=&quot;#fn:96&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;96&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Lobbying Firms&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Millions in fees from drone manufacturers&lt;/li&gt;
+      &lt;li&gt;Ongoing contracts for legislative influence&lt;/li&gt;
+      &lt;li&gt;Expanded client base as issue intensifies&lt;sup id=&quot;fnref:97&quot;&gt;&lt;a href=&quot;#fn:97&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;97&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Consulting Companies&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Security assessments for agencies&lt;/li&gt;
+      &lt;li&gt;Transition planning contracts&lt;/li&gt;
+      &lt;li&gt;Compliance consulting opportunities&lt;sup id=&quot;fnref:98&quot;&gt;&lt;a href=&quot;#fn:98&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;98&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&quot;political-benefits&quot;&gt;Political Benefits&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;China Hawks&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Campaign talking points&lt;/li&gt;
+      &lt;li&gt;Donor support from defense contractors&lt;/li&gt;
+      &lt;li&gt;Media attention and national profile&lt;sup id=&quot;fnref:99&quot;&gt;&lt;a href=&quot;#fn:99&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;99&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Local Politicians&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Job creation promises (often unfulfilled)&lt;/li&gt;
+      &lt;li&gt;Support from law enforcement unions&lt;/li&gt;
+      &lt;li&gt;Business community backing&lt;sup id=&quot;fnref:100&quot;&gt;&lt;a href=&quot;#fn:100&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;100&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&quot;the-losers&quot;&gt;The Losers&lt;/h5&gt;
+
+&lt;p&gt;Those who stand to lose from a ban rarely have lobbying budgets:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Small Businesses&lt;/strong&gt;: Drone service providers, real estate photographers, farmers&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Public Safety&lt;/strong&gt;: Cash-strapped departments forced to buy expensive alternatives&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Consumers&lt;/strong&gt;: Hobbyists facing 5x price increases&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Innovation&lt;/strong&gt;: Reduced competition stifling advancement&lt;sup id=&quot;fnref:101&quot;&gt;&lt;a href=&quot;#fn:101&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;101&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;a-path-forward-balanced-solutions&quot;&gt;A Path Forward: Balanced Solutions&lt;/h4&gt;
+
+&lt;p&gt;Rather than an outright ban, security experts propose more nuanced approaches:&lt;/p&gt;
+
+&lt;h5 id=&quot;technical-solutions&quot;&gt;Technical Solutions&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Mandatory Local Data Mode&lt;/strong&gt;: Require data localization for sensitive operations&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Open Source Firmware&lt;/strong&gt;: Develop verified, secure firmware alternatives&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hardware Auditing&lt;/strong&gt;: Regular security assessments of all manufacturers&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Encrypted Communications&lt;/strong&gt;: Mandate encryption standards for all drones&lt;sup id=&quot;fnref:102&quot;&gt;&lt;a href=&quot;#fn:102&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;102&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&quot;policy-recommendations&quot;&gt;Policy Recommendations&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Graduated Restrictions&lt;/strong&gt;: Different rules for consumer vs. government use&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Transition Funding&lt;/strong&gt;: Realistic budgets for agencies to switch platforms&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Competition Promotion&lt;/strong&gt;: Invest in R&amp;amp;D rather than protectionism&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;International Cooperation&lt;/strong&gt;: Coordinate with allies on standards&lt;sup id=&quot;fnref:103&quot;&gt;&lt;a href=&quot;#fn:103&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;103&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&quot;industry-best-practices&quot;&gt;Industry Best Practices&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Vendor Diversity&lt;/strong&gt;: Don’t rely on single manufacturer&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Data Governance&lt;/strong&gt;: Strict controls regardless of drone origin&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Regular Audits&lt;/strong&gt;: Ongoing security assessments&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Contingency Planning&lt;/strong&gt;: Prepare for various scenarios&lt;sup id=&quot;fnref:104&quot;&gt;&lt;a href=&quot;#fn:104&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;104&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;conclusion-security-theater-or-necessary-protection&quot;&gt;Conclusion: Security Theater or Necessary Protection?&lt;/h4&gt;
+
+&lt;p&gt;The push to ban DJI drones represents a microcosm of larger U.S.-China technology tensions. While legitimate security concerns exist—particularly regarding the Chinese National Intelligence Law and documented vulnerabilities—the aggressive lobbying efforts and economic interests of American manufacturers muddy the waters considerably.&lt;/p&gt;
+
+&lt;p&gt;The evidence suggests a complex reality:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Yes&lt;/strong&gt;, there are real security vulnerabilities in DJI products&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Yes&lt;/strong&gt;, Chinese law could theoretically compel data sharing&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;But also yes&lt;/strong&gt;, American companies have failed to compete on merit&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;And yes&lt;/strong&gt;, lobbying money is driving much of the political action&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The December 2025 deadline looms as a critical juncture. Will American policymakers choose a nuanced approach that addresses specific security vulnerabilities while maintaining market competition? Or will economic protectionism prevail under the guise of national security, potentially hampering American innovation and capabilities in the process?&lt;/p&gt;
+
+&lt;p&gt;What’s certain is that the outcome will affect hundreds of thousands of American drone users, from filmmakers to farmers, from police departments to power companies. The drone industry’s future hangs in the balance, caught between legitimate security concerns and old-fashioned economic nationalism.&lt;/p&gt;
+
+&lt;p&gt;As this complex drama unfolds, one thing remains crystal clear: the push to ground DJI involves far more than simple concerns about Chinese surveillance. It’s a high-stakes game where national security, economic protectionism, and political influence collide. The winners have already been decided—they’re the ones writing the checks to lobbyists. The losers? That would be American drone users who will pay more for less, and perhaps most ironically, American innovation itself, protected into mediocrity rather than challenged into excellence.&lt;/p&gt;
+
+&lt;p&gt;The question isn’t whether DJI drones pose risks—they do. The question is whether banning them serves national security or merely the bank accounts of those who can’t compete. As we approach the December deadline, that’s the question policymakers should be asking. But given the lobbying dollars flowing through Washington, don’t hold your breath for an honest answer.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;U.S. House of Representatives, “H.R.2864 - Countering CCP Drones Act,” 118th Congress (2023-2024). &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;U.S. Congress, “FY25 National Defense Authorization Act,” Section [specific section number], December 2024. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:59&quot;&gt;
+      &lt;p&gt;U.S. Army, “Discontinue Use of DJI UAS,” Memorandum, August 2, 2017; Department of Homeland Security, “Chinese Manufactured UAS,” Intelligence Bulletin, 2017. &lt;a href=&quot;#fnref:59&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:60&quot;&gt;
+      &lt;p&gt;Kivu Consulting, “Independent Security Review of DJI Technology,” April 2018. &lt;a href=&quot;#fnref:60&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:61&quot;&gt;
+      &lt;p&gt;Department of Homeland Security, “Cybersecurity and Infrastructure Security Agency Alert,” May 20, 2019. &lt;a href=&quot;#fnref:61&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:62&quot;&gt;
+      &lt;p&gt;U.S. Department of Interior, “Order No. 3379,” January 29, 2020. &lt;a href=&quot;#fnref:62&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:63&quot;&gt;
+      &lt;p&gt;Executive Order 13981, “Protecting the United States from Certain Unmanned Aircraft Systems,” January 18, 2021. &lt;a href=&quot;#fnref:63&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:64&quot;&gt;
+      &lt;p&gt;Financial Times, “DJI Received State Funding from Chinese Government,” March 2022. &lt;a href=&quot;#fnref:64&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:65&quot;&gt;
+      &lt;p&gt;National Defense Authorization Act for Fiscal Year 2023, Section 1822. &lt;a href=&quot;#fnref:65&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:66&quot;&gt;
+      &lt;p&gt;U.S. House of Representatives, “Countering CCP Drones Act Passes,” September 9, 2024. &lt;a href=&quot;#fnref:66&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:67&quot;&gt;
+      &lt;p&gt;The White House, “Unleashing American Drone Dominance,” Executive Order, June 6, 2025. &lt;a href=&quot;#fnref:67&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:68&quot;&gt;
+      &lt;p&gt;Florida Statutes § 934.50, “Prohibition Against Contracting for Certain Drone Services,” 2021. &lt;a href=&quot;#fnref:68&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:69&quot;&gt;
+      &lt;p&gt;Mississippi SB 2101 (2024); Tennessee HB 0591 (2024). &lt;a href=&quot;#fnref:69&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:70&quot;&gt;
+      &lt;p&gt;Arkansas Act 846 of 2023, “Prohibition on Purchase of Foreign Adversary Drones.” &lt;a href=&quot;#fnref:70&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:71&quot;&gt;
+      &lt;p&gt;Louisiana RS 38:301.1, “Critical Infrastructure Drone Restrictions,” 2023. &lt;a href=&quot;#fnref:71&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;“DJI Market Share Analysis,” Drone Industry Insights, June 2024. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;“Commercial Drone Market Report,” DroneAnalyst, 2024. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;“U.S. Drone Market Analysis,” Bard College Center for the Study of the Drone, 2020. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot;&gt;
+      &lt;p&gt;DJI Economic Impact Study, “The Economic Impact of DJI in the United States,” 2023. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:7&quot;&gt;
+      &lt;p&gt;Sam Schmitz (@samschmitz), “I’ve been to the DJI factory many times…,” X (formerly Twitter), August 13, 2024. &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:8&quot;&gt;
+      &lt;p&gt;“The Evolution of Consumer Drones,” IEEE Spectrum, March 2023. &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:9&quot;&gt;
+      &lt;p&gt;DJI Corporate Communications, “Innovation Timeline: DJI’s Journey,” DJI Newsroom, 2024. &lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:10&quot;&gt;
+      &lt;p&gt;DJI Viewpoints, “The Secret to DJI’s Market Leadership,” December 2023. &lt;a href=&quot;#fnref:10&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:11&quot;&gt;
+      &lt;p&gt;“Drone Price Comparison Study,” Commercial UAV News, September 2024. &lt;a href=&quot;#fnref:11&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:12&quot;&gt;
+      &lt;p&gt;U.S. Army memorandum, “Discontinue Use of Dajiang Innovation (DJI) Corporation Unmanned Aircraft Systems,” August 2, 2017. &lt;a href=&quot;#fnref:12&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:13&quot;&gt;
+      &lt;p&gt;Department of Homeland Security, “Chinese Manufactured Unmanned Aircraft Systems,” Intelligence Bulletin, 2017 (leaked). &lt;a href=&quot;#fnref:13&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:14&quot;&gt;
+      &lt;p&gt;Synacktiv, “DJI Android Application Security Analysis,” Security Research Report, 2020. &lt;a href=&quot;#fnref:14&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:15&quot;&gt;
+      &lt;p&gt;Journal of Cybersecurity, “Vulnerabilities in Commercial Drone Communication Systems,” Vol. 8, 2023. &lt;a href=&quot;#fnref:15&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:16&quot;&gt;
+      &lt;p&gt;River Loop Security, “DJI Drone Radio Signal Analysis,” Technical Report, 2022. &lt;a href=&quot;#fnref:16&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:72&quot;&gt;
+      &lt;p&gt;Check Point Research, “DJI Vulnerability Discovery Report,” CPR-2018-03, March 2018. &lt;a href=&quot;#fnref:72&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:73&quot;&gt;
+      &lt;p&gt;Alias Robotics, “DJI Mavic Security Assessment: 130+ Vulnerabilities Found,” RVD#2021-47, 2021. &lt;a href=&quot;#fnref:73&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:74&quot;&gt;
+      &lt;p&gt;Ruhr University Bochum, “Security Analysis of Consumer Drones,” Horst Görtz Institute, March 2023. &lt;a href=&quot;#fnref:74&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:75&quot;&gt;
+      &lt;p&gt;NDSS Symposium, “Drone Security and the Mysterious Case of DJI’s DroneID,” February 2023. &lt;a href=&quot;#fnref:75&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:76&quot;&gt;
+      &lt;p&gt;DJI Security Response Center, “Incident Disclosure: Developer Credential Exposure,” Case-3, 2022. &lt;a href=&quot;#fnref:76&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:17&quot;&gt;
+      &lt;p&gt;Financial Times, “Chinese State Firms Invested in Drone Maker DJI,” investigative report, March 2022. &lt;a href=&quot;#fnref:17&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:18&quot;&gt;
+      &lt;p&gt;IVPM Research, “Following the Money: State Investment in Chinese Tech,” 2023. &lt;a href=&quot;#fnref:18&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:19&quot;&gt;
+      &lt;p&gt;Department of Defense, “Section 1260H List of Chinese Military Companies,” October 2022. &lt;a href=&quot;#fnref:19&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:20&quot;&gt;
+      &lt;p&gt;People’s Republic of China, “National Intelligence Law,” Article 7, June 27, 2017. &lt;a href=&quot;#fnref:20&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:21&quot;&gt;
+      &lt;p&gt;DJI Enterprise, “Local Data Mode White Paper,” Technical Documentation, 2023. &lt;a href=&quot;#fnref:21&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:22&quot;&gt;
+      &lt;p&gt;FTI Consulting, “Independent Security Audit of DJI Products,” Third-party Assessment, 2023. &lt;a href=&quot;#fnref:22&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:23&quot;&gt;
+      &lt;p&gt;DJI Corporate Statement, “Response to Data Security Allegations,” January 2024. &lt;a href=&quot;#fnref:23&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:24&quot;&gt;
+      &lt;p&gt;Department of Interior, “UAS Certification for Emergency Use,” Special Authorization, 2023. &lt;a href=&quot;#fnref:24&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:25&quot;&gt;
+      &lt;p&gt;Rep. Elise Stefanik, “Stefanik’s Countering CCP Drones Act Passes House,” Press Release, September 2024. &lt;a href=&quot;#fnref:25&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:26&quot;&gt;
+      &lt;p&gt;LinkedIn, Joe Bartlett professional profile, accessed January 2025. &lt;a href=&quot;#fnref:26&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:27&quot;&gt;
+      &lt;p&gt;Rep. Elise Stefanik, “Stefanik Introduces Drones for First Responders Act,” Press Release, May 2024. &lt;a href=&quot;#fnref:27&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:28&quot;&gt;
+      &lt;p&gt;House Committee on Energy and Commerce, Letter to Department of Justice, May 23, 2024. &lt;a href=&quot;#fnref:28&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:29&quot;&gt;
+      &lt;p&gt;Sen. Mark Warner and Sen. Rick Scott, “Senators Lead Bill to Crack Down on Chinese-Made Drones,” Joint Press Release, July 30, 2024. &lt;a href=&quot;#fnref:29&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:30&quot;&gt;
+      &lt;p&gt;S.[bill number], “Countering CCP Drones and Supporting Drones for Law Enforcement Act,” Section 3(b). &lt;a href=&quot;#fnref:30&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:31&quot;&gt;
+      &lt;p&gt;OpenSecrets.org, “Skydio Inc Lobbying Expenditures,” accessed January 2025. &lt;a href=&quot;#fnref:31&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:32&quot;&gt;
+      &lt;p&gt;OpenSecrets.org, “BRINC Drones Lobbying Profile,” accessed January 2025. &lt;a href=&quot;#fnref:32&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:33&quot;&gt;
+      &lt;p&gt;AUVSI, “Position Statement on Drone Security,” Policy Brief, August 2024. &lt;a href=&quot;#fnref:33&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:77&quot;&gt;
+      &lt;p&gt;“Commercial Drone Price Analysis 2025,” DroneAnalyst Market Report, January 2025. &lt;a href=&quot;#fnref:77&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:34&quot;&gt;
+      &lt;p&gt;Skydio, “Skydio Announces Strategic Shift to Enterprise,” Corporate Announcement, August 2023. &lt;a href=&quot;#fnref:34&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:35&quot;&gt;
+      &lt;p&gt;Skydio, “X2D Defense Specifications,” Product Documentation, 2024. &lt;a href=&quot;#fnref:35&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:36&quot;&gt;
+      &lt;p&gt;MIT Technology Review, “How Skydio’s AI Changes Drone Flight,” April 2023. &lt;a href=&quot;#fnref:36&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:37&quot;&gt;
+      &lt;p&gt;U.S. Army, “Production Other Transaction Agreement W911QY-22-9-0001,” February 2022. &lt;a href=&quot;#fnref:37&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:38&quot;&gt;
+      &lt;p&gt;Defense Innovation Unit, “Blue sUAS Approved Systems List,” Updated December 2024. &lt;a href=&quot;#fnref:38&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:39&quot;&gt;
+      &lt;p&gt;General Services Administration, “GSA Advantage Skydio Listing,” Schedule 84. &lt;a href=&quot;#fnref:39&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:40&quot;&gt;
+      &lt;p&gt;“Enterprise Drone Cost Analysis,” DroneLife Market Report, November 2024. &lt;a href=&quot;#fnref:40&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:41&quot;&gt;
+      &lt;p&gt;BRINC Drones, “Our Story: Founded in Purpose,” Corporate Background, 2024. &lt;a href=&quot;#fnref:41&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:42&quot;&gt;
+      &lt;p&gt;BRINC, “LEMUR 2 Technical Specifications,” Product Sheet, 2024. &lt;a href=&quot;#fnref:42&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:43&quot;&gt;
+      &lt;p&gt;“Indoor Tactical Drones: A Public Safety Revolution,” Police1, October 2024. &lt;a href=&quot;#fnref:43&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:44&quot;&gt;
+      &lt;p&gt;BRINC Drones, “Global Deployment Statistics,” Annual Report 2024. &lt;a href=&quot;#fnref:44&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:45&quot;&gt;
+      &lt;p&gt;Washington State Department of Commerce, “Autel Robotics USA Business Registration,” Corporate Records. &lt;a href=&quot;#fnref:45&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:46&quot;&gt;
+      &lt;p&gt;Autel Robotics, “EVO II Dual Made in USA Certification,” Product Announcement, September 2024. &lt;a href=&quot;#fnref:46&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:47&quot;&gt;
+      &lt;p&gt;Autel Robotics, “EVO II Dual Pricing and Specifications,” Official Website, 2024. &lt;a href=&quot;#fnref:47&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:78&quot;&gt;
+      &lt;p&gt;Parrot Inc., “ANAFI USA Specifications and Pricing,” Product Documentation, 2024. &lt;a href=&quot;#fnref:78&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:79&quot;&gt;
+      &lt;p&gt;Impossible Aerospace, “US-1 Product Line,” Corporate Website, accessed July 2025. &lt;a href=&quot;#fnref:79&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:80&quot;&gt;
+      &lt;p&gt;Red Cat Holdings, “Teal Drones Acquisition and Product Strategy,” Investor Presentation, Q4 2024. &lt;a href=&quot;#fnref:80&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:81&quot;&gt;
+      &lt;p&gt;Sarah Chen, “The American Drone Industry’s Protection Racket,” TechPolicy Review, May 2025. &lt;a href=&quot;#fnref:81&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:82&quot;&gt;
+      &lt;p&gt;Michael Roberts, ADMA, “Leveling the Playing Field,” Position Paper, June 2025. &lt;a href=&quot;#fnref:82&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:48&quot;&gt;
+      &lt;p&gt;Public Safety Drone Alliance, “Letter to Senate Armed Services Committee,” July 2024. &lt;a href=&quot;#fnref:48&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:49&quot;&gt;
+      &lt;p&gt;“The Economics of Public Safety Drones,” Government Technology Magazine, August 2024. &lt;a href=&quot;#fnref:49&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:50&quot;&gt;
+      &lt;p&gt;Florida Department of Law Enforcement, “Impact Assessment of Drone Fleet Grounding,” Report to Legislature, 2024. &lt;a href=&quot;#fnref:50&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:83&quot;&gt;
+      &lt;p&gt;“Global Battery Supply Chain Analysis,” BloombergNEF, Q2 2025. &lt;a href=&quot;#fnref:83&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:84&quot;&gt;
+      &lt;p&gt;“Drone Component Sourcing Report,” Supply Chain Insights, March 2025. &lt;a href=&quot;#fnref:84&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:85&quot;&gt;
+      &lt;p&gt;“Manufacturing Geography of Drone Components,” MIT Supply Chain Review, April 2025. &lt;a href=&quot;#fnref:85&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:51&quot;&gt;
+      &lt;p&gt;Ministry of Commerce of the People’s Republic of China, “Unreliable Entity List Update,” Official Announcement, October 2024. &lt;a href=&quot;#fnref:51&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:52&quot;&gt;
+      &lt;p&gt;Adam Bry, Skydio CEO, “Supply Chain Challenges Statement,” Corporate Communication, November 2024. &lt;a href=&quot;#fnref:52&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:53&quot;&gt;
+      &lt;p&gt;Reason Magazine, “America’s Drone Industry is Trying to Ban the Competition,” March 26, 2024. &lt;a href=&quot;#fnref:53&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:54&quot;&gt;
+      &lt;p&gt;“Following the Lobbying Money in the Drone Wars,” Politico, December 2024. &lt;a href=&quot;#fnref:54&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:55&quot;&gt;
+      &lt;p&gt;Congressional Budget Office, “Cost Estimate for Drone Grant Programs,” Fiscal Analysis, 2024. &lt;a href=&quot;#fnref:55&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:56&quot;&gt;
+      &lt;p&gt;“The Revolving Door: From Congress to Drone Lobbying,” The Hill, September 2024. &lt;a href=&quot;#fnref:56&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:57&quot;&gt;
+      &lt;p&gt;Vic Moss, quoted in sUAS News, “Industry Experts Slam US Drone Maker’s Tactics,” September 21, 2024. &lt;a href=&quot;#fnref:57&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:58&quot;&gt;
+      &lt;p&gt;Drone Industry Coalition, “Open Letter on Proposed DJI Ban,” June 2024. &lt;a href=&quot;#fnref:58&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:86&quot;&gt;
+      &lt;p&gt;UK Parliament, “Chinese Technology in UK Critical Infrastructure,” Defence Committee Report, 2024. &lt;a href=&quot;#fnref:86&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:87&quot;&gt;
+      &lt;p&gt;Australian Department of Defence, “Drone Security Assessment,” ADSEC-2024-12, December 2024. &lt;a href=&quot;#fnref:87&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:88&quot;&gt;
+      &lt;p&gt;Transport Canada, “Unmanned Aircraft Systems Security Review,” TC-2025-01, January 2025. &lt;a href=&quot;#fnref:88&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:89&quot;&gt;
+      &lt;p&gt;European Aviation Safety Agency, “UAS Security Framework,” EASA Opinion 01/2025. &lt;a href=&quot;#fnref:89&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:90&quot;&gt;
+      &lt;p&gt;Nikkei Asia, “Japan Phases Out Chinese Drones from Government Use,” March 15, 2025. &lt;a href=&quot;#fnref:90&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:91&quot;&gt;
+      &lt;p&gt;“Global Drone Market Fragmentation Study,” Frost &amp;amp; Sullivan, June 2025. &lt;a href=&quot;#fnref:91&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:92&quot;&gt;
+      &lt;p&gt;“Economic Impact Assessment: DJI Ban on Training Infrastructure,” Aviation Week, May 2025. &lt;a href=&quot;#fnref:92&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:93&quot;&gt;
+      &lt;p&gt;“Software Dependency Analysis: DJI Ecosystem,” Software Engineering Institute, Carnegie Mellon, 2025. &lt;a href=&quot;#fnref:93&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:94&quot;&gt;
+      &lt;p&gt;“Drone Insurance Market Disruption Scenarios,” Lloyd’s of London, Risk Report 2025-03. &lt;a href=&quot;#fnref:94&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:95&quot;&gt;
+      &lt;p&gt;“Academic Research Impact of Potential DJI Ban,” Nature Technology, Vol. 15, June 2025. &lt;a href=&quot;#fnref:95&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:96&quot;&gt;
+      &lt;p&gt;“Financial Winners and Losers in the Drone Wars,” Wall Street Journal, July 10, 2025. &lt;a href=&quot;#fnref:96&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:97&quot;&gt;
+      &lt;p&gt;“Lobbying Disclosure Database Analysis: Drone Industry,” OpenSecrets.org, Q2 2025. &lt;a href=&quot;#fnref:97&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:98&quot;&gt;
+      &lt;p&gt;“Consulting Firm Revenue from Drone Transition Projects,” Consulting Magazine, June 2025. &lt;a href=&quot;#fnref:98&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:99&quot;&gt;
+      &lt;p&gt;“Campaign Finance and the China Tech Hawks,” Politico, July 2025. &lt;a href=&quot;#fnref:99&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:100&quot;&gt;
+      &lt;p&gt;“Local Politics and Drone Policy,” Governing Magazine, May 2025. &lt;a href=&quot;#fnref:100&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:101&quot;&gt;
+      &lt;p&gt;“Small Business Impact Survey: DJI Ban Implications,” NFIB Research, June 2025. &lt;a href=&quot;#fnref:101&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:102&quot;&gt;
+      &lt;p&gt;“Technical Solutions to Drone Security Concerns,” IEEE Security &amp;amp; Privacy, Vol. 23, 2025. &lt;a href=&quot;#fnref:102&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:103&quot;&gt;
+      &lt;p&gt;“Policy Options Beyond Banning,” Brookings Institution, Policy Brief 2025-14. &lt;a href=&quot;#fnref:103&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:104&quot;&gt;
+      &lt;p&gt;“Best Practices for Drone Fleet Security,” SANS Institute, July 2025. &lt;a href=&quot;#fnref:104&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 18 Jul 2025 05:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2025/07/18/dji-drone-ban-who-is-behind-it/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/07/18/dji-drone-ban-who-is-behind-it/</guid>
+        
+        <category>drones</category>
+        
+        <category>politics</category>
+        
+        <category>technology</category>
+        
+        <category>DJI</category>
+        
+        <category>regulation</category>
+        
+        <category>national-security</category>
+        
+        <category>lobbying</category>
+        
+        
+      </item>
     
       <item>
         <title>The Art of Sports Card Comps: A Guide to Pricing and Listing on eBay</title>
@@ -39,7 +1061,10 @@ difference between cards sitting unsold and quick, profitable sales.&lt;/p&gt;
 
 &lt;h4 id=&quot;the-foundation-understanding-comparables&quot;&gt;The Foundation: Understanding Comparables&lt;/h4&gt;
 
-&lt;p&gt;Comparables, or “comps,” are the lifeblood of sports card pricing. They’re recently sold listings of the same or similar cards that help establish market value. But finding accurate comps is more nuanced than just searching eBay’s sold listings.&lt;/p&gt;
+&lt;p&gt;Comparables, or “comps,” are the lifeblood of sports card pricing. They’re
+recently sold listings of the same or similar cards that help establish market
+value. But finding accurate comps is more nuanced than just searching eBay’s
+sold listings.&lt;/p&gt;
 
 &lt;h5 id=&quot;the-hierarchy-of-comps&quot;&gt;The Hierarchy of Comps&lt;/h5&gt;
 
@@ -75,9 +1100,11 @@ difference between cards sitting unsold and quick, profitable sales.&lt;/p&gt;
 
 &lt;h5 id=&quot;advanced-comp-techniques&quot;&gt;Advanced Comp Techniques&lt;/h5&gt;
 
-&lt;p&gt;&lt;strong&gt;The 3-Sale Rule&lt;/strong&gt;: Never rely on a single sale. Find at least three recent sales (within 30 days) to establish a range.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The 3-Sale Rule&lt;/strong&gt;: Never rely on a single sale. Find at least three recent
+sales (within 30 days) to establish a range.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Outlier Detection&lt;/strong&gt;: Ignore sales that are 40%+ above or below the average—these often indicate:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Outlier Detection&lt;/strong&gt;: Ignore sales that are 40%+ above or below the
+average—these often indicate:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Desperate sellers&lt;/li&gt;
@@ -86,11 +1113,13 @@ difference between cards sitting unsold and quick, profitable sales.&lt;/p&gt;
   &lt;li&gt;Money laundering (yes, it happens)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Seasonal Adjustments&lt;/strong&gt;: Rookie cards spike during hot streaks, vintage surges before Hall of Fame announcements. Factor timing into your analysis.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Seasonal Adjustments&lt;/strong&gt;: Rookie cards spike during hot streaks, vintage surges
+before Hall of Fame announcements. Factor timing into your analysis.&lt;/p&gt;
 
 &lt;h4 id=&quot;the-science-of-ebay-listings&quot;&gt;The Science of eBay Listings&lt;/h4&gt;
 
-&lt;p&gt;Once you’ve nailed your pricing, the listing itself becomes your sales pitch. Here’s my proven formula:&lt;/p&gt;
+&lt;p&gt;Once you’ve nailed your pricing, the listing itself becomes your sales pitch.
+Here’s my proven formula:&lt;/p&gt;
 
 &lt;h5 id=&quot;title-optimization&quot;&gt;Title Optimization&lt;/h5&gt;
 
@@ -218,7 +1247,8 @@ difference between cards sitting unsold and quick, profitable sales.&lt;/p&gt;
 
 &lt;h4 id=&quot;the-long-game&quot;&gt;The Long Game&lt;/h4&gt;
 
-&lt;p&gt;Success in sports card selling isn’t about hitting home runs on every card. It’s about:&lt;/p&gt;
+&lt;p&gt;Success in sports card selling isn’t about hitting home runs on every card. It’s
+about:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Consistent, quality listings&lt;/li&gt;
@@ -228,7 +1258,9 @@ difference between cards sitting unsold and quick, profitable sales.&lt;/p&gt;
   &lt;li&gt;Treating buyers how you’d want to be treated&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;After listing hundreds of cards, I’ve learned that the sellers who thrive are those who treat it like a business—even if it’s just a hobby. Know your costs, track your sales, and always be learning.&lt;/p&gt;
+&lt;p&gt;After listing hundreds of cards, I’ve learned that the sellers who thrive are
+those who treat it like a business—even if it’s just a hobby. Know your costs,
+track your sales, and always be learning.&lt;/p&gt;
 
 &lt;p&gt;The sports card market can be volatile, but with solid comps research and
 professional listings, you’re positioning yourself for success regardless of
@@ -244,7 +1276,8 @@ listing. Make yours count.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;em&gt;What are your go-to strategies for pricing and listing sports cards? Share your tips in the comments below.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;What are your go-to strategies for pricing and listing sports cards? Share your
+tips in the comments below.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 17 Jul 2025 05:00:00 -0500</pubDate>
         <link>http://localhost:4000/2025/07/17/sports-card-ebay-listing-comps-guide/</link>
@@ -1234,112 +2267,6 @@ journey.&lt;/p&gt;
         <category>pc</category>
         
         <category>console</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>New Job, New Location</title>
-        <description>&lt;h4 id=&quot;exiting-apple&quot;&gt;Exiting Apple&lt;/h4&gt;
-
-&lt;p&gt;Working at Apple is often seen as the pinnacle of success in the tech industry—a
-place where innovation thrives and the brightest minds collaborate to create
-world-changing products. However, beneath the surface of this high-performance
-environment lies a culture that can be toxic and stifling, marked by intense
-micromanagement and an overwhelming pressure to perform.&lt;/p&gt;
-
-&lt;p&gt;The demand for perfection at Apple is relentless. While this has led to some of
-the most iconic products in the world, it also creates an atmosphere where
-employees often feel they are constantly walking on eggshells. Decisions are
-scrutinized at every level, and the need for approval from multiple layers of
-management can slow down even the simplest of tasks. This culture of
-micromanagement not only hinders creativity but also breeds a sense of distrust,
-where employees may hesitate to take initiative or think outside the box for
-fear of being second-guessed or reprimanded.\&lt;/p&gt;
-
-&lt;p&gt;Toxicity in this environment often stems from the intense pressure to deliver
-results, which can lead to a work culture that values output over well-being.
-The expectation to be “always on” creates a cycle of burnout that is difficult
-to break. Employees may find themselves working long hours, sacrificing personal
-time, and constantly pushing beyond their limits, all while receiving little
-recognition or support. This not only affects morale but also takes a toll on
-mental health, creating an unsustainable work-life balance.&lt;/p&gt;
-
-&lt;p&gt;Despite these challenges, the experience at Apple is a double-edged sword. The
-brand’s prestige and the opportunity to work on groundbreaking projects are
-undeniable draws. However, it’s essential to acknowledge the less glamorous side
-of the company culture—a side that can be draining and demoralizing, even for
-the most passionate and dedicated professionals.&lt;/p&gt;
-
-&lt;p&gt;Having said all that, after almost 4 years at &lt;strong&gt;&lt;em&gt;the spaceship&lt;/em&gt;&lt;/strong&gt; and working
-with some amazing people (some not &lt;em&gt;ALL&lt;/em&gt;), I made decision back in October to
-leave Apple and look for someting else.&lt;/p&gt;
-
-&lt;h4 id=&quot;new-beginnings&quot;&gt;New Beginnings&lt;/h4&gt;
-&lt;p&gt;I ended up taking a position at the first company I interviewed with. Most of
-the reasons are listed below but what isn’t mentioned below was the opportunity
-to work with some other ex-Apple folks that I respected a great deal as well as
-the job being full remote. Not some bullshit RTO Mandate that involved
-commuting to Apple Park to manage a team that wasn’t in fact local.&lt;/p&gt;
-
-&lt;p&gt;Joining GEICO as the Senior Director of Engineering for Hybrid Cloud SRE is an
-exciting new chapter in my career, one that comes at a pivotal moment for the
-company. GEICO is undergoing a significant transformation, shifting from a
-traditional IT organization to a forward-thinking Engineering organization. This
-transition is more than just a change in titles or processes—it’s a fundamental
-reimagining of how we approach technology, problem-solving, and innovation.&lt;/p&gt;
-
-&lt;p&gt;In the past, IT organizations have often been seen as reactive, primarily
-focused on maintaining systems and responding to issues as they arise. But as
-the landscape of technology evolves, so too must our approach. At GEICO, we are
-moving towards a model where engineering principles drive our decisions and
-strategies. This shift means embracing a culture of continuous improvement,
-automation, and resilience. It’s about empowering teams to build, innovate, and
-take ownership of their work, rather than just maintaining what already exists.&lt;/p&gt;
-
-&lt;p&gt;As we transition to this new model, my role in Hybrid Cloud SRE will be crucial.
-We’re focusing on building robust, scalable, and highly available cloud
-environments that support our engineering teams and drive business outcomes.
-This involves not just adopting new technologies, but also fostering a mindset
-where reliability, automation, and proactive problem-solving are at the core of
-everything we do. It’s an exciting time to be at GEICO, and I’m eager to
-contribute to this transformation, helping to lead our teams into a future where
-engineering excellence is the norm, not the exception.&lt;/p&gt;
-
-&lt;p&gt;The journey ahead will undoubtedly come with its challenges, but it’s these
-challenges that make the transformation so rewarding. I’m looking forward to
-collaborating with talented professionals across the company, leveraging our
-collective expertise to build something truly remarkable. This is more than just
-a job—it’s an opportunity to be part of a movement that will redefine how GEICO
-approaches technology and engineering in the years to come.&lt;/p&gt;
-
-&lt;h4 id=&quot;one-more-thing&quot;&gt;One More Thing&lt;/h4&gt;
-
-&lt;p&gt;To quote Steve Jobs….&lt;/p&gt;
-
-&lt;p&gt;So since the GEICO position was full remote and since we were looking for a
-place to retire we ended up purchasing a house in &lt;a href=&quot;https://en.wikipedia.org/wiki/Bandera,_Texas&quot;&gt;Bandera
-TX&lt;/a&gt;. While it’s a pretty small
-town (under 900 people or so) and pretty remote we’re still only 25 minutes away
-from Boerne and 40 minutes away from San Antonio.&lt;/p&gt;
-
-&lt;p&gt;The bonus is we were able to get a house with a huge workshop for me and my
-projects and the local electric co-operative also provided a 2gig fiber link to
-the house (take that Silicon Valley). While we’re not selling the house in Half
-Moon Bay anytime soon we are splitting time between the two houses (mostly
-Nicole and Patrick in CA).&lt;/p&gt;
-
-&lt;p&gt;Well thanks for taking the time to read and here’s some gratuitious photos:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://photos.app.goo.gl/fg9o4nVQQsK5Tk6d9&quot;&gt;Bandera House Photos&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 23 Aug 2024 16:37:00 -0500</pubDate>
-        <link>http://localhost:4000/2024/08/23/new-job-new-location/</link>
-        <guid isPermaLink="true">http://localhost:4000/2024/08/23/new-job-new-location/</guid>
-        
-        <category>New Job</category>
-        
-        <category>New House</category>
         
         
       </item>
