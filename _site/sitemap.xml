@@ -331,6 +331,12 @@
 <loc>http://localhost:4000/tag/ams/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/tag/humidity-control/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/desiccant/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/tag/prusa/</loc>
 </url>
 <url>
