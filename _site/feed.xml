@@ -5,9 +5,1119 @@
     <description>Totally Random Musings from the Edge</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Jul 2025 10:14:01 -0500</pubDate>
-    <lastBuildDate>Fri, 18 Jul 2025 10:14:01 -0500</lastBuildDate>
+    <pubDate>Tue, 22 Jul 2025 10:09:25 -0500</pubDate>
+    <lastBuildDate>Tue, 22 Jul 2025 10:09:25 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>When Cards Outpaced Stocks: Comparing Market Bubbles from 2016-2024</title>
+        <description>&lt;p&gt;Remember when your childhood baseball cards were worth more than your 401(k)? For a brief, shining moment between 2020 and 2022, that wasn’t just nostalgia talking—it was market reality. The parallel journeys of the stock market and sports card market from 2016 to 2024 tell a fascinating story about speculation, liquidity, and what happens when everyone becomes a day trader overnight.&lt;/p&gt;
+
+&lt;h4 id=&quot;by-the-numbers-a-tale-of-two-markets&quot;&gt;By the Numbers: A Tale of Two Markets&lt;/h4&gt;
+
+&lt;p&gt;Let’s start with the raw data. Between January 2016 and December 2024, the S&amp;amp;P 500 delivered a total return of approximately 180%, turning a $10,000 investment into about $28,000.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Impressive by traditional standards. But certain sports cards? They turned that same $10,000 into $150,000 at their peak—before crashing back to earth.&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;div class=&quot;chart-container&quot;&gt;
+  &lt;canvas id=&quot;market-comparison&quot;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;script src=&quot;https://cdn.jsdelivr.net/npm/chart.js&quot;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+const ctx = document.getElementById(&apos;market-comparison&apos;).getContext(&apos;2d&apos;);
+new Chart(ctx, {
+    type: &apos;line&apos;,
+    data: {
+        labels: [&apos;2016&apos;, &apos;2017&apos;, &apos;2018&apos;, &apos;2019&apos;, &apos;2020&apos;, &apos;2021&apos;, &apos;2022&apos;, &apos;2023&apos;, &apos;2024&apos;],
+        datasets: [{
+            label: &apos;S&amp;P 500 Index (Normalized to 100)&apos;,
+            data: [100, 122, 117, 154, 182, 235, 188, 238, 280],
+            borderColor: &apos;rgb(75, 192, 192)&apos;,
+            backgroundColor: &apos;rgba(75, 192, 192, 0.2)&apos;,
+            tension: 0.1
+        }, {
+            label: &apos;PSA 10 Jordan Rookie (Normalized to 100)&apos;,
+            data: [100, 120, 133, 166, 400, 1476, 600, 500, 600],
+            borderColor: &apos;rgb(255, 99, 132)&apos;,
+            backgroundColor: &apos;rgba(255, 99, 132, 0.2)&apos;,
+            tension: 0.1
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            title: {
+                display: true,
+                text: &apos;Stock Market vs Sports Card Performance (2016-2024)&apos;
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+&lt;/script&gt;
+
+&lt;h4 id=&quot;the-pre-pandemic-build-up-2016-2019&quot;&gt;The Pre-Pandemic Build-Up (2016-2019)&lt;/h4&gt;
+
+&lt;p&gt;From 2016 to 2019, both markets showed steady, unremarkable growth. The S&amp;amp;P 500 climbed from around 2,000 to 3,200 points—a respectable 60% gain over four years. Meanwhile, the sports card market was experiencing its own quiet renaissance.&lt;/p&gt;
+
+&lt;p&gt;During this period:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Stock Market&lt;/strong&gt;: Fed by the Trump tax cuts, low interest rates, and strong corporate earnings, equities marched steadily higher with only minor corrections&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Card Market&lt;/strong&gt;: Grading companies like PSA and BGS were processing cards at normal rates (10-15 business days), and a PSA 10 1986 Michael Jordan rookie card could be had for around $3,000-$5,000&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Key Metric&lt;/strong&gt;: Monthly eBay sales of graded cards increased from $2 million to $8 million&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The groundwork for what was to come was being laid:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Online marketplaces like COMC and PWCC were making card trading more accessible&lt;/li&gt;
+  &lt;li&gt;Social media was creating new communities of collectors&lt;/li&gt;
+  &lt;li&gt;Gary Vaynerchuk started evangelizing sports cards as alternative investments&lt;/li&gt;
+  &lt;li&gt;Breakers (people who open boxes and sell individual cards/teams) began streaming on social platforms&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;the-early-warning-signs&quot;&gt;The Early Warning Signs&lt;/h5&gt;
+
+&lt;p&gt;By late 2019, astute observers could see something shifting. PSA’s monthly submission volume had doubled year-over-year.&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; Instagram accounts dedicated to showing off high-value cards were multiplying. And perhaps most tellingly, Wall Street types were starting to appear at card shows.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-pandemic-boom-2020-2021&quot;&gt;The Pandemic Boom (2020-2021)&lt;/h4&gt;
+
+&lt;p&gt;Then COVID-19 hit, and everything changed. With stimulus checks in hand, nowhere to go, and trading apps on every phone, Americans discovered two things: day trading and their old card collections.&lt;/p&gt;
+
+&lt;div class=&quot;chart-container&quot;&gt;
+  &lt;canvas id=&quot;pandemic-surge&quot;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+const ctx2 = document.getElementById(&apos;pandemic-surge&apos;).getContext(&apos;2d&apos;);
+new Chart(ctx2, {
+    type: &apos;bar&apos;,
+    data: {
+        labels: [&apos;Q1 2020&apos;, &apos;Q2 2020&apos;, &apos;Q3 2020&apos;, &apos;Q4 2020&apos;, &apos;Q1 2021&apos;, &apos;Q2 2021&apos;],
+        datasets: [{
+            label: &apos;PSA Submission Volume (in thousands)&apos;,
+            data: [150, 300, 750, 1200, 1800, 2100],
+            backgroundColor: &apos;rgba(54, 162, 235, 0.2)&apos;,
+            borderColor: &apos;rgba(54, 162, 235, 1)&apos;,
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            title: {
+                display: true,
+                text: &apos;PSA Grading Submission Volume During Pandemic&apos;
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+&lt;/script&gt;
+
+&lt;p&gt;The stock market’s recovery from its March 2020 crash was swift and shocking. The S&amp;amp;P 500 not only recovered but soared to new heights, reaching 4,700 by the end of 2021—a gain of nearly 100% from its pandemic low.&lt;/p&gt;
+
+&lt;p&gt;But the sports card market? It went absolutely nuclear:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;That $5,000 Jordan rookie? It sold for $738,000 in January 2021&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Modern cards of players like Luka Dončić and Zion Williamson were selling for five figures before they’d completed their rookie seasons&lt;/li&gt;
+  &lt;li&gt;PSA shut down most submission levels due to a backlog of over 10 million cards&lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Card shops that had been struggling for years suddenly had lines around the block&lt;/li&gt;
+  &lt;li&gt;Target and Walmart had to institute purchase limits, then stopped selling cards entirely due to parking lot fights&lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;the-anatomy-of-a-mania&quot;&gt;The Anatomy of a Mania&lt;/h5&gt;
+
+&lt;p&gt;What drove this insanity? Several factors converged:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;The Perfect Storm of Liquidity&lt;/strong&gt;: Between stimulus checks, enhanced unemployment benefits, and nowhere to spend money on experiences, Americans were flush with cash&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The Gamification of Everything&lt;/strong&gt;: If you could trade stocks on your phone, why not cards?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Social Media Amplification&lt;/strong&gt;: Every record sale was broadcast across Twitter, Instagram, and TikTok within minutes&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;FOMO on Steroids&lt;/strong&gt;: Watching your neighbor flip a Zion rookie for 10x returns in three months created intense pressure to get in&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New Market Infrastructure&lt;/strong&gt;: Companies like PWCC Marketplace, Alt, and Collectable created fractional ownership platforms&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;peak-insanity-notable-sales&quot;&gt;Peak Insanity: Notable Sales&lt;/h4&gt;
+
+&lt;p&gt;The period from December 2020 to May 2021 saw some truly mind-boggling transactions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;January 2021&lt;/strong&gt;: A Tom Brady rookie card sells for $1.32 million&lt;sup id=&quot;fnref:8&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;February 2021&lt;/strong&gt;: A LeBron James rookie patch auto sells for $5.2 million&lt;sup id=&quot;fnref:9&quot;&gt;&lt;a href=&quot;#fn:9&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;April 2021&lt;/strong&gt;: A 1952 Mickey Mantle sells for $5.2 million&lt;sup id=&quot;fnref:10&quot;&gt;&lt;a href=&quot;#fn:10&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;April 2021&lt;/strong&gt;: Modern rookies of unproven players selling for $100,000+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-great-divergence-2022-2024&quot;&gt;The Great Divergence (2022-2024)&lt;/h4&gt;
+
+&lt;p&gt;This is where the stories split dramatically. The stock market, despite inflation fears and rate hikes, managed a controlled descent in 2022 before recovering in 2023-2024. The S&amp;amp;P 500’s 2022 bear market was painful but orderly, dropping about 20% before stabilizing and eventually reaching new all-time highs by 2024.&lt;/p&gt;
+
+&lt;div class=&quot;chart-container&quot;&gt;
+  &lt;canvas id=&quot;divergence-chart&quot;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+const ctx3 = document.getElementById(&apos;divergence-chart&apos;).getContext(&apos;2d&apos;);
+new Chart(ctx3, {
+    type: &apos;line&apos;,
+    data: {
+        labels: [&apos;Jan 22&apos;, &apos;Apr 22&apos;, &apos;Jul 22&apos;, &apos;Oct 22&apos;, &apos;Jan 23&apos;, &apos;Apr 23&apos;, &apos;Jul 23&apos;, &apos;Oct 23&apos;, &apos;Jan 24&apos;],
+        datasets: [{
+            label: &apos;S&amp;P 500 (% from peak)&apos;,
+            data: [100, 92, 84, 82, 88, 93, 96, 92, 105],
+            borderColor: &apos;rgb(75, 192, 192)&apos;,
+            tension: 0.1
+        }, {
+            label: &apos;Sports Card Index (% from peak)&apos;,
+            data: [100, 75, 55, 45, 40, 42, 38, 35, 40],
+            borderColor: &apos;rgb(255, 99, 132)&apos;,
+            tension: 0.1
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            title: {
+                display: true,
+                text: &apos;The Great Divergence: Stock Recovery vs Card Collapse&apos;
+            }
+        }
+    }
+});
+&lt;/script&gt;
+
+&lt;p&gt;The sports card market? It experienced something closer to a cliff dive:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;That record-breaking Jordan rookie? Back down to $200,000-$300,000 range&lt;/li&gt;
+  &lt;li&gt;Modern basketball cards lost 60-80% of their peak values&lt;/li&gt;
+  &lt;li&gt;Grading companies cleared their backlogs as submissions plummeted&lt;/li&gt;
+  &lt;li&gt;Many “investors” who entered during the boom quietly exited&lt;/li&gt;
+  &lt;li&gt;Breaking (box opening) viewership on platforms like Whatnot declined 70%&lt;sup id=&quot;fnref:11&quot;&gt;&lt;a href=&quot;#fn:11&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;case-studies-in-collapse&quot;&gt;Case Studies in Collapse&lt;/h5&gt;
+
+&lt;p&gt;Let’s look at specific examples:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Zion Williamson Prizm Silver Rookie PSA 10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Peak (March 2021): $75,000&lt;/li&gt;
+  &lt;li&gt;Current (2024): $8,000-10,000&lt;/li&gt;
+  &lt;li&gt;Decline: -87%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Luka Dončić National Treasures RPA /99&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Peak (February 2021): $3.5 million&lt;/li&gt;
+  &lt;li&gt;Current (2024): $800,000-1 million&lt;/li&gt;
+  &lt;li&gt;Decline: -71%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Modern Football (2020 Justin Herbert Prizm)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Peak (August 2021): $8,500&lt;/li&gt;
+  &lt;li&gt;Current (2024): $1,200&lt;/li&gt;
+  &lt;li&gt;Decline: -86%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;market-mechanics-why-the-difference&quot;&gt;Market Mechanics: Why the Difference?&lt;/h4&gt;
+
+&lt;p&gt;What made these markets behave so differently? The answer lies in fundamental market structure.&lt;/p&gt;
+
+&lt;h5 id=&quot;liquidity-comparison&quot;&gt;Liquidity Comparison&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;Stock Market&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Instant execution through electronic exchanges&lt;/li&gt;
+  &lt;li&gt;Tight bid-ask spreads (often pennies)&lt;sup id=&quot;fnref:12&quot;&gt;&lt;a href=&quot;#fn:12&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Deep order books with millions of participants&lt;/li&gt;
+  &lt;li&gt;Settlement in T+2 days&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Card Market&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sales through auctions (7-10 days) or marketplaces (variable)&lt;/li&gt;
+  &lt;li&gt;Wide bid-ask spreads (often 20-30%)&lt;sup id=&quot;fnref:13&quot;&gt;&lt;a href=&quot;#fn:13&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Thin markets, especially for high-value cards&lt;/li&gt;
+  &lt;li&gt;Physical shipping required (3-7 days)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;market-infrastructure&quot;&gt;Market Infrastructure&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;Stock Market&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SEC oversight and regulation&lt;/li&gt;
+  &lt;li&gt;Circuit breakers to prevent flash crashes&lt;/li&gt;
+  &lt;li&gt;Market makers providing liquidity&lt;/li&gt;
+  &lt;li&gt;Transparent pricing through exchanges&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Card Market&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;No regulatory oversight&lt;/li&gt;
+  &lt;li&gt;No circuit breakers or trading halts&lt;/li&gt;
+  &lt;li&gt;Liquidity dependent on individual dealers/collectors&lt;/li&gt;
+  &lt;li&gt;Pricing opacity (auction houses take 20% fees)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;intrinsic-value-analysis&quot;&gt;Intrinsic Value Analysis&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;Stocks&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Represent ownership in profit-generating businesses&lt;/li&gt;
+  &lt;li&gt;Pay dividends (S&amp;amp;P 500 yield ~1.5%)&lt;sup id=&quot;fnref:14&quot;&gt;&lt;a href=&quot;#fn:14&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Can be valued using DCF, P/E ratios, etc.&lt;/li&gt;
+  &lt;li&gt;Companies can grow earnings over time&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Cards&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pure collectibles with no cash flow&lt;/li&gt;
+  &lt;li&gt;Value based entirely on scarcity and demand&lt;/li&gt;
+  &lt;li&gt;No objective valuation methodology&lt;/li&gt;
+  &lt;li&gt;Condition degradation risk over time&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-international-dimension&quot;&gt;The International Dimension&lt;/h4&gt;
+
+&lt;p&gt;While our analysis has focused primarily on the U.S. market, the sports card bubble was truly a global phenomenon, with distinct regional variations that offer fascinating insights into market dynamics.&lt;/p&gt;
+
+&lt;h5 id=&quot;the-asian-market-explosion&quot;&gt;The Asian Market Explosion&lt;/h5&gt;
+
+&lt;p&gt;The Asian market, particularly China and Japan, played a crucial but often overlooked role in the sports card boom.&lt;sup id=&quot;fnref:18&quot;&gt;&lt;a href=&quot;#fn:18&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;15&lt;/a&gt;&lt;/sup&gt; Chinese collectors, flush with cash from their own stock market gains, became major players in the high-end card market. The impact was particularly pronounced in basketball cards, where NBA popularity in China drove unprecedented demand.&lt;/p&gt;
+
+&lt;p&gt;Key developments included:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;WeChat Groups&lt;/strong&gt;: Chinese collectors organized buying groups that could move markets overnight&lt;sup id=&quot;fnref:19&quot;&gt;&lt;a href=&quot;#fn:19&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;16&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cross-Border Arbitrage&lt;/strong&gt;: Savvy traders exploited price differences between U.S. and Asian markets&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Payment Innovation&lt;/strong&gt;: Alipay and WeChat Pay integration made international transactions seamless&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cultural Preferences&lt;/strong&gt;: Kobe Bryant cards commanded premiums of 50-100% in Asian markets due to his popularity&lt;sup id=&quot;fnref:20&quot;&gt;&lt;a href=&quot;#fn:20&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;european-market-dynamics&quot;&gt;European Market Dynamics&lt;/h5&gt;
+
+&lt;p&gt;Europe presented a different picture entirely. Soccer (football) cards dominated, with a completely separate ecosystem from American sports:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Panini Monopoly&lt;/strong&gt;: Unlike the U.S. market’s multiple manufacturers, Panini dominated European soccer cards&lt;sup id=&quot;fnref:21&quot;&gt;&lt;a href=&quot;#fn:21&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;18&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sticker Culture&lt;/strong&gt;: The tradition of sticker albums created different collecting patterns&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Regulatory Differences&lt;/strong&gt;: EU consumer protection laws provided more buyer safeguards&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Currency Effects&lt;/strong&gt;: Euro/Dollar fluctuations added another layer of complexity for international traders&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-technology-revolution-in-trading&quot;&gt;The Technology Revolution in Trading&lt;/h4&gt;
+
+&lt;p&gt;The period from 2016-2024 saw unprecedented technological innovation in both markets, but the pace and impact differed dramatically.&lt;/p&gt;
+
+&lt;h5 id=&quot;stock-market-technology-evolution&quot;&gt;Stock Market Technology Evolution&lt;/h5&gt;
+
+&lt;p&gt;The stock market’s technological advancement was evolutionary:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Commission-Free Trading&lt;/strong&gt;: Robinhood’s 2013 launch reached critical mass by 2018&lt;sup id=&quot;fnref:22&quot;&gt;&lt;a href=&quot;#fn:22&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;19&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fractional Shares&lt;/strong&gt;: Made expensive stocks accessible to small investors&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Options Trading&lt;/strong&gt;: Simplified interfaces democratized complex derivatives&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Social Trading&lt;/strong&gt;: Platforms like eToro introduced copy-trading features&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;card-market-digital-transformation&quot;&gt;Card Market Digital Transformation&lt;/h5&gt;
+
+&lt;p&gt;The card market’s tech revolution was more revolutionary:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Grading Apps&lt;/strong&gt;: PSA and BGS launched AI-powered pre-grading apps&lt;sup id=&quot;fnref:23&quot;&gt;&lt;a href=&quot;#fn:23&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;20&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Blockchain Authentication&lt;/strong&gt;: Companies experimented with NFT authentication for physical cards&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Live Breaking Platforms&lt;/strong&gt;: Whatnot and Loupe created TikTok-style card opening experiences&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Price Aggregators&lt;/strong&gt;: Card Ladder and Market Movers provided real-time pricing across platforms&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;chart-container&quot;&gt;
+  &lt;canvas id=&quot;tech-adoption&quot;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+const ctx4 = document.getElementById(&apos;tech-adoption&apos;).getContext(&apos;2d&apos;);
+new Chart(ctx4, {
+    type: &apos;bar&apos;,
+    data: {
+        labels: [&apos;Online Trading Apps&apos;, &apos;Digital Payments&apos;, &apos;Live Streaming&apos;, &apos;AI/ML Tools&apos;, &apos;Blockchain&apos;],
+        datasets: [{
+            label: &apos;Stock Market Adoption Rate (%)&apos;,
+            data: [95, 98, 15, 75, 10],
+            backgroundColor: &apos;rgba(75, 192, 192, 0.6)&apos;,
+            borderColor: &apos;rgba(75, 192, 192, 1)&apos;,
+            borderWidth: 1
+        }, {
+            label: &apos;Card Market Adoption Rate (%)&apos;,
+            data: [85, 90, 70, 25, 5],
+            backgroundColor: &apos;rgba(255, 99, 132, 0.6)&apos;,
+            borderColor: &apos;rgba(255, 99, 132, 1)&apos;,
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            title: {
+                display: true,
+                text: &apos;Technology Adoption Rates: Stock vs Card Markets (2024)&apos;
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: true,
+                max: 100
+            }
+        }
+    }
+});
+&lt;/script&gt;
+
+&lt;h4 id=&quot;the-celebrity-effect&quot;&gt;The Celebrity Effect&lt;/h4&gt;
+
+&lt;p&gt;No discussion of the sports card bubble would be complete without examining the outsized role celebrities played in inflating—and deflating—the market.&lt;/p&gt;
+
+&lt;h5 id=&quot;the-influencer-industrial-complex&quot;&gt;The Influencer Industrial Complex&lt;/h5&gt;
+
+&lt;p&gt;Unlike the stock market, where celebrity endorsements are heavily regulated, the card market became a Wild West of influencer marketing:&lt;sup id=&quot;fnref:24&quot;&gt;&lt;a href=&quot;#fn:24&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;21&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Gary Vaynerchuk&lt;/strong&gt; emerged as the unofficial spokesman for card investing, with his every purchase moving markets. His YouTube videos routinely generated millions of views, and cards he mentioned could see immediate 50-100% price spikes.&lt;sup id=&quot;fnref:25&quot;&gt;&lt;a href=&quot;#fn:25&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;22&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Athletes Turned Collectors&lt;/strong&gt;: Active players like Giannis Antetokounmpo and Patrick Mahomes began collecting, creating recursive loops where they collected their own cards, driving up prices.&lt;sup id=&quot;fnref:26&quot;&gt;&lt;a href=&quot;#fn:26&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;23&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Celebrity Collectors&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Drake spending $200,000 on boxes during Instagram Live sessions&lt;/li&gt;
+  &lt;li&gt;Steve Aoki launching his own card trading platform&lt;/li&gt;
+  &lt;li&gt;Logan Paul wearing a PSA 10 Charizard as a necklace to WrestleMania&lt;sup id=&quot;fnref:27&quot;&gt;&lt;a href=&quot;#fn:27&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;24&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;the-pump-and-dump-problem&quot;&gt;The Pump and Dump Problem&lt;/h5&gt;
+
+&lt;p&gt;The unregulated nature of the card market made it ripe for manipulation:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Coordinated Buying&lt;/strong&gt;: Discord groups organizing purchases to drive up prices&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fake Sales&lt;/strong&gt;: Shill bidding and wash trading to create artificial price floors&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Exit Scams&lt;/strong&gt;: Influencers promoting cards they were simultaneously selling&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;FOMO Manufacturing&lt;/strong&gt;: Limited “drops” creating artificial scarcity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;regulatory-responses-and-legal-implications&quot;&gt;Regulatory Responses and Legal Implications&lt;/h4&gt;
+
+&lt;p&gt;The divergent regulatory treatment of these markets played a crucial role in their different trajectories.&lt;/p&gt;
+
+&lt;h5 id=&quot;stock-market-regulation&quot;&gt;Stock Market Regulation&lt;/h5&gt;
+
+&lt;p&gt;The SEC’s robust framework provided multiple safeguards:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Pattern Day Trader Rules&lt;/strong&gt;: Limited excessive speculation by small accounts&lt;sup id=&quot;fnref:28&quot;&gt;&lt;a href=&quot;#fn:28&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;25&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Market Manipulation Enforcement&lt;/strong&gt;: High-profile cases against pump-and-dump schemes&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Broker Requirements&lt;/strong&gt;: Know Your Customer (KYC) and suitability standards&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tax Reporting&lt;/strong&gt;: Automatic 1099 generation for all trades&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;card-market-the-regulatory-vacuum&quot;&gt;Card Market: The Regulatory Vacuum&lt;/h5&gt;
+
+&lt;p&gt;The card market operated in a regulatory grey area:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;No Federal Oversight&lt;/strong&gt;: Neither the SEC nor CFTC claimed jurisdiction&lt;sup id=&quot;fnref:29&quot;&gt;&lt;a href=&quot;#fn:29&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;26&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;State-Level Patchwork&lt;/strong&gt;: Some states treated cards as securities, others as collectibles&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tax Confusion&lt;/strong&gt;: Many traders unaware of tax obligations on card sales&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Consumer Protection Gaps&lt;/strong&gt;: Limited recourse for fraud or manipulation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This regulatory vacuum had real consequences. The IRS launched investigations into high-volume traders who failed to report millions in card sales.&lt;sup id=&quot;fnref:30&quot;&gt;&lt;a href=&quot;#fn:30&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;27&lt;/a&gt;&lt;/sup&gt; Class action lawsuits emerged against grading companies for inconsistent standards. And the FBI investigated several high-profile authentication fraud cases.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-role-of-market-participants&quot;&gt;The Role of Market Participants&lt;/h4&gt;
+
+&lt;h5 id=&quot;stock-market-participants-2016-2024&quot;&gt;Stock Market Participants (2016-2024)&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Institutional Investors&lt;/strong&gt;: 80% of volume&lt;sup id=&quot;fnref:15&quot;&gt;&lt;a href=&quot;#fn:15&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;28&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Retail Investors&lt;/strong&gt;: 20% of volume (peaked at 25% in 2021)&lt;sup id=&quot;fnref:16&quot;&gt;&lt;a href=&quot;#fn:16&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;29&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;High-Frequency Traders&lt;/strong&gt;: Providing liquidity&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Index Funds&lt;/strong&gt;: Steady buyers regardless of price&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;card-market-participants&quot;&gt;Card Market Participants&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;Pre-2020&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Traditional collectors: 70%&lt;/li&gt;
+  &lt;li&gt;Dealers/shops: 20%&lt;/li&gt;
+  &lt;li&gt;Investors: 10%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Peak Mania (2021)&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;New “investors”: 50%&lt;/li&gt;
+  &lt;li&gt;Traditional collectors: 20%&lt;/li&gt;
+  &lt;li&gt;Dealers/shops: 15%&lt;/li&gt;
+  &lt;li&gt;Celebrities/influencers: 15%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Current (2024)&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Traditional collectors: 60%&lt;/li&gt;
+  &lt;li&gt;Dealers/shops: 25%&lt;/li&gt;
+  &lt;li&gt;Investors: 15%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;lessons-from-the-aftermath&quot;&gt;Lessons from the Aftermath&lt;/h4&gt;
+
+&lt;p&gt;The 2016-2024 period taught us several valuable lessons about market dynamics, speculation, and the nature of value.&lt;/p&gt;
+
+&lt;h5 id=&quot;1-alternative-assets-arent-immune-to-speculation&quot;&gt;1. Alternative Assets Aren’t Immune to Speculation&lt;/h5&gt;
+
+&lt;p&gt;When mainstream markets seem “too high” or “manipulated,” retail investors often seek alternatives. But these alternatives can experience even more extreme bubbles due to their lack of infrastructure and oversight.&lt;/p&gt;
+
+&lt;h5 id=&quot;2-accessibility-drives-volatility&quot;&gt;2. Accessibility Drives Volatility&lt;/h5&gt;
+
+&lt;p&gt;The easier something is to trade, the more volatile it becomes when retail investors pile in. Robinhood made stock trading frictionless; Instagram and eBay did the same for cards.&lt;/p&gt;
+
+&lt;h5 id=&quot;3-nostalgia-has-a-price-but-its-highly-variable&quot;&gt;3. Nostalgia Has a Price (But It’s Highly Variable)&lt;/h5&gt;
+
+&lt;p&gt;The emotional connection to sports cards created a perfect storm when combined with excess liquidity. But emotion-driven markets are inherently unstable.&lt;/p&gt;
+
+&lt;h5 id=&quot;4-market-structure-matters&quot;&gt;4. Market Structure Matters&lt;/h5&gt;
+
+&lt;p&gt;The stock market’s recovery was aided by its robust infrastructure:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The Fed could provide liquidity&lt;/li&gt;
+  &lt;li&gt;Circuit breakers prevented panic selling&lt;/li&gt;
+  &lt;li&gt;Institutional investors provided a floor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The card market had none of these stabilizers.&lt;/p&gt;
+
+&lt;h5 id=&quot;5-social-media-amplifies-everything&quot;&gt;5. Social Media Amplifies Everything&lt;/h5&gt;
+
+&lt;p&gt;Both bubbles were supercharged by social media, but cards were particularly susceptible because:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Visual medium (perfect for Instagram)&lt;/li&gt;
+  &lt;li&gt;Easy to understand (everyone knows Michael Jordan)&lt;/li&gt;
+  &lt;li&gt;Lottery ticket appeal (your childhood collection might be worth millions!)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-psychology-of-bubbles&quot;&gt;The Psychology of Bubbles&lt;/h4&gt;
+
+&lt;p&gt;Both markets exhibited classic bubble psychology, but the card market showed it in pure, undiluted form:&lt;sup id=&quot;fnref:17&quot;&gt;&lt;a href=&quot;#fn:17&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;30&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stage 1 - Displacement&lt;/strong&gt;: New market participants enter (2019-early 2020)
+&lt;strong&gt;Stage 2 - Boom&lt;/strong&gt;: Prices rise, attracting media attention (mid-2020)
+&lt;strong&gt;Stage 3 - Euphoria&lt;/strong&gt;: “This time is different” mentality (late 2020-early 2021)
+&lt;strong&gt;Stage 4 - Profit-Taking&lt;/strong&gt;: Smart money exits (mid-2021)
+&lt;strong&gt;Stage 5 - Panic&lt;/strong&gt;: Prices collapse as buyers disappear (late 2021-2022)&lt;/p&gt;
+
+&lt;h4 id=&quot;the-environmental-and-social-impact&quot;&gt;The Environmental and Social Impact&lt;/h4&gt;
+
+&lt;p&gt;An often-overlooked aspect of both market booms was their environmental and social consequences.&lt;/p&gt;
+
+&lt;h5 id=&quot;environmental-footprint&quot;&gt;Environmental Footprint&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;Stock Market&lt;/strong&gt;: The shift to electronic trading has made stock market transactions relatively low-impact:&lt;sup id=&quot;fnref:31&quot;&gt;&lt;a href=&quot;#fn:31&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;31&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Digital transactions with minimal physical footprint&lt;/li&gt;
+  &lt;li&gt;Cloud-based infrastructure improving efficiency&lt;/li&gt;
+  &lt;li&gt;ESG investing becoming mainstream&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Card Market&lt;/strong&gt;: The environmental impact was substantial:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Millions of cards shipped in plastic cases globally&lt;/li&gt;
+  &lt;li&gt;Grading companies using non-recyclable slabs&lt;/li&gt;
+  &lt;li&gt;Carbon footprint of shipping cards multiple times (to grading, to buyers)&lt;/li&gt;
+  &lt;li&gt;Overproduction as manufacturers chased demand&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;social-consequences&quot;&gt;Social Consequences&lt;/h5&gt;
+
+&lt;p&gt;The social impact of these bubbles extended far beyond financial losses:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Family Dynamics&lt;/strong&gt;: Stories emerged of divorces caused by secret card spending, children’s college funds gambled on modern rookies, and family collections sold without permission.&lt;sup id=&quot;fnref:32&quot;&gt;&lt;a href=&quot;#fn:32&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;32&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mental Health&lt;/strong&gt;: The boom-bust cycle took a psychological toll:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Addiction-like behaviors around breaking (opening packs)&lt;/li&gt;
+  &lt;li&gt;Depression following massive losses&lt;/li&gt;
+  &lt;li&gt;Social media-driven anxiety and FOMO&lt;/li&gt;
+  &lt;li&gt;Relationship strain from hidden financial losses&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Community Changes&lt;/strong&gt;: Local card shops, once community gathering places, transformed:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Traditional collectors priced out&lt;/li&gt;
+  &lt;li&gt;Shops becoming investment firms&lt;/li&gt;
+  &lt;li&gt;Youth programs unable to afford cards for kids&lt;/li&gt;
+  &lt;li&gt;The death of “trading” as everything became about cash value&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-data-deep-dive-alternative-metrics&quot;&gt;The Data Deep Dive: Alternative Metrics&lt;/h4&gt;
+
+&lt;p&gt;Beyond headline prices, other metrics tell the story of these parallel bubbles:&lt;/p&gt;
+
+&lt;div class=&quot;chart-container&quot;&gt;
+  &lt;canvas id=&quot;alternative-metrics&quot;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+const ctx5 = document.getElementById(&apos;alternative-metrics&apos;).getContext(&apos;2d&apos;);
+new Chart(ctx5, {
+    type: &apos;line&apos;,
+    data: {
+        labels: [&apos;2016&apos;, &apos;2017&apos;, &apos;2018&apos;, &apos;2019&apos;, &apos;2020&apos;, &apos;2021&apos;, &apos;2022&apos;, &apos;2023&apos;, &apos;2024&apos;],
+        datasets: [{
+            label: &apos;Google Search Interest - &quot;Stock Trading&quot;&apos;,
+            data: [45, 48, 52, 55, 78, 100, 65, 60, 58],
+            borderColor: &apos;rgb(75, 192, 192)&apos;,
+            tension: 0.1,
+            yAxisID: &apos;y&apos;
+        }, {
+            label: &apos;Google Search Interest - &quot;Sports Cards&quot;&apos;,
+            data: [12, 14, 18, 25, 68, 100, 45, 30, 28],
+            borderColor: &apos;rgb(255, 99, 132)&apos;,
+            tension: 0.1,
+            yAxisID: &apos;y&apos;
+        }, {
+            label: &apos;eBay Sports Card Listings (Millions)&apos;,
+            data: [0.8, 1.0, 1.2, 1.8, 4.5, 12.3, 8.5, 5.2, 4.8],
+            borderColor: &apos;rgb(255, 206, 86)&apos;,
+            tension: 0.1,
+            yAxisID: &apos;y1&apos;
+        }]
+    },
+    options: {
+        responsive: true,
+        interaction: {
+            mode: &apos;index&apos;,
+            intersect: false,
+        },
+        plugins: {
+            title: {
+                display: true,
+                text: &apos;Alternative Market Indicators (2016-2024)&apos;
+            }
+        },
+        scales: {
+            y: {
+                type: &apos;linear&apos;,
+                display: true,
+                position: &apos;left&apos;,
+                title: {
+                    display: true,
+                    text: &apos;Search Interest (Peak = 100)&apos;
+                }
+            },
+            y1: {
+                type: &apos;linear&apos;,
+                display: true,
+                position: &apos;right&apos;,
+                title: {
+                    display: true,
+                    text: &apos;eBay Listings (Millions)&apos;
+                },
+                grid: {
+                    drawOnChartArea: false,
+                }
+            }
+        }
+    }
+});
+&lt;/script&gt;
+
+&lt;h5 id=&quot;shipping-and-logistics-data&quot;&gt;Shipping and Logistics Data&lt;/h5&gt;
+
+&lt;p&gt;The physical nature of cards created a fascinating logistics footprint:&lt;sup id=&quot;fnref:33&quot;&gt;&lt;a href=&quot;#fn:33&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;33&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;USPS reported a 400% increase in small package shipments to PSA’s California facility&lt;/li&gt;
+  &lt;li&gt;FedEx and UPS created dedicated routes for high-value card shipments&lt;/li&gt;
+  &lt;li&gt;Insurance claims for lost card packages increased 1,200% from 2019 to 2021&lt;/li&gt;
+  &lt;li&gt;New businesses emerged solely to handle card shipping logistics&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;payment-processing-insights&quot;&gt;Payment Processing Insights&lt;/h5&gt;
+
+&lt;p&gt;Payment data revealed interesting patterns:&lt;sup id=&quot;fnref:34&quot;&gt;&lt;a href=&quot;#fn:34&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;34&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Average transaction size on card platforms increased from $47 (2019) to $284 (2021)&lt;/li&gt;
+  &lt;li&gt;Buy Now, Pay Later usage for cards increased 800%&lt;/li&gt;
+  &lt;li&gt;Cryptocurrency payments for high-end cards grew from negligible to 15% of volume&lt;/li&gt;
+  &lt;li&gt;Chargebacks and payment disputes increased 500%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-grading-economy-a-market-within-a-market&quot;&gt;The Grading Economy: A Market Within a Market&lt;/h4&gt;
+
+&lt;p&gt;Perhaps no aspect of the card bubble was more fascinating than the grading economy that emerged.&lt;/p&gt;
+
+&lt;h5 id=&quot;the-grading-explosion&quot;&gt;The Grading Explosion&lt;/h5&gt;
+
+&lt;p&gt;Professional grading transformed from a niche service to a massive industry:&lt;sup id=&quot;fnref:35&quot;&gt;&lt;a href=&quot;#fn:35&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;35&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PSA’s parent company went public via SPAC at a $4.7 billion valuation&lt;/li&gt;
+  &lt;li&gt;New grading companies launched weekly at the peak&lt;/li&gt;
+  &lt;li&gt;Grading backlogs reached 15+ months&lt;/li&gt;
+  &lt;li&gt;“Gem Rate” (percentage grading 10) became a key metric&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;economic-impact&quot;&gt;Economic Impact&lt;/h5&gt;
+
+&lt;p&gt;The grading boom created an entire ecosystem:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Pre-Grading Services&lt;/strong&gt;: Companies charging to evaluate cards before submission&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Grading Speculation&lt;/strong&gt;: Buying raw cards hoping for high grades&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Crossover Services&lt;/strong&gt;: Moving cards between grading companies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Population Control&lt;/strong&gt;: Collectors destroying lower grades to increase scarcity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;the-grading-bubble-within-the-bubble&quot;&gt;The Grading Bubble Within the Bubble&lt;/h5&gt;
+
+&lt;p&gt;Grading itself became speculative:&lt;sup id=&quot;fnref:36&quot;&gt;&lt;a href=&quot;#fn:36&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;36&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Submission costs increased from $10 to $150+ for premium service&lt;/li&gt;
+  &lt;li&gt;Secondary market for grading vouchers&lt;/li&gt;
+  &lt;li&gt;AI companies claiming to predict grades&lt;/li&gt;
+  &lt;li&gt;Counterfeit slabs flooding the market&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-international-money-flow&quot;&gt;The International Money Flow&lt;/h4&gt;
+
+&lt;p&gt;Following the money reveals how global these markets truly were:&lt;/p&gt;
+
+&lt;h5 id=&quot;capital-flows-in-stock-markets&quot;&gt;Capital Flows in Stock Markets&lt;/h5&gt;
+
+&lt;p&gt;Stock market flows remained relatively predictable:&lt;sup id=&quot;fnref:37&quot;&gt;&lt;a href=&quot;#fn:37&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;37&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Foreign investment in U.S. equities steady at ~40% of market cap&lt;/li&gt;
+  &lt;li&gt;Sovereign wealth funds maintaining strategic allocations&lt;/li&gt;
+  &lt;li&gt;Cross-border flows following traditional patterns&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;card-market-capital-migration&quot;&gt;Card Market Capital Migration&lt;/h5&gt;
+
+&lt;p&gt;The card market saw unprecedented international capital movement:&lt;sup id=&quot;fnref:38&quot;&gt;&lt;a href=&quot;#fn:38&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;38&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Middle Eastern sovereign funds quietly accumulating vintage cards&lt;/li&gt;
+  &lt;li&gt;Chinese capital fleeing domestic restrictions via collectibles&lt;/li&gt;
+  &lt;li&gt;Cryptocurrency wealth seeking physical assets&lt;/li&gt;
+  &lt;li&gt;Money laundering concerns raising regulatory eyebrows&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;where-are-we-now-2024-status&quot;&gt;Where Are We Now? (2024 Status)&lt;/h4&gt;
+
+&lt;p&gt;As of 2024, these markets have found very different equilibriums.&lt;/p&gt;
+
+&lt;h5 id=&quot;stock-market&quot;&gt;Stock Market&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Near all-time highs&lt;/li&gt;
+  &lt;li&gt;Corporate earnings strong&lt;/li&gt;
+  &lt;li&gt;Fed policy supportive&lt;/li&gt;
+  &lt;li&gt;Institutional participation robust&lt;/li&gt;
+  &lt;li&gt;Retail participation normalized but healthy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;card-market&quot;&gt;Card Market&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;70-80% below peak prices for modern cards&lt;/li&gt;
+  &lt;li&gt;Vintage cards holding value better (down 40-50%)&lt;/li&gt;
+  &lt;li&gt;Grading companies operating normally&lt;/li&gt;
+  &lt;li&gt;Dealer inventories high&lt;/li&gt;
+  &lt;li&gt;Return to collector-driven market&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-next-bubble&quot;&gt;The Next Bubble?&lt;/h4&gt;
+
+&lt;p&gt;If history teaches us anything, it’s that the next bubble is already forming somewhere. Current candidates include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AI-related stocks (reminiscent of dot-com era)&lt;/li&gt;
+  &lt;li&gt;Vintage video games (following the card playbook)&lt;/li&gt;
+  &lt;li&gt;Alternative cryptocurrencies&lt;/li&gt;
+  &lt;li&gt;Contemporary art NFTs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-recovery-different-paths-forward&quot;&gt;The Recovery: Different Paths Forward&lt;/h4&gt;
+
+&lt;p&gt;The recovery patterns of these two markets offer crucial insights into market resilience and structure.&lt;/p&gt;
+
+&lt;h5 id=&quot;stock-market-recovery-mechanisms&quot;&gt;Stock Market Recovery Mechanisms&lt;/h5&gt;
+
+&lt;p&gt;The stock market’s recovery was supported by multiple mechanisms:&lt;sup id=&quot;fnref:39&quot;&gt;&lt;a href=&quot;#fn:39&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;39&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Federal Reserve Policy&lt;/strong&gt;: Quantitative easing and low rates&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Corporate Buybacks&lt;/strong&gt;: Companies repurchasing $5.5 trillion in shares&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;401(k) Automatic Investing&lt;/strong&gt;: Steady inflows regardless of volatility&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Algorithmic Trading&lt;/strong&gt;: Providing liquidity and dampening volatility&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;card-market-finding-a-new-normal&quot;&gt;Card Market: Finding a New Normal&lt;/h5&gt;
+
+&lt;p&gt;The card market’s recovery has been more organic and painful:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Return to Collectors&lt;/strong&gt;: Investors fled, collectors remained&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Price Discovery&lt;/strong&gt;: True market values emerging without speculation&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Quality Flight&lt;/strong&gt;: Vintage and rare cards holding value better&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Market Consolidation&lt;/strong&gt;: Weak dealers and platforms failing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;lessons-for-future-bubbles&quot;&gt;Lessons for Future Bubbles&lt;/h4&gt;
+
+&lt;p&gt;What can investors learn from comparing these two bubbles?&lt;/p&gt;
+
+&lt;h5 id=&quot;universal-bubble-characteristics&quot;&gt;Universal Bubble Characteristics&lt;/h5&gt;
+
+&lt;p&gt;Both markets exhibited classic signs:&lt;sup id=&quot;fnref:40&quot;&gt;&lt;a href=&quot;#fn:40&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;40&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;New Era Thinking&lt;/strong&gt;: “This time is different”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Leverage Explosion&lt;/strong&gt;: Borrowed money chasing returns&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Retail Mania&lt;/strong&gt;: Taxi drivers giving investment advice&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Media Saturation&lt;/strong&gt;: Constant coverage driving FOMO&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Supply Response&lt;/strong&gt;: Overproduction to meet demand&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&quot;early-warning-signs&quot;&gt;Early Warning Signs&lt;/h5&gt;
+
+&lt;p&gt;Recognizing bubbles requires watching for:&lt;sup id=&quot;fnref:41&quot;&gt;&lt;a href=&quot;#fn:41&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;41&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Parabolic price movements&lt;/li&gt;
+  &lt;li&gt;New investors flooding in&lt;/li&gt;
+  &lt;li&gt;Complex financial engineering&lt;/li&gt;
+  &lt;li&gt;Celebrity involvement&lt;/li&gt;
+  &lt;li&gt;Regulatory scrutiny beginning&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-human-stories&quot;&gt;The Human Stories&lt;/h4&gt;
+
+&lt;p&gt;Behind the statistics are thousands of individual stories that illuminate the human cost of speculation.&lt;/p&gt;
+
+&lt;h5 id=&quot;winners-and-losers&quot;&gt;Winners and Losers&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;The Card Shop Owner&lt;/strong&gt;: Mike’s Sports Cards operated for 30 years in suburban Cleveland. During the boom, revenues increased 1,000%. Mike expanded to three locations. By 2023, he was back to one shop, deeply in debt.&lt;sup id=&quot;fnref:42&quot;&gt;&lt;a href=&quot;#fn:42&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;42&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Day Trader&lt;/strong&gt;: Sarah, a nurse, turned $5,000 into $150,000 trading both stocks and cards in 2021. She quit her job to trade full-time. By 2022, she had lost everything and returned to nursing.&lt;sup id=&quot;fnref:43&quot;&gt;&lt;a href=&quot;#fn:43&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;43&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Collector&lt;/strong&gt;: Jim collected cards since 1975. The boom priced him out of his hobby. But the crash allowed him to finally complete his 1955 Topps set, buying from desperate sellers.&lt;sup id=&quot;fnref:44&quot;&gt;&lt;a href=&quot;#fn:44&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;44&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;the-academic-perspective&quot;&gt;The Academic Perspective&lt;/h4&gt;
+
+&lt;p&gt;Economists and behavioral scientists have studied these parallel bubbles extensively.&lt;/p&gt;
+
+&lt;h5 id=&quot;behavioral-economics-insights&quot;&gt;Behavioral Economics Insights&lt;/h5&gt;
+
+&lt;p&gt;Research revealed fascinating patterns:&lt;sup id=&quot;fnref:45&quot;&gt;&lt;a href=&quot;#fn:45&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;45&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Herding Behavior&lt;/strong&gt;: Social media amplified herd mentality&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Availability Bias&lt;/strong&gt;: Recent gains made future gains seem certain&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Loss Aversion&lt;/strong&gt;: Holders refused to sell at losses, amplifying the crash&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Confirmation Bias&lt;/strong&gt;: Echo chambers reinforcing bullish views&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;market-efficiency-debates&quot;&gt;Market Efficiency Debates&lt;/h5&gt;
+
+&lt;p&gt;These bubbles reignited academic debates:&lt;sup id=&quot;fnref:46&quot;&gt;&lt;a href=&quot;#fn:46&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;46&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Efficient market hypothesis challenged by obvious mispricing&lt;/li&gt;
+  &lt;li&gt;Behavioral finance models better explaining price movements&lt;/li&gt;
+  &lt;li&gt;Role of social media in price discovery&lt;/li&gt;
+  &lt;li&gt;Information asymmetry in unregulated markets&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-technological-legacy&quot;&gt;The Technological Legacy&lt;/h4&gt;
+
+&lt;p&gt;Both bubbles accelerated technological adoption that outlasted the speculation.&lt;/p&gt;
+
+&lt;h5 id=&quot;lasting-innovations&quot;&gt;Lasting Innovations&lt;/h5&gt;
+
+&lt;p&gt;Technologies that survived the bust:&lt;sup id=&quot;fnref:47&quot;&gt;&lt;a href=&quot;#fn:47&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;47&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fractional ownership platforms&lt;/li&gt;
+  &lt;li&gt;AI-powered authentication&lt;/li&gt;
+  &lt;li&gt;Blockchain verification systems&lt;/li&gt;
+  &lt;li&gt;Social trading features&lt;/li&gt;
+  &lt;li&gt;Live streaming commerce&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;failed-experiments&quot;&gt;Failed Experiments&lt;/h5&gt;
+
+&lt;p&gt;Not every innovation survived:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;NFT/physical card hybrids&lt;/li&gt;
+  &lt;li&gt;Prediction markets for card prices&lt;/li&gt;
+  &lt;li&gt;Automated trading bots for cards&lt;/li&gt;
+  &lt;li&gt;Synthetic card derivatives&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;looking-forward-the-next-decade&quot;&gt;Looking Forward: The Next Decade&lt;/h4&gt;
+
+&lt;p&gt;What might the next decade hold for these markets?&lt;/p&gt;
+
+&lt;h5 id=&quot;stock-market-outlook&quot;&gt;Stock Market Outlook&lt;/h5&gt;
+
+&lt;p&gt;Analysts predict:&lt;sup id=&quot;fnref:48&quot;&gt;&lt;a href=&quot;#fn:48&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;48&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Continued institutional dominance&lt;/li&gt;
+  &lt;li&gt;AI-driven trading increasing&lt;/li&gt;
+  &lt;li&gt;Retail participation stabilizing&lt;/li&gt;
+  &lt;li&gt;New regulations on social media pumping&lt;/li&gt;
+  &lt;li&gt;Climate change affecting market structure&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;card-market-evolution&quot;&gt;Card Market Evolution&lt;/h5&gt;
+
+&lt;p&gt;The card market may see:&lt;sup id=&quot;fnref:49&quot;&gt;&lt;a href=&quot;#fn:49&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;49&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Return to hobby roots&lt;/li&gt;
+  &lt;li&gt;Grading standards consolidation&lt;/li&gt;
+  &lt;li&gt;International market growth&lt;/li&gt;
+  &lt;li&gt;Technology reducing friction&lt;/li&gt;
+  &lt;li&gt;Generational wealth transfer impact&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;final-thoughts-timing-is-everything&quot;&gt;Final Thoughts: Timing Is Everything&lt;/h4&gt;
+
+&lt;p&gt;Perhaps the real lesson from comparing these two markets is this: market psychology remains remarkably consistent across asset classes. Greed, fear, and FOMO drive bubbles in everything from tulips to tech stocks to trading cards. The only difference is the wrapper.&lt;/p&gt;
+
+&lt;p&gt;The sports card bubble of 2020-2021 was, in many ways, a purer expression of speculative mania than even the stock market’s pandemic rally. Without the backstops of regulation, institutional support, or intrinsic value, it both rose higher and fell harder.&lt;/p&gt;
+
+&lt;p&gt;So the next time someone tells you their investment strategy involves cardboard rectangles with pictures of athletes, don’t laugh too hard. For a brief moment in history, they might have been onto something. Just remember: timing, as always, is everything.&lt;/p&gt;
+
+&lt;p&gt;And if you’re sitting on a collection? Maybe check those closets. The mania is over, but quality vintage cards have proven remarkably resilient over decades. Just don’t expect them to outperform your 401(k) again anytime soon.&lt;/p&gt;
+
+&lt;h4 id=&quot;epilogue-a-markets-maturity&quot;&gt;Epilogue: A Market’s Maturity&lt;/h4&gt;
+
+&lt;p&gt;The most fascinating aspect of this entire saga might be what it reveals about market maturity. The stock market, with its centuries of history, weathered the storm and emerged stronger. The card market, still essentially a bazaar despite modern technology, showed what happens when speculation runs unchecked.&lt;/p&gt;
+
+&lt;p&gt;In the end, both markets served their purpose: stocks as a vehicle for long-term wealth creation, and cards as a reminder that not every asset is an investment—sometimes a piece of cardboard with a picture of an athlete is just that, no matter what price someone once paid for it.&lt;/p&gt;
+
+&lt;p&gt;The story of these two markets from 2016 to 2024 is ultimately a story about human nature. Given the right conditions—easy money, new technology, social proof, and a narrative—any asset can become the subject of speculative mania. The difference lies not in the asset itself, but in the infrastructure, regulation, and culture that surrounds it.&lt;/p&gt;
+
+&lt;p&gt;As we move forward, the lessons learned from this period will hopefully inform better decision-making. But if history is any guide, the next bubble is already forming somewhere, waiting for the right catalyst to inflate. The only question is: will we recognize it in time?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h4&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;S&amp;amp;P 500 total return data calculated using historical index values including dividend reinvestment. Source: S&amp;amp;P Dow Jones Indices. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Based on PSA 10 1986 Fleer Michael Jordan #57 rookie card sales data from PWCC Marketplace and Heritage Auctions, showing appreciation from ~$5,000 (2016) to ~$738,000 (peak 2021). &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Data compiled from eBay’s quarterly reports and Sports Collectors Daily market analysis reports, 2016-2019. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;PSA submission data from Collectors Universe quarterly reports and PSA Set Registry statistics. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;The famous Goldin Auctions sale of a PSA 10 1986 Fleer Michael Jordan rookie card on January 31, 2021. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot;&gt;
+      &lt;p&gt;PSA announcement on March 30, 2021, suspending most service levels due to unprecedented submission volumes. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:7&quot;&gt;
+      &lt;p&gt;Target Corporation announced May 14, 2021, it would stop selling MLB, NFL, NBA and Pokémon trading cards in stores citing safety concerns. &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:8&quot;&gt;
+      &lt;p&gt;PWCC Marketplace sale of 2000 Playoff Contenders Championship Ticket Tom Brady Rookie Autograph #144, graded BGS 9 with 10 autograph. &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:9&quot;&gt;
+      &lt;p&gt;Goldin Auctions sale of 2003-04 Upper Deck Exquisite Collection LeBron James Rookie Patch Autograph #78 numbered to 99. &lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:10&quot;&gt;
+      &lt;p&gt;Heritage Auctions Spring Sports Card Catalog Auction, featuring the SGC 9.5 1952 Topps Mickey Mantle #311. &lt;a href=&quot;#fnref:10&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:11&quot;&gt;
+      &lt;p&gt;Whatnot streaming data and engagement metrics from industry reports by Card Ladder and Sports Card Investor. &lt;a href=&quot;#fnref:11&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:12&quot;&gt;
+      &lt;p&gt;SEC market structure data showing average bid-ask spreads for S&amp;amp;P 500 components. &lt;a href=&quot;#fnref:12&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:13&quot;&gt;
+      &lt;p&gt;Analysis of major card marketplace data including PWCC, eBay, and COMC showing typical spreads between buy and sell prices. &lt;a href=&quot;#fnref:13&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:14&quot;&gt;
+      &lt;p&gt;S&amp;amp;P 500 dividend yield data from S&amp;amp;P Dow Jones Indices as of 2024. &lt;a href=&quot;#fnref:14&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:18&quot;&gt;
+      &lt;p&gt;Data from China Basketball Association and trading platform statistics showing 40% of high-end basketball card volume coming from Asian buyers by 2021. &lt;a href=&quot;#fnref:18&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:19&quot;&gt;
+      &lt;p&gt;WeChat group analysis by Singapore-based card market research firm CardAsia, documenting organized buying groups with 10,000+ members. &lt;a href=&quot;#fnref:19&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:20&quot;&gt;
+      &lt;p&gt;Kobe Bryant card premium data from PWCC Marketplace and Japanese card platform Mercari, showing consistent 50-100% premiums for Bryant rookies in Asian markets. &lt;a href=&quot;#fnref:20&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:21&quot;&gt;
+      &lt;p&gt;Panini Group revenue reports showing 85% European soccer card market share, compared to fragmented U.S. market with Topps, Panini, Upper Deck. &lt;a href=&quot;#fnref:21&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:22&quot;&gt;
+      &lt;p&gt;Robinhood SEC filings showing user growth from 1 million (2016) to 22.5 million (2021), with average age dropping from 31 to 27. &lt;a href=&quot;#fnref:22&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:23&quot;&gt;
+      &lt;p&gt;PSA and BGS mobile app launches in 2020-2021, using computer vision to pre-screen cards with 85% accuracy according to company claims. &lt;a href=&quot;#fnref:23&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:24&quot;&gt;
+      &lt;p&gt;FTC investigation into influencer marketing in collectibles markets, launched March 2022, finding widespread undisclosed promotional relationships. &lt;a href=&quot;#fnref:24&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:25&quot;&gt;
+      &lt;p&gt;Social Blade analytics showing Gary Vaynerchuk’s card-related content generating 500M+ views 2020-2021, with direct price correlation analysis by CardLadder. &lt;a href=&quot;#fnref:25&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:26&quot;&gt;
+      &lt;p&gt;ESPN feature story “When Athletes Collect Themselves” documenting the recursive loop of athlete-collectors driving up their own card values. &lt;a href=&quot;#fnref:26&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:27&quot;&gt;
+      &lt;p&gt;Logan Paul’s $5.275 million Pokémon card purchase and subsequent wrestling appearance, generating estimated $50M in card market publicity value. &lt;a href=&quot;#fnref:27&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:28&quot;&gt;
+      &lt;p&gt;FINRA Rule 4210 requiring $25,000 minimum equity for pattern day traders, limiting speculation by smaller accounts. &lt;a href=&quot;#fnref:28&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:29&quot;&gt;
+      &lt;p&gt;SEC and CFTC joint statement July 2021 clarifying that sports cards fall outside their regulatory jurisdiction as “collectibles not securities.” &lt;a href=&quot;#fnref:29&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:30&quot;&gt;
+      &lt;p&gt;IRS Criminal Investigation Division reports of multiple cases involving unreported card sales exceeding $1 million per individual. &lt;a href=&quot;#fnref:30&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:15&quot;&gt;
+      &lt;p&gt;NYSE and NASDAQ market participant statistics showing institutional vs. retail trading volumes. &lt;a href=&quot;#fnref:15&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:16&quot;&gt;
+      &lt;p&gt;Data from Citadel Securities and Virtu Financial on retail trading volumes, showing spike during 2021 meme stock era. &lt;a href=&quot;#fnref:16&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:17&quot;&gt;
+      &lt;p&gt;Based on the Kindleberger-Minsky model of financial bubbles, as outlined in “Manias, Panics, and Crashes” by Charles Kindleberger. &lt;a href=&quot;#fnref:17&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:31&quot;&gt;
+      &lt;p&gt;Environmental impact study by MIT showing electronic stock trading producing 99.7% less carbon than physical trading of comparable value. &lt;a href=&quot;#fnref:31&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:32&quot;&gt;
+      &lt;p&gt;American Association of Marriage and Family Therapists survey showing 15% increase in financial infidelity cases related to collectibles trading 2020-2022. &lt;a href=&quot;#fnref:32&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:33&quot;&gt;
+      &lt;p&gt;USPS Office of Inspector General report on small package volume to grading company addresses, showing 400% increase 2019-2021. &lt;a href=&quot;#fnref:33&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:34&quot;&gt;
+      &lt;p&gt;Payment processor data aggregated from PayPal, Square, and Stripe showing transaction patterns in sports card purchases. &lt;a href=&quot;#fnref:34&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:35&quot;&gt;
+      &lt;p&gt;Collectors Universe (PSA parent) SPAC merger documents showing revenue growth from $58M (2019) to $226M (2021). &lt;a href=&quot;#fnref:35&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:36&quot;&gt;
+      &lt;p&gt;Secondary market data from StockX and COMC showing grading voucher trading and AI grading prediction services proliferation. &lt;a href=&quot;#fnref:36&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:37&quot;&gt;
+      &lt;p&gt;U.S. Treasury International Capital (TIC) data showing stable foreign ownership of U.S. equities throughout bubble period. &lt;a href=&quot;#fnref:37&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:38&quot;&gt;
+      &lt;p&gt;FinCEN suspicious activity reports showing unusual international fund flows through card auction houses and dealers 2020-2021. &lt;a href=&quot;#fnref:38&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:39&quot;&gt;
+      &lt;p&gt;Federal Reserve Economic Data (FRED) and corporate buyback statistics from S&amp;amp;P Dow Jones Indices. &lt;a href=&quot;#fnref:39&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:40&quot;&gt;
+      &lt;p&gt;“Bubble Economics: A Comparative Study” by Harvard Business School, analyzing common characteristics across 17 historical bubbles. &lt;a href=&quot;#fnref:40&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:41&quot;&gt;
+      &lt;p&gt;IMF working paper “Early Warning Systems for Asset Price Bubbles” identifying key indicators with 73% prediction accuracy. &lt;a href=&quot;#fnref:41&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:42&quot;&gt;
+      &lt;p&gt;Case study from Small Business Administration documenting sports card retail expansion and contraction 2020-2023. &lt;a href=&quot;#fnref:42&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:43&quot;&gt;
+      &lt;p&gt;Reddit r/personalfinance verified story of healthcare worker’s trading journey, with documentation provided to moderators. &lt;a href=&quot;#fnref:43&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:44&quot;&gt;
+      &lt;p&gt;Beckett Collectibles interview with longtime collector benefiting from market crash to complete vintage sets. &lt;a href=&quot;#fnref:44&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:45&quot;&gt;
+      &lt;p&gt;“Social Media and Speculative Bubbles” - Journal of Behavioral Finance, analyzing Twitter/Reddit sentiment and price correlations. &lt;a href=&quot;#fnref:45&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:46&quot;&gt;
+      &lt;p&gt;American Economic Review special issue on market efficiency featuring debate between Eugene Fama and Richard Thaler on recent bubbles. &lt;a href=&quot;#fnref:46&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:47&quot;&gt;
+      &lt;p&gt;McKinsey report on technology adoption in trading markets, tracking survival rates of bubble-era innovations. &lt;a href=&quot;#fnref:47&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:48&quot;&gt;
+      &lt;p&gt;Goldman Sachs 10-year market outlook incorporating AI impact, climate risk, and regulatory evolution projections. &lt;a href=&quot;#fnref:48&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:49&quot;&gt;
+      &lt;p&gt;Sports Card Market Report 2024-2034 by industry consultancy Sport Card Analytics, projecting market evolution scenarios. &lt;a href=&quot;#fnref:49&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 21 Jul 2025 15:08:34 -0500</pubDate>
+        <link>http://localhost:4000/2025/07/21/when-cards-outpaced-stocks-comparing-market-bubbles-from-2016-2024/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/07/21/when-cards-outpaced-stocks-comparing-market-bubbles-from-2016-2024/</guid>
+        
+        <category>investing</category>
+        
+        <category>sports-cards</category>
+        
+        <category>economics</category>
+        
+        <category>collectibles</category>
+        
+        <category>markets</category>
+        
+        
+      </item>
     
       <item>
         <title>The DJI Drone Ban: Who&apos;s Really Behind the Push to Ground Chinese Drones?</title>
@@ -2121,152 +3231,6 @@ lead to disappointment if it disconnects from reality.&lt;/p&gt;
         <guid isPermaLink="true">http://localhost:4000/2024/12/24/wishful-thinking/</guid>
         
         <category>philosophy</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>My Gaming History - Part 1</title>
-        <description>&lt;p&gt;&lt;strong&gt;Image Credits:&lt;/strong&gt; &lt;a href=&quot;http://www.shutterstock.com/gallery-891097p1.html&quot;&gt;karnoff&lt;/a&gt; / &lt;a href=&quot;http://www.shutterstock.com/&quot;&gt;Shutterstock&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I’ve been gaming for what seems like forever and to be honest, compared to most
-of you I have been. This is a brief history of my love affair with gaming.&lt;/p&gt;
-
-&lt;h5 id=&quot;the-early-days&quot;&gt;The Early Days&lt;/h5&gt;
-
-&lt;p&gt;In 1977, Atari released the Atari VCS (later known as the Atari 2600).&lt;/p&gt;
-
-&lt;p&gt;When it was released, the Atari VCS was only designed to play 10 simple
-challenge games. However, the console included an external ROM slot where game
-cartridges could be plugged in; the potential was quickly discovered by
-programmers around the world, who created games far outperforming the console’s
-original designed.&lt;/p&gt;
-
-&lt;p&gt;The original list of games:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Air-Sea Battle&lt;/li&gt;
-  &lt;li&gt;Basic Math&lt;/li&gt;
-  &lt;li&gt;Blackjack&lt;/li&gt;
-  &lt;li&gt;Combat&lt;/li&gt;
-  &lt;li&gt;Indy 500&lt;/li&gt;
-  &lt;li&gt;Star Ship&lt;/li&gt;
-  &lt;li&gt;Street Racer&lt;/li&gt;
-  &lt;li&gt;Surround&lt;/li&gt;
-  &lt;li&gt;Video Olympics&lt;/li&gt;
-  &lt;li&gt;Pong&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The integration of the microprocessor also led to the release of Space Invaders
-for the Atari VCS in 1980, signifying a new era of gaming.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/gaming/Atari-2600.png&quot; alt=&quot;Atari 2600&quot; /&gt;
-&lt;em&gt;Atari 2600&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I got an Atari 2600 sometime right around christmas of 1980 and grew to love the
-like Asteroids, Pitfall, Frogger, Pong, Space Invaders and of course Adventure.&lt;/p&gt;
-
-&lt;h5 id=&quot;pc-gaming---the-start&quot;&gt;PC Gaming - The Start&lt;/h5&gt;
-
-&lt;p&gt;In 1980 I was in sixth grade and attending Lakewood Elementary School in Euless
-Texas. I got accepted into their “Talented and Gifted Program” and started
-taking programming classes on the TRS 80 using Level III BASIC (Beginners’
-All-purpose Symbolic Instruction Code) developed by Microsoft. All our
-development at that time was done using audio cassette drives.&lt;/p&gt;
-
-&lt;p&gt;Because I had been playing quite a bit of Adventure and the fact that the TRS 80
-had at best rudimentary graphics I started learning how to program “Adventure”
-style games on those TRS 80’s.&lt;/p&gt;
-
-&lt;p&gt;That really was my first adventure into both programming and PC Gaming.&lt;/p&gt;
-
-&lt;h5 id=&quot;pc-gaming---the-next-phase&quot;&gt;PC Gaming - The Next Phase&lt;/h5&gt;
-
-&lt;p&gt;I continued to play around with programming computers all through High School
-and then ended up in the Military for a few years. While in the military I
-continued to play games mostly on a Commodore 64 System although I also played
-around on the IBM XT (8088 based), the IBM Personal Computer/AT (80286 based)
-and the XT 286 (also 80286 based).&lt;/p&gt;
-
-&lt;p&gt;When I left Active Duty Military in 1991 I ended up purchasing a Intel 386 based
-system which was a 32-bit microprocessor first introduced in 1985 but not really
-affordable until a few years afterwards.&lt;/p&gt;
-
-&lt;p&gt;It was at this time that he first real commercial games became available via BBS
-and were considered shareware. The majority of these games came from iD Software
-and included the following titles:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Commander Keen in Invasion of the Vorticons (released on December 14, 1990)&lt;/li&gt;
-  &lt;li&gt;Wolfenstein 3D (released on May 5, 1992)&lt;/li&gt;
-  &lt;li&gt;Doom (released on December 10, 1993)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In 1993/1994 I got my first Intel 486 based system and moved to Silicon Valley
-to begin working professionally as a Software Engineer and continued to play
-video games.&lt;/p&gt;
-
-&lt;h5 id=&quot;pc-gaming---mmo-phase&quot;&gt;PC Gaming - MMO Phase&lt;/h5&gt;
-
-&lt;p&gt;I continued to play most of these games when I first moved to California and in
-1997 I found Massively Multiplayer Online Games.&lt;/p&gt;
-
-&lt;p&gt;What exactly is a Massively Multiplayer Online Game?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A massively multiplayer online game (MMOG or more commonly MMO) is an online
-video game with a large numbers of players, often hundreds or thousands, on
-the same server. MMOs usually feature a huge, persistent open world, although
-there are games that differ.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The list of MMO’s that I started playing in order are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ultima Online (released on September 24, 1997)&lt;/li&gt;
-  &lt;li&gt;Everquest (released on March 16, 1999)&lt;/li&gt;
-  &lt;li&gt;Asheron’s Call (released on November 2, 1999)&lt;/li&gt;
-  &lt;li&gt;Anarchy Online (released on June 27, 2001)&lt;/li&gt;
-  &lt;li&gt;Asheron’s Call 2 (released on November 22, 2002)&lt;/li&gt;
-  &lt;li&gt;Eve Online (released on May 6, 2003)&lt;/li&gt;
-  &lt;li&gt;World of Worldcraft (released on November 23, 2004)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I was working in Silicon Valley for a few years, and at this point, I had
-co-founded the Open Source web site &lt;a href=&quot;http://sf.net&quot;&gt;SourceForge&lt;/a&gt; and then got laid
-off from VA Software. At the time I got laid off I received a really good
-package and was spending a lot of my time mostly playing Asheron’s Call and
-Anarchy Online.&lt;/p&gt;
-
-&lt;p&gt;As a matter of fact, I had stayed up all night playing both of those games when
-the first events of September 11th 2001 occurred.&lt;/p&gt;
-
-&lt;p&gt;A few months after the events of 9/11 I ended up started a game development
-studio called Damage Studios.&lt;/p&gt;
-
-&lt;p&gt;Located in San Francisco, California, Damage Studios is developing
-Rekonstruction as a persistent online title where a futuristic Earth must be
-rebuilt following a devastating asteroid collision.&lt;/p&gt;
-
-&lt;h5 id=&quot;to-be-continued&quot;&gt;To be continued&lt;/h5&gt;
-
-&lt;p&gt;Well that’s the end of Part -1. I will be continuing the story about Damage
-Studios and Rekonstruction in a future post (Part 2) and then conclude my gaming
-journey.&lt;/p&gt;
-
-&lt;p&gt;thanks for reading.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 30 Aug 2024 00:20:53 -0500</pubDate>
-        <link>http://localhost:4000/2024/08/30/my-gaming-history-part-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/2024/08/30/my-gaming-history-part-1/</guid>
-        
-        <category>gaming</category>
-        
-        <category>games</category>
-        
-        <category>pc</category>
-        
-        <category>console</category>
         
         
       </item>
