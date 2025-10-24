@@ -5,9 +5,239 @@
     <description>Totally Random Musings from the Edge</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Oct 2025 15:10:11 -0500</pubDate>
-    <lastBuildDate>Thu, 23 Oct 2025 15:10:11 -0500</lastBuildDate>
+    <pubDate>Thu, 23 Oct 2025 15:44:40 -0500</pubDate>
+    <lastBuildDate>Thu, 23 Oct 2025 15:44:40 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Golfing with Garmin</title>
+        <description>&lt;p&gt;If you’re looking to sharpen your golf game, the ecosystem of tools from Garmin
+— namely the &lt;strong&gt;Garmin fēnix 8 smartwatch&lt;/strong&gt;, the &lt;strong&gt;Garmin Approach CT10 club-tracking
+sensors&lt;/strong&gt;, and the free companion &lt;strong&gt;Garmin Golf App&lt;/strong&gt; — presents a serious opportunity
+to move beyond just playing golf toward improving your game. In this blog post
+we’ll walk through how to use each component, how they interact, and how you can
+structure your practice and rounds to extract real performance gains.&lt;/p&gt;
+
+&lt;h4 id=&quot;why-this-setup-matters&quot;&gt;Why this setup matters&lt;/h4&gt;
+
+&lt;p&gt;Golf is notoriously a game of small margins and measurable habits. Knowing how
+far you hit each club, how many fairways you hit, how you perform under
+pressure, which shots you struggle with — these are the insights that separate
+improvement from just playing rounds.&lt;/p&gt;
+
+&lt;p&gt;Garmin’s ecosystem gives you:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Real-time course data (yardages, hazards, elevation, wind) via the fēnix 8.&lt;/li&gt;
+  &lt;li&gt;Automatic shot / club tracking via the Approach CT10 sensors which record
+every shot and feed a stats database.&lt;/li&gt;
+  &lt;li&gt;A mobile app to review your rounds, dig into stats, compare to peers, and
+track improvement over time.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;By combining these, you’re no longer just playing golf — you’re analyzing and
+optimizing your golf.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-to-get-started-with-the-gear&quot;&gt;How to get started with the gear&lt;/h4&gt;
+
+&lt;h5 id=&quot;set-up-the-fēnix-8-for-golf&quot;&gt;Set up the fēnix 8 for golf&lt;/h5&gt;
+
+&lt;p&gt;Start by ensuring your watch is updated with the latest software. Choose the
+“Golf” activity mode: from the watch dial navigate to Activity → Outdoor → Golf.&lt;/p&gt;
+
+&lt;p&gt;Once you launch the round, the watch will locate satellites, pick up your course
+if possible, and load the field. The fēnix 8 offers full-colour course maps,
+PlaysLike yardages (i.e., adjusted for slope, wind, elevation) and normal GPS
+yardages for front/middle/back of green.&lt;/p&gt;
+
+&lt;div style=&quot;border-left: 4px solid #3498db; background-color: #424242ff; padding: 1em; margin: 1.5em 0; font-style: italic; color: #fff;&quot;&gt;
+  💡 &lt;strong&gt;Tip:&lt;/strong&gt; Before your round begins, open the course on the watch and ensure it
+recognizes your course and has current map data. That way you avoid glitches
+mid-round.
+&lt;/div&gt;
+
+&lt;h5 id=&quot;pair-and-install-the-approach-ct10-sensors&quot;&gt;Pair and install the Approach CT10 sensors&lt;/h5&gt;
+
+&lt;p&gt;These small sensors attach to the grip end of each club (typically screws in or
+threads in). Each sensor is paired to your watch (or phone) and assigned to a
+club.&lt;/p&gt;
+
+&lt;p&gt;During a round, when you swing a club with the sensor attached, the system
+records the shot: location of hit (via GPS), club used, and distance to next
+shot. Over time you’ll build averages, dispersion, club-distance profiles.&lt;/p&gt;
+
+&lt;div style=&quot;border-left: 4px solid #3498db; background-color: #424242ff; padding: 1em; margin: 1.5em 0; font-style: italic; color: #fff;&quot;&gt;
+  💡 &lt;strong&gt;Tip:&lt;/strong&gt; Make sure each sensor is fully charged (if applicable) and firmly attached. Loose sensors or weak batteries can lead to missed tracking or inaccurate data.
+  &lt;/div&gt;
+
+&lt;h5 id=&quot;install-and-link-the-garmin-golf-app&quot;&gt;Install and link the Garmin Golf App&lt;/h5&gt;
+
+&lt;p&gt;Download the Garmin Golf app onto your smartphone. It will synchronise with your
+Garmin account and pull in your watch data (scorecards, shot tracking) once you
+upload a round.&lt;/p&gt;
+
+&lt;p&gt;Within the app you’ll also find leaderboards (over 43,000 courses supported) and
+you can compare your stats with other golfers, set up tournaments, review
+strokes gained, and track your improvement.&lt;/p&gt;
+
+&lt;div style=&quot;border-left: 4px solid #3498db; background-color: #424242ff; padding: 1em; margin: 1.5em 0; font-style: italic; color: #fff;&quot;&gt;
+  💡 &lt;strong&gt;Tip:&lt;/strong&gt; After each round, upload the watch data while still fresh. Then review
+immediately: noticing patterns when they’re fresh can make insights more actionable.
+    &lt;/div&gt;
+
+&lt;h4 id=&quot;using-this-system-during-rounds-for-performance&quot;&gt;Using this system during rounds for performance&lt;/h4&gt;
+
+&lt;p&gt;You want the tools to support you live on the course, not just after the round. Here are some ways to use the system while you play:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use the fēnix 8 yardage info to plan each shot: front/middle/back of green,
+hazards, layups. The PlaysLike feature helps adjust yardages for slope/wind.&lt;/li&gt;
+  &lt;li&gt;Rely on the watch’s auto-shot detection (or manual mark) for club usage if you
+don’t have sensors on all clubs. Many reviews say the fēnix 8 has “every golf
+feature” comparable to the pure golf watches.&lt;/li&gt;
+  &lt;li&gt;Use the sensor-enabled clubs (via the CT10) for clubs you want to learn more
+about (e.g., your driver, long irons, wedges). For instance, see how far you
+actually hit your 5-iron or 7-wood that day. Then adjust club choice
+accordingly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div style=&quot;border-left: 4px solid #3498db; background-color: #424242ff; padding: 1em; margin: 1.5em 0; font-style: italic; color: #fff;&quot;&gt;
+  💡 &lt;strong&gt;Tip:&lt;/strong&gt; Choose a few key clubs each round to monitor with the sensors (maybe
+driver, 7-iron, wedge). Trying to monitor all 14 clubs from day one can be
+overwhelming — focus where you have the biggest variability or where you
+score/bogey most often.
+    &lt;/div&gt;
+
+&lt;h4 id=&quot;post-round-review-turning-data-into-insights&quot;&gt;Post-round review: turning data into insights&lt;/h4&gt;
+
+&lt;p&gt;This is where the game improvement really happens. After you upload your round
+to the Garmin Golf App, here’s how to interpret the data:&lt;/p&gt;
+
+&lt;p&gt;Key metrics to review&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Average distance by club:&lt;/strong&gt; the CT10 sensors will build averages for each club.
+Compare these to your expectations (or what you’ve historically thought you
+hit).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Dispersion / miss pattern:&lt;/strong&gt; Are you consistently missing driver left? Are your
+wedges short of the green more often than long? Understand the “error pattern.”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Strokes Gained / Course Stats:&lt;/strong&gt; The app provides strokes gained style stats (for
+select devices) and aggregates like GIR (greens in regulation), FIR (fairways in
+regulation).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hole-by-hole breakdown:&lt;/strong&gt; Where are you losing the most? Tee shots, approaches,
+around the green, putting? Use the round summary to pinpoint your weak zones.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;example-improvement-workflow&quot;&gt;Example improvement workflow&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;After 5 rounds, pull up your average distance for your 7-iron. Suppose you hit
+it 155 yds average, but you always select 160 yds. Then on several holes you
+miss short. That tells you: adjust club choice (take 7-iron and hit more
+aggressively) or work on technique to stretch 5 yds.&lt;/li&gt;
+  &lt;li&gt;On driver, you see you only hit the fairway 40% of the time and your average
+driver distance fluctuates between 260–290 yds. The next 3 rounds focus on
+fairway accuracy (maybe a simpler driver or tee it higher) rather than chasing
+every extra yard.&lt;/li&gt;
+  &lt;li&gt;Wedges: you see your proximity to the hole is worse from 100 yds than from 150
+yds. That may indicate you’re good with long approach shots but lack consistency
+inside 100 yds. Set a practice block for wedges around that yardage.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&quot;setting-goals&quot;&gt;Setting goals&lt;/h5&gt;
+
+&lt;p&gt;Use the app’s leaderboard/friends feature for motivation (competing with friends
+or weekly stats).&lt;/p&gt;
+
+&lt;p&gt;Set measurable improvement targets: e.g., increase fairway hit % from 50% to 60%
+in 3 rounds; reduce 3-putts per round from 2.4 to 1.5; increase GIR from 50% to
+60%. Then review after each round whether you’re trending toward the goal.&lt;/p&gt;
+
+&lt;h4 id=&quot;practice-sessions-with-purpose&quot;&gt;Practice sessions with purpose&lt;/h4&gt;
+
+&lt;p&gt;Beyond rounds, use the gear to structure practice intelligently.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Sensor-tracked practice:&lt;/strong&gt; Use the Approach CT10 sensors during your
+range/short-game practice so that your swings feed into your stats even when
+off-course. Over time you build a database of your shot distances and dispersion
+under practice conditions.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Watch-based drills:&lt;/strong&gt; Use the fēnix 8 to time your pre-shot routine (e.g., 20 s
+between shots), monitor heart rate if you like competitive practice, or use GPS
+to measure shot distance on the range (fake holes).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Targeted drills:&lt;/strong&gt; Based on your post-round review, choose 1-2 areas to work on
+each week (e.g., long-iron approach shots, pitching and chipping around the
+green). Use the sensors to track improvement in those drills.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;common-pitfalls--how-to-avoid-them&quot;&gt;Common pitfalls &amp;amp; how to avoid them&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Data overload:&lt;/strong&gt; It’s easy to get overwhelmed by stats. Focus on a few key metrics
+at a time (e.g., driver accuracy, wedge distance, GIR) rather than every data
+point.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ignoring the sensor limitations:&lt;/strong&gt; The CT10 sensors work well but have
+limitations - e.g., putting detection may be less accurate, or driving range
+shots (without GPS/hole context) may not record perfectly.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Not syncing regularly:&lt;/strong&gt; If you don’t upload your rounds or link sensors, you
+lose the feedback loop. Make a habit of syncing immediately after playing.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Failing to act on insights:&lt;/strong&gt; Data is only useful if you act. Seeing you miss
+7-iron left every time means you need to adjust, practice, or change your club
+selection — not just look at the chart.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Expecting overnight results:&lt;/strong&gt; Improvement in golf takes time. Use the app and
+tools as part of a consistent routine rather than expecting dramatic change
+after one round.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;realizing-improvement--what-success-looks-like&quot;&gt;Realizing improvement — what success looks like&lt;/h4&gt;
+
+&lt;p&gt;After 10-15 rounds with this system, you should see changes such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;More consistent club-distance averages (meaning less surprise misses).&lt;/li&gt;
+  &lt;li&gt;Reduced scoring holes due to better club selection and yardage info.&lt;/li&gt;
+  &lt;li&gt;Higher fairway/green hit % because you’re intentionally working on weak spots.&lt;/li&gt;
+  &lt;li&gt;Lower scores, fewer big numbers, more consistency.&lt;/li&gt;
+  &lt;li&gt;Better understanding of your game — you’ll know your tendencies, weaknesses,
+and what to work on.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When you combine live yardage and on-course support from the fēnix 8, automatic
+club/shot tracking from the CT10 sensors, and post-round stats + insights from
+the Garmin Golf app — you create a feedback loop of &lt;strong&gt;play ⇒ review ⇒ practice ⇒
+play better&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
+
+&lt;p&gt;Improving your golf game is about more than hitting balls. It’s about &lt;strong&gt;systems&lt;/strong&gt;
+and &lt;strong&gt;feedback&lt;/strong&gt;. The Garmin ecosystem gives you those systems:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The fēnix 8 gives you real-time course intelligence and tracking.&lt;/li&gt;
+  &lt;li&gt;The Approach CT10 sensors give you automatic shot/club data so you know what
+happened.&lt;/li&gt;
+  &lt;li&gt;The Garmin Golf app gives you the dashboard and historical data so you know
+why it happened and what to do next.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you commit to using all three — especially making a habit of review and
+targeted practice — you’re far more likely to move from “just playing” to
+genuinely improving. The numbers don’t lie: when you know your averages, your
+misses, your stats, you can direct your practice, adjust your strategy, and
+reduce the variability that kills scores.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 Oct 2025 13:32:00 -0500</pubDate>
+        <link>http://localhost:4000/2025/10/23/golfing-with-garmin/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/10/23/golfing-with-garmin/</guid>
+        
+        <category>golfing</category>
+        
+        <category>sports</category>
+        
+        <category>garmin</category>
+        
+        
+      </item>
     
       <item>
         <title>The Sports Card Market Is Booming on eBay Here Are the Numbers</title>
@@ -5115,52 +5345,6 @@ new Chart(ctx, {
         <category>humidity-control</category>
         
         <category>desiccant</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Fitness Goals</title>
-        <description>&lt;h4 id=&quot;a-year-in-review-my-2024-fitness-journey-and-goals-for-2025&quot;&gt;A Year in Review: My 2024 Fitness Journey and Goals for 2025&lt;/h4&gt;
-
-&lt;p&gt;2024 has been a transformative year for my fitness journey. Embracing a
-healthier lifestyle, I managed to shed an incredible 34 pounds—a milestone that
-has significantly improved both my physical health and mental well-being. This
-achievement was fueled by a combination of disciplined eating habits, regular
-exercise routines, and an unwavering commitment to my goals. Reflecting on this
-journey, I’m not just proud of the weight I’ve lost but also the strength and
-endurance I’ve gained.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/weight-loss.png&quot; alt=&quot;Weight Loss Chart&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As we step into 2025, I’m eager to build on this foundation with new challenges
-and ambitions. My goal for this year is to lose an additional 20 pounds. This
-target is not just about reducing the number on the scale but also about
-refining and optimizing my diet and fitness regimen to maintain sustainable
-health benefits. I plan to incorporate more plant-based meals into my diet and
-increase my daily physical activity by introducing more consistent cardio
-sessions.&lt;/p&gt;
-
-&lt;p&gt;Moreover, 2025 will be the year I venture into weight lifting. I aim to develop
-a structured strength training program that will not only aid in weight loss but
-also build muscle mass and enhance overall body composition. This new focus on
-lifting weights will be crucial for improving my bone density, boosting
-metabolism, and increasing muscle strength—all essential components of a
-holistic approach to health and fitness.&lt;/p&gt;
-
-&lt;p&gt;Embarking on this dual journey of weight loss and strength training is both
-exciting and daunting. However, the success of the past year provides a solid
-blueprint for what dedication and perseverance can achieve. I look forward to
-sharing my experiences, the challenges I face, and the milestones I reach.
-Here’s to a healthier, stronger 2025!&lt;/p&gt;
-</description>
-        <pubDate>Thu, 02 Jan 2025 10:10:00 -0600</pubDate>
-        <link>http://localhost:4000/2025/01/02/fitness-goals/</link>
-        <guid isPermaLink="true">http://localhost:4000/2025/01/02/fitness-goals/</guid>
-        
-        <category>2025 Goals</category>
-        
-        <category>2024 Review</category>
         
         
       </item>
