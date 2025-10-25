@@ -6,9 +6,10 @@ tags:
   - sports
   - garmin
 description:
-  Learn how Garmin’s fēnix 8, Approach CT10 sensors, and Golf app combine to
-  deliver real-time insights and post-round analytics that help you play smarter
-  , practice better, and lower your scores.
+  The 8-Week Garmin-Powered Golf Improvement Plan is a structured, data-driven
+  roadmap that uses the Garmin fēnix 8, Approach CT10 sensors, and the Garmin
+  Golf App to help golfers build consistency, improve accuracy, and lower scores
+  through measurable feedback and targeted weekly goals.
 date: 2025-10-25 10:48 -0500
 image: "/images/garmin-golf.png"
 ---
