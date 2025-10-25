@@ -35,8 +35,6 @@ feedback.
 4. Distance control in wedges
 5. On-course strategy & decision-making
 
----
-
 ## Week 1–2 → Baseline and Calibration
 
 **Objective:** Establish your current performance profile.
@@ -66,8 +64,6 @@ Check:
 **Deliverable:** Create a **baseline dashboard** — screenshot or export your
 stats to compare later.
 
----
-
 ## Week 3–4 → Distance Control and Club Gapping
 
 **Objective:** Calibrate your true distances and reduce mis-clubbed shots.
@@ -90,8 +86,6 @@ stats to compare later.
 - Club dispersion patterns
 
 **Goal:** Reduce “short misses” by **30 %** by Week 4.
-
----
 
 ## Week 5–6 → Accuracy and Shot Shaping
 
@@ -117,8 +111,6 @@ Track:
 
 **Goal:** Raise fairway hits from baseline by **10–15 %**.
 
----
-
 ## Week 7 → Scoring Zone — Wedges & Putting
 
 **Objective:** Attack the short game with precision.
@@ -138,8 +130,6 @@ Track:
 
 - Reduce 3-putts per round by **30 %**.
 - Improve average proximity from 100 yds by **10 ft**.
-
----
 
 ## Week 8 → Review and Refine
 
@@ -173,8 +163,6 @@ Set fresh 8-week goals in Garmin Golf:
 - 3-putts 2.2 → 1.0
 - Score avg 89 → 84
 
----
-
 ## 💡 Tips for Ongoing Success
 
 - **Sync daily** to keep data fresh.
@@ -182,15 +170,11 @@ Set fresh 8-week goals in Garmin Golf:
 - **Use widgets** on fēnix 8 for shot history and performance summaries.
 - **Re-evaluate every 8 weeks** for incremental gains.
 
----
-
 ## Optional Elite Add-Ons
 
 - Add a **Garmin Approach R10** launch monitor for range feedback.
 - Use **Garmin Coach / Connect** for fitness and mobility training.
 - Pair HRV and sleep metrics from fēnix 8 to optimize recovery and tempo.
-
----
 
 ## Final Thoughts
 
