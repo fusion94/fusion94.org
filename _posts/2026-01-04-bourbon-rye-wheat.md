@@ -8,9 +8,7 @@ tags:
   - american
   - bourbon
 description: >-
-  This guide takes a deeper, more deliberate look at the relationship between
-  whiskey and bourbon, moving beyond quick definitions into why those
-  definitions exist and how they shape what ends up in your glass.
+  This post takes a deep dive into the world of American whiskey, explaining how mash bill composition (corn, rye, or wheat) influences the taste, mouthfeel, and character of bourbon, rye, and wheated whiskeys. By breaking down their shared foundation and unique grain-driven traits, it helps readers understand and choose spirits that match their personal palate.
 date: 2026-01-04 10:04 -0500
 image: "/images/bourbon-rye-wheat.webp"
 ---
