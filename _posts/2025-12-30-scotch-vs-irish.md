@@ -8,7 +8,7 @@ tags:
   - irish
 description: Explaining the key differences between Scotch and Irish whiskey—from distillation methods and peat usage to regional flavor profiles—while guiding beginners toward finding their perfect pour.
 date: 2025-12-30 17:48 -0500
-image: "/images/scotch-irish.png"
+image: "/images/whiskey.jpg"
 ---
 
 # The Difference Between Scotch and Irish Whiskey Explained
