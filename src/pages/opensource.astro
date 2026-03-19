@@ -1,0 +1,202 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+
+const projects = [
+	{
+		name: 'CLAHub',
+		url: 'https://cla-hub.io',
+		github: 'https://github.com/DamageLabs/clahub',
+		role: 'Maintainer — Full Rewrite',
+		tech: 'Next.js, TypeScript, Prisma, SQLite',
+		stars: '254+',
+		description: 'CLA management for GitHub. Originally created in 2012, revived and fully rewritten in 2026 with modern stack.',
+		license: 'MIT',
+	},
+	{
+		name: 'Paper Trail Manager',
+		url: 'https://rubygems.org/gems/paper_trail_manager',
+		github: 'https://github.com/DamageLabs/paper_trail_manager',
+		role: 'Maintainer',
+		tech: 'Ruby, Rails',
+		stars: '2.4k+ downloads',
+		description: 'Rails engine for browsing PaperTrail audit logs. Maintained since 2012, v1.0 shipped in 2026.',
+		license: 'MIT',
+	},
+	{
+		name: 'UAS-Log',
+		url: 'https://github.com/DamageLabs/uas-log',
+		github: 'https://github.com/DamageLabs/uas-log',
+		role: 'Creator',
+		tech: 'Angular 21, Express, SQLite, TypeScript',
+		description: 'FAA-compliant drone flight logging platform with RBAC, multi-tenant orgs, and pilot management.',
+		license: 'MIT',
+	},
+	{
+		name: 'Kandan',
+		github: 'https://github.com/kandanapp/kandan',
+		role: 'Core Developer',
+		tech: 'JavaScript, Ruby',
+		stars: '2.7k+',
+		description: 'Open source alternative to HipChat. Private chat service for teams, self-hosted.',
+		license: 'AGPL-3.0',
+	},
+	{
+		name: 'Game Server Configulator',
+		github: 'https://github.com/DamageLabs/game-server-configulator',
+		role: 'Creator',
+		tech: 'Shell',
+		description: 'Server configurations for 7 classic FPS games (MoHAA, CoD, CoD2, Jedi Academy, etc.).',
+		license: 'MIT',
+	},
+	{
+		name: 'Go Filament Samples',
+		github: 'https://github.com/fusion94/go-filament-samples',
+		role: 'Creator',
+		tech: 'Go',
+		description: '3D printing filament sample STL generator for standardized test prints.',
+		license: 'MIT',
+	},
+	{
+		name: 'SourceForge.net',
+		url: 'https://sourceforge.net',
+		role: 'Co-Founder',
+		tech: 'Python, PHP, PostgreSQL',
+		description: 'One of the first platforms for hosting open source projects. Hosted FileZilla, 7-Zip, VLC, GIMP, and millions of others.',
+	},
+	{
+		name: 'OpenROV',
+		github: 'https://github.com/openrov',
+		role: 'Contributor',
+		tech: 'JavaScript, Node.js',
+		description: 'Open source underwater robotics platform.',
+		license: 'MIT',
+	},
+];
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title={`Open Source | ${SITE_TITLE}`} description="Open source projects created, maintained, or contributed to by Tony Guntharp." />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Open Source</h1>
+			<p>
+				Projects I've created, maintained, or contributed to. Open source isn't charity — it's
+				infrastructure. More eyes, more trust, longer lifespan.
+			</p>
+
+			<div class="projects">
+				{projects.map((p) => (
+					<div class="project-card">
+						<div class="project-header">
+							<h3>
+								{p.url ? (
+									<a href={p.url} target="_blank" rel="noopener">{p.name}</a>
+								) : p.github ? (
+									<a href={p.github} target="_blank" rel="noopener">{p.name}</a>
+								) : (
+									p.name
+								)}
+							</h3>
+							<span class="role">{p.role}</span>
+						</div>
+						<p class="description">{p.description}</p>
+						<div class="meta">
+							<span class="tech">{p.tech}</span>
+							{p.stars && <span class="stars">★ {p.stars}</span>}
+							{p.license && <span class="license">{p.license}</span>}
+						</div>
+						{p.github && (
+							<a href={p.github} target="_blank" rel="noopener" class="github-link">
+								View on GitHub →
+							</a>
+						)}
+					</div>
+				))}
+			</div>
+
+			<hr />
+			<p>
+				More at <a href="https://github.com/fusion94" target="_blank" rel="noopener">github.com/fusion94</a>
+				and <a href="https://github.com/DamageLabs" target="_blank" rel="noopener">github.com/DamageLabs</a>.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.projects {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5em;
+	}
+	.project-card {
+		padding: 1.5em;
+		border-radius: 12px;
+		background-color: var(--bg-card);
+		border: 1px solid var(--border);
+		transition: transform 0.2s;
+	}
+	.project-card:hover {
+		transform: translateY(-2px);
+	}
+	.project-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 0.5em;
+	}
+	.project-header h3 {
+		margin: 0;
+		font-size: 1.2em;
+	}
+	.project-header h3 a {
+		color: var(--text-primary);
+	}
+	.project-header h3 a:hover {
+		color: var(--accent);
+	}
+	.role {
+		font-size: 0.75em;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.5px;
+		color: var(--accent);
+	}
+	.description {
+		font-size: 0.9em;
+		margin-bottom: 0.75em;
+	}
+	.meta {
+		display: flex;
+		gap: 1em;
+		flex-wrap: wrap;
+		font-size: 0.8em;
+		color: var(--text-muted);
+	}
+	.stars {
+		color: var(--accent);
+	}
+	.github-link {
+		display: inline-block;
+		margin-top: 0.75em;
+		font-size: 0.85em;
+		color: var(--text-secondary);
+	}
+	.github-link:hover {
+		color: var(--accent);
+	}
+	@media (max-width: 576px) {
+		.project-header {
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 0.25em;
+		}
+	}
+</style>
