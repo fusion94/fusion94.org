@@ -1,7 +1,19 @@
+# Astro
+node_modules/
+dist/
+.astro/
+
+# Jekyll (legacy)
 .sass-cache
 .jekyll-metadata
 .jekyll-cache
-Gemfile.lock
-.firebase
-.DS_Store
 _site/
+
+# Firebase (legacy)
+.firebase
+
+# OS
+.DS_Store
+
+# Build
+*.log

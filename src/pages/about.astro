@@ -1,0 +1,134 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title={`About | ${SITE_TITLE}`} description="About Tony Guntharp — technology leader, open source advocate, maker." />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<article>
+				<h1>About Tony Guntharp</h1>
+
+				<p>
+					I'm a technology leader, maker, and proud Texan with a passion for building
+					reliable systems at scale and creating things that matter.
+				</p>
+
+				<h2>Current Role</h2>
+				<p>
+					<strong>Senior Director/Distinguished Engineer (IaaS) at <a href="https://geico.com" target="_blank" rel="noopener">GEICO</a></strong> (2023 – Present)
+				</p>
+				<p>
+					Leading the transformation of GEICO's technical organization from traditional IT
+					to a modern engineering-focused culture. Managing Infrastructure as a Service (IaaS)
+					and Platform as a Service (PaaS) solutions that enable engineering teams to build
+					and deploy at scale.
+				</p>
+
+				<h2>DamageLabs</h2>
+				<p>
+					<strong>Founder of <a href="https://damagelabs.io" target="_blank" rel="noopener">DamageLabs</a></strong> (2025 – Present)
+				</p>
+				<p>
+					Building privacy-first, self-hosted software for collectors and niche hobbies.
+					What started as scratching my own itch turned into a portfolio of purpose-built tools:
+				</p>
+				<ul>
+					<li><a href="https://damagelabs.io/products" target="_blank" rel="noopener">UAS-Log</a> — FAA-compliant drone flight logging with RBAC and multi-tenant orgs</li>
+					<li><a href="https://damagelabs.io/products" target="_blank" rel="noopener">Armory Core</a> — Firearms inventory management</li>
+					<li><a href="https://damagelabs.io/products" target="_blank" rel="noopener">Whiskey Canon</a> — Whiskey collection management</li>
+					<li><a href="https://cla-hub.io" target="_blank" rel="noopener">CLAHub</a> — Contributor License Agreement management for GitHub</li>
+					<li><a href="https://rubygems.org/gems/paper_trail_manager" target="_blank" rel="noopener">Paper Trail Manager</a> — Rails engine for PaperTrail audit logs (v1.0)</li>
+				</ul>
+
+				<h2>Professional Journey</h2>
+
+				<h3>Apple (2020 – 2023)</h3>
+				<p><strong>Site Reliability Manager, iCloud Platform</strong></p>
+				<ul>
+					<li>Led the SRE team for <a href="https://developer.apple.com/icloud/cloudkit/" target="_blank" rel="noopener">CloudKit</a>, Apple's cloud database service</li>
+					<li>Managed Content SRE and Workflows SRE teams within the iCloud Platform Organization</li>
+					<li>Previously worked on improving <a href="https://apple.com/siri" target="_blank" rel="noopener">Siri</a> reliability</li>
+				</ul>
+
+				<h3>Google (2014 – 2020)</h3>
+				<p><strong>Site Reliability Manager, Carrier Services</strong></p>
+				<ul>
+					<li>Managed the Carrier-SRE-MTV team as part of Google's <a href="https://landing.google.com/sre/" target="_blank" rel="noopener">SRE organization</a></li>
+					<li>Focused on <a href="https://en.wikipedia.org/wiki/Rich_Communication_Services" target="_blank" rel="noopener">Rich Communication Services (RCS)</a> and SMS aggregation</li>
+					<li>Built and scaled mobile messaging infrastructure</li>
+				</ul>
+
+				<h3>Earlier Career</h3>
+				<p>
+					Co-Founder of <a href="https://sourceforge.net" target="_blank" rel="noopener">SourceForge.net</a> —
+					one of the pioneering platforms for open source collaboration, hosting millions of projects
+					before GitHub existed.
+				</p>
+
+				<h2>Military Service</h2>
+				<p>
+					<strong>US Army Airborne</strong> — Combat Veteran<br />
+					10 years serving in airborne operations. The discipline and leadership from military
+					service shaped everything that came after.
+				</p>
+
+				<h2>Open Source</h2>
+				<p>Core Developer/Contributor:</p>
+				<ul>
+					<li><a href="https://cla-hub.io" target="_blank" rel="noopener">CLAHub</a> — CLA management platform (revived & rewritten)</li>
+					<li><a href="https://rubygems.org/gems/paper_trail_manager" target="_blank" rel="noopener">Paper Trail Manager</a> — Rails engine for audit logs (maintained since 2012)</li>
+					<li><a href="https://github.com/DamageLabs/uas-log" target="_blank" rel="noopener">UAS-Log</a> — Drone flight logging platform</li>
+					<li><a href="https://github.com/openrov" target="_blank" rel="noopener">OpenROV</a> — Open source underwater robotics</li>
+					<li><a href="https://github.com/kandanapp" target="_blank" rel="noopener">Kandan</a> — Open source chat application</li>
+					<li><a href="https://github.com/appcelerator/" target="_blank" rel="noopener">Titanium (Appcelerator)</a> — Cross-platform mobile development</li>
+				</ul>
+
+				<p>Advisor/Investor:</p>
+				<ul>
+					<li><a href="https://www.appgyver.com/" target="_blank" rel="noopener">Appgyver</a> — No-code development platform (Acquired by SAP)</li>
+					<li><a href="http://flutterwireless.com/" target="_blank" rel="noopener">Flutter Wireless</a> — Wireless technology solutions</li>
+				</ul>
+
+				<h2>Making & Creating</h2>
+				<ul>
+					<li><strong>Drones</strong> — FAA Part 107 certified pilot, commercial and recreational</li>
+					<li><strong>3D Printing</strong> — Active on <a href="https://www.printables.com/@TonyGuntharp" target="_blank" rel="noopener">Printables</a></li>
+					<li><strong>Software</strong> — Building tools that solve real problems</li>
+					<li><strong>Hardware</strong> — Robotics, home automation, embedded systems</li>
+				</ul>
+
+				<h2>Personal</h2>
+				<ul>
+					<li><strong>Conservation & Hunting</strong> — Ethical hunting and habitat preservation</li>
+					<li><strong>Whiskey & Craft Beer</strong> — Collector and enthusiast</li>
+					<li><strong>Sports Cards</strong> — Modern era collector and market analyst</li>
+					<li><strong>Golf</strong> — Garmin-powered data-driven improvement</li>
+				</ul>
+
+				<h2>Life Between Two States</h2>
+				<p>
+					Splitting time between <strong>Bandera, Texas</strong> (Hill Country) and
+					<strong>Half Moon Bay, California</strong> (Bay Area coast). The best of both worlds.
+				</p>
+
+				<h2>Connect</h2>
+				<p>
+					<a href="https://github.com/fusion94" target="_blank" rel="noopener">GitHub</a> ·
+					<a href="https://x.com/TonyGuntharp" target="_blank" rel="noopener">X/Twitter</a> ·
+					<a href="https://damagelabs.io" target="_blank" rel="noopener">DamageLabs</a>
+				</p>
+
+				<hr />
+				<p><em>"Build things that matter. Share what you learn. Leave it better than you found it."</em></p>
+			</article>
+		</main>
+		<Footer />
+	</body>
+</html>

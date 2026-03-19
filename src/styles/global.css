@@ -1,0 +1,310 @@
+/*
+  Dark theme for fusion94.org
+  Colors matched from the original Norlin Jekyll theme
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+:root {
+	--accent: #ff7b7b;
+	--accent-dark: #ff5252;
+	--bg-primary: #0f0e15;
+	--bg-secondary: #17151e;
+	--bg-card: #09080f;
+	--text-primary: #eee;
+	--text-secondary: #aaa;
+	--text-muted: #73726c;
+	--border: #222;
+	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: var(--bg-primary);
+	color: var(--text-primary);
+	line-height: 1.7;
+	font-size: 18px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+main {
+	width: 100%;
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 900;
+	line-height: 1.4;
+	color: var(--text-primary);
+	margin: 0 0 0.5em;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.25em; }
+
+p {
+	margin-bottom: 1.5em;
+	color: var(--text-secondary);
+}
+
+a {
+	color: var(--text-primary);
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+a:hover {
+	color: var(--accent);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 16px;
+}
+
+code {
+	padding: 2px 6px;
+	font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+	font-size: 0.9em;
+	color: #fff;
+	background-color: var(--bg-secondary);
+	border-radius: 3px;
+}
+
+pre {
+	padding: 20px;
+	border-radius: 8px;
+	background-color: var(--bg-secondary);
+	overflow-x: auto;
+	font-size: 14px;
+}
+
+pre code {
+	padding: 0;
+	background: none;
+}
+
+blockquote {
+	position: relative;
+	padding: 20px 20px 20px 40px;
+	margin: 0 0 1.5em;
+	font-size: 1.2em;
+	font-weight: 700;
+	color: #fff;
+	border-left: 3px solid var(--accent);
+}
+
+hr {
+	border: none;
+	border-top: 1px solid var(--border);
+	margin: 2em 0;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 14px;
+	margin-bottom: 1.5em;
+}
+
+th {
+	padding: 12px;
+	text-align: left;
+	background-color: var(--bg-secondary);
+	color: #fff;
+	border: 1px solid var(--bg-card);
+}
+
+td {
+	padding: 12px;
+	border: 1px solid var(--bg-card);
+	color: var(--text-secondary);
+}
+
+tr:nth-child(even) {
+	background-color: var(--bg-card);
+}
+
+/* Header */
+header {
+	padding: 2em 0 1em;
+}
+
+header h2 {
+	margin: 0;
+	font-size: 1.5em;
+}
+
+header h2 a {
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+
+header nav {
+	display: flex;
+	gap: 1.5em;
+}
+
+header nav a {
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: var(--text-primary);
+}
+
+header nav a:hover,
+header nav a.active {
+	color: var(--accent);
+}
+
+/* Footer */
+footer {
+	padding: 3em 0;
+	border-top: 1px solid var(--border);
+	text-align: center;
+	font-size: 13px;
+	color: var(--text-muted);
+}
+
+footer a {
+	color: #fff;
+	font-weight: 500;
+}
+
+footer a:hover {
+	color: var(--accent);
+}
+
+/* Blog list */
+section ul {
+	list-style: none;
+	padding: 0;
+}
+
+section ul li {
+	margin-bottom: 2em;
+}
+
+section ul li a {
+	display: block;
+}
+
+section ul li .title {
+	font-size: 1.2em;
+	font-weight: 700;
+	color: var(--text-primary);
+	margin-bottom: 0.25em;
+}
+
+section ul li .date {
+	font-size: 0.85em;
+	color: var(--text-muted);
+}
+
+section ul li img {
+	margin-top: 0.5em;
+	border-radius: 12px;
+}
+
+/* Blog post */
+article {
+	padding-bottom: 2em;
+}
+
+article .hero-image {
+	width: 100%;
+	border-radius: 16px;
+	margin-bottom: 2em;
+	box-shadow: var(--box-shadow);
+}
+
+article .hero-image img {
+	display: block;
+	width: 100%;
+	border-radius: 16px;
+}
+
+article .prose {
+	color: var(--text-secondary);
+}
+
+article .prose a {
+	color: var(--text-primary);
+	border-bottom: 2px solid rgba(238, 238, 238, 0.1);
+}
+
+article .prose a:hover {
+	border-color: var(--accent);
+}
+
+article .prose h2,
+article .prose h3,
+article .prose h4 {
+	margin-top: 2em;
+}
+
+article .title {
+	font-size: 2em;
+	margin: 0.25em 0 0;
+}
+
+article .date {
+	font-size: 0.85em;
+	color: var(--text-muted);
+	margin-bottom: 1em;
+}
+
+/* Tags */
+.tag {
+	display: inline-block;
+	padding: 4px 12px;
+	margin: 2px 4px 2px 0;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: capitalize;
+	border: 2px solid rgba(255, 255, 255, 0.1);
+	border-radius: 20px;
+	color: var(--text-secondary);
+}
+
+.tag:hover {
+	border-color: var(--accent);
+	color: #fff;
+}
+
+/* Selection */
+::selection {
+	color: #fff;
+	background-color: rgba(255, 123, 123, 0.7);
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+	body {
+		font-size: 16px;
+	}
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	article .title {
+		font-size: 1.5em;
+	}
+
+	header nav {
+		gap: 1em;
+	}
+}

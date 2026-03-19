@@ -1,0 +1,87 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title={`Contact | ${SITE_TITLE}`} description="Get in touch with Tony Guntharp." />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Contact</h1>
+			<p>
+				The best way to reach me depends on what you need:
+			</p>
+
+			<div class="contact-methods">
+				<div class="method">
+					<h3>💼 Professional</h3>
+					<p>
+						Connect on <a href="https://www.linkedin.com/in/fusion94/" target="_blank" rel="noopener">LinkedIn</a>
+						for professional inquiries.
+					</p>
+				</div>
+
+				<div class="method">
+					<h3>🔧 Open Source</h3>
+					<p>
+						Open an issue on the relevant <a href="https://github.com/DamageLabs" target="_blank" rel="noopener">DamageLabs</a>
+						or <a href="https://github.com/fusion94" target="_blank" rel="noopener">fusion94</a> repo.
+					</p>
+				</div>
+
+				<div class="method">
+					<h3>🧪 DamageLabs</h3>
+					<p>
+						Use the <a href="https://damagelabs.io/contact" target="_blank" rel="noopener">DamageLabs contact form</a>
+						for product-related questions.
+					</p>
+				</div>
+
+				<div class="method">
+					<h3>🐦 Social</h3>
+					<p>
+						<a href="https://x.com/TonyGuntharp" target="_blank" rel="noopener">@TonyGuntharp</a> on X/Twitter.
+						DMs are open.
+					</p>
+				</div>
+			</div>
+
+			<hr />
+			<p><em>"Build things that matter. Share what you learn. Leave it better than you found it."</em></p>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.contact-methods {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1.5em;
+		margin: 2em 0;
+	}
+	.method {
+		padding: 1.5em;
+		border-radius: 12px;
+		background-color: var(--bg-card);
+		border: 1px solid var(--border);
+	}
+	.method h3 {
+		margin: 0 0 0.5em;
+		font-size: 1.1em;
+	}
+	.method p {
+		margin: 0;
+		font-size: 0.9em;
+	}
+	@media (max-width: 576px) {
+		.contact-methods {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>
