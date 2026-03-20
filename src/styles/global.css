@@ -147,7 +147,7 @@ header .container {
 	padding: 0 24px;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	gap: 3em;
 }
 
 header h2 {
@@ -169,6 +169,7 @@ header h2 a:hover {
 header .nav-links {
 	display: flex;
 	gap: 2em;
+	flex: 1;
 }
 
 header .social-links {
