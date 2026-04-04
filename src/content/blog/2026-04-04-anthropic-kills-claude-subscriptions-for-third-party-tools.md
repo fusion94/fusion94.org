@@ -143,6 +143,38 @@ including the ability to message agents through external services. The timing
 of copying features and then blocking the open source competition is… not a
 great look.
 
+## The Community Didn't Wait Long to Route Around It
+
+Here's where it gets spicy.
+
+Within hours of the announcement, developers were already circulating a
+workaround: instead of authenticating OpenClaw via OAuth (which is now blocked),
+you can pipe it through the **local `claude` CLI binary** that's already
+authenticated on your machine.
+
+The trick works because the local CLI uses your existing session credentials —
+the same ones you set up via `claude auth`. From Anthropic's infrastructure
+perspective, it looks like native Claude CLI usage rather than a third-party
+harness. The OAuth block doesn't apply.
+
+"They can ban us but they can't stop us," was the general tenor of the thread.
+
+And that's exactly the problem with how Anthropic handled this.
+
+When you cut off a community abruptly and without a reasonable migration path,
+you don't eliminate the behavior — you just make it adversarial. The people
+who were paying $20/month and running light automation aren't going to suddenly
+become $200/month API customers. They're going to find the workaround, share
+it on Reddit, and Anthropic ends up with the worst of both worlds: the
+infrastructure strain continues, and now they've also burned the goodwill.
+
+Anthropic *can* patch this — fingerprinting CLI-routed traffic from known
+third-party harnesses isn't hard. But every patch they ship to close a
+community workaround makes the adversarial framing worse, not better. It's a
+cat-and-mouse dynamic that didn't have to exist.
+
+This is what ecosystem trust failure looks like in real time.
+
 ## Why I Think This Could Backfire
 
 The technical justification is sound. The infrastructure economics are real.
