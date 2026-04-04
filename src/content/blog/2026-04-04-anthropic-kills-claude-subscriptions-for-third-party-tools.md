@@ -11,9 +11,9 @@ description: >-
   access for third-party tools like OpenClaw. Here's what happened, why they
   did it, and why it might be a bad move long-term.
 pubDate: '2026-04-04 16:00 -0500'
+heroImage: '/images/anthropic-subscription-lockout.png'
 ---
 
-# Anthropic Just Closed the Subscription Loophole — And Why It Might Backfire
 
 As of noon PT today, April 4, 2026, Anthropic pulled the plug on something a
 lot of builders had been quietly depending on: using Claude Pro and Max
