@@ -3,10 +3,78 @@ const today = new Date();
 ---
 
 <footer>
-	&copy; {today.getFullYear()} Tony Guntharp. Built with
-	<a href="https://astro.build" target="_blank" rel="noopener">Astro</a>.
-	<br />
-	<a href="https://damagelabs.io" target="_blank" rel="noopener">DamageLabs</a> ·
-	<a href="https://github.com/fusion94" target="_blank" rel="noopener">GitHub</a> ·
-	<a href="https://x.com/TonyGuntharp" target="_blank" rel="noopener">X/Twitter</a>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="/" class="footer-logo">
+        <span class="logo-accent">fusion</span>94
+      </a>
+      <p>Totally Random Musings from the Edge</p>
+    </div>
+    <div class="footer-links">
+      <a href="/blog">Blog</a>
+      <a href="/opensource">Open Source</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="https://damagelabs.io" target="_blank" rel="noopener">DamageLabs</a>
+      <a href="https://github.com/fusion94" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://x.com/TonyGuntharp" target="_blank" rel="noopener">X/Twitter</a>
+    </div>
+    <p class="footer-copy">&copy; {today.getFullYear()} Tony Guntharp. All rights reserved.</p>
+  </div>
 </footer>
+
+<style>
+  footer {
+    margin-top: 5rem;
+    border-top: 1px solid var(--border);
+    background-color: var(--bg-secondary);
+  }
+  .footer-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  .footer-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .footer-logo {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--text-primary);
+    text-decoration: none;
+  }
+  .footer-logo:hover { color: var(--accent); }
+  .logo-accent { color: var(--accent); }
+  .footer-brand p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin: 0;
+  }
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+  }
+  .footer-links a {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .footer-links a:hover { color: var(--accent); }
+  .footer-copy {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin: 0;
+  }
+</style>
