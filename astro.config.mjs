@@ -8,4 +8,7 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
 	site: 'https://fusion94.org',
 	integrations: [mdx(), sitemap()],
+	server: {
+		allowedHosts: ['fusion94.test'],
+	},
 });
