@@ -6,129 +6,519 @@ import { SITE_TITLE } from '../consts';
 ---
 
 <html lang="en">
-	<head>
-		<BaseHead title={`About | ${SITE_TITLE}`} description="About Tony Guntharp — technology leader, open source advocate, maker." />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<article>
-				<h1>About Tony Guntharp</h1>
+  <head>
+    <BaseHead title={`About | ${SITE_TITLE}`} description="About Tony Guntharp — technology leader, open source advocate, maker." />
+  </head>
+  <body>
+    <Header />
+    <main>
 
-				<p>
-					I'm a technology leader, maker, and proud Texan with a passion for building
-					reliable systems at scale and creating things that matter.
-				</p>
+      <!-- Hero -->
+      <section class="hero-section">
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+          <h1>About Tony Guntharp</h1>
+          <p class="hero-sub">
+            Technology leader, maker, and proud Texan with a passion for building
+            reliable systems at scale and creating things that matter.
+          </p>
+        </div>
+      </section>
 
-				<h2>Current Role</h2>
-				<p>
-					<strong>Senior Director/Distinguished Engineer (IaaS) at <a href="https://geico.com" target="_blank" rel="noopener">GEICO</a></strong> (2023 – Present)
-				</p>
-				<p>
-					Leading the transformation of GEICO's technical organization from traditional IT
-					to a modern engineering-focused culture. Managing Infrastructure as a Service (IaaS)
-					and Platform as a Service (PaaS) solutions that enable engineering teams to build
-					and deploy at scale.
-				</p>
+      <!-- Story + Philosophy -->
+      <section class="two-col-section">
+        <div class="story-col">
+          <h2>The Story</h2>
+          <p>
+            I've spent 25+ years at the intersection of software, infrastructure, and open
+            source. From co-founding SourceForge.net — one of the platforms that made open
+            source collaboration mainstream before GitHub existed — to leading SRE at Google
+            and Apple, I've always gravitated toward the hard problems at scale.
+          </p>
+          <p>
+            Today I'm a Senior Director/Distinguished Engineer (IaaS) at
+            <a href="https://geico.com" target="_blank" rel="noopener">GEICO</a>, leading the
+            transformation from traditional IT to a modern engineering-focused culture. IaaS,
+            PaaS, and the infrastructure that lets teams ship fast.
+          </p>
+          <p>
+            On the side, I founded <a href="https://damagelabs.io" target="_blank" rel="noopener">DamageLabs</a>
+            in 2025 — privacy-first, self-hosted software for collectors and niche hobbies.
+            The pattern: find an underserved niche, scratch your own itch, build the right tool,
+            open source it.
+          </p>
+          <p>
+            Before all of that: 10 years in the US Army Airborne as a Combat Veteran. The
+            discipline and leadership from that service shaped everything that came after.
+          </p>
+        </div>
 
-				<h2>DamageLabs</h2>
-				<p>
-					<strong>Founder of <a href="https://damagelabs.io" target="_blank" rel="noopener">DamageLabs</a></strong> (2025 – Present)
-				</p>
-				<p>
-					Building privacy-first, self-hosted software for collectors and niche hobbies.
-					What started as scratching my own itch turned into a portfolio of purpose-built tools:
-				</p>
-				<ul>
-					<li><a href="https://damagelabs.io/products" target="_blank" rel="noopener">UAS-Log</a> — FAA-compliant drone flight logging with RBAC and multi-tenant orgs</li>
-					<li><a href="https://damagelabs.io/products" target="_blank" rel="noopener">Armory Core</a> — Firearms inventory management</li>
-					<li><a href="https://damagelabs.io/products" target="_blank" rel="noopener">Whiskey Canon</a> — Whiskey collection management</li>
-					<li><a href="https://cla-hub.io" target="_blank" rel="noopener">CLAHub</a> — Contributor License Agreement management for GitHub</li>
-					<li><a href="https://rubygems.org/gems/paper_trail_manager" target="_blank" rel="noopener">Paper Trail Manager</a> — Rails engine for PaperTrail audit logs (v1.0)</li>
-				</ul>
+        <div class="philosophy-col">
+          <h2>My Philosophy</h2>
+          <div class="phil-cards">
+            <div class="phil-card">
+              <div class="phil-icon">🎯</div>
+              <div>
+                <h3>Solve Real Problems</h3>
+                <p>Build tools you actually use. If you wouldn't use it weekly, reconsider building it.</p>
+              </div>
+            </div>
+            <div class="phil-card">
+              <div class="phil-icon">🔓</div>
+              <div>
+                <h3>Open Source Always</h3>
+                <p>Every line of code is public. No hidden trackers, no proprietary lock-in, no surprises.</p>
+              </div>
+            </div>
+            <div class="phil-card">
+              <div class="phil-icon">🖥️</div>
+              <div>
+                <h3>Self-Hosted First</h3>
+                <p>Your data lives on your machine. SQLite and local storage, not cloud subscriptions.</p>
+              </div>
+            </div>
+            <div class="phil-card">
+              <div class="phil-icon">⚡</div>
+              <div>
+                <h3>Do One Thing Well</h3>
+                <p>Each tool has a clear purpose. Feature bloat is the enemy of everything good.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-				<h2>Professional Journey</h2>
+      <!-- Principles Grid -->
+      <section class="principles-section">
+        <div class="principles-header">
+          <h2>How I Build</h2>
+          <p>These aren't aspirations — they're the rules I actually follow.</p>
+        </div>
+        <div class="principles-grid">
+          {[
+            { n: '01', title: "Don't Build What You Won't Ship", body: "Every project starts with excitement. Not every project deserves to exist forever. Be honest about what's active, on hold, and dead. Archive aggressively." },
+            { n: '02', title: 'One Problem, One Solution', body: "Solve each problem once and solve it well. When you see the same pattern three times, extract it. Not before — premature abstraction is worse than duplication." },
+            { n: '03', title: 'Quality Over Velocity', body: "Move fast, but don't move sloppy. Bugs that hide for years cost more than the time it takes to write a test. Ship less, ship right." },
+            { n: '04', title: 'Maintain What You Ship', body: "If people use it, keep it current. Stale dependencies aren't technical debt — they're neglect. If you're not going to maintain something, archive it honestly." },
+            { n: '05', title: 'Standards Are Shortcuts', body: "Conventions feel like friction on the first commit. By the tenth commit, they're the reason you can move fast without breaking things." },
+            { n: '06', title: 'Solve Your Own Problems', body: "The best software comes from scratching your own itch. Build tools you actually use. If you wouldn't use the product weekly, reconsider building it." },
+            { n: '07', title: 'Open Source by Default', body: "Share what you build unless there's a specific reason not to. Open source forces better code, better docs, and better thinking." },
+            { n: '08', title: 'Small Teams, Big Standards', body: "Small teams can move fast — if they have clear standards. Without standards, small teams create chaos. The two aren't in tension; they depend on each other." },
+          ].map(p => (
+            <div class="principle-card">
+              <div class="principle-num">{p.n}</div>
+              <h3>{p.title}</h3>
+              <p>{p.body}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
-				<h3>Apple (2020 – 2023)</h3>
-				<p><strong>Site Reliability Manager, iCloud Platform</strong></p>
-				<ul>
-					<li>Led the SRE team for <a href="https://developer.apple.com/icloud/cloudkit/" target="_blank" rel="noopener">CloudKit</a>, Apple's cloud database service</li>
-					<li>Managed Content SRE and Workflows SRE teams within the iCloud Platform Organization</li>
-					<li>Previously worked on improving <a href="https://apple.com/siri" target="_blank" rel="noopener">Siri</a> reliability</li>
-				</ul>
+      <!-- Career Timeline -->
+      <section class="career-section">
+        <h2>Professional Journey</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-company">GEICO</span>
+              <span class="timeline-years">2023 – Present</span>
+            </div>
+            <h3>Senior Director / Distinguished Engineer (IaaS)</h3>
+            <p>Leading the transformation from traditional IT to a modern engineering-focused culture. IaaS and PaaS solutions that enable engineering teams to build and deploy at scale.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-company">Apple</span>
+              <span class="timeline-years">2020 – 2023</span>
+            </div>
+            <h3>Site Reliability Manager, iCloud Platform</h3>
+            <p>Led the SRE team for <a href="https://developer.apple.com/icloud/cloudkit/" target="_blank" rel="noopener">CloudKit</a>, Apple's cloud database service. Managed Content SRE and Workflows SRE teams within the iCloud Platform Organization.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-company">Google</span>
+              <span class="timeline-years">2014 – 2020</span>
+            </div>
+            <h3>Site Reliability Manager, Carrier Services</h3>
+            <p>Managed the Carrier-SRE-MTV team. Focused on <a href="https://en.wikipedia.org/wiki/Rich_Communication_Services" target="_blank" rel="noopener">Rich Communication Services (RCS)</a> and SMS aggregation. Built and scaled mobile messaging infrastructure.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-company">SourceForge.net</span>
+              <span class="timeline-years">Co-Founder</span>
+            </div>
+            <h3>Earlier Career</h3>
+            <p>Co-founded one of the pioneering platforms for open source collaboration, hosting millions of projects before GitHub existed.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-company">US Army</span>
+              <span class="timeline-years">10 years</span>
+            </div>
+            <h3>Airborne — Combat Veteran</h3>
+            <p>10 years serving in airborne operations. The discipline and leadership from military service shaped everything that came after.</p>
+          </div>
+        </div>
+      </section>
 
-				<h3>Google (2014 – 2020)</h3>
-				<p><strong>Site Reliability Manager, Carrier Services</strong></p>
-				<ul>
-					<li>Managed the Carrier-SRE-MTV team as part of Google's <a href="https://landing.google.com/sre/" target="_blank" rel="noopener">SRE organization</a></li>
-					<li>Focused on <a href="https://en.wikipedia.org/wiki/Rich_Communication_Services" target="_blank" rel="noopener">Rich Communication Services (RCS)</a> and SMS aggregation</li>
-					<li>Built and scaled mobile messaging infrastructure</li>
-				</ul>
+      <!-- DamageLabs + Open Source two col -->
+      <section class="two-col-section" style="padding-top: 0;">
+        <div class="story-col">
+          <h2>DamageLabs</h2>
+          <p>Privacy-first, self-hosted software for collectors and niche hobbies. Every tool does one thing well and runs on your hardware.</p>
+          <ul class="project-list">
+            <li><a href="https://damagelabs.io/products" target="_blank" rel="noopener">UAS-Log</a> — FAA-compliant drone flight logging with RBAC and multi-tenant orgs</li>
+            <li><a href="https://damagelabs.io/products" target="_blank" rel="noopener">Armory Core</a> — Firearms inventory management</li>
+            <li><a href="https://damagelabs.io/products" target="_blank" rel="noopener">Whiskey Canon</a> — Whiskey collection management</li>
+            <li><a href="https://cla-hub.io" target="_blank" rel="noopener">CLAHub</a> — Contributor License Agreement management for GitHub</li>
+            <li><a href="https://rubygems.org/gems/paper_trail_manager" target="_blank" rel="noopener">Paper Trail Manager</a> — Rails engine for PaperTrail audit logs</li>
+          </ul>
+        </div>
 
-				<h3>Earlier Career</h3>
-				<p>
-					Co-Founder of <a href="https://sourceforge.net" target="_blank" rel="noopener">SourceForge.net</a> —
-					one of the pioneering platforms for open source collaboration, hosting millions of projects
-					before GitHub existed.
-				</p>
+        <div class="philosophy-col">
+          <h2>Open Source</h2>
+          <p class="section-sub">Core Developer/Contributor:</p>
+          <ul class="project-list">
+            <li><a href="https://cla-hub.io" target="_blank" rel="noopener">CLAHub</a> — CLA management platform (revived & rewritten)</li>
+            <li><a href="https://rubygems.org/gems/paper_trail_manager" target="_blank" rel="noopener">Paper Trail Manager</a> — Rails engine for audit logs (maintained since 2012)</li>
+            <li><a href="https://github.com/DamageLabs/uas-log" target="_blank" rel="noopener">UAS-Log</a> — Drone flight logging platform</li>
+            <li><a href="https://github.com/openrov" target="_blank" rel="noopener">OpenROV</a> — Open source underwater robotics</li>
+            <li><a href="https://github.com/kandanapp" target="_blank" rel="noopener">Kandan</a> — Open source chat application</li>
+            <li><a href="https://github.com/appcelerator/" target="_blank" rel="noopener">Titanium (Appcelerator)</a> — Cross-platform mobile development</li>
+          </ul>
+          <p class="section-sub" style="margin-top: 1.5rem;">Advisor/Investor:</p>
+          <ul class="project-list">
+            <li><a href="https://www.appgyver.com/" target="_blank" rel="noopener">Appgyver</a> — No-code dev platform (Acquired by SAP)</li>
+            <li><a href="http://flutterwireless.com/" target="_blank" rel="noopener">Flutter Wireless</a> — Wireless technology solutions</li>
+          </ul>
+        </div>
+      </section>
 
-				<h2>Military Service</h2>
-				<p>
-					<strong>US Army Airborne</strong> — Combat Veteran<br />
-					10 years serving in airborne operations. The discipline and leadership from military
-					service shaped everything that came after.
-				</p>
+      <!-- Beyond Code -->
+      <section class="beyond-section">
+        <h2>Beyond Code</h2>
+        <div class="beyond-grid">
+          <div class="beyond-card">
+            <div class="beyond-icon">🚁</div>
+            <h3>Drones</h3>
+            <p>FAA Part 107 certified pilot. Commercial and recreational operations.</p>
+          </div>
+          <div class="beyond-card">
+            <div class="beyond-icon">🖨️</div>
+            <h3>3D Printing</h3>
+            <p>Active on <a href="https://www.printables.com/@TonyGuntharp" target="_blank" rel="noopener">Printables</a>. If it can be printed, it probably should be.</p>
+          </div>
+          <div class="beyond-card">
+            <div class="beyond-icon">🥃</div>
+            <h3>Whiskey</h3>
+            <p>Collector and enthusiast. Bourbon, rye, and the occasional weird single malt.</p>
+          </div>
+          <div class="beyond-card">
+            <div class="beyond-icon">🎯</div>
+            <h3>Conservation & Hunting</h3>
+            <p>Ethical hunting and habitat preservation. RMEF member.</p>
+          </div>
+          <div class="beyond-card">
+            <div class="beyond-icon">📍</div>
+            <h3>Two States</h3>
+            <p>Splitting time between Bandera, TX (Hill Country) and Half Moon Bay, CA (Bay Area coast).</p>
+          </div>
+          <div class="beyond-card">
+            <div class="beyond-icon">⛳</div>
+            <h3>Golf</h3>
+            <p>Garmin-powered, data-driven improvement. Works better in theory than practice.</p>
+          </div>
+        </div>
+      </section>
 
-				<h2>Open Source</h2>
-				<p>Core Developer/Contributor:</p>
-				<ul>
-					<li><a href="https://cla-hub.io" target="_blank" rel="noopener">CLAHub</a> — CLA management platform (revived & rewritten)</li>
-					<li><a href="https://rubygems.org/gems/paper_trail_manager" target="_blank" rel="noopener">Paper Trail Manager</a> — Rails engine for audit logs (maintained since 2012)</li>
-					<li><a href="https://github.com/DamageLabs/uas-log" target="_blank" rel="noopener">UAS-Log</a> — Drone flight logging platform</li>
-					<li><a href="https://github.com/openrov" target="_blank" rel="noopener">OpenROV</a> — Open source underwater robotics</li>
-					<li><a href="https://github.com/kandanapp" target="_blank" rel="noopener">Kandan</a> — Open source chat application</li>
-					<li><a href="https://github.com/appcelerator/" target="_blank" rel="noopener">Titanium (Appcelerator)</a> — Cross-platform mobile development</li>
-				</ul>
+      <!-- Quote -->
+      <section class="quote-section">
+        <blockquote>
+          "Build things that matter. Share what you learn. Leave it better than you found it."
+        </blockquote>
+        <div class="connect-links">
+          <a href="https://github.com/fusion94" target="_blank" rel="noopener">GitHub</a>
+          <span class="dot">·</span>
+          <a href="https://x.com/TonyGuntharp" target="_blank" rel="noopener">X/Twitter</a>
+          <span class="dot">·</span>
+          <a href="https://damagelabs.io" target="_blank" rel="noopener">DamageLabs</a>
+          <span class="dot">·</span>
+          <a href="/contact">Contact</a>
+        </div>
+      </section>
 
-				<p>Advisor/Investor:</p>
-				<ul>
-					<li><a href="https://www.appgyver.com/" target="_blank" rel="noopener">Appgyver</a> — No-code development platform (Acquired by SAP)</li>
-					<li><a href="http://flutterwireless.com/" target="_blank" rel="noopener">Flutter Wireless</a> — Wireless technology solutions</li>
-				</ul>
-
-				<h2>Making & Creating</h2>
-				<ul>
-					<li><strong>Drones</strong> — FAA Part 107 certified pilot, commercial and recreational</li>
-					<li><strong>3D Printing</strong> — Active on <a href="https://www.printables.com/@TonyGuntharp" target="_blank" rel="noopener">Printables</a></li>
-					<li><strong>Software</strong> — Building tools that solve real problems</li>
-					<li><strong>Hardware</strong> — Robotics, home automation, embedded systems</li>
-				</ul>
-
-				<h2>Personal</h2>
-				<ul>
-					<li><strong>Conservation & Hunting</strong> — Ethical hunting and habitat preservation</li>
-					<li><strong>Whiskey & Craft Beer</strong> — Collector and enthusiast</li>
-					<li><strong>Sports Cards</strong> — Modern era collector and market analyst</li>
-					<li><strong>Golf</strong> — Garmin-powered data-driven improvement</li>
-				</ul>
-
-				<h2>Life Between Two States</h2>
-				<p>
-					Splitting time between <strong>Bandera, Texas</strong> (Hill Country) and
-					<strong>Half Moon Bay, California</strong> (Bay Area coast). The best of both worlds.
-				</p>
-
-				<h2>Connect</h2>
-				<p>
-					<a href="https://github.com/fusion94" target="_blank" rel="noopener">GitHub</a> ·
-					<a href="https://x.com/TonyGuntharp" target="_blank" rel="noopener">X/Twitter</a> ·
-					<a href="https://damagelabs.io" target="_blank" rel="noopener">DamageLabs</a>
-				</p>
-
-				<hr />
-				<p><em>"Build things that matter. Share what you learn. Leave it better than you found it."</em></p>
-			</article>
-		</main>
-		<Footer />
-	</body>
+    </main>
+    <Footer />
+  </body>
 </html>
+
+<style>
+  main {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  /* Hero */
+  .hero-section {
+    position: relative;
+    overflow: hidden;
+    padding: 5rem 0 3.5rem;
+  }
+  .hero-glow {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 20% 50%, rgba(245,158,11,0.08) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .hero-content { position: relative; }
+  .hero-section h1 {
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    margin: 0 0 1rem;
+  }
+  .hero-sub {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  /* Two column */
+  .two-col-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    padding: 4rem 0;
+    border-top: 1px solid var(--border);
+  }
+  .two-col-section h2 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    margin: 0 0 1.25rem;
+  }
+  .two-col-section p { color: var(--text-secondary); line-height: 1.7; }
+  .two-col-section a { color: var(--accent); }
+  .two-col-section a:hover { color: var(--accent-hover); }
+
+  /* Philosophy cards */
+  .phil-cards { display: flex; flex-direction: column; gap: 1rem; }
+  .phil-card {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 1.1rem 1.25rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+  }
+  .phil-icon { font-size: 1.25rem; flex-shrink: 0; margin-top: 2px; }
+  .phil-card h3 { font-size: 0.95rem; font-weight: 600; margin: 0 0 0.3rem; }
+  .phil-card p { font-size: 0.85rem; color: var(--text-secondary); margin: 0; }
+
+  /* Principles */
+  .principles-section {
+    padding: 4rem 0;
+    border-top: 1px solid var(--border);
+  }
+  .principles-header { margin-bottom: 2.5rem; }
+  .principles-header h2 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    margin: 0 0 0.5rem;
+  }
+  .principles-header p { color: var(--text-secondary); margin: 0; }
+  .principles-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+  }
+  .principle-card {
+    padding: 1.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+  }
+  .principle-num {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+    margin-bottom: 0.6rem;
+  }
+  .principle-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+    letter-spacing: -0.01em;
+  }
+  .principle-card p {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* Career */
+  .career-section {
+    padding: 4rem 0;
+    border-top: 1px solid var(--border);
+  }
+  .career-section h2 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    margin: 0 0 2rem;
+  }
+  .timeline { display: flex; flex-direction: column; gap: 0; }
+  .timeline-item {
+    padding: 1.75rem 0 1.75rem 1.5rem;
+    border-left: 2px solid var(--border);
+    position: relative;
+  }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: 2rem;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .timeline-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.4rem;
+  }
+  .timeline-company {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .timeline-years {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+  .timeline-item h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+  }
+  .timeline-item p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: 1.6;
+  }
+  .timeline-item a { color: var(--accent); }
+  .timeline-item a:hover { color: var(--accent-hover); }
+
+  /* Project lists */
+  .project-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .project-list li {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    padding-left: 1rem;
+    position: relative;
+  }
+  .project-list li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-size: 0.75rem;
+  }
+  .project-list a { color: var(--accent); font-weight: 500; }
+  .project-list a:hover { color: var(--accent-hover); }
+  .section-sub {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    margin: 0 0 0.75rem;
+  }
+
+  /* Beyond Code */
+  .beyond-section {
+    padding: 4rem 0;
+    border-top: 1px solid var(--border);
+  }
+  .beyond-section h2 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    margin: 0 0 2rem;
+  }
+  .beyond-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
+  .beyond-card {
+    padding: 1.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .beyond-card:hover {
+    border-color: rgba(245,158,11,0.25);
+    transform: translateY(-2px);
+  }
+  .beyond-icon { font-size: 1.75rem; margin-bottom: 0.75rem; }
+  .beyond-card h3 { font-size: 1rem; font-weight: 600; margin: 0 0 0.4rem; }
+  .beyond-card p { font-size: 0.875rem; color: var(--text-secondary); margin: 0; line-height: 1.5; }
+  .beyond-card a { color: var(--accent); }
+
+  /* Quote */
+  .quote-section {
+    padding: 4rem 0 5rem;
+    border-top: 1px solid var(--border);
+    text-align: center;
+  }
+  .quote-section blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--text-secondary);
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0 auto 2rem;
+    max-width: 560px;
+  }
+  .connect-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+  }
+  .connect-links a { color: var(--accent); font-weight: 500; }
+  .connect-links a:hover { color: var(--accent-hover); }
+  .dot { color: var(--text-muted); }
+
+  @media (max-width: 1024px) {
+    .beyond-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 768px) {
+    .two-col-section { grid-template-columns: 1fr; gap: 2rem; }
+    .principles-grid { grid-template-columns: 1fr; }
+    .beyond-grid { grid-template-columns: 1fr; }
+  }
+</style>

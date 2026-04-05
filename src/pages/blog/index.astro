@@ -1,114 +1,239 @@
 ---
-import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
-import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+import { SITE_TITLE } from '../../consts';
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+const allPosts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+
+// Collect all unique tags
+const allTags = [...new Set(allPosts.flatMap(p => p.data.tags || []))].sort();
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			main {
-				width: 960px;
-			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 1rem;
-				text-align: center;
-			}
-			ul li:first-child img {
-				width: 100%;
-			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
-			}
-			ul li img {
-				margin-bottom: 0.5rem;
-				border-radius: 12px;
-			}
-			ul li a {
-				display: block;
-			}
-			.title {
-				margin: 0;
-				color: rgb(var(--black));
-				line-height: 1;
-			}
-			.date {
-				margin: 0;
-				color: rgb(var(--gray));
-			}
-			ul li a:hover h4,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-			ul a:hover img {
-				box-shadow: var(--box-shadow);
-			}
-			@media (max-width: 720px) {
-				ul {
-					gap: 0.5em;
-				}
-				ul li {
-					width: 100%;
-					text-align: center;
-				}
-				ul li:first-child {
-					margin-bottom: 0;
-				}
-				ul li:first-child .title {
-					font-size: 1.563em;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<Header />
-		<main>
-			<section>
-				<ul>
-					{
-						posts.map((post) => (
-							<li>
-								<a href={`/blog/${post.id}/`}>
-									{post.data.heroImage && (
-										<Image width={720} height={360} src={post.data.heroImage} alt="" />
-									)}
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</a>
-							</li>
-						))
-					}
-				</ul>
-			</section>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={`Blog — ${SITE_TITLE}`} description="Writing on technology, software, and building things." />
+  </head>
+  <body>
+    <Header />
+    <main>
+
+      <!-- Hero -->
+      <section class="blog-hero">
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+          <h1>Blog</h1>
+          <p>Writing on technology, software, open source, and building things.</p>
+        </div>
+      </section>
+
+      <!-- Tag Filter -->
+      {allTags.length > 0 && (
+        <section class="tag-filter">
+          <div class="tags-wrap">
+            <button class="tag-btn active" data-tag="all">All</button>
+            {allTags.map((tag) => (
+              <button class="tag-btn" data-tag={tag}>{tag}</button>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Post Grid -->
+      <section class="posts-section">
+        <div class="post-grid" id="post-grid">
+          {allPosts.map((post) => (
+            <a href={`/blog/${post.id}/`} class="post-card" data-tags={JSON.stringify(post.data.tags || [])}>
+              {post.data.tags && post.data.tags.length > 0 && (
+                <div class="card-tags">
+                  {post.data.tags.slice(0, 4).map((tag: string) => (
+                    <span class="tag">{tag}</span>
+                  ))}
+                </div>
+              )}
+              <h2 class="card-title">{post.data.title}</h2>
+              {post.data.description && (
+                <p class="card-excerpt">{post.data.description}</p>
+              )}
+              <div class="card-meta">
+                <span>Tony Guntharp</span>
+                <span class="dot">·</span>
+                <time datetime={post.data.pubDate.toISOString()}>
+                  {post.data.pubDate.toLocaleDateString('en-US', {
+                    year: 'numeric', month: 'long', day: 'numeric'
+                  })}
+                </time>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+
+    </main>
+    <Footer />
+  </body>
 </html>
+
+<script>
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.tag-btn');
+  const cards = document.querySelectorAll<HTMLElement>('.post-card');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const tag = btn.dataset.tag;
+      cards.forEach(card => {
+        if (tag === 'all') {
+          card.style.display = 'block';
+        } else {
+          const tags: string[] = JSON.parse(card.dataset.tags || '[]');
+          card.style.display = tags.includes(tag!) ? 'block' : 'none';
+        }
+      });
+    });
+  });
+</script>
+
+<style>
+  main {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  /* Hero */
+  .blog-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 4rem 0 3rem;
+  }
+  .hero-glow {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 20% 50%, rgba(245,158,11,0.08) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .hero-content { position: relative; }
+  .blog-hero h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    margin: 0 0 0.75rem;
+  }
+  .blog-hero p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  /* Tag filter */
+  .tag-filter {
+    padding: 1.5rem 0;
+  }
+  .tags-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .tag-btn {
+    padding: 0.3rem 0.85rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .tag-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .tag-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #0a0e1a;
+    font-weight: 600;
+  }
+
+  /* Posts */
+  .posts-section {
+    padding: 1rem 0 5rem;
+  }
+  .post-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .post-card {
+    display: block;
+    padding: 1.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    text-decoration: none;
+    transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+  }
+  .post-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.4);
+    border-color: rgba(245,158,11,0.25);
+  }
+  .card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 0.75rem;
+  }
+  .tag {
+    display: inline-block;
+    padding: 0.125rem 0.5rem;
+    font-size: 0.72rem;
+    font-weight: 500;
+    background: rgba(245,158,11,0.1);
+    color: var(--accent);
+    border-radius: 4px;
+  }
+  .card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.6rem;
+    color: var(--text-primary);
+    line-height: 1.35;
+    transition: color 0.2s;
+  }
+  .post-card:hover .card-title { color: var(--accent-hover); }
+  .card-excerpt {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0 0 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+  .dot { color: var(--text-muted); }
+
+  @media (max-width: 1024px) {
+    .post-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 640px) {
+    .post-grid { grid-template-columns: 1fr; }
+    .blog-hero { padding: 2.5rem 0 2rem; }
+  }
+</style>

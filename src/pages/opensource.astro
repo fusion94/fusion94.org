@@ -5,198 +5,436 @@ import Footer from '../components/Footer.astro';
 import { SITE_TITLE } from '../consts';
 
 const projects = [
-	{
-		name: 'CLAHub',
-		url: 'https://cla-hub.io',
-		github: 'https://github.com/DamageLabs/clahub',
-		role: 'Maintainer — Full Rewrite',
-		tech: 'Next.js, TypeScript, Prisma, SQLite',
-		stars: '254+',
-		description: 'CLA management for GitHub. Originally created in 2012, revived and fully rewritten in 2026 with modern stack.',
-		license: 'MIT',
-	},
-	{
-		name: 'Paper Trail Manager',
-		url: 'https://rubygems.org/gems/paper_trail_manager',
-		github: 'https://github.com/DamageLabs/paper_trail_manager',
-		role: 'Maintainer',
-		tech: 'Ruby, Rails',
-		stars: '2.4k+ downloads',
-		description: 'Rails engine for browsing PaperTrail audit logs. Maintained since 2012, v1.0 shipped in 2026.',
-		license: 'MIT',
-	},
-	{
-		name: 'UAS-Log',
-		url: 'https://github.com/DamageLabs/uas-log',
-		github: 'https://github.com/DamageLabs/uas-log',
-		role: 'Creator',
-		tech: 'Angular 21, Express, SQLite, TypeScript',
-		description: 'FAA-compliant drone flight logging platform with RBAC, multi-tenant orgs, and pilot management.',
-		license: 'MIT',
-	},
-	{
-		name: 'Kandan',
-		github: 'https://github.com/kandanapp/kandan',
-		role: 'Core Developer',
-		tech: 'JavaScript, Ruby',
-		stars: '2.7k+',
-		description: 'Open source alternative to HipChat. Private chat service for teams, self-hosted.',
-		license: 'AGPL-3.0',
-	},
-	{
-		name: 'Game Server Configulator',
-		github: 'https://github.com/DamageLabs/game-server-configulator',
-		role: 'Creator',
-		tech: 'Shell',
-		description: 'Server configurations for 7 classic FPS games (MoHAA, CoD, CoD2, Jedi Academy, etc.).',
-		license: 'MIT',
-	},
-	{
-		name: 'Go Filament Samples',
-		github: 'https://github.com/fusion94/go-filament-samples',
-		role: 'Creator',
-		tech: 'Go',
-		description: '3D printing filament sample STL generator for standardized test prints.',
-		license: 'MIT',
-	},
-	{
-		name: 'SourceForge.net',
-		url: 'https://sourceforge.net',
-		role: 'Co-Founder',
-		tech: 'Python, PHP, PostgreSQL',
-		description: 'One of the first platforms for hosting open source projects. Hosted FileZilla, 7-Zip, VLC, GIMP, and millions of others.',
-	},
-	{
-		name: 'OpenROV',
-		github: 'https://github.com/openrov',
-		role: 'Contributor',
-		tech: 'JavaScript, Node.js',
-		description: 'Open source underwater robotics platform.',
-		license: 'MIT',
-	},
+  {
+    name: 'CLAHub',
+    subtitle: 'Contributor License Agreement management for GitHub',
+    url: 'https://cla-hub.io',
+    github: 'https://github.com/DamageLabs/clahub',
+    role: 'Maintainer — Full Rewrite',
+    description: 'CLAHub provides a low-friction way to manage Contributor License Agreements for open source projects on GitHub. Owners create CLAs from templates or custom Markdown, contributors sign by authenticating with GitHub, and pull requests are automatically marked with status checks. Supports org-wide agreements, corporate CLAs, API access, CSV/PDF export, and Docker self-hosting. Originally created in 2012, fully rewritten in 2026 with Next.js and TypeScript.',
+    stats: [
+      { label: 'Original Release', value: '2012' },
+      { label: 'Current Version', value: '2.3.0' },
+      { label: 'Stars', value: '254' },
+      { label: 'Stack', value: 'Next.js 16' },
+    ],
+    tags: [{ name: 'TypeScript', color: '#3178c6' }, { name: 'cla' }, { name: 'github-app' }, { name: 'contributor-agreements' }, { name: 'nextjs' }],
+    license: 'MIT',
+  },
+  {
+    name: 'Paper Trail Manager',
+    subtitle: 'A Rails engine for managing PaperTrail version history',
+    url: 'https://rubygems.org/gems/paper_trail_manager',
+    github: 'https://github.com/DamageLabs/paper_trail_manager',
+    role: 'Maintainer',
+    description: 'Paper Trail Manager provides a clean, mountable UI for browsing and searching PaperTrail audit logs in your Rails application. It supports pagination via Kaminari or WillPaginate, multiple response formats (HTML, JSON, Atom), and integrates seamlessly with Rails 7.0 through 7.1. Originally created in 2012, it reached 1.0.0 in 2026 with i18n support, an install generator, date filtering, and a default stylesheet.',
+    stats: [
+      { label: 'First Release', value: '2012' },
+      { label: 'Current Version', value: '1.0.0' },
+      { label: 'Ruby Support', value: '3.1 – 3.3' },
+      { label: 'Rails Support', value: '7.0 – 7.1' },
+    ],
+    tags: [{ name: 'Ruby', color: '#cc342d' }, { name: 'rails-engine' }, { name: 'audit-log' }, { name: 'papertrail' }, { name: 'ruby-gem' }],
+    license: 'MIT',
+  },
+  {
+    name: 'Game Server Configulator',
+    subtitle: 'Server configurations for classic FPS games',
+    github: 'https://github.com/DamageLabs/game-server-configulator',
+    role: 'Creator',
+    description: 'A collection of game server configuration files for 7 classic first-person shooters spanning the early 2000s golden era. Includes configs for Medal of Honor: Allied Assault, Call of Duty, Call of Duty 2, and their expansion packs, plus Star Wars Jedi Knight: Jedi Academy. Each game has its own directory with documented configuration files ready to deploy.',
+    stats: [
+      { label: 'Games Supported', value: '7' },
+      { label: 'Era', value: '2002 – 2005' },
+      { label: 'License', value: 'MIT' },
+      { label: 'Config Files', value: '870+' },
+    ],
+    tags: [{ name: 'Shell', color: '#89e051' }, { name: 'game-servers' }, { name: 'mohaa' }, { name: 'call-of-duty' }, { name: 'jedi-academy' }],
+    license: 'MIT',
+  },
+  {
+    name: 'Kandan',
+    subtitle: 'Open source alternative to HipChat',
+    github: 'https://github.com/kandanapp/kandan',
+    role: 'Core Developer',
+    description: 'Private chat service for teams, self-hosted. Built before Slack was a thing, Kandan was an open source alternative to HipChat featuring real-time messaging, file sharing, and custom integrations. Peaked at 2.7k GitHub stars and was used by hundreds of teams worldwide.',
+    stats: [
+      { label: 'Stars', value: '2.7k+' },
+      { label: 'Stack', value: 'Ruby / JavaScript' },
+      { label: 'License', value: 'AGPL-3.0' },
+      { label: 'Status', value: 'Archived' },
+    ],
+    tags: [{ name: 'Ruby', color: '#cc342d' }, { name: 'JavaScript' }, { name: 'chat' }, { name: 'self-hosted' }],
+    license: 'AGPL-3.0',
+  },
+  {
+    name: 'Go Filament Samples',
+    subtitle: '3D printing filament sample STL generator',
+    github: 'https://github.com/fusion94/go-filament-samples',
+    role: 'Creator',
+    description: 'A Go CLI tool that generates standardized test print STL files for 3D printing filament evaluation. Creates consistent sample sets for comparing filament brands, colors, and materials across different printer profiles.',
+    stats: [
+      { label: 'Language', value: 'Go' },
+      { label: 'License', value: 'MIT' },
+      { label: 'Status', value: 'Active' },
+    ],
+    tags: [{ name: 'Go', color: '#00acd7' }, { name: '3d-printing' }, { name: 'stl' }, { name: 'filament' }],
+    license: 'MIT',
+  },
+  {
+    name: 'SourceForge.net',
+    subtitle: 'One of the first open source project hosting platforms',
+    url: 'https://sourceforge.net',
+    role: 'Co-Founder',
+    description: 'Co-founded one of the pioneering platforms for hosting open source projects before GitHub existed. At its peak, SourceForge hosted FileZilla, 7-Zip, VLC, GIMP, and millions of other projects. It was the infrastructure that made open source collaboration mainstream in the early 2000s.',
+    stats: [
+      { label: 'Founded', value: '1999' },
+      { label: 'Projects Hosted', value: 'Millions' },
+      { label: 'Stack', value: 'Python, PHP' },
+    ],
+    tags: [{ name: 'Python' }, { name: 'PHP' }, { name: 'PostgreSQL' }, { name: 'open-source-hosting' }],
+  },
+  {
+    name: 'OpenROV',
+    subtitle: 'Open source underwater robotics platform',
+    github: 'https://github.com/openrov',
+    role: 'Contributor',
+    description: 'Open source underwater remotely operated vehicle (ROV) platform. OpenROV made it possible for ocean researchers, educators, and hobbyists to build affordable underwater robots for exploration and data collection.',
+    stats: [
+      { label: 'Stack', value: 'JavaScript, Node.js' },
+      { label: 'License', value: 'MIT' },
+    ],
+    tags: [{ name: 'JavaScript' }, { name: 'Node.js' }, { name: 'robotics' }, { name: 'hardware' }],
+    license: 'MIT',
+  },
 ];
 ---
 
 <html lang="en">
-	<head>
-		<BaseHead title={`Open Source | ${SITE_TITLE}`} description="Open source projects created, maintained, or contributed to by Tony Guntharp." />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>Open Source</h1>
-			<p>
-				Projects I've created, maintained, or contributed to. Open source isn't charity — it's
-				infrastructure. More eyes, more trust, longer lifespan.
-			</p>
+  <head>
+    <BaseHead title={`Open Source | ${SITE_TITLE}`} description="Open source projects created, maintained, or contributed to by Tony Guntharp." />
+  </head>
+  <body>
+    <Header />
+    <main>
 
-			<div class="projects">
-				{projects.map((p) => (
-					<div class="project-card">
-						<div class="project-header">
-							<h3>
-								{p.url ? (
-									<a href={p.url} target="_blank" rel="noopener">{p.name}</a>
-								) : p.github ? (
-									<a href={p.github} target="_blank" rel="noopener">{p.name}</a>
-								) : (
-									p.name
-								)}
-							</h3>
-							<span class="role">{p.role}</span>
-						</div>
-						<p class="description">{p.description}</p>
-						<div class="meta">
-							<span class="tech">{p.tech}</span>
-							{p.stars && <span class="stars">★ {p.stars}</span>}
-							{p.license && <span class="license">{p.license}</span>}
-						</div>
-						{p.github && (
-							<a href={p.github} target="_blank" rel="noopener" class="github-link">
-								View on GitHub →
-							</a>
-						)}
-					</div>
-				))}
-			</div>
+      <!-- Hero -->
+      <section class="hero-section">
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+          <h1>Open Source</h1>
+          <p class="hero-sub">
+            Projects I've created, maintained, or contributed to. Open source isn't charity —
+            it's infrastructure. More eyes, more trust, longer lifespan.
+          </p>
+        </div>
+      </section>
 
-			<hr />
-			<p>
-				More at <a href="https://github.com/fusion94" target="_blank" rel="noopener">github.com/fusion94</a>
-				and <a href="https://github.com/DamageLabs" target="_blank" rel="noopener">github.com/DamageLabs</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
+      <!-- Projects -->
+      <section class="projects-section">
+        <div class="projects-list">
+          {projects.map((p) => (
+            <div class="project-card">
+              <div class="card-top">
+                <div class="card-title-area">
+                  <div class="card-role">{p.role}</div>
+                  <h2 class="card-name">{p.name}</h2>
+                  <p class="card-subtitle">{p.subtitle}</p>
+                </div>
+                {(p.github || p.url) && (
+                  <a
+                    href={p.github || p.url}
+                    target="_blank"
+                    rel="noopener"
+                    class="github-btn"
+                  >
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                    </svg>
+                    View on GitHub
+                  </a>
+                )}
+              </div>
+
+              <p class="card-desc">{p.description}</p>
+
+              {p.stats && p.stats.length > 0 && (
+                <div class="card-stats">
+                  {p.stats.map((s) => (
+                    <div class="stat">
+                      <div class="stat-label">{s.label}</div>
+                      <div class="stat-value">{s.value}</div>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {p.tags && p.tags.length > 0 && (
+                <div class="card-tags">
+                  {p.tags.map((t) => (
+                    <span class="tag" style={t.color ? `--dot: ${t.color}` : ''}>
+                      {t.color && <span class="lang-dot"></span>}
+                      {t.name}
+                    </span>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta-section">
+        <div class="cta-card">
+          <h2>Want to Contribute?</h2>
+          <p>Bug reports, feature requests, documentation improvements, and code are all welcome. Check out the repos and open an issue or PR.</p>
+          <div class="cta-btns">
+            <a href="https://github.com/fusion94" target="_blank" rel="noopener" class="btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              fusion94 on GitHub
+            </a>
+            <a href="https://github.com/DamageLabs" target="_blank" rel="noopener" class="btn-outline">
+              DamageLabs on GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <Footer />
+  </body>
 </html>
 
-<style>
-	.projects {
-		display: flex;
-		flex-direction: column;
-		gap: 1.5em;
-	}
-	.project-card {
-		padding: 1.5em;
-		border-radius: 12px;
-		background-color: var(--bg-card);
-		border: 1px solid var(--border);
-		transition: transform 0.2s;
-	}
-	.project-card:hover {
-		transform: translateY(-2px);
-	}
-	.project-header {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		margin-bottom: 0.5em;
-	}
-	.project-header h3 {
-		margin: 0;
-		font-size: 1.2em;
-	}
-	.project-header h3 a {
-		color: var(--text-primary);
-	}
-	.project-header h3 a:hover {
-		color: var(--accent);
-	}
-	.role {
-		font-size: 0.75em;
-		font-weight: 700;
-		text-transform: uppercase;
-		letter-spacing: 0.5px;
-		color: var(--accent);
-	}
-	.description {
-		font-size: 0.9em;
-		margin-bottom: 0.75em;
-	}
-	.meta {
-		display: flex;
-		gap: 1em;
-		flex-wrap: wrap;
-		font-size: 0.8em;
-		color: var(--text-muted);
-	}
-	.stars {
-		color: var(--accent);
-	}
-	.github-link {
-		display: inline-block;
-		margin-top: 0.75em;
-		font-size: 0.85em;
-		color: var(--text-secondary);
-	}
-	.github-link:hover {
-		color: var(--accent);
-	}
-	@media (max-width: 576px) {
-		.project-header {
-			flex-direction: column;
-			align-items: flex-start;
-			gap: 0.25em;
-		}
-	}
+<style is:global>
+  main {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  /* Hero */
+  .hero-section {
+    position: relative;
+    overflow: hidden;
+    padding: 5rem 0 3.5rem;
+  }
+  .hero-glow {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 20% 50%, rgba(245,158,11,0.08) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .hero-content { position: relative; }
+  .hero-section h1 {
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    margin: 0 0 1rem;
+  }
+  .hero-sub {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  /* Projects */
+  .projects-section { padding: 1rem 0 3rem; }
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  .project-card {
+    padding: 2rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    transition: border-color 0.2s;
+  }
+  .project-card:hover {
+    border-color: rgba(245,158,11,0.2);
+  }
+
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .card-title-area { flex: 1; }
+  .card-role {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--accent);
+    margin-bottom: 0.35rem;
+  }
+  .card-name {
+    font-size: 1.4rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    margin: 0 0 0.25rem;
+    color: var(--text-primary);
+  }
+  .card-subtitle {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  .github-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: all 0.2s;
+    flex-shrink: 0;
+  }
+  .github-btn:hover {
+    color: var(--text-primary);
+    border-color: var(--accent);
+  }
+
+  .card-desc {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin: 0 0 1.25rem;
+  }
+
+  /* Stats row */
+  .card-stats {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.25rem;
+    padding: 1rem 1.25rem;
+    background: var(--bg-secondary);
+    border-radius: 10px;
+  }
+  .stat-label {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    margin-bottom: 0.2rem;
+  }
+  .stat-value {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: -0.01em;
+  }
+
+  /* Tags */
+  .card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.2rem 0.65rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+  }
+  .lang-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--dot, var(--text-muted));
+    flex-shrink: 0;
+  }
+
+  /* CTA */
+  .cta-section {
+    padding: 2rem 0 5rem;
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  .cta-card {
+    padding: 3rem 2rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    text-align: center;
+  }
+  .cta-card h2 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    margin: 0 0 0.75rem;
+  }
+  .cta-card p {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    max-width: 480px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+  }
+  .cta-btns {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    background: var(--accent);
+    color: #0a0e1a;
+    font-weight: 700;
+    font-size: 0.875rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+  .btn-primary:hover { background: var(--accent-hover); color: #0a0e1a; }
+  .btn-outline {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-weight: 600;
+    font-size: 0.875rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .btn-outline:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  @media (max-width: 640px) {
+    .card-top { flex-direction: column; gap: 1rem; }
+    .github-btn { align-self: flex-start; }
+    .card-stats { gap: 1rem; }
+  }
 </style>
