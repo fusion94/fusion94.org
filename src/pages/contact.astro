@@ -6,82 +6,144 @@ import { SITE_TITLE } from '../consts';
 ---
 
 <html lang="en">
-	<head>
-		<BaseHead title={`Contact | ${SITE_TITLE}`} description="Get in touch with Tony Guntharp." />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>Contact</h1>
-			<p>
-				The best way to reach me depends on what you need:
-			</p>
+  <head>
+    <BaseHead title={`Contact | ${SITE_TITLE}`} description="Get in touch with Tony Guntharp." />
+  </head>
+  <body>
+    <Header />
+    <main>
 
-			<div class="contact-methods">
-				<div class="method">
-					<h3>💼 Professional</h3>
-					<p>
-						Connect on <a href="https://www.linkedin.com/in/fusion94/" target="_blank" rel="noopener">LinkedIn</a>
-						for professional inquiries.
-					</p>
-				</div>
+      <!-- Hero -->
+      <section class="hero-section">
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+          <h1>Contact</h1>
+          <p class="hero-sub">The best way to reach me depends on what you need.</p>
+        </div>
+      </section>
 
-				<div class="method">
-					<h3>🔧 Open Source</h3>
-					<p>
-						Open an issue on the relevant <a href="https://github.com/DamageLabs" target="_blank" rel="noopener">DamageLabs</a>
-						or <a href="https://github.com/fusion94" target="_blank" rel="noopener">fusion94</a> repo.
-					</p>
-				</div>
+      <!-- Contact methods -->
+      <section class="methods-section">
+        <div class="methods-grid">
+          <div class="method-card">
+            <div class="method-icon">💼</div>
+            <h3>Professional</h3>
+            <p>Connect on <a href="https://www.linkedin.com/in/fusion94/" target="_blank" rel="noopener">LinkedIn</a> for professional inquiries.</p>
+          </div>
+          <div class="method-card">
+            <div class="method-icon">🔧</div>
+            <h3>Open Source</h3>
+            <p>Open an issue on the relevant <a href="https://github.com/DamageLabs" target="_blank" rel="noopener">DamageLabs</a> or <a href="https://github.com/fusion94" target="_blank" rel="noopener">fusion94</a> repo.</p>
+          </div>
+          <div class="method-card">
+            <div class="method-icon">🧪</div>
+            <h3>DamageLabs</h3>
+            <p>Use the <a href="https://damagelabs.io/contact" target="_blank" rel="noopener">DamageLabs contact form</a> for product-related questions.</p>
+          </div>
+          <div class="method-card">
+            <div class="method-icon">🐦</div>
+            <h3>Social</h3>
+            <p><a href="https://x.com/TonyGuntharp" target="_blank" rel="noopener">@TonyGuntharp</a> on X/Twitter. DMs are open.</p>
+          </div>
+        </div>
+      </section>
 
-				<div class="method">
-					<h3>🧪 DamageLabs</h3>
-					<p>
-						Use the <a href="https://damagelabs.io/contact" target="_blank" rel="noopener">DamageLabs contact form</a>
-						for product-related questions.
-					</p>
-				</div>
+      <!-- Quote -->
+      <section class="quote-section">
+        <blockquote>
+          "Build things that matter. Share what you learn. Leave it better than you found it."
+        </blockquote>
+      </section>
 
-				<div class="method">
-					<h3>🐦 Social</h3>
-					<p>
-						<a href="https://x.com/TonyGuntharp" target="_blank" rel="noopener">@TonyGuntharp</a> on X/Twitter.
-						DMs are open.
-					</p>
-				</div>
-			</div>
-
-			<hr />
-			<p><em>"Build things that matter. Share what you learn. Leave it better than you found it."</em></p>
-		</main>
-		<Footer />
-	</body>
+    </main>
+    <Footer />
+  </body>
 </html>
 
 <style>
-	.contact-methods {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 1.5em;
-		margin: 2em 0;
-	}
-	.method {
-		padding: 1.5em;
-		border-radius: 12px;
-		background-color: var(--bg-card);
-		border: 1px solid var(--border);
-	}
-	.method h3 {
-		margin: 0 0 0.5em;
-		font-size: 1.1em;
-	}
-	.method p {
-		margin: 0;
-		font-size: 0.9em;
-	}
-	@media (max-width: 576px) {
-		.contact-methods {
-			grid-template-columns: 1fr;
-		}
-	}
+  main {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  /* Hero */
+  .hero-section {
+    position: relative;
+    overflow: hidden;
+    padding: 5rem 0 3.5rem;
+  }
+  .hero-glow {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 20% 50%, rgba(245,158,11,0.08) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .hero-content { position: relative; }
+  .hero-section h1 {
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    margin: 0 0 1rem;
+  }
+  .hero-sub {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  /* Methods */
+  .methods-section {
+    padding: 1rem 0 4rem;
+  }
+  .methods-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+  .method-card {
+    padding: 1.75rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .method-card:hover {
+    border-color: rgba(245,158,11,0.25);
+    transform: translateY(-2px);
+  }
+  .method-icon { font-size: 1.75rem; margin-bottom: 0.75rem; }
+  .method-card h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+  }
+  .method-card p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: 1.6;
+  }
+  .method-card a { color: var(--accent); }
+  .method-card a:hover { color: var(--accent-hover); }
+
+  /* Quote */
+  .quote-section {
+    padding: 3rem 0 5rem;
+    border-top: 1px solid var(--border);
+  }
+  .quote-section blockquote {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: var(--text-secondary);
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    max-width: 560px;
+  }
+
+  @media (max-width: 640px) {
+    .methods-grid { grid-template-columns: 1fr; }
+  }
 </style>
