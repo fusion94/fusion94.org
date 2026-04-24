@@ -6,28 +6,46 @@ interface Props {
 }
 
 const { chart, title, caption } = Astro.props;
-const diagramId = `mermaid-${Math.random().toString(36).slice(2, 10)}`;
 ---
 
 <figure class="mermaid-figure">
   {title && <figcaption class="mermaid-title">{title}</figcaption>}
-  <pre id={diagramId} class="mermaid">{chart}</pre>
+  <div class="mermaid-diagram" data-mermaid>{chart}</div>
   {caption && <p class="mermaid-caption">{caption}</p>}
 </figure>
 
-<script type="module" is:inline>
+<script>
   import mermaid from 'mermaid';
 
-  if (!window.__atlasMermaidInitialized) {
-    mermaid.initialize({
-      startOnLoad: false,
-      securityLevel: 'loose',
-      theme: 'neutral'
-    });
-    window.__atlasMermaidInitialized = true;
-  }
+  const initMermaid = async () => {
+    if (!window.__atlasMermaidInitialized) {
+      mermaid.initialize({
+        startOnLoad: false,
+        securityLevel: 'loose',
+        theme: 'neutral'
+      });
+      window.__atlasMermaidInitialized = true;
+    }
 
-  mermaid.run({ querySelector: '.mermaid' });
+    const nodes = Array.from(document.querySelectorAll('[data-mermaid]')).filter(
+      (node) => !node.dataset.rendered
+    );
+
+    if (!nodes.length) return;
+
+    await mermaid.run({ nodes });
+    nodes.forEach((node) => {
+      node.dataset.rendered = 'true';
+    });
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+      void initMermaid();
+    }, { once: true });
+  } else {
+    void initMermaid();
+  }
 </script>
 
 <style>
@@ -45,14 +63,14 @@ const diagramId = `mermaid-${Math.random().toString(36).slice(2, 10)}`;
     font-weight: 700;
   }
 
-  .mermaid {
+  .mermaid-diagram {
     overflow-x: auto;
     background: transparent;
     padding: 0;
     margin: 0;
   }
 
-  .mermaid :global(svg) {
+  .mermaid-diagram :global(svg) {
     max-width: 100%;
     height: auto;
     display: block;
