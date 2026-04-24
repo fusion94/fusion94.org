@@ -17,34 +17,35 @@ const { chart, title, caption } = Astro.props;
 <script>
   import mermaid from 'mermaid';
 
-  const initMermaid = async () => {
-    if (!window.__atlasMermaidInitialized) {
-      mermaid.initialize({
-        startOnLoad: false,
-        securityLevel: 'loose',
-        theme: 'neutral'
-      });
-      window.__atlasMermaidInitialized = true;
-    }
-
-    const nodes = Array.from(document.querySelectorAll('[data-mermaid]')).filter(
-      (node) => !node.dataset.rendered
-    );
-
-    if (!nodes.length) return;
-
-    await mermaid.run({ nodes });
-    nodes.forEach((node) => {
-      node.dataset.rendered = 'true';
+  if (!window.__mermaidInitialized) {
+    mermaid.initialize({
+      startOnLoad: false,
+      securityLevel: 'loose',
+      theme: 'neutral',
     });
-  };
+    window.__mermaidInitialized = true;
+  }
+
+  async function renderDiagrams() {
+    const nodes = document.querySelectorAll<HTMLElement>('[data-mermaid]:not([data-rendered])');
+    for (const node of nodes) {
+      const chart = node.textContent?.trim() ?? '';
+      if (!chart) continue;
+      const id = `mermaid-${Math.random().toString(36).slice(2)}`;
+      try {
+        const { svg } = await mermaid.render(id, chart);
+        node.innerHTML = svg;
+        node.dataset.rendered = 'true';
+      } catch (err) {
+        console.error('Mermaid render error:', err);
+      }
+    }
+  }
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-      void initMermaid();
-    }, { once: true });
+    document.addEventListener('DOMContentLoaded', renderDiagrams, { once: true });
   } else {
-    void initMermaid();
+    void renderDiagrams();
   }
 </script>
 

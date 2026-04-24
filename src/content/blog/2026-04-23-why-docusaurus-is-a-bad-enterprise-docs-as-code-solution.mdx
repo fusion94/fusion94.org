@@ -17,364 +17,97 @@ updatedDate: '2026-04-23 21:07 -0500'
 
 import MermaidDiagram from '../../components/MermaidDiagram.astro';
 
-Docusaurus is easy to like.
+I've watched teams pick Docusaurus, feel great about it for about six weeks, and then spend the next year quietly suffering.
 
-It is modern, fast, polished, and productive in a demo. A team can get a nice
-looking docs site running quickly, and if the people evaluating it are already
-comfortable with React, it feels familiar almost immediately.
+**Docusaurus is not a bad tool. It is the wrong tool for most teams that choose it.** And the gap between those two statements is where a lot of engineering hours go to die.
 
-That is exactly why so many teams pick it.
+## Before You Read Further
 
-It is also why so many teams end up regretting it later.
+Answer these honestly. They'll tell you whether this post is even for you.
 
-The problem is not that Docusaurus is bad software. The problem is that it gets
-chosen for the wrong reasons. Teams often evaluate it like a frontend framework:
-Does it look good? Is it flexible? Can we customize it? Can we ship quickly?
+1. Who maintains the custom components and swizzled theme pieces when the person who built them leaves?
+2. Can your non-engineering contributors make edits without filing a ticket?
+3. When you need a reusable warning block, do you reach for a config option or write a React component?
+4. If you had to switch tools in two years, how painful would migrating your content be?
+5. Would a simpler tool handle 90% of your needs with 30% of the maintenance overhead?
 
-Those are not meaningless questions, but they are not the questions that decide
-whether a docs stack is pleasant to live with six months later.
+If those questions made you uncomfortable, keep reading.
 
-For most teams, the real question is simpler:
+## The Demo Trap
 
-**Will this make writing, organizing, maintaining, and evolving our docs easier,
-or will it slowly turn the docs site into a side software project?**
+Here's why Docusaurus keeps winning evaluations it shouldn't win: it is *exceptional* in a demo.
 
-That is where Docusaurus starts to look a lot worse.
+Spin it up. It looks modern. It's fast. The search works. The sidebar auto-generates. If you've got React chops, you're customizing the theme inside of an hour. By end of day you're showing stakeholders something that looks genuinely polished, and everyone nods.
 
-## The Short Version
+That's the trap.
 
-Here is the blunt version.
+What you just evaluated is how good Docusaurus is on day one. What you didn't evaluate is what it feels like to maintain it when you've got 200 pages, three contributors who don't know React, a quarterly release cycle, and a backlog of docs debt that keeps growing because nobody wants to touch the swizzled components.
 
-**Docusaurus is usually better for engineering-led developer docs than it is for
-ordinary documentation teams.**
+Those are different questions. Docusaurus aces the first one and struggles badly with the second.
 
-If your docs are being owned by a product engineering team, the audience is
-mostly developers, and you actually want a React-based docs site because you are
-building something highly customized, Docusaurus can make sense.
+## What Actually Goes Wrong
 
-But if your team mostly wants to:
+### Your docs become a side software project
 
-- write in Markdown
-- organize information clearly
-- publish docs reliably
-- avoid unnecessary maintenance burden
-- keep content portable
-- let writers work without constant frontend help
+This is the big one. Docusaurus is built on a philosophy that docs can be — and maybe should be — a React application. That's a reasonable idea for some teams. For most teams, it's a slow-moving disaster.
 
-then Docusaurus is often the wrong default.
+It starts innocently. Someone drops a React component into an MDX file to render a nice callout box. Someone else swizzles the footer to add a feedback widget. A plugin gets added for something. Then another.
 
-For many teams, **MkDocs + Material is the better choice and should probably be
- the default starting point**.
+Three months later, your docs site has a `src/components/` directory with seventeen custom components, a theme override that nobody fully understands, and a build pipeline that breaks whenever someone runs `npm update`. And the writers on your team — who just want to edit Markdown — have started filing tickets to ask engineers to make changes for them.
 
-And if your documentation needs are more structured than either of those tools
-handle well, you probably need to look beyond both.
+That's not docs-as-code. That's a frontend project that happens to contain documentation.
 
-## Why Teams Keep Choosing Docusaurus Anyway
+### MDX is a trap disguised as a feature
 
-Docusaurus wins evaluations for understandable reasons.
+MDX sounds great. Markdown plus React components! Maximum flexibility!
 
-It performs well in the first week.
+In practice it means your content is no longer portable. The moment you write:
 
-A small team trying it out will notice:
+```mdx
+<CustomCallout type="warning">
+  Don't do this in production.
+</CustomCallout>
+```
 
-- the site looks modern immediately
-- setup feels quick
-- the React ecosystem looks powerful
-- navigation and search feel polished
-- customization appears flexible
-- it feels more "app-like" than old-school docs tools
+...you've coupled that content to your Docusaurus setup. Move to a different tool later and you're not migrating Markdown files — you're migrating a content format that is specific to your current docs infrastructure.
 
-That creates momentum.
+And what does that migration actually look like? Every `<CustomCallout>`, `<Tabs>`, `<TabItem>`, and `<CodeBlock>` tag in your content becomes broken markup in any other renderer. You're not doing a find-and-replace — you're doing a content audit, a component inventory, and a rewrite pass across hundreds of files. Teams that thought they were building portable docs-as-code discover they built a Docusaurus-shaped content archive instead.
 
-The trouble is that these are mostly **day one benefits**. They say very little
-about whether the tool will still feel like a good fit after the team has:
+Docs-as-Code is supposed to mean the content outlives the tool. MDX quietly reverses that promise, and it happens gradually enough that most teams don't notice until they're already deep in it.
 
-- 150 pages instead of 20
-- multiple contributors with different skill sets
-- a backlog of updates and fixes
-- recurring navigation changes
-- content reuse problems
-- versioning questions
-- docs people who do not want to think about React at all
+### Writers become second-class citizens
 
-Docusaurus tends to look strongest at evaluation time and weaker once the
-ongoing maintenance reality arrives.
+Docusaurus is built by and for people who are comfortable with JavaScript and React. That's fine if that describes everyone on your docs team.
 
-## The Core Problem: It Pulls Docs Toward a Frontend Mindset
+It usually doesn't.
 
-This is the biggest issue, and it shows up fast.
+Most teams have a mix: engineers, writers, DevRel, product managers, support folks who are subject-matter experts but not React developers. These people are often your most valuable docs contributors — they know the product, they know the users, they've got the context.
 
-Docusaurus encourages teams to think about documentation as a customizable web
-application.
+A React-centric docs stack quietly pushes them out. Not dramatically. Just gradually. They stop submitting PRs because they don't want to accidentally break something. They ask engineers to make edits. They work in Google Docs and hand things off. The contribution surface narrows to whoever feels comfortable in the codebase, and your docs quality pays for it.
 
-Sometimes that is useful.
+### Versioning sounds better than it is
 
-Often it is a distraction.
+Yes, Docusaurus has versioning. Yes, you can snapshot your docs for each release.
 
-Most docs teams do not actually need a miniature React platform for publishing
-content. They need a stable writing and publishing system. They need predictable
-navigation, durable content, a sane authoring model, and low-friction
-maintenance.
+What the feature demos don't show you is what happens six months in when you've got four supported versions and you realize that fixing a typo in a shared section means finding and updating that text in four different places. Or that a navigation change affects the entire version history. Or that your `versioned_docs/` directory is now larger than your actual codebase and equally intimidating to touch.
 
-Docusaurus keeps inviting teams to go beyond that:
+"Versioned docs" and "maintainable versioned docs" are not the same thing. Docusaurus gives you the former without necessarily helping you with the latter.
 
-- embed React components in content
-- create MDX-driven layouts
-- swizzle theme components
-- solve problems with custom rendering logic
-- treat docs pages as UI surfaces instead of content assets
+### Search is great — until it isn't
 
-That can be fun for engineers.
+Docusaurus's Algolia DocSearch integration is genuinely excellent and easy to set up. It's one of the real advantages of the platform, and I'm not going to pretend otherwise.
 
-It is not always good for the docs.
+But it's also a dependency. Algolia DocSearch is free for open source projects and qualifying sites; for everyone else it's a paid service. If your budget changes, your search changes. MkDocs + Material ships with a built-in search that's fast, works offline, requires no external service, and is good enough for most teams. It's not Algolia — but "not Algolia" and "bad" are not the same thing.
 
-Once a team starts solving ordinary documentation problems with frontend
-customization, the docs system slowly becomes harder to understand, harder to
-migrate, and harder for non-engineers to own.
+More importantly: search is one feature. It doesn't justify a docs stack that creates friction everywhere else.
 
-## Content Portability Starts Eroding Earlier Than People Realize
+## The Better Default: MkDocs + Material
 
-Docs-as-Code is attractive partly because content is supposed to outlive the
-rendering tool.
+I want to be clear about what I'm recommending here because it matters.
 
-That is one of the big promises: the content lives in Git as text, and the site
-generator is supposed to be replaceable if your needs change later.
+I'm not saying "use MkDocs + Material because it's objectively superior in every dimension." I'm saying **use MkDocs + Material because it fails gracefully in the ways most teams need, and it keeps your team focused on the right things**.
 
-Docusaurus weakens that promise by nudging teams toward a content format that is
-not really just Markdown anymore.
-
-In practice, Docusaurus often leads to:
-
-- MDX with embedded React components
-- Docusaurus-specific directives
-- theme-dependent content patterns
-- plugin-dependent authoring conventions
-
-At some point, the content stops being portable markdown and becomes
-Docusaurus-shaped content.
-
-That matters because most teams do not stay static forever. The docs grow.
-Ownership changes. The team changes. The site's needs change. Sometimes the tool
-needs to change too.
-
-If the content is tightly coupled to Docusaurus, moving away later stops being a
-simple tooling change and becomes a content migration project.
-
-That is exactly the kind of trap most teams should avoid.
-
-## The Authoring Experience Is More Fragile Than It Looks
-
-A lot of teams do not realize how different these two statements are:
-
-- "This tool lets us publish Markdown."
-- "This tool encourages a durable writing system."
-
-Docusaurus does the first one fine.
-
-The second is shakier.
-
-Once MDX and custom components enter the picture, the docs start drifting away
-from plain writing and toward mixed content-plus-rendering logic. That creates a
-few predictable problems:
-
-- writers become hesitant to touch certain pages
-- contributors need more tool-specific knowledge to edit safely
-- review gets harder because content and presentation are mixed together
-- reuse starts getting handled with ad hoc component patterns
-- migration risk increases quietly over time
-
-This is one reason some teams feel like Docusaurus is empowering at first and
-constraining later. It gives you a lot of power, but the power comes from making
-the docs system more application-like.
-
-That is not always what a team actually wants.
-
-## Docusaurus Solves the Visible Problem Better Than the Daily Problem
-
-This is another way to put it.
-
-Docusaurus is very good at the part of documentation that leadership sees:
-
-- homepage polish
-- branding
-- attractive layouts
-- interactive UI possibilities
-- modern look and feel
-
-It is less convincing at the part teams feel every week:
-
-- making updates without breaking anything
-- keeping authors productive
-- making conventions easy to follow
-- reusing content cleanly
-- preventing the theme from becoming a maintenance liability
-- keeping docs ownership broad instead of funneling everything through one React
-  person
-
-In other words, it is often optimized for how a docs site **looks** more than
-how a docs system **ages**.
-
-That is not a small distinction.
-
-## The Maintenance Burden Usually Lands in the Wrong Place
-
-When teams choose Docusaurus, they often do so because the engineers on the team
-feel confident they can customize anything they need.
-
-That is true.
-
-The question is whether they should have to.
-
-A healthy docs stack should reduce the number of times the team needs a frontend
-engineer to intervene. Docusaurus often does the opposite.
-
-Over time, teams end up with things like:
-
-- swizzled components nobody wants to touch
-- custom layouts that break during upgrades
-- MDX pages that are easy to damage accidentally
-- theme tweaks that require React knowledge
-- docs workflows that rely on one or two implementation-heavy contributors
-
-That is how the docs stack stops being a publishing tool and starts becoming a
-maintenance surface.
-
-For some teams, that trade is worth it.
-
-For most teams, it is not.
-
-## The Versioning Story Looks Better Than It Feels
-
-Docusaurus does have versioning.
-
-That sounds like a decisive checkbox until a team actually has to maintain the
-same docs across several versions of a product.
-
-Then the pain starts to show up in ordinary ways:
-
-- repeated fixes across duplicated files
-- extra review overhead for simple updates
-- content drift between versions
-- uncertainty about whether changes were applied everywhere they should be
-
-This may not matter much if your team mostly documents one current release.
-
-It matters a lot more if you maintain multiple supported versions, long-lived
-customer installs, or product variants that share most of the same content but
-not all of it.
-
-At that point, Docusaurus starts feeling less like "versioned docs" and more
-like "managed duplication."
-
-That is still workable for some teams. It is just not especially elegant, and it
-gets expensive faster than it looks in a demo.
-
-## Reuse and Conditional Content Are Awkward
-
-Even small and mid-sized teams run into this.
-
-They need to reuse:
-
-- shared warnings
-- setup prerequisites
-- support policy text
-- upgrade notes
-- reference fragments
-- repeated procedural steps
-
-They also often need lightweight conditional behavior, such as:
-
-- show this note only for self-hosted users
-- show this warning only on older versions
-- include this block only in internal docs
-
-Docusaurus does not give you a particularly strong native model for these needs.
-So teams improvise.
-
-They create:
-
-- custom snippets
-- macros
-- component-based reuse patterns
-- plugin-driven workarounds
-- frontmatter conventions that only insiders understand
-
-Each one can seem reasonable in isolation. Together they are usually a signal
-that the tool is missing something important.
-
-## It Creates a Skill-Set Mismatch on a Lot of Teams
-
-This is a big one.
-
-Docusaurus is often chosen by people who are comfortable with JavaScript,
-React, and frontend tooling.
-
-But a lot of docs work is done by people who care more about:
-
-- structure
-- clarity
-- editing speed
-- consistency
-- low-friction publishing
-- not having to debug build weirdness to change a sentence
-
-That is not anti-technical. It is just a different center of gravity.
-
-If your team includes writers, DevRel people, product folks, support engineers,
-or occasional contributors from across the company, a React-centric docs stack
-can quietly narrow the number of people who feel comfortable making changes.
-
-That is usually bad for docs quality.
-
-The best docs systems tend to make contribution easier. Docusaurus often makes
-certain kinds of contribution easier and other kinds noticeably worse.
-
-## The Cost Problem Is Usually Hidden at First
-
-Docusaurus can feel cheap because it is open source and easy to launch.
-
-But the visible cost is not the whole cost.
-
-The real cost shows up in small, recurring ways:
-
-- one person owns theme complexity
-- one person understands the MDX edge cases
-- one person gets pulled into every weird layout issue
-- upgrades feel risky because customizations piled up
-- authors avoid certain pages because they look too implementation-heavy
-- content patterns drift because the system does not enforce much structure
-
-None of those problems look dramatic on their own.
-
-That is why teams often tolerate them for too long.
-
-Then one day they realize the docs stack has become more complicated than the
-docs actually needed.
-
-## Docusaurus vs. MkDocs + Material
-
-This is the comparison that matters most for a lot of teams.
-
-If you are deciding between **Docusaurus** and **MkDocs + Material**, you are
-usually not choosing between a bad tool and a good tool. You are choosing
-between two very different philosophies.
-
-Docusaurus says:
-
-- docs can behave like a modern React site
-- customization power is a major virtue
-- UI flexibility is worth extra complexity
-
-MkDocs + Material says:
-
-- docs should mostly stay docs
-- content should remain centered on Markdown and structure
-- the stack should be easy to operate without turning into a frontend project
-
-That is why MkDocs + Material is not just an alternative here. For most normal
-teams, it is the stronger default.
-
-Here is the architectural difference in one glance.
+Here's the core difference in how these two tools think about docs:
 
 <MermaidDiagram
   title="Docusaurus architecture for a typical team"
@@ -400,149 +133,95 @@ Here is the architectural difference in one glance.
     J[Lower frontend maintenance burden] --> D`}
 />
 
-### Where MkDocs + Material is better
+Docusaurus pulls the docs toward the code. MkDocs + Material keeps the code away from the docs. That's the whole argument, really.
 
-MkDocs + Material is usually better than Docusaurus at the things most teams
-actually care about day to day:
+Here's what a typical MkDocs + Material setup actually looks like. This is a real `mkdocs.yml` for a mid-sized project:
 
-- keeping the content model simple
-- reducing the temptation to embed presentation logic into docs
-- making the site easier for non-frontend contributors to work with
-- lowering long-term maintenance overhead
-- preserving a clearer separation between content and customization
-- staying boring in the ways a docs stack should be boring
+```yaml
+site_name: My Project Docs
+site_url: https://docs.myproject.com
+repo_url: https://github.com/myorg/myproject
 
-That last one matters more than it sounds.
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
+    - content.code.copy
 
-For documentation, boring is often good. Predictable is good. Limited in the
-right ways is good. Teams usually do not need their docs stack to be clever.
-They need it to be stable.
+plugins:
+  - search
+  - awesome-pages
 
-That is exactly why MkDocs + Material is so often the better answer. It keeps
-teams focused on writing and organizing docs instead of slowly drifting into
-frontend engineering work.
+markdown_extensions:
+  - admonitions
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+```
 
-### Where MkDocs + Material is still not enough
+That's it. Navigation, search, dark mode, syntax highlighting, tabbed code blocks, admonitions — all from a config file. No React. No swizzling. No `src/components/`. A writer who has never touched a JavaScript project can understand and modify this.
 
-That said, MkDocs + Material is not a magic answer either.
+With MkDocs + Material:
 
-If a team needs:
+- Your content is plain Markdown. It will still be plain Markdown when you eventually move to your next tool.
+- Your theme is configuration, not code. Non-engineers can reason about it.
+- Your navigation lives in `mkdocs.yml` or an `awesome-pages` config — boring in exactly the right way.
+- Writers can contribute without worrying they'll break the build.
+- Upgrades don't require auditing custom components for breakage.
 
-- heavy structured reuse
-- sophisticated version-aware single-sourcing
-- rich conditional publishing
-- complex multi-repo assembly
-- deeper workflow/governance layers
+Is it less flashy? Yes. Does the demo look as impressive? No. Does that matter when you're six months in and everything still works and your whole team can edit docs without filing tickets? Absolutely not.
 
-then MkDocs + Material also starts running out of road.
+## The Direct Comparison
 
-It is still a site generator. It is just one that usually fails more gracefully
-than Docusaurus.
-
-That is an important difference.
-
-Docusaurus tends to accumulate debt through React coupling and docs-as-app
-thinking. MkDocs + Material tends to accumulate debt through conventions,
-plugins, and static-site limitations.
-
-Both have ceilings. MkDocs + Material usually has a cleaner ceiling.
-
-### My actual recommendation
-
-If a normal team asks me:
-
-> Should we use Docusaurus or MkDocs + Material?
-
-my answer is:
-
-**Use MkDocs + Material unless you can make a strong, specific case for why you
-actually need Docusaurus.**
-
-That should be the burden of proof.
-
-Docusaurus is the tool that needs justification, not MkDocs + Material.
-
-Not because Docusaurus is terrible.
-
-Because in the average case, MkDocs + Material creates less unnecessary
-complexity, imposes less maintenance debt, and keeps the docs closer to what
-most teams actually need: a stable, maintainable, content-first system.
-
-## A Simple Comparison
-
-| Question | Docusaurus | MkDocs + Material |
+| What actually matters | Docusaurus | MkDocs + Material |
 | --- | --- | --- |
-| Feels impressive in a demo? | Yes | Less flashy, more restrained |
-| Easy for React-friendly engineers to customize? | Yes | Less so |
-| Keeps docs closer to plain content? | No, not by default | Yes, more often |
-| Encourages docs-as-app thinking? | Yes | Much less |
-| Lower maintenance burden for most teams? | Usually no | Usually yes |
-| Better default for mixed-skill docs contributors? | Usually no | Usually yes |
-| Better fit for highly customized dev portals? | Often yes | Sometimes, but less naturally |
-| Better fit for teams that want stable, boring docs infra? | Usually no | Usually yes |
-| Better default recommendation for a typical team? | No | Yes |
+| Looks impressive in a demo | ✅ Yes | ⚠️ More restrained |
+| Content stays portable | ❌ MDX coupling | ✅ Plain Markdown |
+| Writers can contribute without React knowledge | ❌ Often not | ✅ Usually yes |
+| Maintenance burden stays low | ❌ Accumulates | ✅ Usually low |
+| Upgrades are low-risk | ❌ Often painful | ✅ Usually smooth |
+| Stays boring in the good way | ❌ Invites complexity | ✅ Enforces simplicity |
+| Built-in search (no external service) | ⚠️ Algolia (free tier has limits) | ✅ Built-in, works offline |
+| i18n / localization | ✅ Strong support | ⚠️ Workable but limited |
+| API reference rendering | ⚠️ Manual or plugin-dependent | ⚠️ Manual or plugin-dependent |
+| Right for engineering-led dev portals | ✅ Often | ⚠️ Sometimes |
+| Right for most normal docs teams | ❌ Usually not | ✅ Usually yes |
 
-That table is the real tradeoff.
+The i18n row is worth noting: if you're building docs that need to ship in six languages with right-to-left support and locale-aware routing, Docusaurus is genuinely better at that. Same with complex API reference use cases — neither tool handles them elegantly without additional tooling, but Docusaurus at least gives you more surface area to customize your way to a solution.
 
-Docusaurus gives you more frontend power.
-MkDocs + Material usually gives you the better default decision.
+Both tools have real ceilings. Docusaurus accumulates debt through React coupling. MkDocs + Material accumulates debt through plugin conventions and static-site limitations. MkDocs just tends to fail more gracefully and more visibly when it does.
 
-## When Docusaurus Actually Is the Right Choice
+## When Docusaurus Is Actually the Right Call
 
-There are absolutely cases where Docusaurus is the right call.
+There are teams for whom Docusaurus is genuinely the right answer. But it's a specific profile, and it's worth being honest about whether you actually fit it.
 
-For example:
+Docusaurus makes sense when:
 
-- the team is strongly engineering-led
-- the primary audience is developers
-- custom React-driven presentation is genuinely valuable
-- the docs experience is part of a broader product UI strategy
-- the team is comfortable owning a more implementation-heavy docs stack
+- **The docs experience is a product feature.** You need interactive code playgrounds, live API explorers, or version-aware UI behavior that goes beyond navigation. Think Stripe's API reference, where the docs are deeply integrated with live credential injection and runnable examples. That level of interactivity is a legitimate React application, not a documentation site that got fancy.
+- **You have dedicated frontend capacity for the docs infra.** Not "engineers who can help when needed" — actual ownership. Someone whose job includes maintaining the theme, reviewing component changes, and handling upgrades. If that person doesn't exist, neither does the plan for keeping the site healthy.
+- **Your audience is exclusively developers and the content is heavily code-centric.** SDKs, CLIs, APIs with multi-language code samples and complex version trees. Docusaurus was built for this and it shows.
+- **You need strong i18n.** Multiple locales, right-to-left languages, locale-aware routing — Docusaurus handles this much better than MkDocs.
 
-That is a real use case.
+If all four of those are true, Docusaurus earns its complexity. If you're nodding at one or two of them and squinting at the others, that's a signal worth paying attention to.
 
-The mistake is turning that into a default recommendation for everyone else.
+## The Bottom Line
 
-For plenty of teams, especially ones that primarily care about clarity,
-maintainability, and predictable content operations, Docusaurus is simply more
-tool than they need and more complexity than they should want.
+Docusaurus wins evaluations because it looks great and feels familiar to engineers. It loses the long game because it slowly turns docs into a frontend project, narrows who can contribute, and accumulates the kind of maintenance debt that's hard to see coming until it's already there.
 
-Those teams should usually start with MkDocs + Material and only move upward in
-complexity if they hit a real limit.
+MkDocs + Material isn't exciting. It's not going to wow anyone in a demo. It's going to let your whole team write docs, keep your content portable, survive upgrades without drama, and stay out of your way while you focus on the thing that actually matters: the documentation itself.
 
-## What Teams Should Ask Before Choosing It
-
-Before picking Docusaurus, a team should ask:
-
-- Are we choosing this because it solves our docs problems, or because it looks
-  modern and flexible?
-- Do we actually want a React-centered docs stack?
-- Who will maintain customizations after the initial excitement wears off?
-- Will writers and occasional contributors feel comfortable editing this safely?
-- Are we okay with content becoming less portable over time?
-- Are we likely to end up solving basic docs problems with custom components and
-  plugins?
-- Would a simpler system get us 90% of what we need with half the maintenance?
-
-Those questions usually lead to a better decision than feature checklists do.
-
-## Final Thought
-
-Docusaurus is not bad.
-
-It is just a worse default than many teams think.
-
-It wins early because it is polished, flexible, and easy to admire. But most
-teams do not need a docs stack they can admire. They need a docs stack they can
-live with.
-
-That is a different standard.
-
-And by that standard, Docusaurus is often the wrong choice.
-
-For many teams, **MkDocs + Material is not just a viable alternative. It is the
-better default and the tool I would recommend first.**
-
-And for teams with needs beyond both, the right answer is not "use Docusaurus
-anyway." It is to admit that the real problem is bigger than a flashy docs site
-can solve.
+**Start with MkDocs + Material. Move to something more complex only when you hit a real, specific limit that justifies the added overhead — not because the demo looked good.**
