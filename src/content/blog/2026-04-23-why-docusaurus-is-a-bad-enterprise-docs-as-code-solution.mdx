@@ -1,5 +1,5 @@
 ---
-title: "Why Docusaurus Is a Bad Docs-as-Code Choice for Most Teams"
+title: "Why Docusaurus Is the Wrong Default for Most Docs Teams"
 tags:
   - documentation
   - docs-as-code
@@ -7,10 +7,10 @@ tags:
   - mkdocs
   - technical-writing
 description: >-
-  Docusaurus is a strong developer documentation site generator, but for many
-  teams it creates unnecessary complexity, content coupling, and maintenance
-  debt. Here is where it goes wrong and why MkDocs + Material is usually the
-  better default for team-owned docs.
+  Docusaurus wins demos and loses the long game. For most teams it quietly turns
+  documentation into a frontend project, narrows who can contribute, and
+  accumulates maintenance debt that compounds. Here's what actually goes wrong —
+  and why MkDocs + Material is the better default for team-owned docs.
 pubDate: '2026-04-23 20:45 -0500'
 updatedDate: '2026-04-23 21:07 -0500'
 ---
@@ -185,6 +185,8 @@ With MkDocs + Material:
 
 Is it less flashy? Yes. Does the demo look as impressive? No. Does that matter when you're six months in and everything still works and your whole team can edit docs without filing tickets? Absolutely not.
 
+**→ Where to start:** [Material for MkDocs — Getting Started](https://squidfunk.github.io/mkdocs-material/getting-started/). Install is two commands, config is one file, and the default output is clean enough to ship the same day.
+
 ## The Direct Comparison
 
 | What actually matters | Docusaurus | MkDocs + Material |
@@ -217,6 +219,18 @@ Docusaurus makes sense when:
 - **You need strong i18n.** Multiple locales, right-to-left languages, locale-aware routing — Docusaurus handles this much better than MkDocs.
 
 If all four of those are true, Docusaurus earns its complexity. If you're nodding at one or two of them and squinting at the others, that's a signal worth paying attention to.
+
+## Already on Docusaurus?
+
+If you're reading this from inside an existing Docusaurus setup, the question isn't whether you made the wrong call — it's whether moving now makes sense, and how to limit the damage in the meantime.
+
+**Early (under six months, under 100 pages):** Migration is cheap. The earlier you move, the less MDX coupling you've accumulated. A script can strip most component tags to plain Markdown admonitions in an afternoon. `mkdocs.yml` takes an hour to get right. The window is open, but it closes fast.
+
+**Established (200+ pages, custom components, versioning in use):** A full migration is probably not worth the disruption. Contain the damage instead: stop adding custom components, prefer plain Markdown wherever possible, and document what each swizzled piece does before the person who built it leaves. When the next major Docusaurus upgrade breaks your theme, that's your natural decision point.
+
+**Evaluating whether to move:** Run both on a real slice of your docs — not samples, but content your team actually writes and edits. See which one your non-engineer contributors use without being prompted.
+
+One rule that helps in all three cases: treat plain Markdown as the floor. Every custom component you don't add is a migration problem you won't have later.
 
 ## The Bottom Line
 
