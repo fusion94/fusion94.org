@@ -122,4 +122,9 @@ The most useful things in the two documents are the parts that escaped the messa
 
 ---
 
+*Tony Guntharp writes at fusion94.org about technology, open source, and the things that matter. He is also a LEGO collector and knows exactly how much those Star Wars sets are worth.*
+
+---
+
+
 *This post is commentary on public corporate statements and on prior reporting, including the* Salem Business Journal *and* Kotaku*. Allegations by all parties — BAM, the former franchisee, the current owners, Mr. Schneider, and Mr. Mansell — remain unproven unless and until established in court. Nothing here constitutes legal advice. Corrections and documentation are welcome at fusion94.org.*
