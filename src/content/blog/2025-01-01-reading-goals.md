@@ -12,7 +12,7 @@ pubDate: '2025-01-01 09:56 -0500'
 As we welcome the new year, it's a perfect time to reflect on our
 accomplishments and set new targets. In 2024, I set a modest goal for myself to
 read 16 books. Reading has always been a way for me to unwind and learn, but
-last year, it became more than just a hobby—it became a journey of discovery and
+last year, it became more than just a hobby. It became a journey of discovery and
 achievement. To my own surprise, I didn't just meet my goal; I soared past it,
 finishing 23 books and covering a whopping 8,037 pages!
 

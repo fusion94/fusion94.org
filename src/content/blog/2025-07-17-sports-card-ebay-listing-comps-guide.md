@@ -11,13 +11,13 @@ beyond a simple hobby. What started as a few packs of cards quickly turned into
 a deep appreciation for the stories behind each player, the excitement of
 discovering rare inserts, and the joy of building a personal collection. He
 spends hours researching players, tracking card values, and organizing his
-collection with care—always eager to share his latest finds and learn more about
+collection with care, always eager to share his latest finds and learn more about
 the game.
 
 What’s most inspiring is how this passion has sparked a sense of
 entrepreneurship in him. He’s learned how to spot value, negotiate trades, and
 even sell cards online, all while staying grounded in his love for the hobby.
-It’s not just about collecting—it’s about connecting with a community, learning
+It’s not just about collecting. It’s about connecting with a community, learning
 real-world skills, and turning a personal interest into something truly
 meaningful.
 
@@ -27,7 +27,7 @@ meaningful.
 
 After years of collecting sports cards and recently diving deeper into the
 selling side, I've learned that success on eBay isn't just about having great
-cards—it's about understanding the market and presenting your inventory
+cards. It's about understanding the market and presenting your inventory
 effectively. Whether you're decluttering your collection or running a side
 business, mastering comparables (comps) and crafting stellar listings can be the
 difference between cards sitting unsold and quick, profitable sales.
@@ -71,7 +71,7 @@ Not all comps are created equal. Here's how I prioritize them:
 sales (within 30 days) to establish a range.
 
 **Outlier Detection**: Ignore sales that are 40%+ above or below the
-average—these often indicate:
+average: these often indicate:
 
 - Desperate sellers
 - Auction snipes at 3 AM
@@ -88,7 +88,7 @@ Here's my proven formula:
 
 ### Title Optimization
 
-Your title has 80 characters—use them wisely. My template:
+Your title has 80 characters. Use them wisely. My template:
 
 ```
 [YEAR] [BRAND] [PLAYER NAME] [CARD NUMBER] [PARALLEL/INSERT] [GRADE]
@@ -113,7 +113,7 @@ Bad photos kill sales. Here's my setup:
 - Natural lighting or LED panel (avoid harsh shadows)
 - Neutral background (I use white or black foam board)
 - Penny sleeve + toploader for protection
-- Phone camera is fine—consistency matters more than equipment
+- Phone camera is fine. Consistency matters more than equipment
 
 **The 6-Photo Method**:
 
@@ -153,7 +153,7 @@ Your description should answer every possible question:
 
 - **BIN**: Control your price, best for established values
 - **Auction**: Let the market decide, good for rare/hot cards
-- **BIN/Best Offer**: My favorite—set high, accept reasonable offers
+- **BIN/Best Offer**: My favorite. Set high, accept reasonable offers
 
 **The 85% Rule**: Price BIN at 85-90% of recent comp average. This accounts for:
 
@@ -200,7 +200,7 @@ about:
 - Treating buyers how you'd want to be treated
 
 After listing hundreds of cards, I've learned that the sellers who thrive are
-those who treat it like a business—even if it's just a hobby. Know your costs,
+those who treat it like a business, even if it's just a hobby. Know your costs,
 track your sales, and always be learning.
 
 The sports card market can be volatile, but with solid comps research and

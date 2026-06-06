@@ -5,7 +5,7 @@ tags:
   - whisky
   - scotch
   - irish
-description: Explaining the key differences between Scotch and Irish whiskey—from distillation methods and peat usage to regional flavor profiles—while guiding beginners toward finding their perfect pour.
+description: Explaining the key differences between Scotch and Irish whiskey, from distillation methods and peat usage to regional flavor profiles, while guiding beginners toward finding their perfect pour.
 pubDate: '2025-12-30 17:48 -0500'
 heroImage: '/images/whiskey.jpg'
 ---
@@ -13,7 +13,7 @@ heroImage: '/images/whiskey.jpg'
 # The Difference Between Scotch and Irish Whiskey Explained
 
 Here's the simple truth: Both Scotch and Irish whiskey start with grain, water,
-and yeast—but the journey from mash to bottle couldn't be more different.
+and yeast, but the journey from mash to bottle couldn't be more different.
 
 Think of it this way: they're cousins, not twins. Both spirits share a family
 tree rooted in centuries of Celtic distilling tradition, but the rules,
@@ -26,7 +26,7 @@ finding your perfect pour.
 To really appreciate what makes each spirit unique, you have to look beyond the
 spelling (yes, Scotch drops the "e" in whisky, while Irish keeps it in whiskey).
 The real distinctions come down to geography, ingredients, distillation methods,
-and aging requirements—all of which are governed by strict laws in their
+and aging requirements, all of which are governed by strict laws in their
 respective countries.
 
 These aren't arbitrary rules; they're the traditions and regulations that have
@@ -72,7 +72,7 @@ simple, side-by-side format, helping you see the key contrasts at a glance.
 | **Peat Usage**           | Common, especially in certain regions | Rarely used                                   |
 
 > **A Tip for New Drinkers:** When you're just starting out, remember this:
-> Irish whiskey is typically your gateway—smooth, approachable, and easy to
+> Irish whiskey is typically your gateway: smooth, approachable, and easy to
 > love. Scotch offers a wider flavor spectrum, from delicate and floral to
 > intensely smoky. If you enjoy smooth spirits, start Irish. If you're curious
 > about bolder, more complex flavors, venture into Scotch.
@@ -112,7 +112,7 @@ taste profiles.
    Islay. **Laphroaig**, **Ardbeg**, and **Lagavulin** are the heavy hitters.
 
 4. **Lowland:** Known for producing the **lightest, most delicate** Scotch
-   whiskies. These are often described as grassy, citrusy, and gentle—perfect
+   whiskies. These are often described as grassy, citrusy, and gentle, perfect
    for newcomers. **Auchentoshan** and **Glenkinchie** are excellent starting
    points.
 
@@ -123,7 +123,7 @@ taste profiles.
 
 > **A Tip for New Drinkers:** If the thought of smoky whisky intimidates you,
 > start with Speyside or Lowland expressions. These regions produce whiskies
-> that are approachable, sweet, and smooth—the perfect training wheels before
+> that are approachable, sweet, and smooth, the perfect training wheels before
 > you tackle Islay's smoke monsters.
 
 ### Ireland's Distilling Traditions
@@ -167,7 +167,7 @@ ABV**. The second distillation in the "spirit still" concentrates this further
 to around **65-70% ABV**.
 
 This double distillation preserves more of the heavier flavor compounds from the
-malt, the fermentation process, and—crucially—any peat smoke that was used
+malt, the fermentation process, and, crucially, any peat smoke that was used
 during the malting process. It's why Scotch can carry such bold, complex
 flavors.
 
@@ -180,7 +180,7 @@ smoother** on the palate.
 
 Triple distillation is often cited as the main reason Irish whiskey has its
 famously approachable character. It's also why Irish whiskey makes such an
-excellent base for cocktails—that smoothness plays well with other ingredients.
+excellent base for cocktails. That smoothness plays well with other ingredients.
 
 | Distillation Method | Typical Result                             | Best For                           |
 | ------------------- | ------------------------------------------ | ---------------------------------- |
@@ -201,8 +201,8 @@ will help you navigate menus and avoid (or seek out) those smoky drams.
 
 ### What Exactly Is Peat?
 
-Peat is partially decomposed organic matter—mostly mosses, grasses, and
-heather—that has accumulated over thousands of years in boggy, waterlogged
+Peat is partially decomposed organic matter (mostly mosses, grasses, and
+heather) that has accumulated over thousands of years in boggy, waterlogged
 areas. In Scotland, peat has been used for centuries as fuel to dry malted
 barley during the kilning process.
 
@@ -232,7 +232,7 @@ in traditional Irish whiskey making**. This is a major reason why Irish whiskey
 is known for its clean, smooth, and fruit-forward profile.
 
 That said, the craft whiskey boom has brought experimentation. **Connemara**,
-produced by Cooley Distillery, is a notable exception—a peated Irish single malt
+produced by Cooley Distillery, is a notable exception: a peated Irish single malt
 that offers a fascinating bridge between the two traditions.
 
 > **A Tip for New Drinkers:** If you're curious about peat but nervous about
@@ -251,10 +251,10 @@ is the fastest way to train your palate and discover what you love.
 For a revealing comparison, try to assemble four whiskies that represent the
 spectrum of both traditions:
 
-1. **A Speyside Scotch** (e.g., Glenfiddich 12) — Sweet, fruity, approachable
-2. **An Islay Scotch** (e.g., Laphroaig 10) — Bold, peaty, smoky
-3. **A Pot Still Irish** (e.g., Redbreast 12) — Creamy, spicy, full-bodied
-4. **A Blended Irish** (e.g., Jameson) — Smooth, light, easy-drinking
+1. **A Speyside Scotch** (e.g., Glenfiddich 12): Sweet, fruity, approachable
+2. **An Islay Scotch** (e.g., Laphroaig 10): Bold, peaty, smoky
+3. **A Pot Still Irish** (e.g., Redbreast 12): Creamy, spicy, full-bodied
+4. **A Blended Irish** (e.g., Jameson): Smooth, light, easy-drinking
 
 ### The Four-Step Tasting Process
 
@@ -267,7 +267,7 @@ spectrum of both traditions:
    vanilla, and honey.
 
 3. **Taste:** Take a small sip and let it coat your tongue. Notice the
-   texture—is it oily and rich (likely Scotch) or light and silky (likely
+   texture. Is it oily and rich (likely Scotch) or light and silky (likely
    Irish)?
 
 4. **Finish:** After swallowing, pay attention to what lingers. Peated Scotch
@@ -291,7 +291,7 @@ experimenting with new techniques, cask finishes, and flavor profiles.
 
 - **Bruichladdich (Islay):** Known for pushing boundaries with terroir-driven
   whiskies, unpeated expressions, and their heavily peated **Octomore**
-  line—some of the most intensely peated whiskies ever made.
+  line, some of the most intensely peated whiskies ever made.
 - **Deanston (Highland):** A lesser-known gem producing organic, unchillfiltered
   whiskies with a focus on natural character.
 - **Nc'nean (Highland):** One of Scotland's newest distilleries, championing
@@ -331,7 +331,7 @@ Today, it's simply a convention: Scottish and Canadian producers spell it
 
 ### Is Irish Whiskey Always Smoother Than Scotch?
 
-Generally, yes—thanks to triple distillation and the absence of peat. However,
+Generally, yes, thanks to triple distillation and the absence of peat. However,
 there are plenty of exceptions. Some Irish whiskeys, particularly pot still
 expressions, can be quite bold and spicy. And some Scotches, especially from the
 Lowlands or Speyside, are remarkably smooth and delicate.

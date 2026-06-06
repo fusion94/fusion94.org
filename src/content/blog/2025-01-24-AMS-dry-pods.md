@@ -85,7 +85,7 @@ CaCl₂(s) + 2H₂O(g) → CaCl₂·2H₂O(aq)
 
 Although the AMS system performs well in maintaining a consistent and steady humidity level, there is still room for improvement to optimize its performance. While it effectively handles standard conditions, certain scenarios or environmental factors may expose limitations in its ability to maintain ideal humidity levels.
 
-One of the most significant issues I've noticed is that the desiccant used (and sold by Bambu) isn't rechargeable. To be frank, it's not particularly effective either. Each AMS unit relies on two desiccant packs, which, in my experience, only last about a month—even in a relatively dry environment. And did I mention they're not rechargeable? This is because the desiccant is made from calcium chloride (**CaCl<sub>2</sub>**), which inherently lacks the ability to be regenerated for repeated use.
+One of the most significant issues I've noticed is that the desiccant used (and sold by Bambu) isn't rechargeable. To be frank, it's not particularly effective either. Each AMS unit relies on two desiccant packs, which, in my experience, only last about a month, even in a relatively dry environment. And did I mention they're not rechargeable? This is because the desiccant is made from calcium chloride (**CaCl<sub>2</sub>**), which inherently lacks the ability to be regenerated for repeated use.
 
 > Calcium chloride is an inorganic compound – a salt with the chemical formula CaCl<sub>2</sub>. It is white flakes or pellets at room temperature, and is highly soluble in water.
 
@@ -492,7 +492,7 @@ The integration of systems like the Bambu Lab AMS with advanced humidity control
 
 The financial benefits are clear: a one-time investment of $30-65 replaces an annual expense of $100-150, while delivering superior performance. The environmental impact is equally significant, reducing waste by over 90% compared to disposable solutions.
 
-These innovations empower both enthusiasts and professionals to achieve higher-quality results with greater consistency. Whether you're printing engineering prototypes in humid Florida or artistic pieces in dry Arizona, proper humidity control is no longer optional—it's essential.
+These innovations empower both enthusiasts and professionals to achieve higher-quality results with greater consistency. Whether you're printing engineering prototypes in humid Florida or artistic pieces in dry Arizona, proper humidity control is no longer optional. It's essential.
 
 As the industry continues to evolve, systems like these are likely to become standard equipment in the world of additive manufacturing. The question isn't whether you need humidity control, but rather how quickly you can implement it to start seeing the benefits in your own prints.
 
