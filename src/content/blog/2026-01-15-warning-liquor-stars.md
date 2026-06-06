@@ -24,7 +24,7 @@ _A long-form consumer warning based on reported customer experiences_
 ## Introduction: When "Luxury Retail" Becomes a Liability
 
 Buying premium or collectible spirits online requires trust. These purchases
-are often expensive, time-sensitive, and emotionally charged—whether for a
+are often expensive, time-sensitive, and emotionally charged, whether for a
 celebration, a gift, or a personal collection. When an online retailer presents
 itself as a high-end, professional operation, customers reasonably assume that
 fulfillment, communication, and refunds will meet that standard.
@@ -33,14 +33,14 @@ Unfortunately, many consumers report that their experiences with
 **[LiquorStars](http://liquorstars.com)** fall dramatically short of those
 expectations.
 
-This post exists as a **consumer warning**—not because of one isolated
+This post exists as a **consumer warning**, not because of one isolated
 incident, but because of a recurring pattern reported by many unrelated buyers.
 
 ## The Pitch: Rare Bottles, Clean Branding, Premium Pricing
 
 [LiquorStars](http://liquorstars.com) positions itself as a destination for rare, allocated, and
 high-demand bottles. The website is modern. The catalog includes products that
-are difficult to find locally. Prices are high, but not absurdly so—just enough
+are difficult to find locally. Prices are high, but not absurdly so, just enough
 to feel believable in today's secondary market.
 
 To a consumer, this creates confidence:
@@ -61,7 +61,7 @@ The most common experience reported by customers follows the same arc:
 1. An order is placed and paid in full
 2. An order confirmation is received
 3. A shipping label may be generated
-4. Delivery never occurs—or only partially occurs
+4. Delivery never occurs, or only partially occurs
 
 Some buyers report waiting weeks. Others report waiting months. In many cases,
 the tracking information never progresses beyond "label created," suggesting
@@ -77,7 +77,7 @@ arrives with fewer bottles than purchased. Sometimes the missing items are the
 most expensive ones.
 
 What makes these cases especially troubling is not just the missing
-merchandise, but the response—or lack of response—from the merchant afterward.
+merchandise, but the response (or lack of response) from the merchant afterward.
 
 Customers describe:
 
@@ -100,7 +100,7 @@ Reported issues include:
 - Support chats that stop responding once an issue is raised
 
 Many customers describe sending multiple polite inquiries before escalating
-their tone—only to still receive no response.
+their tone, only to still receive no response.
 
 At this point, consumers are left with one conclusion: **the merchant is
 intentionally disengaging**.
@@ -119,15 +119,16 @@ Whether this is due to poor inventory management or something more concerning,
 the effect on consumers is the same: money is taken for goods that cannot be
 delivered.
 
+
 In regulated retail industries, selling unavailable inventory is not a small
-mistake—it is a serious operational failure.
+mistake. It is a serious operational failure.
 
 ## The Social Media Discrepancy
 
 [LiquorStars](http://liquorstars.com) maintains a visible social media presence, regularly posting
 polished content featuring high-end bottles and luxury aesthetics.
 
-What stands out to consumers, however, is not the content—it's the
+What stands out to consumers, however, is not the content. It's the
 **commentary beneath it**.
 
 Under promotional posts, users publicly ask:
@@ -155,7 +156,7 @@ that they had to:
 - Wait through investigation periods
 
 When a business routinely forces customers to recover funds through financial
-institutions, it signals systemic failure—or worse.
+institutions, it signals systemic failure, or worse.
 
 Chargebacks are not a normal customer service channel. They are a last resort.
 
@@ -192,11 +193,11 @@ When a retailer fails at basic fulfillment and communication, the financial and
 emotional cost to customers is significant.
 
 For collectors, gifts, or milestone celebrations, these failures are not minor
-inconveniences—they are meaningful losses.
+inconveniences. They are meaningful losses.
 
 ## Practical Advice for Consumers
 
-If you are considering purchasing from [LiquorStars](http://liquorstars.com)—or any similar retailer—
+If you are considering purchasing from [LiquorStars](http://liquorstars.com), or any similar retailer,
 consider the following precautions:
 
 - Use **credit cards only**, never debit or wire transfers
@@ -212,13 +213,13 @@ long-standing reputations and transparent customer service histories.
 
 No consumer expects perfection. Mistakes happen in retail.
 
-But when the same failures occur again and again—across many customers, orders,
-and months—those failures stop looking accidental.
+But when the same failures occur again and again, across many customers, orders,
+and months, those failures stop looking accidental.
 
 This post exists so consumers can make **informed decisions**, protect
 themselves financially, and avoid unnecessary stress.
 
-A rare bottle should be a joy—not a lesson in chargeback procedures.
+A rare bottle should be a joy, not a lesson in chargeback procedures.
 
 _If you have experienced issues with [LiquorStars](http://liquorstars.com) or a similar retailer,
 consider documenting your experience and reporting it through appropriate

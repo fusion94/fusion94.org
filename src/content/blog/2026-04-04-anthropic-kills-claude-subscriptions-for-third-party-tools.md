@@ -128,8 +128,8 @@ The developer response has been predictably sharp. Community estimates on
 r/AI_Agents suggest roughly 60% of active OpenClaw sessions were running on
 subscription credits. That's a significant user base to disrupt simultaneously.
 
-[Peter Steinberger, the creator of OpenClaw](https://x.com/steipete/status/2040209434019082522)
-— who was [recently hired by OpenAI](https://venturebeat.com/technology/openais-acquisition-of-openclaw-signals-the-beginning-of-the-end-of-the) —
+[Peter Steinberger, the creator of OpenClaw](https://x.com/steipete/status/2040209434019082522),
+who was [recently hired by OpenAI](https://venturebeat.com/technology/openais-acquisition-of-openclaw-signals-the-beginning-of-the-end-of-the),
 didn't hold back:
 
 > "Woke up and my mentions are full of these. Both me and @davemorin tried to
@@ -152,7 +152,7 @@ workaround: instead of authenticating OpenClaw via OAuth (which is now blocked),
 you can pipe it through the **local `claude` CLI binary** that's already
 authenticated on your machine.
 
-The trick works because the local CLI uses your existing session credentials —
+The trick works because the local CLI uses your existing session credentials,
 the same ones you set up via `claude auth`. From Anthropic's infrastructure
 perspective, it looks like native Claude CLI usage rather than a third-party
 harness. The OAuth block doesn't apply.
@@ -187,8 +187,8 @@ position.
 Third-party tools like OpenClaw represent a meaningful portion of why developers
 choose Claude over GPT-4 or Gemini. That builder community is a
 grassroots-to-commercial pipeline: it drives trial, generates word-of-mouth,
-and converts into enterprise deals. Burning that trust sends builders elsewhere
-— and builders influence purchasing decisions far upstream of what any marketing
+and converts into enterprise deals. Burning that trust sends builders elsewhere,
+and builders influence purchasing decisions far upstream of what any marketing
 campaign can reach.
 
 ### Competitor tailwind
@@ -212,8 +212,8 @@ community memory for this stuff is long.
 If Claude Code were genuinely the better tool for agentic workflows, users
 would gravitate to it naturally. Blocking the open-source competition before
 that case is made looks defensive. For a company that positions itself on both
-safety *and* capability, it's a jarring note. The sequence of events —
-copying features, then locking out competitors - is exactly the kind of thing
+safety *and* capability, it's a jarring note. The sequence of events,
+copying features, then locking out competitors, is exactly the kind of thing
 that ends up in regulatory filings someday.
 
 ### The revenue math is murkier than it appears

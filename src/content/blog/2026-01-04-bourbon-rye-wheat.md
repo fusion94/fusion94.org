@@ -16,12 +16,12 @@ heroImage: '/images/bourbon-rye-wheat.webp'
 If you've spent any time exploring American whiskey, you've probably noticed
 that discussions eventually revolve around grain. Bourbon, rye, and wheated
 whiskeys are often spoken about as if they're entirely different
-categories—sometimes even opposing camps. In reality, they're closely related
+categories, sometimes even opposing camps. In reality, they're closely related
 expressions built on the same foundation, separated primarily by **which grain
 takes the lead and how that grain shapes the final experience**.
 
 This expanded deep dive keeps the same core ideas intact while going
-further—adding context, nuance, and practical insight into how bourbon, rye,
+further: adding context, nuance, and practical insight into how bourbon, rye,
 and wheated whiskeys differ, overlap, and ultimately serve different palates
 and occasions.
 
@@ -56,7 +56,7 @@ the style.
 - **Wheated whiskey**: Corn-forward, with wheat replacing rye as the
   secondary grain
 
-That single substitution—corn vs rye vs wheat—may sound small, but it
+That single substitution, corn vs rye vs wheat, may sound small, but it
 fundamentally alters how the whiskey behaves from fermentation through aging
 and into the glass.
 
@@ -173,7 +173,7 @@ If bourbon feels comforting, rye feels invigorating.
 ### Grain Influence
 
 Wheated whiskey is often misunderstood as "sweet," but wheat's true
-contribution is **softness**. Wheat doesn't shout—it smooths.
+contribution is **softness**. Wheat doesn't shout. It smooths.
 
 Wheat contributes:
 
@@ -226,7 +226,7 @@ Its subtlety rewards attention rather than demanding it.
 | Rye     | Low–Medium | High   | Lean        | Dry, spicy    |
 | Wheat   | Medium     | Low    | Soft, round | Gentle, clean |
 
-These are tendencies, not rules—but they're reliable starting points.
+These are tendencies, not rules, but they're reliable starting points.
 
 ## Barrel Interaction Across Styles
 
@@ -259,7 +259,7 @@ deceptively easy to drink.
 - **Rye** provides structure and spice
 - **Wheat** offers softness without dominating
 
-Classic cocktail recipes specify a style for a reason—substitutions
+Classic cocktail recipes specify a style for a reason: substitutions
 noticeably change balance.
 
 ### Neat or On the Rocks
@@ -288,4 +288,4 @@ shaped by a single dominant grain. Corn brings sweetness and weight, rye
 brings spice and energy, and wheat brings softness and balance.
 
 Understanding those differences transforms whiskey exploration from guesswork
-into intention—and makes every pour more rewarding.
+into intention, and makes every pour more rewarding.
