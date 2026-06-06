@@ -254,7 +254,7 @@ Working from rural Texas has taught me that constraints breed creativity. Limite
 
 ## What's Next
 
-Remote work isn't a temporary solution—it's the future of engineering teams. The systems I've built aren't perfect, but they've transformed a traditionally on-site organization into a high-performing distributed engineering culture.
+Remote work isn't a temporary solution. It's the future of engineering teams. The systems I've built aren't perfect, but they've transformed a traditionally on-site organization into a high-performing distributed engineering culture.
 
 The key is to be intentional. Every process, every tool, every meeting needs to justify its existence in a remote context. If it doesn't make distributed teams more effective, it doesn't belong in your toolkit.
 
@@ -262,4 +262,4 @@ As I continue to refine these systems from my home office, watching the Texas su
 
 ---
 
-_What systems have you built for remote engineering leadership? What's worked and what hasn't? Share your toolkit in the comments—we're all learning together._
+_What systems have you built for remote engineering leadership? What's worked and what hasn't? Share your toolkit in the comments. We're all learning together._

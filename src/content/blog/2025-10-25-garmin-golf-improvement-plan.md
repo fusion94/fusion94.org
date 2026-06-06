@@ -4,7 +4,7 @@ tags:
   - golfing
   - sports
   - garmin
-description: "The 8-Week Garmin-Powered Golf Improvement Plan — a structured, data-driven roadmap using the Garmin fēnix 8, Approach CT10 sensors, and Garmin Golf App."
+description: "The 8-Week Garmin-Powered Golf Improvement Plan, a structured, data-driven roadmap using the Garmin fēnix 8, Approach CT10 sensors, and Garmin Golf App."
 pubDate: '2025-10-25 10:48 -0500'
 heroImage: '/images/garmin-golf.png'
 ---
@@ -43,7 +43,7 @@ feedback.
 ### ⛳ Round Goals
 
 - Play **2 rounds** on familiar courses.
-- Don’t change anything about your game — play as usual.
+- Don’t change anything about your game. Play as usual.
 - Upload rounds immediately to the Garmin Golf app.
 
 ### 📊 Data Review
@@ -56,7 +56,7 @@ Check:
 - Putts per round
 - Miss tendencies (left/right, long/short)
 
-**Deliverable:** Create a **baseline dashboard** — screenshot or export your
+**Deliverable:** Create a **baseline dashboard**: screenshot or export your
 stats to compare later.
 
 ## Week 3–4 → Distance Control and Club Gapping
@@ -72,7 +72,7 @@ stats to compare later.
 ### 🎯 On-Course Focus
 
 - Play to your **average carry distance**, not your “best hit.”
-- When in doubt, club up — trust your data.
+- When in doubt, club up and trust your data.
 
 ### 📈 Metrics to Watch
 
@@ -106,7 +106,7 @@ Track:
 
 **Goal:** Raise fairway hits from baseline by **10–15 %**.
 
-## Week 7 → Scoring Zone — Wedges & Putting
+## Week 7 → Scoring Zone: Wedges & Putting
 
 **Objective:** Attack the short game with precision.
 
@@ -177,5 +177,5 @@ The Garmin golf ecosystem is your **personal caddie, data analyst, and coach** i
 Using the fēnix 8 for real-time intelligence, the CT10 for shot tracking, and
 the Garmin Golf app for analytics turns guesswork into evidence.
 
-Eight weeks is enough to see real progress — but the true value is confidence:
+Eight weeks is enough to see real progress, but the true value is confidence:
 knowing your game club by club, swing by swing.

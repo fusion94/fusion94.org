@@ -6,11 +6,11 @@ description: "An analysis of how the sports card market's meteoric rise and fall
 heroImage: '/images/cards-market.png'
 ---
 
-Remember when your childhood baseball cards were worth more than your 401(k)? For a brief, shining moment between 2020 and 2022, that wasn't just nostalgia talking—it was market reality. The parallel journeys of the stock market and sports card market from 2016 to 2024 tell a fascinating story about speculation, liquidity, and what happens when everyone becomes a day trader overnight.
+Remember when your childhood baseball cards were worth more than your 401(k)? For a brief, shining moment between 2020 and 2022, that wasn't just nostalgia talking. It was market reality. The parallel journeys of the stock market and sports card market from 2016 to 2024 tell a fascinating story about speculation, liquidity, and what happens when everyone becomes a day trader overnight.
 
 ## By the Numbers: A Tale of Two Markets
 
-Let's start with the raw data. Between January 2016 and December 2024, the S&P 500 delivered a total return of approximately 180%, turning a $10,000 investment into about $28,000.[^1] Impressive by traditional standards. But certain sports cards? They turned that same $10,000 into $150,000 at their peak—before crashing back to earth.[^2]
+Let's start with the raw data. Between January 2016 and December 2024, the S&P 500 delivered a total return of approximately 180%, turning a $10,000 investment into about $28,000.[^1] Impressive by traditional standards. But certain sports cards? They turned that same $10,000 into $150,000 at their peak, before crashing back to earth.[^2]
 
 <div class="chart-container">
   <canvas id="market-comparison"></canvas>
@@ -56,7 +56,7 @@ new Chart(ctx, {
 
 ## The Pre-Pandemic Build-Up (2016-2019)
 
-From 2016 to 2019, both markets showed steady, unremarkable growth. The S&P 500 climbed from around 2,000 to 3,200 points—a respectable 60% gain over four years. Meanwhile, the sports card market was experiencing its own quiet renaissance.
+From 2016 to 2019, both markets showed steady, unremarkable growth. The S&P 500 climbed from around 2,000 to 3,200 points, a respectable 60% gain over four years. Meanwhile, the sports card market was experiencing its own quiet renaissance.
 
 During this period:
 
@@ -114,7 +114,7 @@ new Chart(ctx2, {
 });
 </script>
 
-The stock market's recovery from its March 2020 crash was swift and shocking. The S&P 500 not only recovered but soared to new heights, reaching 4,700 by the end of 2021—a gain of nearly 100% from its pandemic low.
+The stock market's recovery from its March 2020 crash was swift and shocking. The S&P 500 not only recovered but soared to new heights, reaching 4,700 by the end of 2021, a gain of nearly 100% from its pandemic low.
 
 But the sports card market? It went absolutely nuclear:
 
@@ -353,7 +353,7 @@ new Chart(ctx4, {
 
 ## The Celebrity Effect
 
-No discussion of the sports card bubble would be complete without examining the outsized role celebrities played in inflating—and deflating—the market.
+No discussion of the sports card bubble would be complete without examining the outsized role celebrities played in inflating, and deflating, the market.
 
 ### The Influencer Industrial Complex
 
@@ -828,9 +828,9 @@ And if you're sitting on a collection? Maybe check those closets. The mania is o
 
 The most fascinating aspect of this entire saga might be what it reveals about market maturity. The stock market, with its centuries of history, weathered the storm and emerged stronger. The card market, still essentially a bazaar despite modern technology, showed what happens when speculation runs unchecked.
 
-In the end, both markets served their purpose: stocks as a vehicle for long-term wealth creation, and cards as a reminder that not every asset is an investment—sometimes a piece of cardboard with a picture of an athlete is just that, no matter what price someone once paid for it.
+In the end, both markets served their purpose: stocks as a vehicle for long-term wealth creation, and cards as a reminder that not every asset is an investment. Sometimes a piece of cardboard with a picture of an athlete is just that, no matter what price someone once paid for it.
 
-The story of these two markets from 2016 to 2024 is ultimately a story about human nature. Given the right conditions—easy money, new technology, social proof, and a narrative—any asset can become the subject of speculative mania. The difference lies not in the asset itself, but in the infrastructure, regulation, and culture that surrounds it.
+The story of these two markets from 2016 to 2024 is ultimately a story about human nature. Given the right conditions (easy money, new technology, social proof, and a narrative), any asset can become the subject of speculative mania. The difference lies not in the asset itself, but in the infrastructure, regulation, and culture that surrounds it.
 
 As we move forward, the lessons learned from this period will hopefully inform better decision-making. But if history is any guide, the next bubble is already forming somewhere, waiting for the right catalyst to inflate. The only question is: will we recognize it in time?
 

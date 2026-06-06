@@ -10,7 +10,7 @@ pubDate: '2025-01-02 11:10 -0500'
 ## A Year in Review: My 2024 Fitness Journey and Goals for 2025
 
 2024 has been a transformative year for my fitness journey. Embracing a
-healthier lifestyle, I managed to shed an incredible 34 pounds—a milestone that
+healthier lifestyle, I managed to shed an incredible 34 pounds, a milestone that
 has significantly improved both my physical health and mental well-being. This
 achievement was fueled by a combination of disciplined eating habits, regular
 exercise routines, and an unwavering commitment to my goals. Reflecting on this
@@ -31,7 +31,7 @@ Moreover, 2025 will be the year I venture into weight lifting. I aim to develop
 a structured strength training program that will not only aid in weight loss but
 also build muscle mass and enhance overall body composition. This new focus on
 lifting weights will be crucial for improving my bone density, boosting
-metabolism, and increasing muscle strength—all essential components of a
+metabolism, and increasing muscle strength, all essential components of a
 holistic approach to health and fitness.
 
 Embarking on this dual journey of weight loss and strength training is both
